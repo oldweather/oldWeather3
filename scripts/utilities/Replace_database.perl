@@ -30,5 +30,5 @@ system("mongorestore \"$Backup_dir\"");
 $conn = MongoDB::Connection->new( query_timeout => -1 ) or die "No database connection";
 $db = $conn->get_database('oldWeather3-production-live')
   or die "OW3 production database not found";
-$db->annotations->ensure_index({'transcription_id' => 1});
-$db->transcriptions->ensure_index({'asset_id' => 1});
+$db->get_collection( 'annotations' )->ensure_index({'transcription_id' => 1});
+$db->get_collection( 'transcriptions' )->ensure_index({'asset_id' => 1});
