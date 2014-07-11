@@ -17,7 +17,7 @@ my $db = $conn->get_database('oldWeather3-production-live')
   or die "OW3 database not found";
 
 my %Registered;
-my $volunteersI = $db->zooniverse_users->find();
+my $volunteersI = $db->get_collection('zooniverse_users')->find();
 while ( my $Volunteer = $volunteersI->next ) {
     unless ( defined( $Volunteer->{_id} ) ) { next; }
     my $Date = $Volunteer->{created_at};
@@ -26,7 +26,7 @@ while ( my $Volunteer = $volunteersI->next ) {
     $Registered{ $Volunteer->{_id} } = $Key;
 }
 
-my $transcriptionsI = $db->transcriptions->find();
+my $transcriptionsI = $db->get_collection('transcriptions')->find();
 my %First;
 my %Last;
 while ( my $Transcription = $transcriptionsI->next ) {

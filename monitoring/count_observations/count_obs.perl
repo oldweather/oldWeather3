@@ -16,7 +16,7 @@ my $conn = MongoDB::Connection->new( query_timeout => -1 )
 my $db = $conn->get_database('oldWeather3-production-live')
   or die "OW3 database not found";
 
-my $annotationsI = $db->annotations->find();
+my $annotationsI = $db->get_collection('annotations')->find();
 
 my $Weather=0;
 my $Chars=0;

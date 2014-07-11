@@ -19,7 +19,7 @@ my $db = $conn->get_database('oldWeather3-production-live')
   or die "OW3 database not found";
 
 my %Samples;
-my $annotationsI = $db->annotations->find();
+my $annotationsI = $db->get_collection('annotations')->find();
 
 my @NGrams;
 while ( my $Annotation = $annotationsI->next ) {

@@ -55,18 +55,18 @@ if ( !defined($Id) ) {
     system("find $Dir -type f -name '*.png' -exec /bin/rm {} \\;");
 
     # Get the ship record
-    my $ships = $db->ships->find( { "name" => $Ship_name } )
+    my $ships = $db->get_collection('ships')->find( { "name" => $Ship_name } )
       or die "No such ship: $Ship_name";
     my $Ship = $ships->next;    # Assume there's only one
 
-    my $voyageI = $db->voyages->find( { "ship_id" => $Ship->{_id} } );
+    my $voyageI = $db->get_collection('voyages')->find( { "ship_id" => $Ship->{_id} } );
 
     my $Voyage;
     my $Count = 0;
     while ( $Count++ < $VoyageN ) { $Voyage = $voyageI->next; }
 
     # Get all the pages (assets) for this voyage
-    my $assetI = $db->assets->find( { "voyage_id" => $Voyage->{_id} } );
+    my $assetI = $db->get_collection('assets')->find( { "voyage_id" => $Voyage->{_id} } );
 
     while ( my $Asset = $assetI->next ) {
 
