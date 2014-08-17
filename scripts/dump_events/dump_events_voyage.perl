@@ -172,16 +172,20 @@ foreach my $AssetId (@AssetIds) {
               $Asset->{CPosition}->{data}->{longitude};
             #print "$Asset->{CPosition}->{data}->{longitude}\n";
         }
-        foreach my $v ( $LatSource, $LonSource, 'port' ) {
-            if ( defined( $Asset->{CPosition}->{data}->{$v} )
-                && length( $Asset->{CPosition}->{data}->{$v} ) > 2 )
-            {
-                printf "%s ", $Asset->{CPosition}->{data}->{$v};
-            }
+        if(defined( $Asset->{CPosition}->{data}->{$LatSource} )
+                && length( $Asset->{CPosition}->{data}->{$LatSource} ) > 2 ) {
+               printf "Lat %s, ",$Asset->{CPosition}->{data}->{$LatSource}
+        }
+        if(defined( $Asset->{CPosition}->{data}->{$LonSource} )
+                && length( $Asset->{CPosition}->{data}->{$LonSource} ) > 2 ) {
+               printf "Lon %s, ",$Asset->{CPosition}->{data}->{$LonSource}
+        }
+        if(defined( $Asset->{CPosition}->{data}->{port} )
+                && length( $Asset->{CPosition}->{data}->{port} ) > 2 ) {
+               printf "%s ",$Asset->{CPosition}->{data}->{port}
         }
         print "\n";
     }
-
     foreach my $Transcription ( @{ $Asset->{transcriptions} } ) {
         foreach my $Annotation ( @{ $Transcription->{annotations} } ) {
             if ( defined( $Annotation->{data}->{undefined} ) ) {
