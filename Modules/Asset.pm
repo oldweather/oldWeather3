@@ -126,7 +126,7 @@ sub read_transcriptions {
         # Get all the annotations comprising this transcription
         if ( defined($Only) && ++$Count == $Only ) { next; }
         $Transcription->{annotations} = ();
-        my $annotationI = $db->et_collection('annotations')->find(
+        my $annotationI = $db->get_collection('annotations')->find(
             { "transcription_id" => $Transcription->{_id} } );
         unless ( defined($annotationI) ) {
             warn "No annotations for $Transcription->{_id}";
