@@ -45,6 +45,12 @@ my $assetI = $db->get_collection('assets')->find( { "voyage_id" => $Voyage->{_id
 
 my $PagesTotal=0;
 my $PagesDone=0;
+my $Weather=0;
+my $Chars=0;
+my %Elements;
+my $Transcriptions=0;
+my %People;
+
 while ( my $Asset = $assetI->next ) {
 
     if($Asset->{done}) { $PagesDone++; }
@@ -52,27 +58,31 @@ while ( my $Asset = $assetI->next ) {
 
 }
 
-printf "Total pages: %d (%d completed)\n",$PagesTotal,$PagesDone;
-
-my $annotationsI = $db->get_collection('annotations')->find( { "voyage_id" => $Voyage->{_id} } );
-
-my $Weather=0;
-my $Chars=0;
-my %Elements;
-while ( my $Annotation = $annotationsI->next ) {
-    unless(defined($Annotation->{data}) &&
-           exists($Annotation->{data}->{height_1})) { next; }
-	$Weather++;
-    foreach my $Key (keys(%{$Annotation->{data}})) {
-       if(defined($Annotation->{data}->{$Key}) &&
-                  $Annotation->{data}->{$Key} =~ /\S/) {
-          $Elements{$Key}++;
-          $Chars+= length($Annotation->{data}->{$Key});
-      }
-   }
-   #if($Weather>100) { last; }
+my $transcriptionsI = $db->get_collection('transcriptions')->find( 
+		 { "voyage_id" => $Voyage->{_id} } );
+while ( my $Transcription = $transcriptionsI->next ) {
+   my $annotationsI = $db->get_collection('annotations')->
+	   find( { "transcription_id" => $Transcription->{_id} } );
+   $Transcriptions++;
+   $People{$Transcription->{zooniverse_user_id}}++;
+    while ( my $Annotation = $annotationsI->next ) {
+	if(defined($Annotation->{data}) &&
+	   exists($Annotation->{data}->{height_1})) { $Weather++; }
+	foreach my $Key (keys(%{$Annotation->{data}})) {
+	   if(defined($Annotation->{data}->{$Key}) &&
+		      $Annotation->{data}->{$Key} =~ /\S/) {
+	      $Elements{$Key}++;
+	      $Chars+= length($Annotation->{data}->{$Key});
+	  }
+       }
+    
+    }
+   #if($Transcriptions>1000) { last; }
 }
 
+printf "Total pages: %d (%d completed)\n",$PagesTotal,$PagesDone;
+printf "Total transcriptions: %d\n",$Transcriptions;
+printf "Total people: %d\n",scalar(keys(%People));
 printf "Total weather observations: %d\n",$Weather;
 printf "Total characters: %d\n",$Chars;
 foreach my $Key (keys(%Elements)) {
