@@ -41,18 +41,18 @@ my @AssetIds;    # Assets to process
 if ( !defined($Id) ) {
 
     # Get the ship record
-    my $ships = $db->ships->find( { "name" => $Ship_name } )
+    my $ships = $db->get_collection('ships')->find( { "name" => $Ship_name } )
       or die "No such ship: $Ship_name";
     my $Ship = $ships->next;    # Assume there's only one
 
-    my $voyageI = $db->voyages->find( { "ship_id" => $Ship->{_id} } );
+    my $voyageI = $db->get_collection('voyages')->find( { "ship_id" => $Ship->{_id} } );
 
     my $Voyage;
     my $Count = 0;
     while ( $Count++ < $VoyageN ) { $Voyage = $voyageI->next; }
 
     # Get all the pages (assets) for this voyage
-    my $assetI = $db->assets->find( { "voyage_id" => $Voyage->{_id} } );
+    my $assetI = $db->get_collection('assets')->find( { "voyage_id" => $Voyage->{_id} } );
 
     while ( my $Asset = $assetI->next ) {
 
@@ -82,7 +82,7 @@ foreach my $AssetId (@AssetIds) {
 
     for ( my $Hour = 1 ; $Hour <= 24 ; $Hour++ ) {
         if ( defined( $Asset->{CWeather}[$Hour]->{data}->{air_temperature} ) ) {
-            printf "%6.1f\t", $Asset->{CWeather}[$Hour]->{data}->{air_temperature};
+            printf "%s\t", $Asset->{CWeather}[$Hour]->{data}->{air_temperature};
         }
         else { print "    NA\t"; }
     }
