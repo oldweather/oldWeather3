@@ -2868,6 +2868,7 @@ Rocky Gulf               	 179.4	  63.0
 Rodgers Harbor           	-178.4	  71.0
 Rudder Bay               	-176.0	  65.4
 Saint Lawrence Bay       	-171.1	  65.7
+St Lawrence Bay          	-171.1	  65.7
 Sand Point of the Holy Cross	-178.0	  65.4
 Small Island             	-172.6	  64.6
 Snug Harbor              	-173.3	  64.6
