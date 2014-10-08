@@ -2538,6 +2538,15 @@ Saint George Island      	-169.6	  56.6
 Saint Matthew Island     	-172.7	  60.4
 Saint Paul Harbor        	-152.4	  57.8
 Saint Paul Island        	-170.3	  57.1
+Saint Paul              	-170.3	  57.1
+St Diomede Islands      	-169.0	  65.8
+St George Island        	-169.6	  56.6
+St George              	-169.6	  56.6
+St Matthew              	-172.7	  60.4
+St Matthew Island       	-172.7	  60.4
+St Paul Harbor          	-152.4	  57.8
+St Paul Island          	-170.3	  57.1
+St Paul                 	-170.3	  57.1
 Savoonga Point           	-170.5	  63.7
 Scotch Cap               	-164.8	  54.4
 Sea Lion Rock            	-170.3	  57.1
@@ -3230,3 +3239,5 @@ Sevastopol                 	  33.6	  44.5
 Theodosia                 	  35.4	  45.0
 Feodosiya                 	  35.4	  45.0
 Yalta                       	  34.2	  44.5
+Sitka                      	-135.4	  57.0
+
