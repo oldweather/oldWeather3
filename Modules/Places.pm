@@ -3240,4 +3240,12 @@ Theodosia                 	  35.4	  45.0
 Feodosiya                 	  35.4	  45.0
 Yalta                       	  34.2	  44.5
 Sitka                      	-135.4	  57.0
-
+Upernivik                 	 -52.8	  71.3
+San pedro calif            	-118.3	  33.7
+St Michael                	-162.0	  63.5
+Saint Michael               	-162.0	  63.5
+Popof                       	-160.4	  55.3
+Pt Belcher                 	-159.7	  70.8
+Sausalito                  	-122.3	  37.8
+Oakland                   	-122.3	  37.8
+Valdez                    	-146.3	  61.1
