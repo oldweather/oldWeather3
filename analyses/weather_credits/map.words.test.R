@@ -19,14 +19,16 @@ new.WeatherMap.draw.streamlines<-function(s,Options) {
           tp<-min(1-min(1,abs(level-0.5)*2),0.75)
           tp<-1.0-Options$wind.palette.opacity
           #tp<-tp*abs(s[['status']])
-          colour<-rgb(0,255,0,255,maxColorValue = 255)
-          gp<-gpar(col=colour,fill=colour,lwd=Options$wind.vector.lwd)
+          gp<-GSDF.WeatherMap:::WeatherMap.streamline.getGC(level,transparency=tp,
+                                          status=min(abs(s[['status']][i]),1),Options)
+          #colour<-rgb(0,0,0,255,maxColorValue = 255)
+          #gp<-gpar(col=colour,fill=colour,lwd=Options$wind.vector.lwd)
       }
-      grid.xspline(x=unit(na.omit(s[['x']][i,]),'native'),
-                   y=unit(na.omit(s[['y']][i,]),'native'),
-                   shape=na.omit(s[['shape']][i]),
-                   arrow=Options$wind.vector.arrow,
-                   gp=gp)
+      grid.text('testing',x=unit((s[['x']][i,1]+s[['x']][i,2])/2,'native'),
+                          y=unit((s[['y']][i,1]+s[['y']][i,2])/2,'native'),
+                          rot=atan2(s[['y']][i,2]-s[['y']][i,1],
+                                    s[['x']][i,2]-s[['x']][i,1])*180/pi,
+                          gp=gp)
    }
 }
 unlockBinding("WeatherMap.draw.streamlines", as.environment("package:GSDF.WeatherMap"))
