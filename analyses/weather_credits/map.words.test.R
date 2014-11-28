@@ -9,6 +9,9 @@ library(GSDF.WeatherMap)
 znv.names<-read.table('name.lengths.out',header=F)
 znv.names$V1<-as.character(znv.names$V1)
 
+# Keep track of the words associated with each streamline
+streamline.words<-integer(0)
+
 # Override the draw streamlines function to draw a word instead
 new.WeatherMap.draw.streamlines<-function(s,Options) {
 
@@ -27,7 +30,7 @@ new.WeatherMap.draw.streamlines<-function(s,Options) {
           #colour<-rgb(0,0,0,255,maxColorValue = 255)
           #gp<-gpar(col=colour,fill=colour,lwd=Options$wind.vector.lwd)
       }
-      grid.text(znv.names$V1[i],x=unit((s[['x']][i,1]+s[['x']][i,2])/2,'native'),
+      grid.text(znv.names$V1[grid.words[i]],x=unit((s[['x']][i,1]+s[['x']][i,2])/2,'native'),
                           y=unit((s[['y']][i,1]+s[['y']][i,2])/2,'native'),
                           rot=atan2(s[['y']][i,2]-s[['y']][i,1],
                                     s[['x']][i,2]-s[['x']][i,1])*180/pi,
@@ -63,10 +66,10 @@ new.WeatherMap.bridson<-function(Options,
     x<-rep(NA,n.x*n.y)
     y<-rep(NA,n.x*n.y)
     # Word index at each grid.location
-    grid.word<-seq(1,n.x*n.y)
+    #grid.word<-seq(1,n.x*n.y)
 
     # associate a word with each grid location
-    grid.word<-seq(1,n.x*n.y)
+    grid.words<<-as.integer(runif(n.x*n.y,min=1,max=length(znv.names$V2)))
     # Scale factors at each grid location
     scalef.x<-rep(1,n.x*n.y)
     scalef.y<-rep(1,n.x*n.y)
@@ -78,11 +81,13 @@ new.WeatherMap.bridson<-function(Options,
         scalef.x<-abs(GSDF.interpolate.ll(scale.x,gp.y.full,gp.x.full))
         scalef.y<-abs(GSDF.interpolate.ll(scale.y,gp.y.full,gp.x.full))
         scalef.t<-sqrt(scalef.x**2+scalef.y**2)
-        scalef.x<-(scalef.x/scalef.t)#(znv.names$V2[grid.word]+0.1)*10
-        scalef.y<-(scalef.y/scalef.t)#(znv.names$V2[grid.word]+0.1)*10
+        scalef.x<-(scalef.x/scalef.t)/((znv.names$V2[grid.words]+0.1)*2)
+        scalef.y<-(scalef.y/scalef.t)/((znv.names$V2[grid.words]+0.1)*2)
     }
-    #scalef.x<-rep(0.5,n.x*n.y)
-    #scalef.y<-rep(0.5,n.x*n.y)
+    #scalef.x<-rep(1,n.x*n.y)
+    #scalef.y<-rep(1,n.x*n.y)
+    scalef.x<-pmin(1,pmax(0.1,scalef.x))
+    scalef.y<-pmin(1,pmax(0.1,scalef.y))
 
     # set of active points
     active<-integer(0)
@@ -173,6 +178,7 @@ new.WeatherMap.bridson<-function(Options,
 
     x<-x[order.added]
     y<-y[order.added]
+    grid.words<<-grid.words[order.added]
 
 
     return(list(lon=x,lat=y))
