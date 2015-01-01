@@ -106,6 +106,7 @@ BELFAST                  	  -6.0	  54.6
 SHANGHAI                 	 121.5	  31.2
 HVALFJORD                	 -21.7	  64.4
 NORFOLK                  	 -76.3	  36.8
+NORFOLK VA               	 -76.3	  36.8
 PLYMOUTH                 	  -4.1	  50.4
 HEBBURN                  	  -1.5	  55.0
 BOSTON                   	 -71.1	  42.4
@@ -3249,3 +3250,15 @@ Pt Belcher                 	-159.7	  70.8
 Sausalito                  	-122.3	  37.8
 Oakland                   	-122.3	  37.8
 Valdez                    	-146.3	  61.1
+Washington dc            	 -77.0	  38.9
+Cortez bank               	-119.2	  32.5
+False pass                 	-163.4	  54.8
+Pavlof bay                  	-161.5	  55.5
+Astoria                  	-123.8	  46.2
+marshfield                	-124.2	  43.3
+Laysan                    	-171.7	  25.8
+Moaro reef                  	-170.6	  25.4
+Molokai                    	-157.0	  21.1
+Lisianski                   	-174.0	  26.1
+Long beach                 	-118.2	  33.8
+Winslow                     	-122.5	  47.6
