@@ -54,12 +54,8 @@ my $eW = 1;    # East
 
 if ( !defined($Id) ) {
 
-    # Clean up previous attempts
-    if ( -r "$Ship_dir.mp4" ) { unlink("$Ship_dir.mp4"); }
-    system("find $Dir -type f -name '*.png' -exec /bin/rm {} \\;");
-
     # Get the ship record
-    my $ships = $db->ships->find( { "name" => $Ship_name } )
+    my $ships = $db->get_collection('ships')->find( { "name" => $Ship_name } )
       or die "No such ship: $Ship_name";
     my $Ship = $ships->next;    # Assume there's only one
 

@@ -53,7 +53,7 @@
   06/02/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   07/02/1926	        NA	        NA	      33.7	    -118.3	alongside pier 92 san pedro calif	          san pedro calif	
   07/02/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
- 12/02/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
+  12/02/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   13/02/1926	        NA	        NA	      33.7	    -118.3	alongside berth 92 san pedro calif	          san pedro calif	
   13/02/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   14/02/1926	        NA	        NA	      33.7	    -118.3	alongside pier 92 san pedro calif	          san pedro calif	
@@ -135,9 +135,6 @@
   18/04/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   19/04/1926	        NA	        NA	      33.7	    -118.3	at berth 92 san pedro calif	          san pedro calif	
   19/04/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
-  20/04/1926	        NA	        NA	      37.8	    -122.4	enroute san pedro cal to san francisco calif	        san francisco bay	
-  20/04/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
-  21/04/1926	        NA	        NA	      37.8	    -122.4	enroute san pedro to san francisco cal	        san francisco bay	
   21/04/1926	        NA	        NA	        NA	        NA	         pt montana light	                       NA	
   22/04/1926	        NA	        NA	      37.8	    -122.3	            oakland calif	                  oakland	
   22/04/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
@@ -211,7 +208,9 @@
   25/05/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   26/05/1926	        NA	        NA	      37.8	    -122.2	alongside dock general engr co almeda cal	                  alameda	
   26/05/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
-   29/05/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
+  27/05/1926	   40 53 N	  124 20 W	      37.8	    -122.4	at sea underway from san francisco cal to seattle 	        [Fudged from 1923]	
+  28/05/1926	   45 18 N	  124 16 W	      37.8	    -122.4	at sea underway from san francisco cal to seattle wash	        [Fudged from 1923]	
+  29/05/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   30/05/1926	        NA	        NA	      46.2	    -123.8	    pier 3 astoria oregon	                  astoria	
   30/05/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   31/05/1926	        NA	        NA	      46.2	    -123.8	    pier 3 astoria oregon	                  astoria	
@@ -234,7 +233,7 @@
   08/06/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   09/06/1926	        NA	        NA	      46.2	    -123.8	    pier 3 astoria oregon	                  astoria	
   09/06/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
- 11/06/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
+  11/06/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   12/06/1926	        NA	        NA	      46.2	    -123.8	    pier 3 astoria oregon	                  astoria	
   12/06/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   13/06/1926	        NA	        NA	      46.2	    -123.8	    pier 3 astoria oregon	                  astoria	
@@ -298,8 +297,8 @@
   20/07/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   21/07/1926	        NA	        NA	      46.2	    -123.8	    pier 3 astoria oregon	                  astoria	
   21/07/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
-  22/05/1926	        NA	        NA	      46.2	    -123.8	    pier 3 astoria oregon	                  astoria	
-  22/05/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
+  22/07/1926	        NA	        NA	      46.2	    -123.8	    pier 3 astoria oregon	                  astoria	
+  22/07/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   24/07/1926	        NA	        NA	      46.2	    -123.8	           astoria oregon	                  astoria	
   24/07/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   25/07/1926	        NA	        NA	      46.2	    -123.8	    pier 3 astoria oregon	                  astoria	
@@ -522,6 +521,8 @@
   06/12/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   07/12/1926	        NA	        NA	      46.2	    -123.8	           astoria oregon	                  astoria	
   07/12/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
+  08/12/1926	   45 18 N	  124 16 W	      37.8	    -122.4	at sea underway from san francisco cal to seattle wash	        [Fudged from 1923]	
+  09/12/1926	   40 53 N	  124 20 W	      37.8	    -122.4	at sea underway from san francisco cal to seattle 	        [Fudged from 1923]	
   10/12/1926	        NA	        NA	      37.8	    -122.3	santa fe dock jackson st oakland cal	                  oakland	
   10/12/1926	        NA	        NA	        NA	        NA	                       NA	                       NA	
   11/12/1926	        NA	        NA	      37.8	    -122.3	santa fe docks jackson st oakland cal	                  oakland	

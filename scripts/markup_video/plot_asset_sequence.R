@@ -25,6 +25,10 @@ gp_cWx          <- gpar(col=rgb(1,0,0,1),fill=rgb(1,0,0,1),fontfamily='mono',
 gp_cW1          <- gpar(col=rgb(0,0,0,1),fill=rgb(0,0,0,1),fontfamily='mono',
                         fontsize=14,fontface='italic')
 
+TextLeft <- 0.5 # x position of the left-had edge of the text part of the page
+image.width<-(as.numeric(asset[['width']])/as.numeric(asset[['height']]))*0.88*(720/1280)
+if(image.width+0.05 > 0.5) TextLeft <- image.width+0.05
+
 # Get the height on the page for the various
 #  categories of annotation.
 get.date.height<-function() {
@@ -58,22 +62,22 @@ draw.link<-function(annotation,text.y=0) {
    gp<-gp_black
    if(!is.null(annotation[['data']][['air_temperature']])) {
       y.right<-text.y
-      x.right<-0.49
+      x.right<-TextLeft-0.01
       gp<-gp_weather_link
    }
    if(!is.null(annotation[['data']][['date']])) {
       y.right<-text.y
-      x.right<-0.49
+      x.right<-TextLeft-0.01
       gp<-gp_date
    }
    if(!is.null(annotation[['data']][['latitude']])) {
       y.right<-text.y
-      x.right<-0.49
+      x.right<-TextLeft-0.01
       gp<-gp_location_link
    }
    if(!is.null(annotation[['data']][['event']])) {
       y.right<-text.y
-      x.right<-0.49
+      x.right<-TextLeft-0.01
       gp<-gp_event_link
    }
    grid.lines(x=unit(c(x.left,x.right),'npc'),
@@ -374,7 +378,7 @@ for (pCount in 1:1000) {
 
    # Second image also has date
    if(!is.null(asset[['CDate']])) {
-      plot.CDate(asset[['CDate']],0.5,get.date.height())
+      plot.CDate(asset[['CDate']],TextLeft,get.date.height())
       for(transcription in asset[['transcriptions']]) {
          for(annotation in transcription[['annotations']]) {
             if(!is.null(annotation[['data']][['date']])) {
@@ -389,7 +393,7 @@ for (pCount in 1:1000) {
 
    # 3rd image has date and position
    if(!is.null(asset[['CPosition']])) {
-      plot.CPosition(asset[['CPosition']],0.5,get.position.height())
+      plot.CPosition(asset[['CPosition']],TextLeft,get.position.height())
       for(transcription in asset[['transcriptions']]) {
          for(annotation in transcription[['annotations']]) {
             if(!is.null(annotation[['data']][['latitude']])) {
@@ -410,7 +414,7 @@ for (pCount in 1:1000) {
 		 hour.count<-hour.count+1
 		 header<-F
 		 if(hour.count==1) header=T
-         plot.CWeather(asset[['CWeather']][[hour+1]],hour,0.5,
+         plot.CWeather(asset[['CWeather']][[hour+1]],hour,TextLeft,
                        get.weather.height(hour.count),header)
          for(transcription in asset[['transcriptions']]) {
             for(annotation in transcription[['annotations']]) {
@@ -436,7 +440,7 @@ for (pCount in 1:1000) {
           base.y<-get.event.height(hour.count,event.count,Events)
           draw.link(event,base.y)
           for(line in event[['lines']]) {          
-	           plot.Event.line(line,0.5,base.y)
+	           plot.Event.line(line,TextLeft,base.y)
 	           base.y<-base.y-1/60
 	           iCount<-iCount+1
                if(iCount>=pCount) break 

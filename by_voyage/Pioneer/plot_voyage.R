@@ -29,7 +29,7 @@ Options$ice.points<-50000
 #land<-WeatherMap.get.land(Options)
 
 
-for(year in seq(1922,1935)) {
+for(year in seq(1928,1928)) {
 
 
     image.name<-sprintf("Route/%04d.png",year)
