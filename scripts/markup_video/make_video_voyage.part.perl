@@ -136,6 +136,6 @@ foreach my $AssetId (@AssetIds) {
 
 #die;
 system(
-"ffmpeg -r 10 -i $Dir/%05d.png -c:v libx264  -preset fast -pix_fmt yuv420p -crf 22 -c:a copy $Ship_dir.mp4"
+"ffmpeg -r 10 -i $Dir/%05d.png -c:v libx264  -preset slow -tune animation -pix_fmt yuv420p -crf 22 -c:a copy $Ship_dir.mp4"
   ) == 0
   or die "Can't make movie";
