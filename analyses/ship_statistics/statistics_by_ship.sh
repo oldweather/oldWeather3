@@ -9,6 +9,7 @@
 ./statistics_for_ship.perl --ship=Rush > Rush.out
 ./statistics_for_ship.perl --ship=Concord > Concord.out
 #./statistics_for_ship.perl --ship=Pioneer > Pioneer.out
+./statistics_for_ship.perl --ship=Perry > Perry.out
 ./statistics_for_ship.perl --ship=Vicksburg > Vicksburg.out
 ./statistics_for_ship.perl --ship=Yorktown > Yorktown.out
 ./statistics_for_ship.perl --ship=Patterson > Patterson.out
@@ -18,4 +19,6 @@
 ./statistics_for_ship.perl --ship='Jamestown (1879)' > Jamestown_1879.out
 ./statistics_for_ship.perl --ship='Jamestown (1886)' > Jamestown_1886.out
 ./statistics_for_ship.perl --ship='Albatross (1884)' > Albatross_1884.out
+./statistics_for_ship.perl --ship='Albatross (1890)' > Albatross_1890.out
+./statistics_for_ship.perl --ship='Albatross (1900)' > Albatross_1900.out
 
