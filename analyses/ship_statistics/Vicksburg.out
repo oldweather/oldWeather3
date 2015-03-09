@@ -1,30 +1,30 @@
-Total pages: 14288 (2868 completed)
-Total transcriptions: 19437
-Total people: 263
-Total weather observations: 189186
-Total characters: 5254009
+Total pages: 14288 (2876 completed)
+Total transcriptions: 19629
+Total people: 264
+Total weather observations: 191438
+Total characters: 5304506
 Total fuel_type: 553
-Total hour: 189112
-Total wind_direction: 188960
-Total date: 8556
-Total lng_d: 2033
+Total hour: 191364
+Total wind_direction: 191212
+Total date: 8621
+Total lng_d: 2042
 Total fuel_ammount: 533
 Total fuel_additional_info: 491
-Total sea_temperature: 39595
-Total latitude: 2136
-Total lat_d: 2041
-Total height_1: 187018
-Total longitude: 2126
-Total height_2: 186659
-Total mention_context: 2685
-Total clear_sky: 179553
-Total weather_code: 188570
-Total mention_name: 2853
+Total sea_temperature: 39671
+Total latitude: 2145
+Total lat_d: 2050
+Total height_1: 189270
+Total longitude: 2136
+Total height_2: 188900
+Total mention_context: 2689
+Total clear_sky: 181578
+Total weather_code: 190810
+Total mention_name: 2857
+Total bulb_temperature: 188219
+Total port: 8089
 Total event: 3513
-Total bulb_temperature: 185979
-Total port: 7998
-Total cloud_code: 179319
-Total wind_force: 184905
-Total air_temperature: 186297
-Total mention_type: 2870
-Total type: 9960
+Total wind_force: 187157
+Total cloud_code: 181415
+Total air_temperature: 188537
+Total mention_type: 2874
+Total type: 10061
