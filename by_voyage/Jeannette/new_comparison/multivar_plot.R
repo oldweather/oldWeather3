@@ -177,8 +177,8 @@ pushViewport(viewport(width=1.0,height=0.1,x=0.0,y=0.34+0.28+0.28,
          # 351 Analysis value
          gp=gpar(col=rgb(0.8,0.8,1,1),fill=rgb(0.8,0.8,1,1))
          for(i in seq_along(o$V1)) {
-            x<-c(dates[i]-0.225,dates[i]+0.225,
-                 dates[i]+0.225,dates[i]-0.225)
+            x<-c(dates[i]-0.125,dates[i]+0.125,
+                 dates[i]+0.125,dates[i]-0.125)
             y<-c(0,0,o$V14[i],o$V14[i])
             grid.polygon(x=unit(x,'native'),
                          y=unit(y,'native'),
@@ -187,8 +187,8 @@ pushViewport(viewport(width=1.0,height=0.1,x=0.0,y=0.34+0.28+0.28,
          # 351 Analysis value
          gp=gpar(col=rgb(0.4,0.4,1,1),fill=rgb(0.4,0.4,1,1))
          for(i in seq_along(o2$V1)) {
-            x<-c(dates2[i]-0.225,dates2[i]+0.225,
-                 dates2[i]+0.225,dates2[i]-0.225)
+            x<-c(dates2[i]-0.125,dates2[i]+0.125,
+                 dates2[i]+0.125,dates2[i]-0.125)
             y<-c(0,0,o2$V14[i],o2$V14[i])
             grid.polygon(x=unit(x,'native'),
                          y=unit(y,'native'),

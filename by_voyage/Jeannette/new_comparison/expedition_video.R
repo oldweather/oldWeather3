@@ -50,7 +50,7 @@ Options<-WeatherMap.set.option(Options,'label.xp',0.49)
 Options$ice.points<-50000
 
 set.pole<-function(Date,Options) {
-  start.date<-chron(dates='1879/06/25',
+  start.date<-chron(dates='1879/06/27',
                     times="01:00:00",
                     format=c(dates='y/m/d',times='h:m:s'))
   date.1<-chron(dates='1879/08/25',
@@ -62,22 +62,14 @@ set.pole<-function(Date,Options) {
   if(Date<=start.date) {
     Options<-WeatherMap.set.option(Options,'pole.lon',50)
     Options<-WeatherMap.set.option(Options,'pole.lat',50)
-  }
-  if(Date>=date.2) {
+  } else if(Date>=date.2) {
     Options<-WeatherMap.set.option(Options,'pole.lon',150)
     Options<-WeatherMap.set.option(Options,'pole.lat',1)
-  }
-  if(Date>start.date & Date<date.1) {
-    Options<-WeatherMap.set.option(Options,'pole.lon',
-                      50-40*(Date-start.date)/(date.1-start.date))
-    Options<-WeatherMap.set.option(Options,'pole.lat',
-                      50-40*(Date-start.date)/(date.1-start.date))    
-  }
-  if(Date>date.1 & Date<date.2) {
-    Options<-WeatherMap.set.option(Options,'pole.lon',
-                      5+100*(Date-date.1)/(date.2-date.1))
-    Options<-WeatherMap.set.option(Options,'pole.lat',
-                      10-9*(Date-date.1)/(date.2-date.1))    
+  } else {
+    Lon<-approx(c(start.date,date.1,date.2),c(50,10,150),Date)$y
+    Options<-WeatherMap.set.option(Options,'pole.lon',Lon)
+    Lat<-approx(c(start.date,date.1,date.2),c(50,10,1),Date)$y
+    Options<-WeatherMap.set.option(Options,'pole.lon',Lat)
   }
   return(Options)
 }
@@ -149,7 +141,7 @@ plot.time<-function(c.date) {
                  gp=gpar(col='white',fill='white'))
 
     drange<-c(max(c.date-150,v351$Dates[1]),
-              min(c.date+150,v351$Dates[length(v351$Dates)]))
+              min(max(v351$Dates[1]+160,c.date+10),v351$Dates[length(v351$Dates)]))
     w<-which(v351$Dates>=drange[1] & v351$Dates<=c.date )  
    # Pressure
     pushViewport(viewport(width=1.0,height=0.55,x=0.0,y=0.0,
@@ -272,6 +264,6 @@ while(c.date<e.date) {
   c.date<-c.date+1
 }
 
-#plot.time(Dates[[100]])
+#plot.time(Dates[[2500]])
 
-mclapply(Dates,plot.time,mc.cores=8,mc.preschedule=FALSE)
+mclapply(Dates,plot.time,mc.cores=8)

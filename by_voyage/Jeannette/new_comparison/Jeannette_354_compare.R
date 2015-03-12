@@ -42,7 +42,12 @@ while(c.date<o[length(o$YR)-1,]$chron-1) {
       weight<-(as.numeric(insert$chron)-as.numeric(o[before,]$chron))/
               (as.numeric(o[after,]$chron)-as.numeric(o[before,]$chron))
       insert$LAT<-o[after,]$LAT*weight+o[before,]$LAT*(1-weight)
-      insert$LON<-o[after,]$LON*weight+o[before,]$LON*(1-weight)
+      aLon<-o[after,]$LON
+      if(o[before,]$LON>0 && aLon<0) aLon<-aLon+360
+      if(o[before,]$LON<0 && aLon>0) aLon<-aLon-360
+      insert$LON<-aLon*weight+o[before,]$LON*(1-weight)
+      if(insert$LON< -180) insert$LON<-insert$LON+360
+      if(insert$LON> 180) insert$LON<-insert$LON-360
       w<-which(o$chron<insert$chron)
       o<-rbind(o[w,],insert,o[-w,])
    }
