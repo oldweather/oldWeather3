@@ -1,22 +1,16 @@
-# Compare data from Jeannette and 20CR 3.5.4
+# Compare data from Jeannette and 20CR 3.5.1
 
 library(IMMA)
 library(GSDF.TWCR)
 library(parallel)
 
-version<-'3.5.4'
+version<-'3.5.1'
 
 # Get the observations for this ship
 o<-IMMA.read('../../../imma/Jeannette.imma')
 o$chron<-chron(dates=sprintf("%04d/%02d/%02d",o$YR,o$MO,o$DY),
              times=sprintf("%02d:00:00",as.integer(o$HR)),
              format=c(dates = "y/m/d", times = "h:m:s"))
-# 3.5.4 starts on 1879-11-01 so chop any records from before this point
-v354.start<-chron(dates="1879/11/01",times="06:00:00",
-             format=c(dates = "y/m/d", times = "h:m:s"))
-w<-which(o$chron>v354.start)
-o<-o[w,]
-
 
 # Fill in gaps in the obs series - just to make the reanalysis series continuous
 o.add<-o[1,]
@@ -42,7 +36,12 @@ while(c.date<o[length(o$YR)-1,]$chron-1) {
       weight<-(as.numeric(insert$chron)-as.numeric(o[before,]$chron))/
               (as.numeric(o[after,]$chron)-as.numeric(o[before,]$chron))
       insert$LAT<-o[after,]$LAT*weight+o[before,]$LAT*(1-weight)
-      insert$LON<-o[after,]$LON*weight+o[before,]$LON*(1-weight)
+      aLon<-o[after,]$LON
+      if(o[before,]$LON>0 && aLon<0) aLon<-aLon+360
+      if(o[before,]$LON<0 && aLon>0) aLon<-aLon-360
+      insert$LON<-aLon*weight+o[before,]$LON*(1-weight)
+      if(insert$LON< -180) insert$LON<-insert$LON+360
+      if(insert$LON> 180) insert$LON<-insert$LON-360
       w<-which(o$chron<insert$chron)
       o<-rbind(o[w,],insert,o[-w,])
    }
@@ -60,7 +59,7 @@ get.comparisons<-function(i) {
          is.na(o$HR[i]),is.na(o$LAT[i]),is.na(o$LON[i]))) {
     return(rep(NA,7))
   }
-  # Only need reanalysis every 6 hours - don't bother with hourly
+  # only need reanalysis every 6 hours, don't bother with hourly
   if(as.integer(o$HR[i])%%6!=0) {
     return(rep(NA,7))
   }
@@ -108,7 +107,7 @@ sst.spread<-r[seq(6,length(r),7)]
 icec.mean<-r[seq(7,length(r),7)]
 
 # Output the result
-fileConn<-file(sprintf("354.comparisons"))
+fileConn<-file(sprintf("351.comparisons"))
 writeLines(sprintf("%d %d %d %d %f %f %f %f %f %f %f %f %f %f %f %f",
                    o$YR,o$MO,o$DY,as.integer(o$HR),
                    o$SLP,prmsl.mean/100,prmsl.spread/100,
