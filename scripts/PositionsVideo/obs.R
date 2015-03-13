@@ -4,16 +4,16 @@
 
 library(GSDF)
 library(GSDF.WeatherMap)
-library(GSDF.MERRA)
+library(GSDF.TWCR)
 library(parallel)
 library(chron)
 
-year<-1894
-month<-12
-day<-11
+year<-1910
+month<-1
+day<-1
 hour<-0
 start.hour<-hour
-n.total<-24*4 # Total number of hours to be rendered
+n.total<-365*24 # Total number of hours to be rendered
 fog.threshold<-exp(1)
 
 GSDF.cache.dir<-sprintf("%s/GSDF.cache",Sys.getenv('GSCRATCH'))
@@ -21,7 +21,7 @@ if(!file.exists(GSDF.cache.dir)) dir.create(GSDF.cache.dir,recursive=TRUE)
 Imagedir<-sprintf("%s/images/oW3",Sys.getenv('GSCRATCH'))
 if(!file.exists(Imagedir)) dir.create(Imagedir,recursive=TRUE)
 
-use.cores<-2
+use.cores<-8
 
 c.date<-chron(dates=sprintf("%04d/%02d/%02d",year,month,day),
           times=sprintf("%02d:00:00",hour),
@@ -49,6 +49,8 @@ Options<-WeatherMap.set.option(Options,'pole.lat',25)
 
 Options$ice.points<-50000
 land<-WeatherMap.get.land(Options)
+months=c('January','February','March','April','May','June',
+         'July','August','September','October','November','December')
 
 imma.files<-list.files(path="../../imma")
 obs<-data.frame()
@@ -100,11 +102,12 @@ plot.hour<-function(l.count) {
     image.name<-sprintf("%04d-%02d-%02d:%02d.png",year,month,day,hour)
 
     ifile.name<-sprintf("%s/%s",Imagedir,image.name)
-    #if(file.exists(ifile.name) && file.info(ifile.name)$size>0) return()
+    if(file.exists(ifile.name) && file.info(ifile.name)$size>0) return()
     print(sprintf("%d %04d-%02d-%02d:%02d - %s",l.count,year,month,day,hour,
                    Sys.time()))
 
-        icec<-MERRA.get.slice.at.hour('FRSEAICE',1980,month,day,hour)
+    icec<-TWCR.get.slice.at.hour('icec',1936,month,day,hour,
+                                 version='3.5.1')
    
 
      png(ifile.name,
@@ -113,7 +116,7 @@ plot.hour<-function(l.count) {
              bg=Options$sea.colour,
              pointsize=24,
              type='cairo')
-    Options$label<-sprintf("%02d-%02d",month,day)
+    Options$label<-sprintf("%s %02d",months[month],day)
           base.gp<-gpar(family='Helvetica',font=1,col='black',fontsize=24)
           pushViewport(dataViewport(c(Options$lon.min,Options$lon.max),
                                     c(Options$lat.min,Options$lat.max),

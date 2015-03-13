@@ -1,0 +1,19 @@
+#PBS -q regular
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=1:35:00
+#PBS -N Jeannette
+#PBS -e Jeannette.$PBS_JOBID.err
+#PBS -o Jeannette.$PBS_JOBID.out
+
+cd $PBS_O_WORKDIR
+qsub -W depend=afternotok:$PBS_JOBID run.video.carver.pbs
+R --no-save < expedition_video.R
+
+cd $GSCRATCH/images
+rm Jeannette.mp4
+# Get rid of empty images - they make ffmpeg stop processing
+#  These usually come from disc problems in the creation step.
+find $GSCRATCH/images/Jeannette -type f -empty -delete
+
+module load ffmpeg
+ffmpeg -r 24 -pattern_type glob -i Jeannette/\*.png -c:v libx264 -preset slow -tune animation -profile:v high -level 4.2 -pix_fmt yuv420p -crf 22 -c:a copy Jeannette.mp4

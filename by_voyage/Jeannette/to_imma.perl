@@ -9,7 +9,7 @@ use MarineOb::IMMA;
 use MarineOb::lmrlib
   qw(rxltut ixdtnd rxnddt fxeimb fxmmmb fwbpgv fxtftc ix32dd ixdcdd fxbfms
      fwbptf fwbptc);
-use Date::Calc qw(check_date check_time Delta_DHMS);
+use Date::Calc qw(check_date check_time Delta_DHMS Add_Delta_Days);
 
 my $Name='Jeannette';
 my $Last_lat=38.1;
@@ -117,7 +117,7 @@ for(my $i=0;$i<100;$i++) {
 # Now we've got positions - convert the dates to UTC
 my $elon;
 for(my $i=0;$i<scalar(@Imma);$i++) {
-    # They did not change day until July 19
+    # They did not change day until July 19 in 1881
     if($Imma[$i]->{YR}==1881 && $Imma[$i]->{MO}==7 &&
        $Imma[$i]->{DY} && $Imma[$i]->{DY}<19) {
 	$Imma[$i]->{DY}++;
@@ -132,6 +132,12 @@ for(my $i=0;$i<scalar(@Imma);$i++) {
     );
     $Imma[$i]->{HR} = $uhr / 100;
     ( $Imma[$i]->{DY}, $Imma[$i]->{MO}, $Imma[$i]->{YR} ) = rxnddt($udy);
+    # When they crossed the dateline they did not change date
+    # But the conversion assumes they did - So we need to go forward a day.
+    if($Last_lon>0) {
+	($Imma[$i]->{YR},$Imma[$i]->{MO},$Imma[$i]->{DY})=
+             Add_Delta_Days($Imma[$i]->{YR},$Imma[$i]->{MO},$Imma[$i]->{DY},1);
+    }      
 }
 # and gravity-correct the pressures
 for(my $i=0;$i<scalar(@Imma);$i++) {
