@@ -1,13 +1,13 @@
 #PBS -q regular
 #PBS -l nodes=1:ppn=8
-#PBS -l walltime=0:15:00
+#PBS -l walltime=1:35:00
 #PBS -N Jeannette
 #PBS -e Jeannette.$PBS_JOBID.err
 #PBS -o Jeannette.$PBS_JOBID.out
 
 cd $PBS_O_WORKDIR
-#qsub -W depend=afternotok:$PBS_JOBID run.video.carver.pbs
-#R --no-save < expedition_video.R
+qsub -W depend=afternotok:$PBS_JOBID run.video.carver.pbs
+R --no-save < expedition_video.R
 
 cd $GSCRATCH/images
 rm Jeannette.mp4

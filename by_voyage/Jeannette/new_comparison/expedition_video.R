@@ -69,7 +69,7 @@ set.pole<-function(Date,Options) {
     Lon<-approx(c(start.date,date.1,date.2),c(50,10,150),Date)$y
     Options<-WeatherMap.set.option(Options,'pole.lon',Lon)
     Lat<-approx(c(start.date,date.1,date.2),c(50,10,1),Date)$y
-    Options<-WeatherMap.set.option(Options,'pole.lon',Lat)
+    Options<-WeatherMap.set.option(Options,'pole.lat',Lat)
   }
   return(Options)
 }
@@ -266,4 +266,4 @@ while(c.date<e.date) {
 
 #plot.time(Dates[[2500]])
 
-mclapply(Dates,plot.time,mc.cores=8)
+mclapply(Dates,plot.time,mc.cores=8,mc.preschedule=FALSE)
