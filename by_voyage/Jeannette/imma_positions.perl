@@ -8,7 +8,7 @@ use warnings;
 use MarineOb::IMMA;
 
 while( my $Ob=imma_read(\*STDIN) ) {
-    printf "%04d-%02d-%02d-%02d\t",$Ob->{YR},$Ob->{MO},$Ob->{DY},$Ob->{HR};
+    printf "%04d-%02d-%02d:%02d\t",$Ob->{YR},$Ob->{MO},$Ob->{DY},$Ob->{HR};
     if(defined($Ob->{LAT})) {
 	printf "%5.1f\t",$Ob->{LAT};
     } else {
