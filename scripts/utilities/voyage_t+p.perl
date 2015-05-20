@@ -76,8 +76,8 @@ foreach my $AssetId (@AssetIds) {
     }
 
     for ( my $Hour = 1 ; $Hour <= 24 ; $Hour++ ) {
-	if ( defined($Date) && $Date =~ /(\d+)\/(\d+)\/(\d+)/) {
-	    printf "%04d-%02d-%02d\t", $3,$2,$1;
+	if ( defined($Date) ) {
+	    printf "%12s\t", $Date;
 	}
 	else { print "          NA\t"; }
         printf "%2d\t",$Hour;
