@@ -76,7 +76,7 @@ foreach my $AssetId (@AssetIds) {
     }
 
     for ( my $Hour = 1 ; $Hour <= 24 ; $Hour++ ) {
-	if ( defined($Date)) {
+	if ( defined($Date) ) {
 	    printf "%12s\t", $Date;
 	}
 	else { print "          NA\t"; }
