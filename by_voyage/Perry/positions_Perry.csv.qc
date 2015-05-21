@@ -675,9 +675,9 @@
   21/06/1902,        NA,        NA,        NA,        NA,             union bay bc,                       NA,union bay,,
   22/06/1902,        NA,        NA,        NA,        NA,             union bay bc,                       NA,union bay,,
   22/06/1902,        NA,        NA,        NA,        NA,             union bay bc,                       NA,union bay,,
-  23/06/1902,     53 06,        NA,        NA,        NA,             union bay bc,                       NA,union bay,,
   23/06/1902,        NA,        NA,        NA,        NA,             union bay bc,                       NA,union bay,,
-  24/06/1902,     54 06,        NA,50,-125.3,             union bay bc,                     oban,union bay,,
+  23/06/1902,        NA,        NA,        NA,        NA,             union bay bc,                       NA,union bay,,
+  24/06/1902,        NA,        NA,50,-125.3,             union bay bc,                     oban,union bay,,
   24/06/1902,        NA,        NA,55,-1.5, pulteney pt east 3 miles,                     tyne,pulteney point malcolm island,50 39N,126 59W
   25/06/1902,        NA,        NA,50.6,-127.9,               elk bay bc,                alert bay,elk bay johnstone strait,50.278219,-125.433313
   25/06/1902,        NA,        NA,48.4,-123.9,  sister isls close abeam,            sister islets,error,,
