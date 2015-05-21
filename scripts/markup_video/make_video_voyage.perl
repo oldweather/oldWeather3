@@ -84,6 +84,7 @@ foreach my $AssetId (@AssetIds) {
     my $Asset = asset_read( $AssetId, $db );
 
     # Download the image
+    unless(defined($Asset->{location})) { next; }
     my $Fname = basename( $Asset->{location} );
     unless ( -r "$Dir/$Fname" ) {
 
