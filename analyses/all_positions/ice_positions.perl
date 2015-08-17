@@ -25,13 +25,12 @@ my $db = $conn->get_database('oldWeather3-production-live')
 
 my @AssetIds;    # Assets to process
 
-
 #Default hemisphere flags
 my $nS = 1;    # North
 my $eW = 1;    # East
 
 # Get all the pages (assets) 
-my $assetI = $db->get_collection('assets')->find( { "voyage_id" => $Voyage->{_id} } );
+my $assetI = $db->get_collection('assets')->find( );
 
 while ( my $Asset = $assetI->next ) {
 
