@@ -27,7 +27,8 @@ my @AssetIds;    # Assets to process
 
 #Default hemisphere flags
 my $nS = 1;    # North
-my $eW = 1;    # East
+my $eW = 2;    # East
+my $Last_asset;
 
 # Get all the pages (assets) 
 my $assetI = $db->get_collection('assets')->find( );
@@ -42,116 +43,74 @@ while ( my $Asset = $assetI->next ) {
 foreach my $AssetId (@AssetIds) {
 
     my $Asset = asset_read( $AssetId, $db );
-    unless(hasIce($Asset)==1) { next; }
+    
+    if(hasIce($Asset)==1) {
 
-    print "\n$Asset->{_id}: ";
-    print "($Asset->{location})\n";
+	if( defined( $Asset->{CPosition} ) && defined( $Asset->{CPosition}->{data}->{longitude} )) {
+	    printf "%7.2f ", lon2n($Asset->{CPosition}->{data}->{longitude});
+	}
+	elsif(defined($Last_asset) && defined( $Last_asset->{CPosition} ) && 
+		    defined( $Last_asset->{CPosition}->{data}->{longitude} )) {
+	    printf "%7.2f ", lon2n($Last_asset->{CPosition}->{data}->{longitude});
+	}
+	elsif( defined( $Asset->{CPosition} ) && defined( $Asset->{CPosition}->{data}->{portlon} )) {
+	    printf "%7.2f ", $Asset->{CPosition}->{data}->{portlon};
+	}
+	elsif(defined($Last_asset) && defined( $Last_asset->{CPosition} ) && 
+		    defined( $Last_asset->{CPosition}->{data}->{portlon} )) {
+	    printf "%7.2f ", $Last_asset->{CPosition}->{data}->{portlon};
+	}
+	else { print "     NA "; }
 
-    if ( defined( $Asset->{CDate}->{data}->{date} ) ) {
-        printf "\nDate: %s\n", $Asset->{CDate}->{data}->{date};
-    }
+	if( defined( $Asset->{CPosition} ) && defined( $Asset->{CPosition}->{data}->{latitude} )) {
+	    printf "%7.2f ", lat2n($Asset->{CPosition}->{data}->{latitude});
+	}
+	elsif(defined($Last_asset) && defined( $Last_asset->{CPosition} ) && 
+		    defined( $Last_asset->{CPosition}->{data}->{latitude} )) {
+	    printf "%7.2f ", lat2n($Last_asset->{CPosition}->{data}->{latitude});
+	}
+	elsif( defined( $Asset->{CPosition} ) && defined( $Asset->{CPosition}->{data}->{portlat} )) {
+	    printf "%7.2f ", $Asset->{CPosition}->{data}->{portlat};
+	}
+	elsif(defined($Last_asset) && defined( $Last_asset->{CPosition} ) && 
+		    defined( $Last_asset->{CPosition}->{data}->{portlat} )) {
+	    printf "%7.2f ", $Last_asset->{CPosition}->{data}->{portlat};
+	}
+	else { print "     NA "; }
 
-    if ( defined( $Asset->{CPosition} ) ) {
-        print "Position: ";
-        my $LonSource = "";
-        foreach my $v ( 'longitude', 'portlon' ) {
-            if ( defined( $Asset->{CPosition}->{data}->{$v} )
-                && length( $Asset->{CPosition}->{data}->{$v} ) > 2 )
-            {
-                $LonSource = $v;
-                last;
-            }
-        }
-        my $LatSource = "";
-        foreach my $v ( 'latitude', 'portlat' ) {
-            if ( defined( $Asset->{CPosition}->{data}->{$v} )
-                && length( $Asset->{CPosition}->{data}->{$v} ) > 2 )
-            {
-                $LatSource = $v;
-                last;
-            }
-        }
-        if ( defined( $Asset->{CPosition}->{data}->{portlat} )
-            && $Asset->{CPosition}->{data}->{portlat} < 0 )
-        {
-            $nS = -1;
-        }
-        if ( defined( $Asset->{CPosition}->{data}->{latitude} )
-            && lc( $Asset->{CPosition}->{data}->{latitude} ) =~ /s/ )
-        {
-            $nS = -1;
-        }
-        if ( defined( $Asset->{CPosition}->{data}->{latitude} )
-            && lc( $Asset->{CPosition}->{data}->{latitude} ) =~ /n/ )
-        {
-            $nS = 1;
-        }
-        if ( defined( $Asset->{CPosition}->{data}->{latitude} )
-            && $Asset->{CPosition}->{data}->{latitude} =~
-            /\D*(\d+)\D*(\d+)\D*(\d*)/ )
-        {
-            #print "L1: $Asset->{CPosition}->{data}->{latitude}  ";
-            $Asset->{CPosition}->{data}->{latitude} = $1 + $2 / 60;
-            if ( defined($3) && length($3) > 0 ) {
-                $Asset->{CPosition}->{data}->{latitude} += $3 / 360;
-            }
-            $Asset->{CPosition}->{data}->{latitude} *= $nS;
-            $Asset->{CPosition}->{data}->{latitude} = sprintf "%6.2f",
-              $Asset->{CPosition}->{data}->{latitude};
-            #print "$Asset->{CPosition}->{data}->{latitude}\n";
-        }
-        if ( defined( $Asset->{CPosition}->{data}->{portlon} )
-            && $Asset->{CPosition}->{data}->{portlon} < 0 )
-        {
-            $eW = -1;
-        }
-        if ( defined( $Asset->{CPosition}->{data}->{longitude} )
-            && lc( $Asset->{CPosition}->{data}->{longitude} ) =~ /w/ )
-        {
-            $eW = -1;
-        }
-        if ( defined( $Asset->{CPosition}->{data}->{longitude} )
-            && lc( $Asset->{CPosition}->{data}->{longitude} ) =~ /e/ )
-        {
-            $eW = 1;
-        }
-        if ( defined( $Asset->{CPosition}->{data}->{longitude} )
-            && $Asset->{CPosition}->{data}->{longitude} =~
-            /\D*(\d+)\D*(\d+)\D*(\d*)/ )
-        {
-            #print "L2: $Asset->{CPosition}->{data}->{longitude}  ";
-            $Asset->{CPosition}->{data}->{longitude} = $1 + $2 / 60;
-            if ( defined($3) && length($3) > 0 ) {
-                $Asset->{CPosition}->{data}->{longitude} += $3 / 360;
-            }
-            $Asset->{CPosition}->{data}->{longitude} *= $eW;
-            $Asset->{CPosition}->{data}->{longitude} = sprintf "%7.2f",
-              $Asset->{CPosition}->{data}->{longitude};
-            #print "$Asset->{CPosition}->{data}->{longitude}\n";
-        }
-        if(defined( $Asset->{CPosition}->{data}->{$LatSource} )
-                && length( $Asset->{CPosition}->{data}->{$LatSource} ) > 2 ) {
-               printf "Lat %s, ",$Asset->{CPosition}->{data}->{$LatSource}
-        }
-        if(defined( $Asset->{CPosition}->{data}->{$LonSource} )
-                && length( $Asset->{CPosition}->{data}->{$LonSource} ) > 2 ) {
-               printf "Lon %s, ",$Asset->{CPosition}->{data}->{$LonSource}
-        }
-        if(defined( $Asset->{CPosition}->{data}->{port} )
-                && length( $Asset->{CPosition}->{data}->{port} ) > 2 ) {
-               printf "%s ",$Asset->{CPosition}->{data}->{port}
-        }
-        print "\n";
-    }
-    die;
+	print "\n";
+
+   }
+
+   $Last_asset=$Asset;		  
+
 }
+
+sub lat2n {
+    my $ll = shift;
+    my $Result;
+    if($ll =~ /(\d+)\D+(\d+)/) { $Result = $1+$2/60; }
+    if($ll =~ /[sS]/) { $Result *= -1; }
+    return($Result);
+}
+sub lon2n {
+    my $ll = shift;
+    my $Result;
+    if($ll =~ /(\d+)\D+(\d+)/) { $Result = ($1+$2/60)*-1; }
+    if($ll !~ /[wW]/) { $Result *= -1; }
+    return($Result);
+}
+
 
 sub hasIce {
     my $Asset = shift;
     foreach my $Transcription ( @{ $Asset->{transcriptions} } ) {
         foreach my $Annotation ( @{ $Transcription->{annotations} } ) {
             if ( defined( $Annotation->{data}->{event} ) ) {
-                if(lc($Annotation->{data}->{event}) =~ /\sice/) { return(1); }
+                if(lc($Annotation->{data}->{event}) =~ /\sice/) { 
+                   #print($Annotation->{data}->{event});
+                   return(1); 
+                }
             }
 
         }
