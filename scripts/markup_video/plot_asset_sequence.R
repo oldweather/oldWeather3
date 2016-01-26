@@ -87,6 +87,9 @@ draw.link<-function(annotation,text.y=0) {
 
 # Overlay the box associated with an annotation on the page image
 plot.box<-function(annotation,gp) {
+    if(is.null(annotation[['bounds']]) || is.null(annotation[['bounds']][['x']]) ||
+       is.null(annotation[['bounds']][['y']]) || is.null(annotation[['bounds']][['width']]) ||
+       is.null(annotation[['bounds']][['height']])) return()
    pushViewport(viewport(width=page.boundaries[1],height=page.boundaries[2],
                         x=page.boundaries[3],y=page.boundaries[4],
                          just=c("left","bottom"),name="vp_page"))
@@ -212,7 +215,8 @@ plot.CPosition<-function(cD,base.x,base.y) {
 	}
    }
    for(v in c(lat.source,lon.source,'port')) {
-	   value<-cD[['data']][[v]]
+           value<-cD[['data']][[v]]
+	   if(!is.null(value)) value<-iconv(value, "", "ASCII", sub="") # Strip non-ascii characters
 	   qc<-cD[['qc']][[v]]
 	   if(!is.null(value) && nchar(value)>2) {
 	      if(qc=='U') {
