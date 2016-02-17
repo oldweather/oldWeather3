@@ -2707,9 +2707,9 @@ Ball's Head              	-173.4	  64.3
 Banka Geral'd            	-171.2	  70.5
 Bay of Gabriel           	 179.2	  62.4
 Bay of Holy Cross        	-179.2	  66.0
-Behring                  	 166.3	  55.0
-Behring Island           	 166.3	  55.0
-Bering Island            	 166.3	  55.0
+Behring                  	-166.3	  55.0
+Behring Island           	-166.3	  55.0
+Bering Island            	-166.3	  55.0
 Big Diomede Island       	-169.1	  65.8
 Big Island               	-172.4	  64.8
 Brothers                 	 158.7	  52.9
