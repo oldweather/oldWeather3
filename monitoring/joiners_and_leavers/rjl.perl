@@ -20,7 +20,7 @@ while (<>) {
 my $Year      = 2012;
 my $Month     = 7;
 my $Day       = 23;
-my @Last_time = ( 2014, 7, 9 );    # set to date of db dump
+my @Last_time = ( 2016, 2, 25 );    # set to date of db dump
 
 while ( Delta_Days( $Year, $Month, $Day, @Last_time ) ) {
     my $DayT = sprintf "%04d-%02d-%02d", $Year, $Month, $Day;
