@@ -1,13 +1,13 @@
-#moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina/ 
-#moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//Cold_Science 
-#moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//Cold_Science/Coast_Guard 
-#moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//Cold_Science/Coast_Guard/Eastwind_WAG-279_or_WAGB-279 
-#moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//Cold_Science/Coast_Guard/Eastwind_WAG-279_or_WAGB-279/eastwind-wag-279-1946-split 
-#cd "/media/External_119/data/Shipment to UK 2015-06-23/Cold Science/Coast Guard/Eastwind (WAG-279 or WAGB-279)/eastwind-wag-279-1946-split"
-#mkdir -p  /var/tmp/RtmpvzGrWh 
-#tar -czf /var/tmp/RtmpvzGrWh/eastwind-wag-279-1946-split.contents.tgz --no-recursion *.* 
-#moo put  /var/tmp/RtmpvzGrWh/eastwind-wag-279-1946-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//Cold_Science/Coast_Guard/Eastwind_WAG-279_or_WAGB-279/eastwind-wag-279-1946-split 
-#rm -r  /var/tmp/RtmpvzGrWh 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina/ 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//Cold_Science 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//Cold_Science/Coast_Guard 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//Cold_Science/Coast_Guard/Eastwind_WAG-279_or_WAGB-279 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//Cold_Science/Coast_Guard/Eastwind_WAG-279_or_WAGB-279/eastwind-wag-279-1946-split 
+cd "/media/External_119/data/Shipment to UK 2015-06-23/Cold Science/Coast Guard/Eastwind (WAG-279 or WAGB-279)/eastwind-wag-279-1946-split"
+mkdir -p  /var/tmp/RtmpvzGrWh 
+tar -czf /var/tmp/RtmpvzGrWh/eastwind-wag-279-1946-split.contents.tgz --no-recursion *.* 
+moo put  /var/tmp/RtmpvzGrWh/eastwind-wag-279-1946-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//Cold_Science/Coast_Guard/Eastwind_WAG-279_or_WAGB-279/eastwind-wag-279-1946-split 
+rm -r  /var/tmp/RtmpvzGrWh 
 moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//Cold_Science/Coast_Guard/Eastwind_WAG-279_or_WAGB-279/eastwind-wag-279-1947-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/Cold Science/Coast Guard/Eastwind (WAG-279 or WAGB-279)/eastwind-wag-279-1947-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
@@ -1094,139 +1094,139 @@ tar -czf /var/tmp/RtmpvzGrWh/Tennessee-BB-43-1947-split.contents.tgz --no-recurs
 moo put  /var/tmp/RtmpvzGrWh/Tennessee-BB-43-1947-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//Distant_Seas/Navy/Tennessee_BB-43/Tennessee-BB-43-1947-split 
 rm -r  /var/tmp/RtmpvzGrWh 
 moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1874-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1874-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1874-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1874-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1874-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1874-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1874-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1874-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1875-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1875-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1875-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1875-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1875-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1875-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1875-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1875-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1876-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1876-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1876-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1876-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1876-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1876-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1876-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1876-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1877-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1877-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1877-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1877-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1877-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1877-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1877-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1877-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1878-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1878-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1878-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1878-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1878-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1878-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1878-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1878-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1879-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1879-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1879-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1879-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1879-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1879-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1879-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1879-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1880-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1880-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1880-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1880-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1880-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1880-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1880-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1880-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1881-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1881-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1881-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1881-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1881-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1881-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1881-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1881-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1882-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1882-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1882-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1882-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1882-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1882-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1882-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1882-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1883-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1883-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1883-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1883-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1883-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1883-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1883-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1883-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1884-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1884-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1884-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1884-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1884-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1884-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1884-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1884-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1885-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1885-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1885-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1885-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1885-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1885-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1885-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1885-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1886-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1886-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1886-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1886-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1886-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1886-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1886-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1886-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1887-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1887-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1887-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1887-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1887-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1887-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1887-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1887-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1888-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1888-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1888-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1888-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1888-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1888-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1888-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1888-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1889-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1889-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1889-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1889-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1889-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1889-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1889-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1889-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1890-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1890-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1890-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1890-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1890-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1890-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1890-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1890-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1891-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1891-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1891-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1891-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1891-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1891-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1891-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1891-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1892-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1892-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1892-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1892-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1892-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1892-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1892-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1892-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1893-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1893-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1893-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1893-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1893-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1893-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1893-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1893-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1894-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1894-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1894-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1894-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1894-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1894-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1894-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1894-split 
 rm -r  /var/tmp/RtmpvzGrWh 
-moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1895-split 
+moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1895-split 
 cd "/media/External_119/data/Shipment to UK 2015-06-23/The Arctic Frontier/Coast & Geodetic Survey/Hassler/hassler-1895-split"
 mkdir -p  /var/tmp/RtmpvzGrWh 
 tar -czf /var/tmp/RtmpvzGrWh/hassler-1895-split.contents.tgz --no-recursion *.* 
-moo put  /var/tmp/RtmpvzGrWh/hassler-1895-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_&_Geodetic_Survey/Hassler/hassler-1895-split 
+moo put  /var/tmp/RtmpvzGrWh/hassler-1895-split.contents.tgz moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_+_Geodetic_Survey/Hassler/hassler-1895-split 
 rm -r  /var/tmp/RtmpvzGrWh 
 moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_Guard 
 moo mkdir  moose:/adhoc/users/philip.brohan/logbook_images/oW3_Gina//The_Arctic_Frontier/Coast_Guard/Atalanta_WPC-102 
