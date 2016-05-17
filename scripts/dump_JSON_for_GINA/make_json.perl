@@ -20,8 +20,8 @@ my $Only       = undef;    # If selected, only show this transcription
 my $VoyageN    = 1;
 my $ImageCount = 0;
 my $LastFile;
-my $StartAsset = '50874d7409d4090755002f67';
-my $EndAsset = '50874d7a09d4090755003585';
+#my $StartAsset = '50874d7409d4090755002f67';
+#my $EndAsset = '50874d7a09d4090755003585';
 GetOptions(
     "ship=s"   => \$Ship_name,
     "voyage=i" => \$VoyageN,
@@ -59,7 +59,7 @@ if ( !defined($Id) ) {
     while ( my $Asset = $assetI->next ) {
 
         #if($Asset->{done}) { push @AssetIds, $Asset->{_id}; }
-	if(($Asset->{_id} cmp $StartAsset) < 0 || ($Asset->{_id} cmp $EndAsset) >0 ) { next; }
+	#if(($Asset->{_id} cmp $StartAsset) < 0 || ($Asset->{_id} cmp $EndAsset) >0 ) { next; }
         push @AssetIds, $Asset->{_id};
 
     }
