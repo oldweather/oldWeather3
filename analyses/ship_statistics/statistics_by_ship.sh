@@ -9,9 +9,8 @@
 #./statistics_for_ship.perl --ship=Rush > Rush.out
 #./statistics_for_ship.perl --ship=Concord > Concord.out
 #./statistics_for_ship.perl --ship=Pioneer > Pioneer.out
-#./statistics_for_ship.perl --ship=Corwin > Corwin.out
 #./statistics_for_ship.perl --ship=Perry > Perry.out
-./statistics_for_ship.perl --ship=Vicksburg > Vicksburg.out
+#./statistics_for_ship.perl --ship=Vicksburg > Vicksburg.out
 ./statistics_for_ship.perl --ship=Yorktown > Yorktown.out
 ./statistics_for_ship.perl --ship=Patterson > Patterson.out
 ./statistics_for_ship.perl --ship='Unalga (I)' > Unalga_I.out
