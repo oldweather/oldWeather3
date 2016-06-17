@@ -1,7 +1,6 @@
 #!/opt/local/bin/perl
 
 # Dump the processed transcriptions for a voyage to an JSON file
-# Modify to suit the high-resolution images for Wes Tech.
 
 use strict;
 use warnings;
@@ -15,20 +14,21 @@ use Asset;
 use Getopt::Long;
 use Data::Dumper;
 
+my $Ship_name  = undef;
 my $Id         = undef;    # If selected, only do this page
 my $Only       = undef;    # If selected, only show this transcription
 my $VoyageN    = 1;
 my $ImageCount = 0;
 my $LastFile;
-
-my $Ship_name='Rodgers';
-
-my @Image_files=glob('/Users/philip/LocalData/oW3_logbooks/NARA/Rodgers.split.bw/*.jpg');
-my %Image_files;
-foreach my $Ifile (@Image_files) {
-    chomp($Ifile);
-    $Image_files{basename($Ifile)}=1;
-}
+#my $StartAsset = '50874d7409d4090755002f67';
+#my $EndAsset = '50874d7a09d4090755003585';
+GetOptions(
+    "ship=s"   => \$Ship_name,
+    "voyage=i" => \$VoyageN,
+    "id=s"     => \$Id,
+    "only=i"   => \$Only
+);
+unless ( defined($Ship_name) ) { die "Usage: --ship=<ship.name>"; }
 
 # Open the database connection (default port, default server)
 my $conn = MongoDB::Connection->new( query_timeout => -1 )
@@ -58,6 +58,8 @@ if ( !defined($Id) ) {
 
     while ( my $Asset = $assetI->next ) {
 
+        #if($Asset->{done}) { push @AssetIds, $Asset->{_id}; }
+	#if(($Asset->{_id} cmp $StartAsset) < 0 || ($Asset->{_id} cmp $EndAsset) >0 ) { next; }
         push @AssetIds, $Asset->{_id};
 
     }
@@ -66,13 +68,9 @@ else {                          # only one id - for debugging
     push @AssetIds, MongoDB::OID->new( value => $Id );
 }
 
-# Prune all the guff to get the JSON down to minimum size
-sub prune_unwanted {
+# Prune all the date guff to get the JSON down to reasonable size
+sub prune_dates {
     my $Asset=shift();
-    if(exists($Asset->{CWeather})) { delete($Asset->{CWeather}); }
-    if(exists($Asset->{CDate})) { delete($Asset->{CDate}); }
-    if(exists($Asset->{CPosition})) { delete($Asset->{CPosition}); }
-
     if(exists($Asset->{created_at})) { delete($Asset->{created_at}); }
     if(exists($Asset->{updated_at})) { delete($Asset->{updated_at}); }
     foreach my $Transcription ( @{ $Asset->{transcriptions} } ) {
@@ -86,39 +84,13 @@ sub prune_unwanted {
     return($Asset);
 }
 
-# Is this page one for which we have the high resolution image ready?
-# If so return the filename
-sub have_image {
-    my $Asset = shift();
-    if(defined($Asset->{'location'})) {
-	my $ln=basename($Asset->{'location'});
-	$ln =~ s/of0/of/;
-	if(exists($Image_files{$ln})) { 
-            return($ln); 
-        }
-    }
-    return('');
-}
-
-# Does this page have any weather data?
-sub have_weather {
-    my $Asset = shift();
-    if(defined($Asset->{'CWeather'})) { return(1); }
-    return(0);
-}	
-
-
 # JSON header
 print "{\"pages\":\n[";
 my $count=0;
 foreach my $AssetId (@AssetIds) {
 
     my $Asset = asset_read( $AssetId, $db );
-    my $Img = have_image($Asset);
-    if($Img eq '') { next; }
-    $Asset->{'location'} = $Img;
-    unless(have_weather($Asset)) { next; }
-    $Asset = prune_unwanted($Asset);
+    $Asset = prune_dates($Asset);
 
     # Print as JSON
     if($count++ > 0) { print ","; }

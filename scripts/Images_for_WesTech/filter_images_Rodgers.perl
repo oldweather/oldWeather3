@@ -1,7 +1,6 @@
 #!/opt/local/bin/perl
 
-# Dump the processed transcriptions for a voyage to an JSON file
-# Modify to suit the high-resolution images for Wes Tech.
+# Make a limited subset of Rodgers images - only those with weather data.
 
 use strict;
 use warnings;
@@ -29,6 +28,8 @@ foreach my $Ifile (@Image_files) {
     chomp($Ifile);
     $Image_files{basename($Ifile)}=1;
 }
+my $Source_dir='/Users/philip/LocalData/oW3_logbooks/NARA/Rodgers.split.bw/';
+my $Final_dir='/Users/philip/LocalData/oW3_logbooks/NARA/Rodgers.final';
 
 # Open the database connection (default port, default server)
 my $conn = MongoDB::Connection->new( query_timeout => -1 )
@@ -66,25 +67,6 @@ else {                          # only one id - for debugging
     push @AssetIds, MongoDB::OID->new( value => $Id );
 }
 
-# Prune all the guff to get the JSON down to minimum size
-sub prune_unwanted {
-    my $Asset=shift();
-    if(exists($Asset->{CWeather})) { delete($Asset->{CWeather}); }
-    if(exists($Asset->{CDate})) { delete($Asset->{CDate}); }
-    if(exists($Asset->{CPosition})) { delete($Asset->{CPosition}); }
-
-    if(exists($Asset->{created_at})) { delete($Asset->{created_at}); }
-    if(exists($Asset->{updated_at})) { delete($Asset->{updated_at}); }
-    foreach my $Transcription ( @{ $Asset->{transcriptions} } ) {
-       if(exists($Transcription->{created_at})) { delete($Transcription->{created_at}); }
-       if(exists($Transcription->{updated_at})) { delete($Transcription->{updated_at}); }
-       foreach my $Annotation ( @{ $Transcription->{annotations} } ) {
-          if(exists($Annotation->{created_at})) { delete($Annotation->{created_at}); }
-          if(exists($Annotation->{updated_at})) { delete($Annotation->{updated_at}); }
-       }
-    }
-    return($Asset);
-}
 
 # Is this page one for which we have the high resolution image ready?
 # If so return the filename
@@ -107,24 +89,13 @@ sub have_weather {
     return(0);
 }	
 
-
-# JSON header
-print "{\"pages\":\n[";
-my $count=0;
 foreach my $AssetId (@AssetIds) {
 
     my $Asset = asset_read( $AssetId, $db );
     my $Img = have_image($Asset);
     if($Img eq '') { next; }
-    $Asset->{'location'} = $Img;
     unless(have_weather($Asset)) { next; }
-    $Asset = prune_unwanted($Asset);
-
-    # Print as JSON
-    if($count++ > 0) { print ","; }
-    print $Asset->to_JSON();
+    system(sprintf("cp %s/%s %s",$Source_dir,$Img,$Final_dir));
 
 }
 
-# JSON footer
-print "]}\n";
