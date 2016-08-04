@@ -21,9 +21,9 @@ my $VoyageN    = 1;
 my $ImageCount = 0;
 my $LastFile;
 
-my $Ship_name='Rodgers';
+my $Ship_name='Jeannette';
 
-my @Image_files=glob('/Users/philip/LocalData/oW3_logbooks/NARA/Rodgers.split.bw/*.jpg');
+my @Image_files=glob('/Users/philip/LocalData/oW3_logbooks/NARA/Jeannette.split.bw/*.jpg');
 my %Image_files;
 foreach my $Ifile (@Image_files) {
     chomp($Ifile);
@@ -92,7 +92,7 @@ sub have_image {
     my $Asset = shift();
     if(defined($Asset->{'location'})) {
 	my $ln=basename($Asset->{'location'});
-	$ln =~ s/of0/of/;
+	#$ln =~ s/of0/of/;
 	if(exists($Image_files{$ln})) { 
             return($ln); 
         }
