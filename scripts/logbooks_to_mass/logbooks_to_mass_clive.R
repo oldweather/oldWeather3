@@ -1,7 +1,7 @@
 # Transfer logbook images from Clive's disc to MO MASS system
 
-ArchiveDir <- 'moose:/adhoc/users/philip.brohan/logbook_images/Clive_Vestfold_Archive_Norway/'
-SourceDir <- '/media/External_113/data/Vestfold Archive Norway'
+ArchiveDir <- 'moose:/adhoc/users/philip.brohan/logbook_images/Clive_National_Meteorological_Archive/'
+SourceDir <- '/data/local/hadpb/logbook_images/Clive_National_Meteorological_Archive'
 
 process.dir<-function(dir.name) {
   #cat(dir.name,"\n")
@@ -12,6 +12,8 @@ process.dir<-function(dir.name) {
   moose.dir<-gsub("\\[","",moose.dir) # No brackets in mass
   moose.dir<-gsub("\\]","",moose.dir)
   moose.dir<-gsub("\\&","+",moose.dir)
+  moose.dir<-gsub("\\*","_s",moose.dir)
+  moose.dir<-gsub("\\?","_q",moose.dir)
   cat("moo mkdir ",moose.dir,"\n")
   files<-list.files(dir.name,pattern="\\.") # only want jpgs really
   if(length(files)>0) pack.contents(dir.name,moose.dir)
@@ -26,6 +28,8 @@ pack.contents<-function(dir.name,moose.dir) {
   dir.base<-gsub("\\s+","_",dir.base)
   dir.base<-gsub("\\[","",dir.base)
   dir.base<-gsub("\\]","",dir.base)
+  dir.base<-gsub("\\*","_s",dir.base)
+  dir.base<-gsub("\\?","_q",dir.base)
   t.dir<-tempdir()
   tar.file<-sprintf("%s/%s.contents.tgz",tempdir(),dir.base)
   cat("cd \"",dir.name,"\"\n",sep="")
