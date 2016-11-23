@@ -17,4 +17,7 @@ for(fn in raw) {
   writeJPEG(j1,fn1)
   fn2<-sprintf("%s/%s_1.jpg",split.dir,substr(fn,18,27))
   writeJPEG(j2,fn2)
+  # Set the metadata to report 300dpi
+  system(sprintf("mogrify -density 300 %s",fn1))
+  system(sprintf("mogrify -density 300 %s",fn2))
 }
