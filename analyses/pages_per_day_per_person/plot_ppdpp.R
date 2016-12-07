@@ -30,8 +30,9 @@ for(i in seq_along(names(ts))) {
    end.time[i]<-max(w,na.rm=TRUE)
 }
 
-n.show<-10  # Show this many volunteers, largest to smallest
-v.sep<-100    # Separate the volunteer streams by this many pages
+n.show<-2  # Show this many volunteers, largest to smallest
+v.sep<-10  # Minimium separation between ribbons in pages
+max.delta<-1 # Dont move any ribbon by more than this many pages/timestep
 h.max<-length(ts[,1]) # Number of days
 
 # Work out the page location for each ribbon
@@ -45,32 +46,32 @@ for(v in seq(1:n.show)) {
       n.done<-ts[day,o[v]]
       if(is.na(n.done)) {
         n.done<-last.time[v]
-        last.time[v]<-max(1,last.time[v]-1)
+        last.time[v]<-max(1,last.time[v]*0.9)
       }
       else last.time[v]<-n.done
       x.width[day,v]<-n.done
       x.end[day,v]<-x.start[day,v]+n.done+v.sep
-      delta.max<-min(v.sep/2,x.width[day,v]/2)
-      if(day>1 && (x.end[day,v]-x.end[day-1,v])>delta.max) {
-        dd<-day-1
-        while(dd>0 && (x.end[dd+1,v]-x.end[dd,v])>delta.max) {
-          x.end[dd,v]<-x.end[dd+1,v]-delta.max
-          delta.max<-min(v.sep/2,x.width[dd,v]/2)
+      if(day>1 && (x.end[day,v]-x.end[day-1,v])>max.delta) {
+        adjust<-x.end[day,v]-x.end[day-1,v]
+        #print(adjust)
+        dd<-day
+        while(dd>1 && adjust>0) {
+          #if((x.end[dd,v]-x.end[dd-1,v])<=max.delta) {
+            adjust<-adjust-max.delta #-(x.end[dd,v]-x.end[dd-1,v])
+          #}
+          x.end[dd,v]<-x.end[dd,v]+adjust
           dd<-dd-1
         }
+        #x.end[1:(day-1),v]<-x.end[1:(day-1),v]+adjust
+        #x.end[day,v]<-x.end[day-1,v]+max.delta
       }
-      if(day>1 && (x.end[day-1,v]-x.end[day,v])>delta.max) {
-        dd<-day-1
-        while(dd>0 && (x.end[dd,v]-x.end[dd+1,v])>delta.max) {
-          x.end[dd,v]<-x.end[dd+1,v]+delta.max
-          delta.max<-min(v.sep/2,x.width[dd,v]/2)
-          dd<-dd-1
-        }
+      if(day>1 && (x.end[day-1,v]-x.end[day,v])>max.delta) {
+        x.end[day,v]<-x.end[day-1,v]-max.delta
       }
     }
  }
 
-w.max<-max(x.end,na.rm=TRUE) # Scale factor - full width
+w.max<-max(x.end,na.rm=TRUE)*5 # Scale factor - full width
 
 pdf(file="ppdpp.pdf",
     width=23.4,height=33.1,pointsize=12)
@@ -88,7 +89,6 @@ pdf(file="ppdpp.pdf",
 	               y=unit(c(y[1],y[1],y[2],y[2]),'npc'),
 		       gp=gp)
         }
-	#if(day>100) break
     }
 dev.off()
 
