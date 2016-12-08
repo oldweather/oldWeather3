@@ -30,16 +30,16 @@ for(i in seq_along(names(ts))) {
    end.time[i]<-max(w,na.rm=TRUE)
 }
 
-n.show<-2  # Show this many volunteers, largest to smallest
+n.show<-2000  # Show this many volunteers, largest to smallest
 v.sep<-10  # Minimium separation between ribbons in pages
-max.delta<-1 # Dont move any ribbon by more than this many pages/timestep
+max.delta<-1 # Don't move any ribbon by more than this many pages/timestep
 h.max<-length(ts[,1]) # Number of days
 
 # Work out the page location for each ribbon
 x.start<-array(dim=c(h.max,n.show))
 x.end<-array(dim=c(h.max,n.show))
 x.width<-array(dim=c(h.max,n.show))
-for(v in seq(1:n.show)) {
+for(v in 1:n.show) {
    for(day in seq(1:h.max)) {
       if(v==1) x.start[day,v]<-1
       else x.start[day,v]<-x.end[day,v-1]
@@ -51,27 +51,19 @@ for(v in seq(1:n.show)) {
       else last.time[v]<-n.done
       x.width[day,v]<-n.done
       x.end[day,v]<-x.start[day,v]+n.done+v.sep
-      if(day>1 && (x.end[day,v]-x.end[day-1,v])>max.delta) {
-        adjust<-x.end[day,v]-x.end[day-1,v]
-        #print(adjust)
-        dd<-day
-        while(dd>1 && adjust>0) {
-          #if((x.end[dd,v]-x.end[dd-1,v])<=max.delta) {
-            adjust<-adjust-max.delta #-(x.end[dd,v]-x.end[dd-1,v])
-          #}
-          x.end[dd,v]<-x.end[dd,v]+adjust
-          dd<-dd-1
-        }
-        #x.end[1:(day-1),v]<-x.end[1:(day-1),v]+adjust
-        #x.end[day,v]<-x.end[day-1,v]+max.delta
-      }
+      if(day<start.time[o[v]] || day>end.time[o[v]]) x.end[day,v]<-x.start[day,v]
       if(day>1 && (x.end[day-1,v]-x.end[day,v])>max.delta) {
         x.end[day,v]<-x.end[day-1,v]-max.delta
       }
     }
+    for(day in h.max:1) {
+      if(day<h.max && (x.end[day+1,v]-x.end[day,v])>max.delta) {
+        x.end[day,v]<-x.end[day+1,v]-max.delta
+      }
+    }
  }
 
-w.max<-max(x.end,na.rm=TRUE)*5 # Scale factor - full width
+w.max<-max(x.end,na.rm=TRUE) # Scale factor - full width
 
 pdf(file="ppdpp.pdf",
     width=23.4,height=33.1,pointsize=12)
@@ -83,7 +75,8 @@ pdf(file="ppdpp.pdf",
 	     gp<-gpar(col=rgb(.9,.9,.9,1),fill=rgb(.9,.9,.9,1))
 	  }
 	  if(day<start.time[o[v]] || day>end.time[o[v]]) next
-	  x<-c(x.start[day,v],x.start[day,v]+x.width[day,v])/w.max
+          st<-x.start[day,v]+(x.end[day,v]-x.start[day,v]-x.width[day,v])/2
+	  x<-c(st,x.start[day,v]+x.width[day,v])/w.max
 	  y<-c(h.max-day-0.5,h.max-day+0.5)/h.max
 	  grid.polygon(x=unit(c(x[1],x[2],x[2],x[1]),'npc'),
 	               y=unit(c(y[1],y[1],y[2],y[2]),'npc'),
