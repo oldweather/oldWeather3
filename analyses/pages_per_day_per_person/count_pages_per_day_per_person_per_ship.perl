@@ -38,21 +38,24 @@ while ($Ship = $ships->next) {
 	    my $Key = sprintf "%04d-%02d-%02d",$Date->{local_c}->{year},
 			      $Date->{local_c}->{month},$Date->{local_c}->{day};
 	$Days{$Key}{$Uid}++;
-	if(scalar(keys(%Days))>20) { last; }
+	#if(scalar(keys(%Days))>20) { last; }
     }
     
-    sn=$Ship->{name};
-    sn =~ s/\s+/_/g;  
-    open(DOUT,sprintf(">%s.txt",sn)) or die;
+    my $sn=$Ship->{name};
+    $sn =~ s/\s+/_/g;  
+    open(DOUT,sprintf(">by_ship/%s.txt",$sn)) or die;
 
+    printf DOUT "Date ";
+    foreach my $Uid (keys(%Uids)) { printf DOUT "$Uid "; }
+    print DOUT "\n";
     foreach my $Day (sort(keys(%Days))) {
-	printf "%s",$Day;
+	printf DOUT "%s",$Day;
 	foreach my $Uid (keys(%Uids)) {
-	    if(defined($Days{$Day}{$Uid})) { printf " %4d",$Days{$Day}{$Uid}; }
-	    else { print "   NA"; }
+	    if(defined($Days{$Day}{$Uid})) { printf DOUT " %4d",$Days{$Day}{$Uid}; }
+	    else { print DOUT "   NA"; }
 	}
-	print "\n";
-        die;
+	print DOUT "\n";
+        #die;
     }
     
     close(DOUT)
