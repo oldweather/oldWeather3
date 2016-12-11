@@ -30,11 +30,21 @@ for(i in seq_along(names(ts))) {
    end.time[i]<-max(w,na.rm=TRUE)
 }
 
-n.show<-length(total.pp)  # Show this many volunteers, largest to smallest
+n.show<-4729 #length(total.pp)  # Show this many volunteers, largest to smallest
 o[1:n.show]<-sample(o[1:n.show],size=n.show,replace=FALSE)
 v.sep<-3  # Minimium separation between ribbons in pages
 max.delta<-1 # Don't move any ribbon by more than this many pages/timestep
 h.max<-length(ts[,1]) # Number of days
+
+# Daily totals
+d.max<-rep(NA,h.max)
+d.count<-rep(NA,h.max)
+for(day in seq(1:h.max)) {
+   d.max[day]<-sum(ts[day,o[1:n.show]],na.rm=TRUE)
+   w<-which(start.time<=day & end.time>=day)
+   d.count[day]<-length(w)
+}
+max.day.max<-max(d.max,na.rm=TRUE)
 
 # Work out the page location for each ribbon
 x.start<-array(dim=c(h.max,n.show))
@@ -42,6 +52,7 @@ x.end<-array(dim=c(h.max,n.show))
 x.width<-array(dim=c(h.max,n.show))
 for(v in 1:n.show) {
    for(day in seq(1:h.max)) {
+      d.v.sep<-v.sep+(max.day.max-d.max[day])/d.count[day]
       if(v==1) x.start[day,v]<-1
       else x.start[day,v]<-x.end[day,v-1]
       n.done<-ts[day,o[v]]
@@ -51,7 +62,7 @@ for(v in 1:n.show) {
       }
       else last.time[v]<-n.done
       x.width[day,v]<-n.done
-      x.end[day,v]<-x.start[day,v]+n.done+v.sep
+      x.end[day,v]<-x.start[day,v]+n.done+d.v.sep
       if(day<start.time[o[v]] || day>end.time[o[v]]) x.end[day,v]<-x.start[day,v]
       if(day>1 && (x.end[day-1,v]-x.end[day,v])>max.delta){
         x.end[day,v]<-x.end[day-1,v]-max.delta
