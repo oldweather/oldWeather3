@@ -67,8 +67,8 @@ total<-data.frame(Date=dates)
    }
 names(total)<-c('Dates',uids)
 
-cols<-colorRampPalette(brewer.pal(8,"Dark2"))(length(ts))
-
+cols<-colorRampPalette(brewer.pal(12,"Paired"))(length(ts))
+  
 start.time<-rep(1,length(uids))
 end.time<-rep(length(dates),length(uids))
 for(i in seq_along(uids)) {
@@ -95,7 +95,7 @@ h.max<-length(dates) # Number of days
 d.max<-rep(NA,h.max)
 d.count<-rep(NA,h.max)
 for(day in seq(1:h.max)) {
-   d.max[day]<-sum(total[day,o[1:n.show]],na.rm=TRUE)
+   d.max[day]<-sum(total[day,o[1:n.show]+1],na.rm=TRUE)
    w<-which(start.time<=day & end.time>=day)
    d.count[day]<-length(w)
 }
@@ -157,6 +157,7 @@ for(day in w.fill-1:1) {
 
 
 pdf(file="ppdppps.pdf",
+    bg=rgb(.95,.95,.95,1),
     width=23.4,height=33.1,pointsize=12)
     pushViewport(viewport(width=unit(0.98,'npc'),height=unit(0.995,'npc'))) # Padding
     for(day in seq(1:h.max)) {
@@ -164,7 +165,8 @@ pdf(file="ppdppps.pdf",
 	  if(day<start.time[o[v]] || day>end.time[o[v]]) next
           n.done<-total[day,o[v]+1]
 	  if(is.na(n.done)) {
-	     gp<-gpar(col=rgb(.9,.9,.9,1),fill=rgb(.9,.9,.9,1))
+	     #gp<-gpar(col=rgb(.9,.9,.9,1),fill=rgb(.9,.9,.9,1))
+	     gp<-gpar(col='white',fill='white')
 	      st<-w.shift[day]+x.start[day,v]+(x.end[day,v]-x.start[day,v]-x.width[day,v])/2
 	      x<-c(st,st+x.width[day,v])/w.max
 	      y<-c(h.max-day-0.5,h.max-day+0.5)/h.max
