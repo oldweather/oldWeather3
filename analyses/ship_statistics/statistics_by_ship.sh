@@ -5,7 +5,7 @@
 #./statistics_for_ship.perl --ship='Unalga (II)' > Unalga_II.out
 #./statistics_for_ship.perl --ship=Yukon > Yukon.out
 #./statistics_for_ship.perl --ship=Bear > Bear.out
-./statistics_for_ship.perl --ship=Thetis > Thetis.out
+#./statistics_for_ship.perl --ship=Thetis > Thetis.out
 #./statistics_for_ship.perl --ship=Rush > Rush.out
 #./statistics_for_ship.perl --ship=Concord > Concord.out
 #./statistics_for_ship.perl --ship=Pioneer > Pioneer.out
