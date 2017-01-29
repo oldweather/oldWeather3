@@ -20,7 +20,7 @@ while (<>) {
     my @Fields = split;
     my $Id     = MongoDB::OID->new( value => $Fields[0] );
     my $Znv = $db->get_collection('zooniverse_users')->find( { "_id" => $Id } )->next;
-#    printf "%s %d\n", $Znv->{zooniverse_user_id}, $Fields[1];
-     printf "\"%s\" %d\n",$Znv->{name},$Fields[1];
+    printf "%s %d\n", $Znv->{zooniverse_user_id}, $Fields[1];
+#     printf "\"%s\" %d\n",$Znv->{name},$Fields[1];
 
 }
