@@ -25,18 +25,18 @@ get.comparisons<-function(i) {
   day<-o$V3[i]
   hour<-as.integer(o$V4[i]/100)
   t2m<-TWCR.get.slice.at.hour('air.2m',year,month,day,hour,
-                              version='3.2.1',opendap=F)
+                              version='3.5.1',opendap=F)
   tt<-GSDF.interpolate.ll(t2m,o$Latitude[i],o$Longitude[i])  
   t2m<-TWCR.get.slice.at.hour('air.2m',year,month,day,hour,
                               type='spread',
-                              version='3.2.1',opendap=F)
+                              version='3.5.1',opendap=F)
   tt.spread<-GSDF.interpolate.ll(t2m,o$Latitude[i],o$Longitude[i])  
   old<-TWCR.get.slice.at.hour('prmsl',year,month,day,hour,
-                              version='3.2.1',opendap=F)
+                              version='3.5.1',opendap=F)
   mean<-GSDF.interpolate.ll(old,o$Latitude[i],o$Longitude[i])
   old<-TWCR.get.slice.at.hour('prmsl',year,month,day,hour,
                               type='spread',
-                              version='3.2.1',opendap=F)
+                              version='3.5.1',opendap=F)
   spread<-GSDF.interpolate.ll(old,o$Latitude[i],o$Longitude[i])
   #if(i==10) break
   return(c(i,tt,tt.spread,mean,spread))

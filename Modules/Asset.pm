@@ -39,6 +39,9 @@ sub asset_read {
     foreach my $Transcription ( @{ $Self->{transcriptions} } ) {
         foreach my $Annotation ( @{ $Transcription->{annotations} } ) {
             unless ( defined( $Annotation->{data}->{date} ) ) { next; }
+	    if($Annotation->{data}->{date} =~ /(\d+)\D(\d+)\D(\d+)/) {
+		$Annotation->{data}->{date} = sprintf "%02d/%02d/%02d",$1,$2,$3;
+	    }
             push @{ $Date{date} }, $Annotation->{data}->{date};
         }
     }

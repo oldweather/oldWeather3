@@ -66,7 +66,9 @@ else {    # only one id - for debugging
 }
 
 my $Date;
-foreach my $AssetId (@AssetIds) {
+#foreach my $AssetId (@AssetIds) {
+for(my $i=0;$i<scalar(@AssetIds);$i++) {
+    my $AssetId = $AssetIds[$i];
 
     my $Asset = asset_read( $AssetId, $db );
     if ( defined( $Asset->{CDate}->{data}->{date} )
@@ -74,7 +76,15 @@ foreach my $AssetId (@AssetIds) {
     {
         $Date = $Asset->{CDate}->{data}->{date};
     }
-
+    elsif($i+1<scalar(@AssetIds)) { # Todays date is often on the next (facing) page
+	my $A2 = asset_read( $AssetIds[$i+1], $db );
+	if ( defined( $A2->{CDate}->{data}->{date} )
+	    && $A2->{CDate}->{data}->{date} =~ /\w/ )
+	{
+	    $Date = $A2->{CDate}->{data}->{date};
+	}
+    }
+	
     for ( my $Hour = 1 ; $Hour <= 24 ; $Hour++ ) {
 	if ( defined($Date) ) {
 	    printf "%12s\t", $Date;

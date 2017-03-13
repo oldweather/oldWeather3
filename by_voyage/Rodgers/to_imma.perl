@@ -5,6 +5,7 @@
 
 use strict;
 use warnings;
+use lib '/Users/philip/Projects/IMMA/Perl';
 use MarineOb::IMMA;
 use MarineOb::lmrlib
   qw(rxltut ixdtnd rxnddt fxeimb fxmmmb fwbpgv fxtftc ix32dd ixdcdd fxbfms
@@ -27,6 +28,7 @@ while(my $Line = <DIN>) {
 }
 close(DIN);
 
+my %check_dup;
 my @Imma;
 open(DIN,"<obs.out") or die;
 while(my $Line = <DIN>) {
@@ -40,17 +42,25 @@ while(my $Line = <DIN>) {
     $Ob->clear();    # Why is this necessary?
     push @{ $Ob->{attachments} }, 0;
     $Ob->{ID}=$Name;
-    $Ob->{YR} = substr($Fields[0],0,4);
+    $Ob->{YR} = substr($Fields[0],8,4);
     if($Ob->{YR}==1882) { $Ob->{YR}=1881; } # QC
     $Ob->{MO} = substr($Fields[0],5,2);
-    $Ob->{DY} = substr($Fields[0],8,2);
+    $Ob->{DY} = substr($Fields[0],2,2);
     $Ob->{HR} = $Fields[1];
+    my $Pfh=sprintf "%04d-%02d-%02d:%02d",$Ob->{YR},$Ob->{MO},$Ob->{DY},$Ob->{HR};
+    if(defined($check_dup{$Pfh}) && $Ob->{DY}<29) { # Repeated day in log - shift to next day
+        $Ob->{DY}=$Ob->{DY}+1;
+	$Pfh=sprintf "%04d-%02d-%02d:%02d",$Ob->{YR},$Ob->{MO},$Ob->{DY},$Ob->{HR};
+	warn($Pfh);
+    }
+    $check_dup{$Pfh}=1;
     if($Ob->{HR}==24) { $Ob->{HR}=23.99; }
     # Still in local time - don't yet have longitude
-    if(defined($Positions{$Fields[0]}) && $Ob->{HR}==12) {
-      $Ob->{LAT} = $Positions{$Fields[0]}[0];
-      $Ob->{LON} = $Positions{$Fields[0]}[1];
-      delete($Positions{$Fields[0]});
+    my $Pf=sprintf "%04d-%02d-%02d",$Ob->{YR},$Ob->{MO},$Ob->{DY};
+    if(defined($Positions{$Pf}) && $Ob->{HR}==12) {
+      $Ob->{LAT} = $Positions{$Pf}[0];
+      $Ob->{LON} = $Positions{$Pf}[1];
+      delete($Positions{$Pf});
     }
     if($Fields[2] ne 'NA') {
        $Ob->{AT} = fxtftc($Fields[2]);
@@ -119,6 +129,10 @@ for(my $i=0;$i<scalar(@Imma);$i++) {
 
 # Done - output the new obs
 for(my $i=0;$i<scalar(@Imma);$i++) {
+    # skip the data for bad dates
+    if($Imma[$i]->{MO}==10 && $Imma[$i]->{DY}==8) { next; }
+    if($Imma[$i]->{MO}==10 && $Imma[$i]->{DY}==7) { next; }
+    if($Imma[$i]->{MO}==7  && $Imma[$i]->{DY}==22) { next; }
     $Imma[$i]->write(\*STDOUT);
 }
 
