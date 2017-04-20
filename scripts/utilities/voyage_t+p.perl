@@ -66,6 +66,7 @@ else {    # only one id - for debugging
 }
 
 my $Date;
+my $DateOS; # Old-style data - for comparison with last time
 #foreach my $AssetId (@AssetIds) {
 for(my $i=0;$i<scalar(@AssetIds);$i++) {
     my $AssetId = $AssetIds[$i];
@@ -75,6 +76,7 @@ for(my $i=0;$i<scalar(@AssetIds);$i++) {
         && $Asset->{CDate}->{data}->{date} =~ /\w/ )
     {
         $Date = $Asset->{CDate}->{data}->{date};
+	$DateOS = $Asset->{CDate}->{data}->{date};
     }
     elsif($i+1<scalar(@AssetIds)) { # Todays date is often on the next (facing) page
 	my $A2 = asset_read( $AssetIds[$i+1], $db );
@@ -86,6 +88,10 @@ for(my $i=0;$i<scalar(@AssetIds);$i++) {
     }
 	
     for ( my $Hour = 1 ; $Hour <= 24 ; $Hour++ ) {
+	if ( defined($DateOS) ) {
+	    printf "%12s\t", $DateOS;
+	}
+	else { print "          NA\t"; }
 	if ( defined($Date) ) {
 	    printf "%12s\t", $Date;
 	}

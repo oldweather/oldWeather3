@@ -66,19 +66,35 @@ else {    # only one id - for debugging
 }
 
 my $Date;
-foreach my $AssetId (@AssetIds) {
+my $DateOS; # Old-style data - for comparison with last time
+#foreach my $AssetId (@AssetIds) {
+for(my $i=0;$i<scalar(@AssetIds);$i++) {
+    my $AssetId = $AssetIds[$i];
 
     my $Asset = asset_read( $AssetId, $db );
-    if ( defined( $Asset->{CDate}->{data}->{date} ) && $Asset->{CDate}->{data}->{date} =~ /\w/ )
+    if ( defined( $Asset->{CDate}->{data}->{date} )
+        && $Asset->{CDate}->{data}->{date} =~ /\w/ )
     {
         $Date = $Asset->{CDate}->{data}->{date};
+	$DateOS = $Asset->{CDate}->{data}->{date};
+    }
+    elsif($i+1<scalar(@AssetIds)) { # Todays date is often on the next (facing) page
+	my $A2 = asset_read( $AssetIds[$i+1], $db );
+	if ( defined( $A2->{CDate}->{data}->{date} )
+	    && $A2->{CDate}->{data}->{date} =~ /\w/ )
+	{
+	    $Date = $A2->{CDate}->{data}->{date};
+	}
     }
 
-    if ( defined($Date) ) {
-        printf "%12s\t", $Date;
+    if ( defined($DateOS) ) {
+	printf "%12s\t", $DateOS;
     }
     else { print "          NA\t"; }
-
+    if ( defined($Date) ) {
+	printf "%12s\t", $Date;
+    }
+    else { print "          NA\t"; }
     foreach my $Var (qw(latitude longitude portlat portlon)) {
         if ( defined( $Asset->{CPosition}->{data}->{$Var} ) ) {
             printf "%10s\t", $Asset->{CPosition}->{data}->{$Var};
