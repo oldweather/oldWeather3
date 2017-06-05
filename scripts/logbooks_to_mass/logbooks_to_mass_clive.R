@@ -1,7 +1,7 @@
 # Transfer logbook images from Clive's disc to MO MASS system
 
-ArchiveDir <- 'moose:/adhoc/users/philip.brohan/logbook_images/Clive_National_Meteorological_Archive/Batch_4_2016_11_NMA'
-SourceDir <- '/data/local/hadpb/logbook_images/Clive_National_Meteorological_Archive/Batch_4_2016_11_NMA'
+ArchiveDir <- 'moose:/adhoc/users/philip.brohan/logbook_images/Mariella'
+SourceDir <- '/scratch/hadpb/logbook_images/Mariella'
 
 process.dir<-function(dir.name) {
   #cat(dir.name,"\n")
@@ -12,6 +12,7 @@ process.dir<-function(dir.name) {
   moose.dir<-gsub("\\[","",moose.dir) # No brackets in mass
   moose.dir<-gsub("\\]","",moose.dir)
   moose.dir<-gsub("\\&","+",moose.dir)
+  moose.dir<-gsub("\\'","_",moose.dir) # No apostrophies
   moose.dir<-gsub("\\*","_s",moose.dir)
   moose.dir<-gsub("\\?","_q",moose.dir)
   cat("moo mkdir ",moose.dir,"\n")
