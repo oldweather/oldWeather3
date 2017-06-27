@@ -48,6 +48,15 @@ unless ( -d $Dir ) {
     system("mkdir -p $Dir");
 }
 
+# Keep " for csv format - replace them in strings with '
+# Also get rid of any internal newlines
+sub unquote {
+    my $qstr=shift;
+    $qstr =~ s/\"/\'/g;
+    $qstr =~ s/\n/ /g;
+    return($qstr)
+}
+
 #Default hemisphere flags
 my $nS = 1;    # North
 my $eW = 1;    # East
@@ -89,7 +98,7 @@ foreach my $AssetId (@AssetIds) {
     print "\"$Asset->{location}\",";
 
     if ( defined( $Asset->{CDate}->{data}->{date} ) ) {
-        printf "\"%s\",",$Asset->{CDate}->{data}->{date};
+        printf "\"%s\",",unquote($Asset->{CDate}->{data}->{date});
     } else {
 	print ",";
     }
@@ -186,37 +195,36 @@ foreach my $AssetId (@AssetIds) {
         if ( defined( $Asset->{CPosition}->{data}->{port} )
             && length( $Asset->{CPosition}->{data}->{port} ) > 2 )
         {
-            printf "%s ", $Asset->{CPosition}->{data}->{port};
+            printf "%s ", unquote($Asset->{CPosition}->{data}->{port});
         }
     }
     print ",";
     print "\"";
     foreach my $Transcription ( @{ $Asset->{transcriptions} } ) {
-        print "\"";
-        foreach my $Annotation ( @{ $Transcription->{annotations} } ) {
+         foreach my $Annotation ( @{ $Transcription->{annotations} } ) {
             if ( defined( $Annotation->{data}->{undefined} ) ) {
-                printf "%s: %s\n",  $Annotation->{_id},
-                  $Annotation->{data}->{undefined};
+                printf "%s | ",
+                  unquote($Annotation->{data}->{undefined});
             }
             if ( defined( $Annotation->{data}->{mention_type} ) ) {
-                printf "%s: %s - %s\n", $Annotation->{_id},
-                  $Annotation->{data}->{mention_name},
-                  $Annotation->{data}->{mention_context};
+                printf "%s - %s | ",
+                  unquote($Annotation->{data}->{mention_name}),
+                  unquote($Annotation->{data}->{mention_context});
             }
             if ( defined( $Annotation->{data}->{fuel_type} ) ) {
-                printf "%s: %s: %s - %s\n", $Annotation->{_id},
-                  $Annotation->{data}->{fuel_type},
-                  $Annotation->{data}->{fuel_ammount},
-                  $Annotation->{data}->{fuel_additional_info};
+                printf "%s: %s - %s | ",
+                  unquote($Annotation->{data}->{fuel_type}),
+                  unquote($Annotation->{data}->{fuel_ammount}),
+                  unquote($Annotation->{data}->{fuel_additional_info});
             }
             if ( defined( $Annotation->{data}->{animal_type} ) ) {
-                printf "%s: %s - %s\n", $Annotation->{_id},
-                  $Annotation->{data}->{animal_type},
-                  $Annotation->{data}->{animal_amount};
+                printf "%s - %s | ",
+                  unquote($Annotation->{data}->{animal_type}),
+                  unquote($Annotation->{data}->{animal_amount});
             }
             if ( defined( $Annotation->{data}->{event} ) ) {
-                printf "%s: %s\n",  $Annotation->{_id},
-                  $Annotation->{data}->{event};
+                printf "%s | ",
+                  unquote($Annotation->{data}->{event});
             }
 
         }
