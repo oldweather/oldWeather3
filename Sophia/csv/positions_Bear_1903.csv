@@ -16,8 +16,8 @@
   08/01/1903,,,48.1,-122.8,       port townsend wash,            port townsend,,,
   09/01/1903,,,,,,,,,
   09/01/1903,,,48.1,-122.8,       port townsend wash,            port townsend,,,
-  10/01/1903,,,36.1,-5.3,           georgia strait,                      gib,strait of georgia,49 17 39N,2018-01-02T01:23:00
-  10/01/1903,,,55,-1.5,             baynes sound,                     tyne,baynes sound,49 32 0N,2017-07-04T01:24:00
+  10/01/1903,,,36.1,-5.3,           georgia strait,                      gib,strait of georgia,49 17 39N,123 48 26W
+  10/01/1903,,,55,-1.5,             baynes sound,                     tyne,baynes sound,49 32 0N,124 50 0W
   11/01/1903,,,,,,,,,
   11/01/1903,,,43.1,16.7,           union wharf bc,                     hvar,baynes sound,,
   12/01/1903,,,,,,,,,
@@ -27,11 +27,11 @@
   14/01/1903,,,,,,,,,
   14/01/1903,,,,,,,,,
   15/01/1903,,,,,,,,,
-  15/01/1903,,,69.1,-135.8,             union bay bc,             ellis island,union bay seattle,47 39N,2017-10-31T01:22:00
+  15/01/1903,,,69.1,-135.8,             union bay bc,             ellis island,union bay seattle,47 39N,122 17W
   16/01/1903,,,,,,,,,
-  16/01/1903,,,37.1,25.1,              haro strait,             paros strait,haro strait,48 33N,2017-10-03T01:23:00
+  16/01/1903,,,37.1,25.1,              haro strait,             paros strait,haro strait,48 33N,123 13W
   17/01/1903,,,,,,,,,
-  17/01/1903,,,56.2,117.2,            neah bay wash,                    mashi,neah bay washington,48 21 56N,2018-07-31T01:24:00
+  17/01/1903,,,56.2,117.2,            neah bay wash,                    mashi,neah bay washington,48 21 56N,124 36 56W
   18/01/1903,,,,,,,,,
   18/01/1903,,,22.2,113.9,            neah bay wash,                     taio,neah bay washington,,
   19/01/1903,,,,,,,,,
@@ -51,7 +51,7 @@
   26/01/1903,,,,,,,,,
   26/01/1903,,,37.8,-122.4,        san francisco cal,        san francisco bay,,,
   27/01/1903,,,,,,,,,
-  27/01/1903,,,-8.7,115.2,                 sf calif,                     bali,san francisco bay,37 42 30N,2018-06-12T01:22:00
+  27/01/1903,,,-8.7,115.2,                 sf calif,                     bali,san francisco bay,37 42 30N,122 16 49W
   28/01/1903,,,,,,,,,
   28/01/1903,,,37.8,-122.4,            san francisco,            san francisco,,,
   29/01/1903,,,,,,,,,
@@ -71,7 +71,7 @@
   31/01/1903,,,,,,,,,
   31/01/1903,,,37.8,-122.3,            sausalito cal,                sausalito,,,
   01/06/1903,,,,,,,,,
-  01/06/1903,,,56.2,-3,poitn reyes nwxw 14 w 9 miles,                    forth,point reyes,37.99677N,2019-11-12T00:00:00
+  01/06/1903,,,56.2,-3,poitn reyes nwxw 14 w 9 miles,                    forth,point reyes,37.99677N,123.01984W
   02/06/1903,,,,,,,,,
   02/06/1903,   39 12 N,  124 03 W,56.2,-3,      north pacific ocean,                    forth,north pacific,,
   03/06/1903,,,,,,,,,
@@ -83,7 +83,7 @@
   06/06/1903,,,,,,,,,
   06/06/1903,   45 49 N,  124 34 W,56.2,-3,      north pacific ocean,                    forth,north pacific,,
   07/06/1903,,,,,,,,,
-  07/06/1903,,,51.8,-176.6,    waddah island 3 miles,              adak island,waadah island,48 22 55N,2018-06-26T01:24:00
+  07/06/1903,,,51.8,-176.6,    waddah island 3 miles,              adak island,waadah island,48 22 55N,124 35 51W
   08/06/1903,,,,,,,,,
   08/06/1903,,,48.1,-122.8,       port townsend wash,            port townsend,,,
   09/06/1903,,,,,,,,,
@@ -109,7 +109,7 @@
   19/06/1903,,,,,,,,,
   19/06/1903,,,55,-1.5,union bay baynes sound bc,                     tyne,baynes sound,,
   20/06/1903,,,,,,,,,
-  20/06/1903,,,55.6,-132.2,          plumper cove bc,              ship island,keats island bc,49 24N,2018-01-09T01:23:00
+  20/06/1903,,,55.6,-132.2,          plumper cove bc,              ship island,keats island bc,49 24N,123 27W
   21/06/1903,,,,,,,,,
   21/06/1903,   51 00 N,  128 24 W,50.6,-126.9,             alert bay bc,                alert bay,,,
   22/06/1903,,,,,,,,,
@@ -123,7 +123,7 @@
   26/06/1903,,,,,,,,,
   26/06/1903,,,57,-135.4,             sitka alaska,                    sitka,,,
   27/06/1903,,,,,,,,,
-  27/06/1903,   58 49 N,  138 52 W,56.2,-3,at sea north pacific ocean,                    forth,gulf of alaska,57N,2020-04-07T00:00:00
+  27/06/1903,   58 49 N,  138 52 W,56.2,-3,at sea north pacific ocean,                    forth,gulf of alaska,57N,144W
   28/06/1903,,,,,,,,,
   28/06/1903,   59 17 N,  141 22 W,54.2,-165.7,       yakutat bay alaska,               akutan bay,gulf of alaska,,
   29/06/1903,,,,,,,,,
@@ -139,11 +139,11 @@
   03/07/1903,,,,,,,,,
   03/07/1903,   55 32 N,  159 00 W,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
   04/07/1903,,,,,,,,,
-  04/07/1903,,,57.4,-152.3,coal harbor unga island alaska,              ugak island,unga island,55 15 38N,2018-04-24T00:00:00
+  04/07/1903,,,57.4,-152.3,coal harbor unga island alaska,              ugak island,unga island,55 15 38N,160 41 42W
   05/07/1903,,,,,,,,,
   05/07/1903,,,32.2,119.3,coal harbor unga island alaska,              deer island,unga island,,
   06/07/1903,,,,,,,,,
-  06/07/1903,,,54.6,-130.7,   brud island sw 5 miles,             green island,krenitzin islands,54 10N,2018-03-06T00:00:00
+  06/07/1903,,,54.6,-130.7,   brud island sw 5 miles,             green island,krenitzin islands,54 10N,165 35W
   07/07/1903,,,53.9,-166.5,             dutch harbor,             dutch harbor,,,
   07/07/1903,,,53.9,-166.5,      dutch harbor alaska,             dutch harbor,,,
   08/07/1903,,,,,,,,,
@@ -155,7 +155,7 @@
   11/07/1903,,,,,,,,,
   11/07/1903,   54 37 N,  172 40 W,55,166.3,               bering sea,                  behring,,,
   12/07/1903,,,,,,,,,
-  12/07/1903,   52 29 N,  172 55 W,35.7,-0.6,    atha harbor nazan bay,                     oran,seguam island,52 19 24N,2018-08-14T00:00:00
+  12/07/1903,   52 29 N,  172 55 W,35.7,-0.6,    atha harbor nazan bay,                     oran,seguam island,52 19 24N,172 27 58W
   13/07/1903,,,,,,,,,
   13/07/1903,   53 12 N,  169 43 W,55,166.3,        at sea bering sea,                  behring,,,
   14/07/1903,,,,,,,,,
@@ -190,7 +190,7 @@
   28/07/1903,   56 44 N,  167 32 W,55,166.3,        at sea bering sea,                  behring,,,
   29/07/1903,,,,,,,,,
   29/07/1903,   55 43 N,  163 40 W,55,166.3,        at sea bering sea,                  behring,,,
-  30/07/1903,,,12.8,45,            mt shishalden,                     aden,unimak island,54 46 06N,2017-09-26T00:00:00
+  30/07/1903,,,12.8,45,            mt shishalden,                     aden,unimak island,54 46 06N,164 11 12W
   30/07/1903,   54 26 N,  165 37 W,55,166.3,        at sea bering sea,                  behring,,,
   31/07/1903,,,,,,,,,
   31/07/1903,   54 26 N,  165 37 W,,,,,,,
@@ -265,7 +265,7 @@
   02/09/1903,,,,,,,,,
   02/09/1903,,,,, urilia bay unimak island,,,,
   03/09/1903,,,,,,,,,
-  03/09/1903,,,35.7,-0.6,cape morgan abeam 8 miles,                     oran,unalga island,53 58 35N,2018-04-03T00:00:00
+  03/09/1903,,,35.7,-0.6,cape morgan abeam 8 miles,                     oran,unalga island,53 58 35N,166 08 39W
   04/09/1903,,,,,,,,,
   04/09/1903,,,53.9,-166.5,      dutch harbor alaska,             dutch harbor,,,
   05/09/1903,,,,,,,,,
@@ -409,9 +409,9 @@
   11/11/1903,,,,,,,,,
   11/11/1903,   49 25 N,  128 44 W,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
   12/11/1903,,,,,,,,,
-  12/11/1903,,,56.2,-1.5,   ship pt s 12 w 8 miles,                    forth,juan de fuca strait,48 12 00N,2017-12-05T01:23:00
+  12/11/1903,,,56.2,-1.5,   ship pt s 12 w 8 miles,                    forth,juan de fuca strait,48 12 00N,123 34 22W
   13/11/1903,,,,,,,,,
-  13/11/1903,,,-4.6,55.5, outer harbor victoria bc,            port victoria,victoria bc,48.422151N,2019-11-14T00:00:00
+  13/11/1903,,,-4.6,55.5, outer harbor victoria bc,            port victoria,victoria bc,48.422151N,123.3657W
   14/11/1903,,,,,,,,,
   14/11/1903,,,48.1,-122.8, port townsend washington,            port townsend,,,
   15/11/1903,,,47.6,-122.3,             west seattle,                  seattle,,,
@@ -436,7 +436,7 @@
   24/11/1903,,,48.1,-122.8, port townsend washington,            port townsend,,,
   25/11/1903,,,48.1,-122.8,       port townsend wash,            port townsend,,,
   25/11/1903,,,48.1,-122.8, port townsend washington,            port townsend,,,
-  26/11/1903,,,22.4,114.2,           seattle harbor,              tolo harbor,seattle,47 36 35N,2018-08-21T01:22:00
+  26/11/1903,,,22.4,114.2,           seattle harbor,              tolo harbor,seattle,47 36 35N,122 19 59W
   26/11/1903,,,47.6,-122.3,       seattle washington,                  seattle,,,
   27/11/1903,,,,,,,,,
   27/11/1903,,,47.6,-122.3,       seattle washington,                  seattle,,,
@@ -491,12 +491,12 @@
   10/12/1903,,,,,,,,,
   10/12/1903,   35 19 N,  121 30 W,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
   11/12/1903,,,,,,,,,
-  11/12/1903,,,43.7,7.2,point conception exs 3 miles,                     nice,santa barbara channel,34 14 31N,2017-12-19T01:19:00
+  11/12/1903,,,43.7,7.2,point conception exs 3 miles,                     nice,santa barbara channel,34 14 31N,119 53 24W
   12/12/1903,,,30.5,47.9,    santa barbara channel,                    basra,santa barbara channel,,
   12/12/1903,,,30.5,47.9,        santa barbara cal,                    basra,santa barbara channel,,
   13/12/1903,,,,,,,,,
   13/12/1903,,,30.5,47.9,        santa barbara cal,                    basra,santa barbara channel,,
-  14/12/1903,,,35.9,-5.3,avalon santa catalina id cal,                   almina,avalon california,33 20 27N,2018-04-10T01:18:00
+  14/12/1903,,,35.9,-5.3,avalon santa catalina id cal,                   almina,avalon california,33 20 27N,118 19 40W
   14/12/1903,,,12.8,45, avalon santa catalina id,                   almina,avalon california,,
   15/12/1903,,,,,,,,,
   15/12/1903,,,32.7,-117.2,            san diego cal,            san diego usa,,,

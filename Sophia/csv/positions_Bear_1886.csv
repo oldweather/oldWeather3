@@ -89,19 +89,19 @@
   13/06/1886,   63 53 N,  174 36 W,,,,,,,
   13/06/1886,,,55,166.3,              behring sea,                  behring,,,
   14/06/1886,,  172 18 W,,,,,,,
-  14/06/1886,,,55,-1.1,              behring sea,                    chapa,cape chaplino,64.4048N,0004-04-20
+  14/06/1886,,,55,-1.1,              behring sea,                    chapa,cape chaplino,64.4048N,172.227516W
   15/06/1886,,,,,,,,,
   15/06/1886,,,64.4,-172.2,          at cape chaplin,             cape chaplin,,,
   16/06/1886,   64 36 N,  171 47 W,,,,,,,
   16/06/1886,,,64.4,-172.2,         off cape chaplin,             cape chaplin,,,
   17/06/1886,,,,,,,,,
-  17/06/1886,,,69.8,176.2,          behring straits,              long strait,bering strait,66 0N,0001-01-01
+  17/06/1886,,,69.8,176.2,          behring straits,              long strait,bering strait,66 0N,169 0W
   18/06/1886,   66 03 N,  169 44 W,,,,,,,
-  18/06/1886,,,63.1,-168.9,        east cape siberia,                east cape,cape dezhnev,66 4 45N,0001-02-19
+  18/06/1886,,,63.1,-168.9,        east cape siberia,                east cape,cape dezhnev,66 4 45N,169 39 7W
   19/06/1886,   64 50 N,  167 14 W,,,,,,,
-  19/06/1886,,,53.4,-3,off cape prince of whales,                   whalen,cape prince of wales,65 38 24N,0001-03-26
+  19/06/1886,,,53.4,-3,off cape prince of whales,                   whalen,cape prince of wales,65 38 24N,168 7 12W
   20/06/1886,,,63.5,-162, st michael bearing south,               st michael,,,
-  20/06/1886,,,55,166.3,              behring sea,                  behring,norton sound,63 50 57N,0001-02-26
+  20/06/1886,,,55,166.3,              behring sea,                  behring,norton sound,63 50 57N,164 16 08W
   21/06/1886,   64 04 N,  164 52 W,,,,,,,
   21/06/1886,,,,,             norton sound,,,,
   22/06/1886,   63 03 N,  168 53 W,,,             pinnook rock,,,,
@@ -111,7 +111,7 @@
   24/06/1886,   59 57 N,  166 42 W,,,,,,,
   24/06/1886,,,55,166.3,              behring sea,                  behring,,,
   25/06/1886,   59 56 N,  165 47 W,,,,,,,
-  25/06/1886,,,63.1,-168.9,   east cape nunivak isld,                east cape,nunivak island,60 05 42N,0001-10-08
+  25/06/1886,,,63.1,-168.9,   east cape nunivak isld,                east cape,nunivak island,60 05 42N,166 12 40W
   26/06/1886,   60 04 N,  168 39 W,,,,,,,
   26/06/1886,,,55,166.3,              behring sea,                  behring,,,
   27/06/1886,   60 10 N,  173 11 W,,,,,,,
@@ -121,7 +121,7 @@
   29/06/1886,,,,,,,,,
   29/06/1886,,,55,166.3,              behring sea,                  behring,,,
   30/06/1886,,,,,,,,,
-  30/06/1886,,,,,               halls isld,,hall island,60 39 50N,0001-11-19
+  30/06/1886,,,,,               halls isld,,hall island,60 39 50N,173 05 46W
   01/07/1886,   61 00 N,  172 24 W,,,,,,,
   01/07/1886,,,,,               halls isld,,,,
   02/07/1886,   63 47 N,  171 36 W,,,,,,,
@@ -135,7 +135,7 @@
   06/07/1886,,,,,,,,,
   06/07/1886,,,63.5,-162,              st michaels,               st michael,,,
   07/07/1886,     64 00,,,,        cape derby wnw 25,,norton sound,,
-  07/07/1886,,,22.4,114.2,             golovnin bay,                     tolo,golovnin bay,64.41556N,0004-02-15
+  07/07/1886,,,22.4,114.2,             golovnin bay,                     tolo,golovnin bay,64.41556N,162.95917W
   08/07/1886,   64 19 N,  163 25 W,,,,,,,
   08/07/1886,,,22.4,114.2,             golovnin bay,                     tolo,golovnin bay,,
   09/07/1886,   64 11 N,  164 42 W,,,,,,,
@@ -157,11 +157,11 @@
   17/07/1886,,,65.2,-166.7,     port clarence alaska,           port clearance,,,
   17/07/1886,,,65.2,-166.7,            port clarence,           port clearance,,,
   18/07/1886,   66 46 N,  166 02 W,,,,,,,
-  18/07/1886,,,69.8,176.2,          behring straits,              long strait,sarichef island,66 14 41N,0001-06-25
+  18/07/1886,,,69.8,176.2,          behring straits,              long strait,sarichef island,66 14 41N,166 06 25W
   19/07/1886,   66 56 N,  162 55 W,,,,,,,
   19/07/1886,,,66.5,-162.8,           kotzebue sound,           kotzebue sound,,,
   20/07/1886,,,,,,,,,
-  20/07/1886,,,22.5,69.1,         off hotham inlet,                     okha,hotham inlet,66 49 11N,0002-01-14
+  20/07/1886,,,22.5,69.1,         off hotham inlet,                     okha,hotham inlet,66 49 11N,161 57 54W
   21/07/1886,,  162 38 W,,,,,,,
   21/07/1886,,,66.5,-162.8,           kotzebue sound,           kotzebue sound,,,
   22/07/1886,,,66.5,-162.8,           kotzebue sound,           kotzebue sound,,,
@@ -179,11 +179,11 @@
   28/07/1886,,,68.3,-166.8,               point hope,               point hope,,,
   28/07/1886,,,68.9,-165.1,        off the coal vein,                coal vein,,,
   29/07/1886,,,68.9,-165.1,        off the coal vein,                coal vein,,,
-  29/07/1886,,,68.9,178,     coal vein c lisburne,                coal vein,cape lisburne,68 52 52N,0001-09-10
+  29/07/1886,,,68.9,178,     coal vein c lisburne,                coal vein,cape lisburne,68 52 52N,166 12 36W
   30/07/1886,   68 22 N,  163 24 W,,,,,,,
   30/07/1886,,,68.9,178,     coal vein c lisburne,                coal vein,cape lisburne,,
   31/07/1886,   70 05 N,  162 18 W,,,,,,,
-  31/07/1886,,,55,-1.5,  off pt lay arctic ocean,                      tic,point lay,69 44 28N,0001-08-06
+  31/07/1886,,,55,-1.5,  off pt lay arctic ocean,                      tic,point lay,69 44 28N,163 0 31W
   01/08/1886,   70 03 N,,,,,,,,
   01/08/1886,,,70.3,-161.9,   at anchor ice cape n22,                 icy cape,,,
   02/08/1886,,,,,,,,,
@@ -205,7 +205,7 @@
   10/08/1886,   70 17 N,  162 28 W,,,,,,,
   10/08/1886,,,70.3,-161.9,   at anchor icy cape n22,                 icy cape,,,
   11/08/1886,   70 52 N,  160 56 W,,,,,,,
-  11/08/1886,,,55,-1.5,      at sea arctic ocean,                      tic,icy cape,70 19 47N,0001-07-09
+  11/08/1886,,,55,-1.5,      at sea arctic ocean,                      tic,icy cape,70 19 47N,161 52 27W
   12/08/1886,   70 44 N,  160 11 W,,,,,,,
   12/08/1886,,,70.6,-160,         wainwright inlet,         wainwright inlet,,,
   13/08/1886,   71 03 N,  158 40 W,,,,,,,
@@ -227,16 +227,16 @@
   21/08/1886,,,,,,,,,
   21/08/1886,,,68.9,145.9,station cape lisburne arctic ocean,            cape lisburne,cape lisburne,,
   22/08/1886,,,,,,,,,
-  22/08/1886,,,55,-1.5,     pt hope arctic ocean,                      tic,point hope,68 20 49N,0001-11-26
+  22/08/1886,,,55,-1.5,     pt hope arctic ocean,                      tic,point hope,68 20 49N,166 45 47W
   23/08/1886,,,,,,,,,
-  23/08/1886,,,55,-1.5,                c blossom,                      tic,cape blossom,66 44 03N,0001-10-22
+  23/08/1886,,,55,-1.5,                c blossom,                      tic,cape blossom,66 44 03N,162 29 42W
   24/08/1886,   66 41 N,  162 36 W,,,,,,,
   24/08/1886,,,66.5,-162.8,off cape blossom kotzibue sound alaska,           kotzebue sound,,,
   25/08/1886,,,,,,,,,
   25/08/1886,,,59.9,10.8,             cape blossom,                     oslo,cape blossom,,
   26/08/1886,   66 40 N,  163 58 W,,,,,,,
   26/08/1886,,,66.5,-162.8,           kotzebue sound,           kotzebue sound,,,
-  27/08/1886,,,73.8,-87,            cape york n 3,                cape york,port clarence,65 15 58N,0001-03-12
+  27/08/1886,,,73.8,-87,            cape york n 3,                cape york,port clarence,65 15 58N,166 51 10W
   27/08/1886,,,,,,,,,
   28/08/1886,   63 57 N,  163 25 W,,,,,,,
   28/08/1886,,,55,166.3,              behring sea,                  behring,norton sound,,
@@ -258,7 +258,7 @@
   05/09/1886,,,,,                   at sea,,,,
   06/09/1886,,    173 17,64.4,-173.3,       plover bay siberia,               plover bay,,,
   06/08/1886,,,,,,,,,
-  07/09/1886,,,43.7,7.2,       st lawrence island,                     nice,st lawrence island,63 24N,0001-03-12
+  07/09/1886,,,43.7,7.2,       st lawrence island,                     nice,st lawrence island,63 24N,170 10W
   07/09/1886,,,64.4,-173.3,               plover bay,               plover bay,,,
   08/09/1886,   61 07 N,  171 35 W,,,,,,,
   08/09/1886,,,,,,,,,

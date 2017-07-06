@@ -39,11 +39,11 @@
   20/04/1896,,,,,,,,,
   20/04/1896,     47 55,    125 05,55,-1.5,     at sea pacific ocean,                      tic,north pacific,,
   21/04/1896,,,,,,,,,
-  21/04/1896,,,22.6,59.5,   strait of juan de fuca,                      sur,strait of juan de fuca,48 12 00N,2017-12-05T01:23:00
+  21/04/1896,,,22.6,59.5,   strait of juan de fuca,                      sur,strait of juan de fuca,48 12 00N,123 34 22W
   22/04/1896,,,,,,,,,
   22/04/1896,,,48.1,-122.8,       port townsend wash,            port townsend,,,
   23/04/1896,,,,,,,,,
-  23/04/1896,,,43.1,16.7,at wharf new whatcom washington,                     hvar,bellingham,48.750178N,2019-11-08T00:00:00
+  23/04/1896,,,43.1,16.7,at wharf new whatcom washington,                     hvar,bellingham,48.750178N,122.474975W
   24/04/1896,,,,,,,,,
   24/04/1896,,,55,-1.5,         new whatcom wash,                      tic,bellingham,,
   25/04/1896,,,,,,,,,
@@ -88,7 +88,7 @@
   14/05/1896,     52 07,    134 36,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
   15/05/1896,,,,,,,,,
   15/05/1896,     52 57,    133 24,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
-  16/05/1896,,,66.2,-169.8,     queen charlotte isld,                    uelen,graham island,53 40N,2018-01-30T01:32:00
+  16/05/1896,,,66.2,-169.8,     queen charlotte isld,                    uelen,graham island,53 40N,132 30W
   16/05/1896,     54 03,    133 59,56.2,-3,at sea north pacific ocean,                    forth,graham island,,
   17/05/1896,,,,,,,,,
   17/05/1896,     55 01,    136 18,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
@@ -109,7 +109,7 @@
   25/05/1896,,,,,,,,,
   25/05/1896,,,57,-135.4,             sitka alaska,                    sitka,,,
   26/05/1896,,,,,,,,,
-  26/05/1896,     58 16,    138 35,56.2,-3,at sea north pacific ocean,                    forth,gulf of alaska,57N,2020-04-07T00:00:00
+  26/05/1896,     58 16,    138 35,56.2,-3,at sea north pacific ocean,                    forth,gulf of alaska,57N,144W
   27/05/1896,,,,,,,,,
   27/05/1896,     59 17,    143 03,56.2,-3,at sea north pacific ocean,                    forth,gulf of alaska,,
   28/05/1896,,,,,,,,,
@@ -123,12 +123,12 @@
   01/06/1896,,,,,,,,,
   01/06/1896,     54 37,    158 53,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
   02/06/1896,,,,,,,,,
-  02/06/1896,,,22.4,114.3,     baraloff harbor unga,              long harbor,unga alaska,55 11 03N,2017-11-07T00:00:00
+  02/06/1896,,,22.4,114.3,     baraloff harbor unga,              long harbor,unga alaska,55 11 03N,160 30 18W
   03/06/1896,,,51.2,1.4,     delaroff harbor unga,                     deal,unga alaska,,
   03/06/1896,   55 22 N,  160 08 W,43.1,16.7,     selaroff harbor unga,                     deal,unga alaska,,
-  04/06/1896,,,43.7,7.2,    rock off andronica id,                     nice,andronica island,55 19 28N,2018-07-17T00:00:00
+  04/06/1896,,,43.7,7.2,    rock off andronica id,                     nice,andronica island,55 19 28N,160 03 54W
   04/06/1896,   55 44 N,  156 34 W,56.2,-3,                156 43 20,                    forth,north pacific,,
-  05/06/1896,,,,,              cherekof id,,chirikof island,55 49 30N,2017-11-14T01:55:00
+  05/06/1896,,,,,              cherekof id,,chirikof island,55 49 30N,155 37 19W
   05/06/1896,     56 09,    155 21,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
   06/06/1896,,,,,,,,,
   06/06/1896,,,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
@@ -157,7 +157,7 @@
   17/06/1896,,,,,,,,,
   17/06/1896,,,51.2,1.4,delaroff harbor unga alaska,                     deal,unga alaska,,
   18/06/1896,,,,,,,,,
-  18/06/1896,     54 21,    164 28,56.2,-1.5,at sea north pacific ocean,                    forth,unimak pass,54 20 01N,2017-10-10T00:00:00
+  18/06/1896,     54 21,    164 28,56.2,-1.5,at sea north pacific ocean,                    forth,unimak pass,54 20 01N,164 55 14W
   19/06/1896,,,,,,,,,
   19/06/1896,,,53.9,-166.5,      dutch harbor alaska,             dutch harbor,,,
   20/06/1896,,,,,,,,,
@@ -189,9 +189,9 @@
   03/07/1896,,,,,,,,,
   03/07/1896,     62 15,    171 28,55,166.3,        at sea bering sea,                  behring,,,
   04/07/1896,,,,,,,,,
-  04/07/1896,,,43.7,7.2,nw cape st lawrence island leaving nexn34n distant 4 miles,                     nice,st lawrence island,63 24N,2017-09-12T00:00:00
+  04/07/1896,,,43.7,7.2,nw cape st lawrence island leaving nexn34n distant 4 miles,                     nice,st lawrence island,63 24N,170 10W
   05/07/1896,,,,,,,,,
-  05/07/1896,,,64.4,-172.2,at anchor off indian point siberia,             indian point,cape chaplino,64.4048N,2020-10-21T00:00:00
+  05/07/1896,,,64.4,-172.2,at anchor off indian point siberia,             indian point,cape chaplino,64.4048N,172.227516W
   06/07/1896,,,,,,,,,
   06/07/1896,     65 23,    169 05,55,166.3,        at sea bering sea,                  behring,,,
   07/07/1896,,,,,,,,,
@@ -203,7 +203,7 @@
   10/07/1896,,,,,,,,,
   10/07/1896,     64 30,    167 24,55,166.3,        at sea bering sea,                  behring,,,
   11/07/1896,,,,,,,,,
-  11/07/1896,     63 41,    163 31,55,166.3,        at sea bering sea,                  behring,norton sound,63 50 57N,2017-08-29T00:00:00
+  11/07/1896,     63 41,    163 31,55,166.3,        at sea bering sea,                  behring,norton sound,63 50 57N,164 16 08W
   12/07/1896,,,,,,,,,
   12/07/1896,,,63.5,-162,        st michael alaska,               st michael,,,
   13/07/1896,,,,,,,,,
@@ -243,29 +243,29 @@
   29/07/1896,,,,,,,,,
   29/07/1896,     65 23,    167 20,65.2,-166.7,     port clarence alaska,           port clearance,,,
   30/07/1896,,,,,,,,,
-  30/07/1896,,,55,-1.5,      at sea arctic ocean,                      tic,bering strait,66 0N,2017-07-04T00:00:00
+  30/07/1896,,,55,-1.5,      at sea arctic ocean,                      tic,bering strait,66 0N,169 0W
   31/07/1896,,,,,,,,,
   31/07/1896,,,66.5,-162.8, at anchor kotzebue sound,           kotzebue sound,,,
   01/08/1896,,,,,,,,,
   01/08/1896,     66 46,    163 01,66.5,-162.8,           kotzebue sound,           kotzebue sound,,,
   02/08/1896,,,,,,,,,
-  02/08/1896,     68 10,    166 12,55,-1.5,      at sea arctic ocean,                      tic,point hope,68 20 27N,2017-07-04T00:00:00
+  02/08/1896,     68 10,    166 12,55,-1.5,      at sea arctic ocean,                      tic,point hope,68 20 27N,166 50 00W
   03/08/1896,,,,,            cape thompson,,,,
-  03/08/1896,     69 03,    165 07,55,-1.5,      at sea arctic ocean,                      tic,chukchi sea,69N,2020-10-20T00:00:00
+  03/08/1896,     69 03,    165 07,55,-1.5,      at sea arctic ocean,                      tic,chukchi sea,69N,172W
   04/08/1896,,,,,,,,,
-  04/08/1896,,,55,-1.5,      pt lay arctic ocean,                      tic,point lay,69 44 28N,2018-02-06T00:00:00
+  04/08/1896,,,55,-1.5,      pt lay arctic ocean,                      tic,point lay,69 44 28N,163 0 31W
   05/08/1896,,,,,,,,,
   05/08/1896,,,55,-1.5,  off pt lay arctic ocean,                      tic,point lay,,
   06/08/1896,,,,,,,,,
   06/08/1896,     70 30,    162 00,,,     at anchor off pt lay,,point lay,,
   07/08/1896,,,,,,,,,
-  07/08/1896,     71 25,    157 05,55,-1.5,      at sea arctic ocean,                      tic,barrow alaska,71 17 44N,2018-08-21T01:56:00
+  07/08/1896,     71 25,    157 05,55,-1.5,      at sea arctic ocean,                      tic,barrow alaska,71 17 44N,156 45 59W
   08/08/1896,,,,,,,,,
   08/08/1896,     71 18,    156 40,55,-1.5,      at sea arctic ocean,                      tic,barrow alaska,,
   09/08/1896,,,71.4,-156.5,             point barrow,             point barrow,,,
   09/08/1896,     71 14,    157 20,55,-1.5,      at sea arctic ocean,                      tic,barrow alaska,,
   10/08/1896,,,,,,,,,
-  10/08/1896,     70 57,    158 15,55,-1.5,      at sea arctic ocean,                      tic,seahorse islands,70 53 18N,2018-01-09T01:58:00
+  10/08/1896,     70 57,    158 15,55,-1.5,      at sea arctic ocean,                      tic,seahorse islands,70 53 18N,158 42 27W
   11/08/1896,,,,,,,,,
   11/08/1896,     71 08,    157 10,55,-1.5,arctic ocean off skull cliff alaska,                      tic,barrow alaska,,
   12/08/1896,,,,,,,,,
@@ -275,7 +275,7 @@
   14/08/1896,,,,,,,,,
   14/08/1896,     71 10,    157 25,71.3,-156.8,at anchor off cape smyth alaska,              cape smythe,barrow alaska,,
   15/08/1896,,,,,,,,,
-  15/08/1896,     70 50,    159 50,55,-1.5,      at sea arctic ocean,                      tic,point franklin,70 54 28N,2018-02-06T01:58:00
+  15/08/1896,     70 50,    159 50,55,-1.5,      at sea arctic ocean,                      tic,point franklin,70 54 28N,158 48 31W
   16/08/1896,,,,,,,,,
   16/08/1896,     69 40,  163 22 W,55,-1.5,                163 21 00,                      tic,point lay,,
   17/08/1896,,,56.2,-74.3,              cape sabine,                    forth,chukchi sea,,
@@ -285,7 +285,7 @@
   19/08/1896,,,,,,,,,
   19/08/1896,   67 35 N,  164 50 W,55,-1.5,      at sea arctic ocean,                      tic,chukchi sea,,
   20/08/1896,,,,,,,,,
-  20/08/1896,     66 31,    162 22,59.9,10.8,      cape blossom alaska,                     oslo,kotzebue sound,66 32 46N,2018-08-14T00:00:00
+  20/08/1896,     66 31,    162 22,59.9,10.8,      cape blossom alaska,                     oslo,kotzebue sound,66 32 46N,162 44 58W
   21/08/1896,,,,,,,,,
   21/08/1896,   66 20 N,  162 05 W,66.5,-162.8,choris penn katzebue sound,            point gardner,kotzebue sound,,
   22/08/1896,,,,,,,,,
@@ -294,10 +294,10 @@
   23/08/1896,     66 32,    169 55,55,-1.5,      at sea arctic ocean,                      tic,bering strait,,
   24/08/1896,,,,,,,,,
   24/08/1896,,,55,-1.5,      at sea arctic ocean,                      tic,bering strait,,
-  25/08/1896,,,53.4,-3,               diomede id,                     alex,diomede islands,65 47N,2017-07-11T00:00:00
-  25/08/1896,,,36.9,7.8,capeprince of wales bore ese dist 4 miles,                     bone,cape prince of wales,65 38 24N,2017-09-26T00:00:00
+  25/08/1896,,,53.4,-3,               diomede id,                     alex,diomede islands,65 47N,169 01W
+  25/08/1896,,,36.9,7.8,capeprince of wales bore ese dist 4 miles,                     bone,cape prince of wales,65 38 24N,168 7 12W
   26/08/1896,,,65.2,-166.7,            port clarence,           port clearance,,,
-  26/08/1896,,,55,166.3,at anchor bering sea off point jackson alaska,                  behring,port clarence bay alaska,65 16 40N,2018-06-19T00:00:00
+  26/08/1896,,,55,166.3,at anchor bering sea off point jackson alaska,                  behring,port clarence bay alaska,65 16 40N,166 4 50W
   27/08/1896,,,,,,,,,
   27/08/1896,,,65.2,-166.7,at anchor bering sea off port clarence alaska,            port clarence,,,
   28/08/1896,,,,,,,,,
@@ -337,7 +337,7 @@
   14/09/1896,,,,,,,,,
   14/09/1896,     56 04,    168 08,55,166.3,        at sea bering sea,                  behring,,,
   15/09/1896,,,,,,,,,
-  15/09/1896,    166 31,     54 04,55,166.3,        at sea bering sea,                  behring,unalaska island,53 40 24N,2018-07-17T00:00:00
+  15/09/1896,    166 31,     54 04,55,166.3,        at sea bering sea,                  behring,unalaska island,53 40 24N,166 38 54W
   16/09/1896,,,53.9,-166.5,             dutch harbor,             dutch harbor,,,
   16/09/1896,,,53.9,-166.5,          iliuliuk alaska,             iliuliuk bay,,,
   17/09/1896,,,,,,,,,

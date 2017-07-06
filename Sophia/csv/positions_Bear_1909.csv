@@ -117,7 +117,7 @@
   28/02/1909,,,,,,,,,
   28/02/1909,,,37.8,-122.3,       oakland california,                  oakland,,,
   01/03/1909,,,,,,,,,
-  01/03/1909,,,37.8,-122.3,   mare island california,                sausalito,mare island,38.095254N,2019-11-06T00:00:00
+  01/03/1909,,,37.8,-122.3,   mare island california,                sausalito,mare island,38.095254N,122.278004W
   02/03/1909,,,,,,,,,
   02/03/1909,,,37.8,-122.3,     sausalito california,                sausalito,,,
   03/03/1909,,,,,,,,,
@@ -326,42 +326,42 @@
   12/06/1909,     52 29,    133 29,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
   13/06/1909,,,,,,,,,
   13/06/1909,   55 29 N,  134 38 W,56.2,-3,hazy id ene 18 e 14 miles nw 14 n mag,                    forth,north pacific,,
-  14/06/1909,,,,,,,hazy islands,55 53N,2018-03-06T01:34:00
+  14/06/1909,,,,,,,hazy islands,55 53N,134 35W
   14/06/1909,,,57,-135.4,             sitka alaska,                    sitka,,,
   15/06/1909,,,,,,,,,
   15/06/1909,,,57,-135.4,             sitka alaska,                    sitka,,,
   16/06/1909,,,,,,,,,
   16/06/1909,   57 50 N,  137 20 W,55.3,-159.9,cape edgecumbe w 42 mi dist,               cape wedge,north pacific,,
   17/06/1909,,,,,,,,,
-  17/06/1909,   59 30 N,  140 23 W,54.1,-165.8,           yakutat alaska,                   akutan,yakutat bay,59 43 54N,2017-11-14T01:39:00
+  17/06/1909,   59 30 N,  140 23 W,54.1,-165.8,           yakutat alaska,                   akutan,yakutat bay,59 43 54N,139 50 19W
   18/06/1909,,,,,,,,,
-  18/06/1909,     59 15,  143 22 W,56.2,-3,at sea north pacific ocean,                    forth,gulf of alaska,57N,2020-04-07T00:00:00
+  18/06/1909,     59 15,  143 22 W,56.2,-3,at sea north pacific ocean,                    forth,gulf of alaska,57N,144W
   19/06/1909,,,,,,,,,
   19/06/1909,   58 26 N,  149 57 W,,,,,gulf of alaska,,
   20/06/1909,,,,,,,,,
-  20/06/1909,,,56.2,-3,st paul roadstead rodiak island cruising in sight of land,                    forth,kodiak island,57 28N,2018-01-02T01:53:00
+  20/06/1909,,,56.2,-3,st paul roadstead rodiak island cruising in sight of land,                    forth,kodiak island,57 28N,153 26W
   21/06/1909,,,,,,,,,
-  21/06/1909,,,64.3,-172.9,west end sitkinak island sw 12 w 5 mi cruising in sight of land,                    kivak,sitkinak island,56 32 53N,2018-02-20T01:54:00
+  21/06/1909,,,64.3,-172.9,west end sitkinak island sw 12 w 5 mi cruising in sight of land,                    kivak,sitkinak island,56 32 53N,154 09 33W
   22/06/1909,,,,,,,,,
-  22/06/1909,     56 41,    155 07,56.2,-3,north end chirikof id bg sw 12 miles cruising in sight of land,                    forth,chirikof island,55 49 30N,2017-11-14T01:55:00
+  22/06/1909,     56 41,    155 07,56.2,-3,north end chirikof id bg sw 12 miles cruising in sight of land,                    forth,chirikof island,55 49 30N,155 37 19W
   23/06/1909,,,,,,,,,
   23/06/1909,,,,,,,,,
   23/06/1909,,,,,,,,,
   23/06/1909,,,,,,,,,
   23/06/1909,,,,,,,,,
-  23/06/1909,     56 28,    155 47,-8.7,115.2,s tangent aliksennit island sw 14 w 17 miles cruising in sight of land,                     bali,semidi islands,56 03 43N,2018-07-17T01:56:00
+  23/06/1909,     56 28,    155 47,-8.7,115.2,s tangent aliksennit island sw 14 w 17 miles cruising in sight of land,                     bali,semidi islands,56 03 43N,156 41 54W
   24/06/1909,,,,,,,,,
   24/06/1909,,,55.9,-3,              simcumof id,             twin islands,semidi islands,,
   25/06/1909,,,,,,,,,
   25/06/1909,,,55.3,-159.9,               cape wedge,               cape wedge,,,
   26/06/1909,,,,,,,,,
-  26/06/1909,,,52.8,173.9,sanborn harbor nagai island alaska,             alaid island,nagai island,55 05N,2017-07-11T00:00:00
+  26/06/1909,,,52.8,173.9,sanborn harbor nagai island alaska,             alaid island,nagai island,55 05N,160 01W
   27/06/1909,,,,,,,,,
   27/06/1909,,,35.7,-0.6,sanborn harbor nagai island alaska,                     oran,nagai island,,
   28/06/1909,,,,,,,,,
   28/06/1909,,,55.4,-161.5,cape tolstoiwnw 12 w 50 miles cruising in sight of land,             cape tolstoi,,,
   29/06/1909,,,,,,,,,
-  29/06/1909,,,43.1,16.7,     dolgoi harbor alaska,                     hvar,dolgoi island,55 07 28N,2018-04-03T00:00:00
+  29/06/1909,,,43.1,16.7,     dolgoi harbor alaska,                     hvar,dolgoi island,55 07 28N,161 44 39W
   30/06/1909,,,,,,,,,
   30/06/1909,,,,,,,,,
   30/06/1909,,,,,,,,,
@@ -757,7 +757,7 @@
   25/02/1909,,,,,,,,,
   25/02/1909,,,,,,,,,
   25/02/1909,,,,,,,,,
-  25/02/1909,,,54.4,-164.8,east anchor cove unimak island,               scotch cap,ikatan peninsula,54.73N,2020-08-19T00:00:00
+  25/02/1909,,,54.4,-164.8,east anchor cove unimak island,               scotch cap,ikatan peninsula,54.73N,163.20W
   01/07/1909,,,,,,,,,
   01/07/1909,,,53.9,-166.5,          unalaska alaska,             unalaska bay,,,
   02/07/1909,,,,,,,,,
@@ -829,7 +829,7 @@
   04/08/1909,,,,,,,,,
   04/08/1909,,,53.9,-166.5,          unalaska alaska,             unalaska bay,,,
   05/08/1909,,,,,,,,,
-  05/08/1909,,,59.9,10.8,winslow id sxe 34 e dist 137 miles,                     oslo,wislow island,54 00 30N,2018-01-09T00:00:00
+  05/08/1909,,,59.9,10.8,winslow id sxe 34 e dist 137 miles,                     oslo,wislow island,54 00 30N,166 43 27W
   06/08/1909,,,,,,,,,
   06/08/1909,   56 18 N,  169 16 W,56.6,166.3,tolstoi pt st george id se 38 e dist 75 mi,                  behring,,,
   07/08/1909,,,,,,,,,
@@ -843,7 +843,7 @@
   11/08/1909,,,,,,,,,
   11/08/1909,,,57.1,-170.3,village cove st paul island,           st paul island,,,
   12/08/1909,,,,,,,,,
-  12/08/1909,,,38.5,-28.6,anchorage west of cross hill,                    horta,st paul island,57 11N,2017-10-24T00:00:00
+  12/08/1909,,,38.5,-28.6,anchorage west of cross hill,                    horta,st paul island,57 11N,170 16W
   13/08/1909,,,,,,,,,
   13/08/1909,,,,,anchorage off east landing st paul island,,,,
   14/08/1909,,,,,,,,,
@@ -904,22 +904,22 @@
   09/09/1909,,,53.9,-166.5,          unalaska alaska,             unalaska bay,,,
   10/09/1909,,,,,,,,,
   10/09/1909,,,53.7,-167,makushin cape unalaska id,             makushin bay,,,
-  11/09/1909,,,,,,,umnak,53 13 26N,2018-07-24T00:00:00
-  11/09/1909,,,55,-1.5,w end tchegoula id se 38 s 6 miles,                      tic,chagulak island,52 34 20N,2018-01-23T00:00:00
+  11/09/1909,,,,,,,umnak,53 13 26N,168 25 55W
+  11/09/1909,,,55,-1.5,w end tchegoula id se 38 s 6 miles,                      tic,chagulak island,52 34 20N,171 08 29W
   12/09/1909,,,,,,,,,
-  12/09/1909,,,26.1,119.9, nazan harbor atka island,             matsa island,atka island,52 08 17N,2018-05-01T00:00:00
+  12/09/1909,,,26.1,119.9, nazan harbor atka island,             matsa island,atka island,52 08 17N,174 26 43W
   13/09/1909,,,,,,,,,
   13/09/1909,,,26.1,119.9, nazan harbor atka island,             matsa island,atka island,,
   14/09/1909,,,,,,,,,
-  14/09/1909,,,15.5,166.3,south tangent ragaccmil id ene 12 e 15 mi,                      goa,islands of four mountains,52 52 33N,2018-04-24T00:00:00
-  15/09/1909,,,50.5,-126.1,southern end of kagamil island,             milly island,kagamil island,52 59 35N,2018-05-01T00:00:00
+  14/09/1909,,,15.5,166.3,south tangent ragaccmil id ene 12 e 15 mi,                      goa,islands of four mountains,52 52 33N,169 47 42W
+  15/09/1909,,,50.5,-126.1,southern end of kagamil island,             milly island,kagamil island,52 59 35N,169 42 43W
   15/09/1909,,,53.2,-168.4,   nikolski unmank island,             umnak island,,,
   16/09/1909,,,,,,,,,
   16/09/1909,,,53.7,-166.7,chernofski harbor unalaska island,          unalaska island,,,
   17/09/1909,,,,,,,,,
   17/09/1909,,,53.7,-166.7,chernofski unalaska island,          unalaska island,,,
   18/09/1909,,,,,,,,,
-  18/09/1909,,,-1.3,143.6,makushin pt e 34 s 15 miles,                    manus,unalaska island,53 40 24N,2018-07-17T00:00:00
+  18/09/1909,,,-1.3,143.6,makushin pt e 34 s 15 miles,                    manus,unalaska island,53 40 24N,166 38 54W
   19/09/1909,,,,,,,,,
   19/09/1909,,,53.9,-166.5,          unalaska alaska,             unalaska bay,,,
   20/09/1909,,,,,,,,,
@@ -957,7 +957,7 @@
   06/10/1909,,,,,,,,,
   06/10/1909,     62 19,    167 45,55,166.3,        at sea bering sea,                  behring,,,
   07/10/1909,,,,,,,,,
-  07/10/1909,,,32.2,119.3,sledge island wnw 58 w 7 miles,              deer island,sledge island,64 29 9.02N,2018-03-06T00:00:00
+  07/10/1909,,,32.2,119.3,sledge island wnw 58 w 7 miles,              deer island,sledge island,64 29 9.02N,166 12 35.12W
   08/10/1909,,,,,,,,,
   08/10/1909,,,32.2,119.3,          off nome alaska,              deer island,sledge island,,
   09/10/1909,,,,,,,,,
@@ -977,17 +977,17 @@
   13/10/1909,,,,,,,,,
   13/10/1909,,,53.9,-166.5,          unalaska alaska,             unalaska bay,,,
   14/10/1909,,,,,,,,,
-  14/10/1909,,,52,-127.9,south end fox island e 58 n 10 miles,               fog island,deer island alaska,54 55 00N,2018-07-31T00:00:00
+  14/10/1909,,,52,-127.9,south end fox island e 58 n 10 miles,               fog island,deer island alaska,54 55 00N,162 18 56W
   15/10/1909,,,,,,,,,
-  15/10/1909,,,32.2,119.3,jude island bearing sexe 18 e 35 mi,              gozo island,unga island,55 15 38N,2018-04-24T00:00:00
+  15/10/1909,,,32.2,119.3,jude island bearing sexe 18 e 35 mi,              gozo island,unga island,55 15 38N,160 41 42W
   16/10/1909,,,,,,,,,
-  16/10/1909,,,38.5,-28.6,       portage bay alaska,                    horta,akhiok alaska,56 56 40 N,2017-10-03T01:54:00
+  16/10/1909,,,38.5,-28.6,       portage bay alaska,                    horta,akhiok alaska,56 56 40 N,154 10 13W
   17/10/1909,,,,,,,,,
   17/10/1909,,,38.5,-28.6,       portage bay alaska,                    horta,akhiok alaska,,
   18/10/1909,,,,,,,,,
   18/10/1909,,,55.6,-28.6,       portage bay alaska,          kupreanof point,akhiok alaska,,
   19/10/1909,,,,,,,,,
-  19/10/1909,,,15.5,73.9,              cape karluk,                      goa,karluk alaska,57 34 41N,2018-05-15T01:54:00
+  19/10/1909,,,15.5,73.9,              cape karluk,                      goa,karluk alaska,57 34 41N,154 21 45W
   20/10/1909,,,,,,,,,
   20/10/1909,   58 35 N,  150 18 W,24.5,118.1,  at sea shelikoff strait,          shelikof strait,,,
   21/10/1909,,,,,,,,,
@@ -999,25 +999,25 @@
   24/10/1909,,,,,,,,,
   24/10/1909,,,56.4,-133.3,eye opener spindle wnw 12 w 18 miles,               eye opener,,,
   25/10/1909,,,,,,,,,
-  25/10/1909,,,42.2,41.7,kirk point ene 38e 30 miles,                     poti,dixon entrance,54 22N,2017-11-21T01:32:00
+  25/10/1909,,,42.2,41.7,kirk point ene 38e 30 miles,                     poti,dixon entrance,54 22N,132 20W
   26/10/1909,,,,,,,,,
-  26/10/1909,,,53.7,-129.8,chatham sound british columbia,       greenville channel,chatham sound,54 22 00N,2017-07-04T01:30:00
+  26/10/1909,,,53.7,-129.8,chatham sound british columbia,       greenville channel,chatham sound,54 22 00N,130 35 00W
   27/10/1909,,,,,,,,,
-  27/10/1909,,,52.6,-128.5,homes bay british columbia,               boat bluff,hecate strait,53 11N,2018-06-19T01:30:00
+  27/10/1909,,,52.6,-128.5,homes bay british columbia,               boat bluff,hecate strait,53 11N,130 50W
   28/10/1909,,,,,,,,,
-  28/10/1909,,,51.7,-127.9,fitzhugh sound british columbia,                     oban,fitz hugh sound,51 40 00N,2017-07-04T01:27:00
+  28/10/1909,,,51.7,-127.9,fitzhugh sound british columbia,                     oban,fitz hugh sound,51 40 00N,127 50 00W
   29/10/1909,,,,,,,,,
-  29/10/1909,,,50.2,-125.4,blinkinsop bay british columbia,                  columbo,strait of georgia,49 17 39N,2018-01-02T01:23:00
+  29/10/1909,,,50.2,-125.4,blinkinsop bay british columbia,                  columbo,strait of georgia,49 17 39N,123 48 26W
   30/10/1909,,,,,,,,,
-  30/10/1909,,,35.7,-0.6,entrance id lt ho se 34 e 62 miles,                     oran,entrance island,49 12 32.93N,2018-02-16T01:23:00
+  30/10/1909,,,35.7,-0.6,entrance id lt ho se 34 e 62 miles,                     oran,entrance island,49 12 32.93N,123 48 32.49W
   31/10/1909,,,,,,,,,
-  31/10/1909,,,30.6,117.2,   puget sound washington,                    mashi,puget sound,47.6N,2019-11-07T00:00:00
+  31/10/1909,,,30.6,117.2,   puget sound washington,                    mashi,puget sound,47.6N,122.4W
   01/11/1909,,,22.4,114.2,           seattle harbor,              tolo harbor,puget sound,,
   01/11/1909,,,47.6,-122.3,       seattle washington,                  seattle,,,
   02/11/1909,,,,,,,,,
-  02/11/1909,,,48.1,-122.8, port townsend washington,                   barrow,port townsend,48 6 59N,2018-02-06T01:22:00
+  02/11/1909,,,48.1,-122.8, port townsend washington,                   barrow,port townsend,48 6 59N,122 46 31W
   03/11/1909,,,,,,,,,
-  03/11/1909,,,,,             ladysmith bc,,ladysmith,48 59 51N,2017-10-03T01:23:00
+  03/11/1909,,,,,             ladysmith bc,,ladysmith,48 59 51N,123 49 13W
   04/11/1909,,,,,,,,,
   04/11/1909,,,42.2,41.7,             ladysmith bc,                     poti,ladysmith,,
   05/11/1909,,,48.3,-123.5,    race rock light house,               race rocks,,,
@@ -1041,7 +1041,7 @@
   14/11/1909,,,,,,,,,
   14/11/1909,,,71.2,-122.3,     sausalito california,                sausalito,,,
   15/11/1909,,,,,,,,,
-  15/11/1909,,,44.1,15.2,quarantine station angel id california,                     zara,angel island,37.86N,2019-11-08T00:00:00
+  15/11/1909,,,44.1,15.2,quarantine station angel id california,                     zara,angel island,37.86N,122.43W
   16/11/1909,,,,,,,,,
   16/11/1909,,,37.8,-122.3,     sausalito california,                sausalito,,,
   17/11/1909,,,,,,,,,
@@ -1073,11 +1073,11 @@
   30/11/1909,,,,,,,,,
   30/11/1909,,,37.8,-122.3,     sausalito california,                sausalito,,,
   01/12/1909,,,,,,,,,
-  01/12/1909,,,22.6,-122.3,     sausalito california,                      sur,sausalito,37 51 33N,2017-08-22T01:22:00
+  01/12/1909,,,22.6,-122.3,     sausalito california,                      sur,sausalito,37 51 33N,122 29 07W
   02/12/1909,,,,,,,,,
-  02/12/1909,,,54.9,-5.8,pt arguella ne 38n 22 miles,                    larne,point arguello,34 37N,2018-03-13T01:20:00
+  02/12/1909,,,54.9,-5.8,pt arguella ne 38n 22 miles,                    larne,point arguello,34 37N,120 36W
   03/12/1909,,,,,,,,,
-  03/12/1909,,,36.1,0.2,cape vincente e 14 s 3 12 miles,                 cape ivi,channel islands california,34 00 58N,2017-10-10T01:19:00
+  03/12/1909,,,36.1,0.2,cape vincente e 14 s 3 12 miles,                 cape ivi,channel islands california,34 00 58N,119 48 14W
   04/12/1909,,,,,,,,,
   04/12/1909,,,32.7,-117.2,     san diego california,            san diego usa,,,
   05/12/1909,,,,,,,,,
@@ -1535,4 +1535,4 @@
   31/12/1909,,,,,,,,,
   31/12/1909,,,32.7,-117.2,     san diego california,            san diego usa,,,
   01/01/1909,,,,,,,,,
-  01/01/1909,,,-8.7,-3,off fort rosecrans california,                    forth,point loma san diego,32 40 12N,2018-02-06T01:17:00
+  01/01/1909,,,-8.7,-3,off fort rosecrans california,                    forth,point loma san diego,32 40 12N,117 14 31W

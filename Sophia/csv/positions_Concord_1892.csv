@@ -1,5 +1,5 @@
   01/01/1892,        NA,        NA_2,        NA_3,        NA_4,                       NA,                       NA_2,h,i,j
-  01/01/1892,   13 20 N,   60 01 W,13.1,-72.3,                     noon,           port au prince,barbados,13 10N,0001-08-20
+  01/01/1892,   13 20 N,   60 01 W,13.1,-72.3,                     noon,           port au prince,barbados,13 10N,59 33W
   02/01/1892,,,13.1,-59.6,4 pm in carlisle bay barbados,                 barbados,,,
   02/01/1892,,,13.1,-59.6,      bridgetown barbados,     bridgetown  barbados,,,
   02/01/1892,,,,,,,,,
@@ -54,7 +54,7 @@
   25/01/1892,   10 25 S,   34 56 W,,,                   at sea,,,,
   26/01/1892,,,,,,,,,
   26/01/1892,   12 49 S,   38 43 W,-13,-38.5,a sea and at anchor bahia brazil,                    bahia,,,
-  27/01/1892,,,54.1,-165.7,at 1150 sighted light house on itapuan point bearing w by n pc,             akutan point,salvador bahia brazil,12 58 29S,0001-09-10
+  27/01/1892,,,54.1,-165.7,at 1150 sighted light house on itapuan point bearing w by n pc,             akutan point,salvador bahia brazil,12 58 29S,38 28 36W
   27/01/1892,,,-13,-38.5,   at anchor bahia brazil,                    bahia,,,
   28/01/1892,,,,,,,,,
   28/01/1892,,,-13,-38.5,             bahia brazil,                    bahia,,,
@@ -100,7 +100,7 @@
   16/02/1892,,,-34.9,-56.2,at anchor montevideo uruguay,              monte video,,,
   17/02/1892,,,,,,,,,
   17/02/1892,,,-34.9,-56.2,at anchor montevideo uruguay and at sea,              monte video,,,
-  18/02/1892,,,36.9,7.8,at 333 flores isld bore n by w mag dist 3 miles,                     bone,isla de flores,34 56 50S,0001-04-09
+  18/02/1892,,,36.9,7.8,at 333 flores isld bore n by w mag dist 3 miles,                     bone,isla de flores,34 56 50S,55 56 14W
   18/02/1892,   33 55 S,   52 42 W,-34.9,-56.2,                   at sea,              monte video,south atlantic,,
   19/02/1892,,,,,,,,,
   19/02/1892,   31 22 S,   49 30 W,,,                     noon,,,,
@@ -132,7 +132,7 @@
   28/02/1892,,,,,,,,,
   28/02/1892,,,,,,,,,
   28/02/1892,   07 48 S,   34 02 W,,,                   at sea,,,,
-  28/02/1892,,,55,-1.5,615 am augustincho light bear 16 w,                      tic,cabo de santo agostinho,8 17 23S,0001-12-03
+  28/02/1892,,,55,-1.5,615 am augustincho light bear 16 w,                      tic,cabo de santo agostinho,8 17 23S,35 1 48W
   28/02/1892,   04 13 S,   35 14 W,,,                   at sea,,,,
   29/02/1892,,,,,,,,,
   29/02/1892,   01 47 S,   38 14 W,,,                   at sea,,,,
@@ -165,9 +165,9 @@
   14/03/1892,,,,,,,,,
   14/03/1892,,,13.1,-59.6,bridgetown barbados and at sea,     bridgetown  barbados,,,
   15/03/1892,,,,,,,,,
-  15/03/1892,   15 46 N,   62 25 W,13.2,-59.6,                     noon,                st thomas,lesser antilles,14 14N,0001-05-28
+  15/03/1892,   15 46 N,   62 25 W,13.2,-59.6,                     noon,                st thomas,lesser antilles,14 14N,61 21W
   16/03/1892,,,,,,,,,
-  16/03/1892,,,13.2,-59.6,            st thomas w i,                st thomas,saint thomas usvi,18 20N,0002-01-21
+  16/03/1892,,,13.2,-59.6,            st thomas w i,                st thomas,saint thomas usvi,18 20N,64 55W
   17/03/1892,,,,,,,,,
   17/03/1892,,,13.2,-59.6,            st thomas w i,                st thomas,saint thomas usvi,,
   18/03/1892,,,,,,,,,
@@ -181,19 +181,19 @@
   22/03/1892,,,,,,,,,
   23/03/1892,   18 03 N,   65 22 W,18,-59.6,                st thomas,         kingston jamaica,north atlantic,,
   23/03/1892,,,,,,,,,
-  23/03/1892,   17 32 N,   69 31 W,18,-76.8,                     noon,         kingston jamaica,hispaniola,19N,0002-05-13
+  23/03/1892,   17 32 N,   69 31 W,18,-76.8,                     noon,         kingston jamaica,hispaniola,19N,71W
   24/03/1892,,,,,,,,,
-  24/03/1892,   17 50 N,   73 42 W,,,                   at sea,,caribbean sea,15N,0002-06-10
+  24/03/1892,   17 50 N,   73 42 W,,,                   at sea,,caribbean sea,15N,75W
   25/03/1892,,,,,,,,,
   25/03/1892,,,18,-76.8,at sea and at anchor kingston jamaica,         kingston jamaica,,,
-  26/03/1892,,,22.4,114.2,off eastern entrance of kingston harbor,              tolo harbor,kingston jamaica,17 59N,0001-12-03
+  26/03/1892,,,22.4,114.2,off eastern entrance of kingston harbor,              tolo harbor,kingston jamaica,17 59N,76 48W
   26/03/1892,   17 39 N,   77 05 W,13.1,-61.2,at anchor kingston ja and at sea,                kingstown,kingston jamaica,,
   27/03/1892,,,,,,,,,
-  27/03/1892,   19 14 N,   80 53 W,13.1,-61.2,                     noon,                kingstown,cayman islands,19 30N,0001-07-30
+  27/03/1892,   19 14 N,   80 53 W,13.1,-61.2,                     noon,                kingstown,cayman islands,19 30N,80 30W
   28/03/1892,,,,,,,,,
-  28/03/1892,   21 34 N,   84 18 W,,,                   at sea,,guanahacabibes peninsula,21 52 44N,0001-06-11
+  28/03/1892,   21 34 N,   84 18 W,,,                   at sea,,guanahacabibes peninsula,21 52 44N,84 49 23W
   29/03/1892,,,22.8,113.6,cape san antonio bearing nnw 6 miles,                   canton,guanahacabibes peninsula,,
-  29/03/1892,   23 09 N,   82 29 W,22.5,59.7,at sea and at anchor havana cuba,              khor javana,havana,23 08N,0001-06-11
+  29/03/1892,   23 09 N,   82 29 W,22.5,59.7,at sea and at anchor havana cuba,              khor javana,havana,23 08N,82 23W
   30/03/1892,,,23.1,-82.4,midday enter havana harbor,                   havana,,,
   30/03/1892,,,23.1,-82.4,              havana cuba,                   havana,,,
   31/03/1892,,,,,,,,,
@@ -203,7 +203,7 @@
   02/04/1892,,,,,,,,,
   02/04/1892,,,23.1,-82.4,              havana cuba,                   havana,,,
   03/04/1892,,,,,,,,,
-  03/04/1892,,,35.9,14.4,            matangas cuba,                    malta,matanzas,23 03 4N,0001-08-06
+  03/04/1892,,,35.9,14.4,            matangas cuba,                    malta,matanzas,23 03 4N,81 34 31W
   04/04/1892,,,,,,,,,
   04/04/1892,,,35.9,14.4,            matanzas cuba,                    malta,matanzas,,
   05/04/1892,,,,,,,,,
@@ -211,7 +211,7 @@
   06/04/1892,,,,,,,,,
   06/04/1892,     23 46,     81 47,35.9,14.4,            matanzas cuba,                    malta,matanzas,,
   07/04/1892,,,,,,,,,
-  07/04/1892,,,43.7,7.2,at anchor off sand key underway for target practice and at key west,                     nice,key west florida,24 33 33N,0001-01-18
+  07/04/1892,,,43.7,7.2,at anchor off sand key underway for target practice and at key west,                     nice,key west florida,24 33 33N,81 47 2.51W
   08/04/1892,,,,,,,,,
   08/04/1892,,,30,48.5,          at key west fla,                      fao,key west florida,,
   09/04/1892,,,,,,,,,
@@ -242,34 +242,34 @@
   21/04/1892,,,,,   at anchor key west fla,,key west florida,,
   22/04/1892,,,,,,,,,
   22/04/1892,,,41.1,37.3,at anchor key west fla and underway,                     unye,key west florida,,
-  23/04/1892,,,34.2,7.8,at 650 took departure rebecca shoal light bearing sw pc distant 3 miles,                     kure,rebecca shoal light,24 34 42N,0001-02-12
+  23/04/1892,,,34.2,7.8,at 650 took departure rebecca shoal light bearing sw pc distant 3 miles,                     kure,rebecca shoal light,24 34 42N,82 35 06W
   24/04/1892,   25 56 N,   84 23 W,,,                   at sea,,,,
   24/04/1891,,,,,,,,,
   25/04/1892,   27 38 N,   87 10 W,,,                   at sea,,,,
   25/04/1892,,,,,,,,,
   25/04/1892,,,,,at sea and steaming up the mississippi river,,,,
-  26/04/1892,,,22.4,-1.5,at 955 stopped and took on board jetty pilot and at 1010 entered so pass,                    t i c,mississippi river,29 09 04N,0001-03-26
+  26/04/1892,,,22.4,-1.5,at 955 stopped and took on board jetty pilot and at 1010 entered so pass,                    t i c,mississippi river,29 09 04N,89 15 12W
   26/04/1892,,,30,-90.1,anchor mississippi river off new orleans la,              new orleans,,,
-  27/04/1892,,,30,-90.1,at 1125 came to anchor in 16 fms water of canal street new orleans stbd anchor 60 fms chain,              new orleans,new orleans,29 57N,0001-01-29
+  27/04/1892,,,30,-90.1,at 1125 came to anchor in 16 fms water of canal street new orleans stbd anchor 60 fms chain,              new orleans,new orleans,29 57N,90 4W
   27/04/1892,,,30,-90.1,at anchor off canal st new orleans la,              new orleans,new orleans,,
   28/04/1892,,,,,,,,,
-  28/04/1892,,,30,-90.1,at anchor new orleans underway and at anchor donaldsonville la,              new orleans,donaldsonville louisiana,30 6 0N,0001-10-01
-  29/04/1892,,,29.9,32.6,at noon abreast roseland plantation,                   lantao,st gabriel louisiana,30 15 13N,0001-02-05
+  28/04/1892,,,30,-90.1,at anchor new orleans underway and at anchor donaldsonville la,              new orleans,donaldsonville louisiana,30 6 0N,90 59 39W
+  29/04/1892,,,29.9,32.6,at noon abreast roseland plantation,                   lantao,st gabriel louisiana,30 15 13N,91 06 05W
   29/04/1892,,,-17.7,-164.2,         saualdrlaulla la,            unimak island,st gabriel louisiana,,
-  30/04/1892,,,43.7,7.2,at noon abreast baton rouge la,                     nice,baton rouge louisiana,30.45N,0002-09-30
-  30/04/1892,,,50.4,-125.6,at anchor off tunica isld la underway and at anchor off rifle point,             ripple point,tunica louisiana,30 55 46N,0001-05-07
-  01/05/1892,,,30.5,143.6,at end of watch entering marengo bend,                   anking,natchez mississippi,31 33 16N,0001-04-16
-  01/05/1892,,,50.4,-125.6,at anchor off rifle point at anchor vicksburg miss and underway,             ripple point,vicksburg mississippi,32 20 10N,0001-08-06
+  30/04/1892,,,43.7,7.2,at noon abreast baton rouge la,                     nice,baton rouge louisiana,30.45N,91.14W
+  30/04/1892,,,50.4,-125.6,at anchor off tunica isld la underway and at anchor off rifle point,             ripple point,tunica louisiana,30 55 46N,91 33 18W
+  01/05/1892,,,30.5,143.6,at end of watch entering marengo bend,                   anking,natchez mississippi,31 33 16N,91 23 15W
+  01/05/1892,,,50.4,-125.6,at anchor off rifle point at anchor vicksburg miss and underway,             ripple point,vicksburg mississippi,32 20 10N,90 52 31W
   02/05/1892,,,42.2,-1.5,at end of watch about 3 miles below vicksburg miss,                     poti,vicksburg mississippi,,
   02/05/1892,,,35.7,-0.6,at anchor vicksburg underway and at anchor glenora,                     oran,vicksburg mississippi,,
-  03/05/1892,,,35.7,-0.6,at end of watch abreast buches lake one mile below arkansas line,                     oran,mayersville mississippi,32 54 4N,0001-01-15
-  03/05/1892,,,35.7,-0.6,at anchor glenora underway and at anchor terrene miss,                     oran,rosedale mississippi,33 51 13N,0001-09-17
+  03/05/1892,,,35.7,-0.6,at end of watch abreast buches lake one mile below arkansas line,                     oran,mayersville mississippi,32 54 4N,91 3 2W
+  03/05/1892,,,35.7,-0.6,at anchor glenora underway and at anchor terrene miss,                     oran,rosedale mississippi,33 51 13N,91 1 37W
   04/05/1892,,,30.5,117.1,at end of watch opposite mouth of arkansas river,                   anking,rosedale mississippi,,
-  04/05/1892,,,66.2,-169.8, terrena miss  helena ark,                    uelen,helena arkansas,34 31 34N,0001-02-05
+  04/05/1892,,,66.2,-169.8, terrena miss  helena ark,                    uelen,helena arkansas,34 31 34N,90 36 5W
   05/05/1892,,,30.5,117.1,at end of watch abreast parkers landing,                   anking,helena arkansas,,
   05/05/1892,,,30.5,117.1,at anchor helena ark underway and at anchor off hartleroads landing,                   anking,helena arkansas,,
   06/05/1892,,,30.5,117.1,at end of watch abreast of prairie point,                   anking,helena arkansas,,
-  06/05/1892,,,30.5,117.1,at anchor hartleroads landing underway and at anchor memphis tenn,                   anking,memphis tennessee,35 07 03N,0001-04-23
+  06/05/1892,,,30.5,117.1,at anchor hartleroads landing underway and at anchor memphis tenn,                   anking,memphis tennessee,35 07 03N,89 58 16W
   07/05/1892,,,41.1,37.3,at 1140 passed under the memphis bridge,                   anking,memphis tennessee,,
   07/05/1892,,,,,    at anchor memphis ten,,,,
   08/05/1892,,,,,,,,,
@@ -283,11 +283,11 @@
   12/05/1892,,,,,,,,,
   13/05/1892,,,,,   at anchor memphis tenn,,,,
   13/05/1892,,,,,,,,,
-  13/05/1892,,,41.1,37.3,at anchor memphis tenn underway and at anchor off id no 25,                     unye,tomato arkansas,35 50 37N,0001-07-16
+  13/05/1892,,,41.1,37.3,at anchor memphis tenn underway and at anchor off id no 25,                     unye,tomato arkansas,35 50 37N,89 44 28W
   14/05/1892,,,,,,,,,
   14/05/1892,,,43.1,16.7,at anchor off island 25 and island 6 in mississippi,                     unye,tomato arkansas,,
   15/05/1892,,,,,,,,,
-  15/05/1892,,,-10,39.7,       island 6 cairo ill,                    lindi,cairo illinois,37 0  47N,0001-12-10
+  15/05/1892,,,-10,39.7,       island 6 cairo ill,                    lindi,cairo illinois,37 0  47N,89 10 49W
   16/05/1892,,,,,,,,,
   16/05/1892,,,-10,39.7,           cairo illinois,                    lindi,cairo illinois,,
   17/05/1892,,,,,,,,,
@@ -299,9 +299,9 @@
    20-5-1892,,,,,,,,,
    20-5-1892,,,35.2,24.8,canadian reach and friars point miss,                   candia,tomato arkansas,,
   21/05/1892,,,,,,,,,
-  21/05/1892,,,-17.7,168.3,friars point miss and grunville miss,                     vila,friars point mississippi,34 21 58N,0001-04-02
+  21/05/1892,,,-17.7,168.3,friars point miss and grunville miss,                     vila,friars point mississippi,34 21 58N,90 38 13W
   22/05/1892,,,,,,,,,
-  22/05/1892,,,-17.7,168.3,   greenville mississippi,                     vila,greenville mississippi,33 23 55N,0002-01-14
+  22/05/1892,,,-17.7,168.3,   greenville mississippi,                     vila,greenville mississippi,33 23 55N,91 2 54W
   23/05/1892,,,,,,,,,
   23/05/1892,,,55,-1.5,greenville and vicksburg miss,                      tic,greenville mississippi,,
   24/05/1892,,,,,,,,,
@@ -334,7 +334,7 @@
   06/06/1892,,,,,             key west fla,,,,
   07/06/1892,,,,,,,,,
   07/06/1892,   24 26 N,   81 30 W,22.2,-74,                 key west,                 new york,key west florida,,
-  08/06/1892,,,30,48.5,            fowey rock lt,                      fao,fowey rocks light,25 35 26.2N,0001-12-03
+  08/06/1892,,,30,48.5,            fowey rock lt,                      fao,fowey rocks light,25 35 26.2N,80 05 48W
   08/06/1892,   27 07 N,   79 24 W,,,,,,,
   09/06/1892,,,,,,,,,
   10/06/1892,   31 34 N,   78 02 W,40.7,-74,at sea from key west fla to new york,                 new york,north atlantic,,
@@ -345,19 +345,19 @@
   12/06/1892,,,,,,,,,
   12/06/1892,,,40.7,-74,                 new york,                 new york,,,
   13/06/1892,,,,,,,,,
-  13/06/1892,,,67.8,-176,    26th st east river ny,               east river,east river new york,40.700357N,0002-06-03
+  13/06/1892,,,67.8,-176,    26th st east river ny,               east river,east river new york,40.700357N,74.003842W
   14/06/1892,,,,,,,,,
   14/06/1892,,,40.7,-74,    east 26th st new york,                 new york,,,
   15/06/1892,,,,,,,,,
   15/06/1892,,,67.8,-176,    26th st east river ny,               east river,east river new york,,
   16/06/1892,,,,,,,,,
-  16/06/1892,,,67.8,-176,east river ny and boston mass,               east river,boston,42 21 29N,0001-12-10
+  16/06/1892,,,67.8,-176,east river ny and boston mass,               east river,boston,42 21 29N,71 03 49W
   17/06/1892,,,,,,,,,
-  17/06/1892,,,38.5,-28.6,underway at anchor hortons pt lt ho and in nantucket harbor,                    horta,horton point light,41 5 6.51N,0001-11-10
-  18/06/1892,,,37.6,41.7,passed vineyard sound lt vessel at 1246 and entered vineyard sound,                     poti,vineyard sound,41 26 30N,0001-07-16
-  18/06/1892,,,42.4,16.7,at anchor nantucket harbor and underway for boston mass,                   boston,nantucket,41 16 58N,0002-02-11
-  19/06/1892,,,36.9,-70.2,at 329 passed great round shoal light vessel and headed through outer channel and at end of watch took departure from orion shoal bell buoy,                  el buoy,monomoy island,41 33 0N,0001-01-01
-  19/06/1892,,,42.4,-71.1,boston naval yard day dock,                   boston,boston navy yard,42 22 34N,0001-03-05
+  17/06/1892,,,38.5,-28.6,underway at anchor hortons pt lt ho and in nantucket harbor,                    horta,horton point light,41 5 6.51N,72 26 44.77W
+  18/06/1892,,,37.6,41.7,passed vineyard sound lt vessel at 1246 and entered vineyard sound,                     poti,vineyard sound,41 26 30N,70 46 28W
+  18/06/1892,,,42.4,16.7,at anchor nantucket harbor and underway for boston mass,                   boston,nantucket,41 16 58N,70 5 58W
+  19/06/1892,,,36.9,-70.2,at 329 passed great round shoal light vessel and headed through outer channel and at end of watch took departure from orion shoal bell buoy,                  el buoy,monomoy island,41 33 0N,70 0 0W
+  19/06/1892,,,42.4,-71.1,boston naval yard day dock,                   boston,boston navy yard,42 22 34N,71 3 9W
   20/06/1892,,,,,,,,,
   20/06/1892,,,42.4,-71.1,dry dock navy yard boston ma,                   boston,boston navy yard,,
   21/06/1892,,,,,,,,,
@@ -405,11 +405,11 @@
   10/07/1892,,,,,,,,,
   10/07/1892,,,42.4,-71.1,navy yard boston ma and at sea,                   boston,,,
   11/07/1892,,,,,,,,,
-  11/07/1892,   41 08 N,   71 45 W,42.4,-0.1,          new london conn,                   boston,new london connecticut,41.354069N,0002-05-20
+  11/07/1892,   41 08 N,   71 45 W,42.4,-0.1,          new london conn,                   boston,new london connecticut,41.354069N,72.10104W
   12/07/1892,,,,,,,,,
   12/07/1892,,,,,,,,,
   12/07/1892,,,,,,,,,
-  12/07/1892,,,15.5,73.9,            gardiners bay,                      goa,gardiners bay,41 5 52N,0001-11-12
+  12/07/1892,,,15.5,73.9,            gardiners bay,                      goa,gardiners bay,41 5 52N,72 12 45W
   13/07/1892,,,,,,,,,
   13/07/1892,,,51.5,-0.1,gardiners bay li and new london conn,                   london,gardiners bay,,
   14/07/1892,,,6.5,59.5,at 100 got underway and stood out of gardiners bay astern of flagship after receiving signal 255,                      sur,gardiners bay,,
@@ -465,11 +465,11 @@
   06/08/1892,,,,,,,,,
   06/08/1892,,,,,,,,,
   06/08/1892,,,,,,,,,
-  06/08/1892,   41 59 N,   68 52 W,22.2,113.9,         position at 8 am,                     taio,gulf of maine,43N,0002-04-22
+  06/08/1892,   41 59 N,   68 52 W,22.2,113.9,         position at 8 am,                     taio,gulf of maine,43N,68W
   07/08/1892,,,,,,,,,
   07/08/1892,,,,,,,,,
   07/08/1892,,,,,,,,,
-  07/08/1892,,,43.1,16.7,at sea and at anchor bar harbor me,                     hvar,bar harbor maine,44 23 9N,0001-08-27
+  07/08/1892,,,43.1,16.7,at sea and at anchor bar harbor me,                     hvar,bar harbor maine,44 23 9N,68 12 34W
   08/08/1892,,,,,,,,,
   08/08/1892,,,43.1,16.7,at sea and at anchor bar harbor me,                     hvar,bar harbor maine,,
   08/08/1892,,,,,,,,,
@@ -509,15 +509,15 @@
    25/9/1892,,,,,,,,,
    25/9/1892,,,15.5,73.9,                  concord,                      goa,gulf of maine,,
   26/08/1892,,,,,,,,,
-  26/08/1892,,,15.5,73.9,          gloucester mass,                      goa,gloucester massachusetts,42 36 57N,0001-11-12
+  26/08/1892,,,15.5,73.9,          gloucester mass,                      goa,gloucester massachusetts,42 36 57N,70 39 45W
   27/08/1892,,,,,,,,,
-  27/08/1892,,,51.4,41.7,gloucester mass and off fishers isld li sound,              story point,fishers island new york,41 15 43N,0001-07-02
+  27/08/1892,,,51.4,41.7,gloucester mass and off fishers isld li sound,              story point,fishers island new york,41 15 43N,72 0 26W
   28/08/1892,,,,,,,,,
-  28/08/1892,,,31.9,41.7,       point judith light,                     poti,point judith rhode island,41.3615N,0002-05-16
+  28/08/1892,,,31.9,41.7,       point judith light,                     poti,point judith rhode island,41.3615N,71.48139W
   28/08/1892,,,,,             nauset light,,,,
   28/08/1892,,,32,120.4,fishers island new london and at sea for new york,              rose island,fishers island new york,,
   29/08/1892,,,,,,,,,
-  29/08/1892,,,40.7,73.9,at anchor off hempstead lj new york navy yard,              king island,brooklyn navy yard,40.7N,0002-06-02
+  29/08/1892,,,40.7,73.9,at anchor off hempstead lj new york navy yard,              king island,brooklyn navy yard,40.7N,73.97W
   30/08/1892,,,,,,,,,
   30/08/1892,,,40.7,-74,       navy yard new york,                 new york,brooklyn navy yard,,
   31/08/1892,,,,,,,,,
@@ -550,20 +550,20 @@
   13/08/1891,   23 07 N,   66 58 W,13.2,-59.6,making passage new your to st thomas wi,                st thomas,north atlantic,,
   06/09/1892,,,,,,,,,
   06/09/1892,   20 01 N,   65 50 W,13.2,-59.6,at sea on way to st thomas west indies,                st thomas,north atlantic,,
-  07/09/1892,,,13.2,-59.6,1039 sighted w end of isle of st thomas bear ese,                st thomas,saint thomas usvi,18 20N,0002-01-21
+  07/09/1892,,,13.2,-59.6,1039 sighted w end of isle of st thomas bear ese,                st thomas,saint thomas usvi,18 20N,64 55W
   07/09/1892,   20 01 N,   65 47 W,13.2,-59.6,                     noon,                st thomas,north atlantic,,
   09/09/1892,,,,,,,,,
   09/09/1892,   17 56 N,   65 01 W,13.2,-59.6,at st thomas and at sea for la guayra venez sa,                st thomas,saint thomas usvi,,
   08/09/1892,,,,,,,,,
   08/09/1892,,,,,,,,,
   08/09/1892,,,,,,,,,
-  08/09/1892,   15 12 N,   65 34 W,13.4,144.7,                     noon,                     guam,caribbean sea,15N,0002-06-10
+  08/09/1892,   15 12 N,   65 34 W,13.4,144.7,                     noon,                     guam,caribbean sea,15N,75W
   09/09/1892,,,,,,,,,
   09/09/1892,,,,,,,,,
   09/09/1892,,,,,,,,,
   09/09/1892,   11 13 N,   66 41 W,13.4,144.7,   la guayra venezuela sa,                     guam,caribbean sea,,
   10/09/1892,,,,,,,,,
-  10/09/1892,,,44.1,15.2,la guayara venezuela south america,                     zara,la guaira,10 36 00N,0002-02-18
+  10/09/1892,,,44.1,15.2,la guayara venezuela south america,                     zara,la guaira,10 36 00N,66 55 59W
   11/09/1892,,,15.5,73.9,                 pt gorda,                      goa,la guaira,,
   11/09/1892,,,13.4,144.7,           la guayra veuz,                     guam,la guaira,,
   12/09/1892,,,,,,,,,
@@ -573,7 +573,7 @@
   14/09/1892,,,,,,,,,
   14/09/1892,,,13.4,144.7,la guayra venez and at sea for puerto cabello,                     guam,la guaira,,
   15/09/1892,,,,,,,,,
-  15/09/1892,,,30.5,117.1,making passage to puerto cabello venezuela,                   anking,puerto cabello,10 28 00N,0001-01-01
+  15/09/1892,,,30.5,117.1,making passage to puerto cabello venezuela,                   anking,puerto cabello,10 28 00N,68 01 00W
   16/09/1892,,,,,,,,,
   16/09/1892,,,4,9.7, puorto cabello venezuala,                    duala,puerto cabello,,
   17/09/1894,,,,,,,,,
@@ -591,7 +591,7 @@
   22/09/1892,,,,,,,,,
   22/09/1892,,,1.8,-77.1,puerto cabello venezuela and at sea for curacao,                  curacas,puerto cabello,,
   23/09/1892,,,,,,,,,
-  23/09/1892,,,1.8,-77.1,               curacao wi,                  curacas,curacao,12 11N,0001-01-01
+  23/09/1892,,,1.8,-77.1,               curacao wi,                  curacas,curacao,12 11N,69 00W
   24/09/1894,,,,,,,,,
   24/09/1894,   12 11 N,   69 19 W,22.2,-77.1,               curacao wi,                  curacas,curacao,,
   25/09/1892,,,,,,,,,
@@ -599,7 +599,7 @@
   26/09/1892,,,,,,,,,
   26/09/1892,   11 07 N,   76 45 W,22.2,79.8,making passage to colon us columbia,                  columbo,caribbean sea,,
   27/09/1892,,,,,,,,,
-  27/09/1892,   09 54 N,   79 56 W,6.9,79.8,       colon uss columbia,                  columbo,colon panama,9 21 26N,0002-01-21
+  27/09/1892,   09 54 N,   79 56 W,6.9,79.8,       colon uss columbia,                  columbo,colon panama,9 21 26N,79 53 55W
   28/09/1892,,,,,,,,,
   28/09/1892,   09 44 N,   79 56 W,,,,,,,
   28/09/1892,,,,,,,,,
@@ -609,7 +609,7 @@
   30/09/1892,,,,,,,,,
   30/09/1892,   10 16 N,   77 04 W,6.9,79.8,   carthagena us columbia,                  columbo,caribbean sea,,
   01/10/1892,,,,,,,,,
-  01/10/1892,,,6.9,79.8,       cartagena columbia,                  columbo,cartagena colombia,10 24N,0001-07-30
+  01/10/1892,,,6.9,79.8,       cartagena columbia,                  columbo,cartagena colombia,10 24N,75 30W
   02/10/1892,,,,,,,,,
   02/10/1892,,,6.9,79.8,       cartagena colombia,                  colombo,cartagena colombia,,
   03/10/1892,,,,,,,,,
@@ -689,10 +689,10 @@
   09/11/1892,,,,,,,,,
   09/11/1892,   21 11 N,   84 21 W,22.4,114.2,colon usc to key west flo,                     tolo,caribbean sea,,
   10/11/1892,,,,,,,,,
-  10/11/1892,   23 09 N,   85 33 W,30.5,114.2,at sea making passage from colon usc to key west fla,                     tolo,gulf of mexico,25N,0002-09-23
+  10/11/1892,   23 09 N,   85 33 W,30.5,114.2,at sea making passage from colon usc to key west fla,                     tolo,gulf of mexico,25N,90W
   11/11/1892,,,,,,,,,
   11/11/1892,   24 20 N,   82 22 W,30,48.5,  at sea for key west fla,                      fao,gulf of mexico,,
-  12/11/1892,,,56.2,-3,at 850 sighted logger head key lighthouse and dry tortugas fort,                    forth,dry tortugas,24 38 00N,0001-03-26
+  12/11/1892,,,56.2,-3,at 850 sighted logger head key lighthouse and dry tortugas fort,                    forth,dry tortugas,24 38 00N,82 55 12W
   12/11/1892,,,30,48.5, anchored at key west fla,                      fao,key west florida,,
   13/11/1892,,,,,,,,,
   13/11/1892,,,38.5,48.5,at anchor at sea for target practice and anchored at key west fla,                      fao,key west florida,,
@@ -731,7 +731,7 @@
   26/11/1892,,,,,,,,,
   26/11/1892,,,,,,,,,
   30/11/1892,,,,,,,,,
-  30/11/1892,   24 26 N,   81 06 W,-43,147.8,at key west fla and at sea for norfolk va,              norfolk bay,straits of florida,23 56 03N,0001-08-20
+  30/11/1892,   24 26 N,   81 06 W,-43,147.8,at key west fla and at sea for norfolk va,              norfolk bay,straits of florida,23 56 03N,80 55 33W
   01/12/1892,,,,,,,,,
   01/12/1892,   27 55 N,   79 25 W,-43,147.8,at sea from key west fla to norfolk va,              norfolk bay,north atlantic,,
   02/12/1892,,,,,,,,,
@@ -739,9 +739,9 @@
     03/12/1892,,,,,,,,,
     03/12/1892,   35 31 N,   75 08 W,-43,147.8,     offshore of key west,              norfolk bay,north atlantic,,
   04/12/1892,,,,,,,,,
-  04/12/1892,,,-43,147.8,    at sea for norfolk va,              norfolk bay,norfolk virginia,36 55N,0001-03-26
+  04/12/1892,,,-43,147.8,    at sea for norfolk va,              norfolk bay,norfolk virginia,36 55N,76 12W
   05/12/1892,,,,,,,,,
-  05/12/1892,,,36.8,-76.3,     navy yard norfork va,               norfolk va,naval station norfolk,36 56.7N,0001-05-12
+  05/12/1892,,,36.8,-76.3,     navy yard norfork va,               norfolk va,naval station norfolk,36 56.7N,76 18.8W
   06/12/1892,,,,,,,,,
   06/12/1892,,,-43,147.8,               norfolk va,              norfolk bay,norfolk virginia,,
    07/12/1892,,,,,,,,,

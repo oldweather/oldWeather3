@@ -9,11 +9,11 @@
   05/05/1897,,,,,,,,,
   05/05/1897,,,48.1,-122.8, port townsend washington,            port townsend,,,
   06/05/1897,,,,,,,,,
-  06/05/1897,,,55.1,-6,         departure bay bc,                  red bay,departure bay nanaimo,49.192011N,2019-11-18T00:00:00
+  06/05/1897,,,55.1,-6,         departure bay bc,                  red bay,departure bay nanaimo,49.192011N,123.954556W
   07/05/1897,,,,,,,,,
   07/05/1897,,,55.1,-6,         departure bay bc,                  red bay,departure bay nanaimo,,
   08/05/1897,,,,,,,,,
-  08/05/1897,,,55,-1.5,          off victoria bc,                      tic,victoria,48.422151N,2019-11-14T00:00:00
+  08/05/1897,,,55,-1.5,          off victoria bc,                      tic,victoria,48.422151N,123.3657W
   09/05/1897,,,,,,,,,
   09/05/1897,,,55,-1.5,              victoria bc,                      tic,victoria,,
   10/05/1897,,,,,,,,,
@@ -31,11 +31,11 @@
   16/05/1897,,,,,,,,,
   16/05/1897,     54 16,    154 28,47.6,-122.3,at sea passage from seattle wash to unalaska,                  seattle,north pacific,,
   17/05/1897,,,,,,,,,
-  17/05/1897,,,15.5,73.9,          off unga alaska,                      goa,unga island,55 15 38N,2018-04-24T00:00:00
+  17/05/1897,,,15.5,73.9,          off unga alaska,                      goa,unga island,55 15 38N,160 41 42W
   18/05/1897,,,,,,,,,
-  18/05/1897,,,47.6,-122.3,belkofsky wxs 12 s 5 miles,                  seattle,belkofski alaska,55 05 20N,2018-06-19T00:00:00
+  18/05/1897,,,47.6,-122.3,belkofsky wxs 12 s 5 miles,                  seattle,belkofski alaska,55 05 20N,162 01 50W
   19/05/1897,,,,,,,,,
-  19/05/1897,,,47.6,-122.3,at sea passage from seattle wash to unalaska,                  seattle,unalga island,53 58 35N,2018-04-03T00:00:00
+  19/05/1897,,,47.6,-122.3,at sea passage from seattle wash to unalaska,                  seattle,unalga island,53 58 35N,166 08 39W
   20/05/1897,,,53.9,-166.5,             dutch harbor,             dutch harbor,,,
   20/05/1897,,,53.9,-166.5,          unalaska alaska,             unalaska bay,,,
   21/05/1897,,,,,,,,,
@@ -46,7 +46,7 @@
   23/05/1897,,,57.1,-170.3,off village cove st paul island,           st paul island,,,
   24/05/1897,,,,,,,,,
   24/05/1897,,,57.1,-170.3,off village cove st paul island,           st paul island,,,
-  25/05/1897,,,22.4,114.2,               tolstoi pt,                     tolo,st george island alaska,56 35 00N,2017-07-04T00:00:00
+  25/05/1897,,,22.4,114.2,               tolstoi pt,                     tolo,st george island alaska,56 35 00N,169 35 00W
   25/05/1897,     55 41,    168 49,55,166.3,        at sea bering sea,                  behring,,,
   26/05/1897,,,,,,,,,
   26/05/1897,,,55,166.3,        at sea bering sea,                  behring,,,
@@ -73,15 +73,15 @@
   06/06/1897,,,,,,,,,
   06/06/1897,     58 41,    166 43,55,166.3,        at sea bering sea,                  behring,,,
   07/06/1897,,,,,           nuuivak island,,,,
-  07/06/1897,     59 55,    169 00,,,nunivak island bering sea,,nunivak island,60 05 42N,2018-04-10T00:00:00
+  07/06/1897,     59 55,    169 00,,,nunivak island bering sea,,nunivak island,60 05 42N,166 12 40W
   08/06/1897,,,,,,,,,
-  08/06/1897,   60 12 N,  172 00 W,,,off nunivak island bering sea,,st matthew island,60 24 31N,2017-09-26T00:00:00
+  08/06/1897,   60 12 N,  172 00 W,,,off nunivak island bering sea,,st matthew island,60 24 31N,172 43 12W
   09/06/1897,,,,,,,,,
   09/06/1897,,,60.4,-172.7,off st matthews island bering sea,        st matthew island,,,
   10/06/1897,,,,,,,,,
   10/06/1897,     61 12,    172 57,60.4,-172.7,st matthews island bering sea,        st matthew island,,,
   11/06/1897,,,,,,,,,
-  11/06/1897,,,56.2,-3,        at sea bering sea,                    forth,st lawrence island,63 24N,2017-09-12T00:00:00
+  11/06/1897,,,56.2,-3,        at sea bering sea,                    forth,st lawrence island,63 24N,170 10W
   12/06/1897,,,,,,,,,
   12/06/1897,,,55,166.3,st lawrence island bering sea,                  behring,st lawrence island,,
   13/06/1897,,,,,,,,,
@@ -101,17 +101,17 @@
   20/06/1897,,,,,,,,,
   20/06/1897,     64 42,    171 45,64.4,-172.2,     indian point siberia,             indian point,,,
   21/06/1897,,,,,,,,,
-  21/06/1897,     65 26,    170 55,55,166.3,        at sea bering sea,                  behring,lavrentiya,65 35 03N,2017-11-21T00:00:00
+  21/06/1897,     65 26,    170 55,55,166.3,        at sea bering sea,                  behring,lavrentiya,65 35 03N,170 59 20W
   22/06/1897,,,,,,,,,
-  22/06/1897,     65 12,    169 12,65,-168.1,         off kings island,            king's island,bering strait,66 0N,2017-07-04T00:00:00
+  22/06/1897,     65 12,    169 12,65,-168.1,         off kings island,            king's island,bering strait,66 0N,169 0W
   23/06/1897,,,,,,,,,
-  23/06/1897,   65 15 N,  167 09 W,55,-168.1,        at sea bering sea,            king's island,king island,64 58 30N,2018-03-06T00:00:00
+  23/06/1897,   65 15 N,  167 09 W,55,-168.1,        at sea bering sea,            king's island,king island,64 58 30N,168 03 35W
   24/06/1897,,,,,,,,,
   24/06/1897,,,55,166.3,        at sea bering sea,                  behring,king island,,
   25/06/1897,,,,,,,,,
   25/06/1897,,,65.2,-166.7, off port clarence alaska,           port clearance,,,
   26/06/1897,,,,,,,,,
-  26/06/1897,,,32.2,119.3,            sledge island,              deer island,sledge island,64 29 9.02N,2018-03-06T00:00:00
+  26/06/1897,,,32.2,119.3,            sledge island,              deer island,sledge island,64 29 9.02N,166 12 35.12W
   27/06/1897,,,,,,,,,
   27/06/1897,,,63.5,-162,       st michaels alaska,               st michael,,,
   28/06/1897,,,,,,,,,
@@ -125,13 +125,13 @@
   02/07/1897,,,,,,,,,
   02/07/1897,,,63.5,-162,       st michaels alaska,               st michael,,,
   03/07/1897,,,,,,,,,
-  03/07/1897,,,12.8,45,         unalaklik alaska,                     aden,unalakleet,63 52 44N,2017-12-12T00:00:00
+  03/07/1897,,,12.8,45,         unalaklik alaska,                     aden,unalakleet,63 52 44N,160 47 23W
   04/07/1897,,,,,,,,,
-  04/07/1897,     64 16,    164 06,22.4,114.2,      golofnin bay alaska,                     tolo,golovnin bay,64.41556N,2020-08-17T00:00:00
+  04/07/1897,     64 16,    164 06,22.4,114.2,      golofnin bay alaska,                     tolo,golovnin bay,64.41556N,162.95917W
   05/07/1897,,,,,,,,,
   05/07/1897,,,65.2,-166.7,     port clarence alaska,           port clearance,,,
   06/07/1897,,,,,,,,,
-  06/07/1897,,,43.7,7.2, off point spencer alaska,                     nice,port clarence alaska,65 15 58N,2017-09-12T00:00:00
+  06/07/1897,,,43.7,7.2, off point spencer alaska,                     nice,port clarence alaska,65 15 58N,166 51 10W
   07/07/1897,,,,,,,,,
   07/07/1897,,,43.7,7.2,    off pt spencer alaska,                     nice,port clarence alaska,,
   08/07/1897,,,,,,,,,
@@ -167,17 +167,17 @@
   23/07/1897,,,,,,,,,
   23/07/1897,,,43.7,7.2,        pt spencer alaska,                     nice,port clarence alaska,,
   24/07/1897,,,,,,,,,
-  24/07/1897,,,53.4,-3,cape prince of wales alaska,                     alex,cape prince of wales,65 38 24N,2017-09-26T00:00:00
+  24/07/1897,,,53.4,-3,cape prince of wales alaska,                     alex,cape prince of wales,65 38 24N,168 7 12W
   25/07/1897,,,65.7,-171.1,          st lawrence bay,          st lawrence bay,,,
   25/07/1897,,,65.7,-171.1,  st lawrence bay siberia,          st lawrence bay,,,
   26/07/1897,,,,,,,,,
   26/07/1897,,,65.7,-171.1,  st lawrence bay siberia,          st lawrence bay,,,
   26/07/1897,,,,,,,,,
-  26/07/1897,,,63.1,-168.9,        east cape siberia,                east cape,cape dezhnev,66 4 45N,2017-08-22T00:00:00
+  26/07/1897,,,63.1,-168.9,        east cape siberia,                east cape,cape dezhnev,66 4 45N,169 39 7W
   27/07/1897,,,,,,,,,
   27/07/1897,     66 15,    168 12,66.2,-169.8,           whalen siberia,                   whalen,bering strait,,
   28/07/1897,,,,,,,,,
-  28/07/1897,     66 33,  162 37 W,,,             arctic ocean,,kotzebue sound,66 32 46N,2018-08-14T00:00:00
+  28/07/1897,     66 33,  162 37 W,,,             arctic ocean,,kotzebue sound,66 32 46N,162 44 58W
   29/07/1897,,,,,,,,,
   29/07/1897,,,66.5,-162.8,chamissa island kotzebue sound,           kotzebue sound,,,
   30/07/1897,,,,,,,,,
@@ -185,19 +185,19 @@
   31/07/1897,,,,,,,,,
   31/07/1897,   66 52 N,  163 00 W,,,,,,,
   31/07/1897,,,,,,,,,
-  31/07/1897,,,55,-1.5,           pt hope alaska,                      tic,point hope,68 20 27N,2017-07-04T00:00:00
+  31/07/1897,,,55,-1.5,           pt hope alaska,                      tic,point hope,68 20 27N,166 50 00W
   01/08/1897,,,68.9,-166.2,            cape lisburne,            cape lisburne,,,
-  01/08/1897,,,55,-1.5,      at sea arctic ocean,                      tic,icy cape,70 19 47N,2018-01-09T00:00:00
+  01/08/1897,,,55,-1.5,      at sea arctic ocean,                      tic,icy cape,70 19 47N,161 52 27W
   02/08/1897,,,70.6,-160,         wainwright inlet,         wainwright inlet,,,
-  02/08/1897,,,55,-1.5,      at sea arctic ocean,                      tic,wainwright alaska,70 38 50N,2018-08-14T00:00:00
+  02/08/1897,,,55,-1.5,      at sea arctic ocean,                      tic,wainwright alaska,70 38 50N,160 00 58W
   03/08/1897,,,70.6,-160,         wainwright inlet,         wainwright inlet,,,
   03/08/1897,,,70.6,-160,               pt belcher,               pt belcher,,,
   04/08/1897,,,,,,,,,
-  04/08/1897,,,35.7,-0.6,              pt franklin,                     oran,point franklin,70 54 28N,2018-02-06T01:58:00
+  04/08/1897,,,35.7,-0.6,              pt franklin,                     oran,point franklin,70 54 28N,158 48 31W
   05/08/1897,,,,,,,,,
-  05/08/1897,,,71.3,-156.8,        pt shedden alaska,              cape smythe,seahorse islands,70 53 18N,2018-01-09T01:58:00
+  05/08/1897,,,71.3,-156.8,        pt shedden alaska,              cape smythe,seahorse islands,70 53 18N,158 42 27W
   06/08/1897,,,,,,,,,
-  06/08/1897,,,12.8,45, off point shedden alaska,                     aden,barrow alaska,71 17 44N,2018-08-21T01:56:00
+  06/08/1897,,,12.8,45, off point shedden alaska,                     aden,barrow alaska,71 17 44N,156 45 59W
   07/08/1897,,,,,,,,,
   07/08/1897,,,12.8,45,     point shedden alaska,                     aden,barrow alaska,,
   08/08/1897,,,,,,,,,
@@ -219,13 +219,13 @@
   16/08/1897,,,,,,,,,
   16/08/1897,   71 20 N,  155 40 W,71.4,-156.5,      point barrow alaska,             point barrow,,,
   17/08/1897,,,,,,,,,
-  17/08/1897,,,53,173.2,off cooper island arctic ocean,           cooper islands,cooper island,71 13 29N,2018-01-09T01:55:00
+  17/08/1897,,,53,173.2,off cooper island arctic ocean,           cooper islands,cooper island,71 13 29N,155 38 27W
   18/08/1897,,,,,,,,,
   18/08/1897,     71 30,    155 40,70.8,-152.2,      cape halkett alaska,             cape halkett,,,
   19/08/1897,,,,,,,,,
   19/08/1897,     71 05,    158 53,71.3,-156.8,       cape smythe alaska,              cape smythe,,,
   20/08/1897,,,,,,,,,
-  20/08/1897,     69 21,    164 42,55,-1.5,      at sea arctic ocean,                      tic,chukchi sea,69N,2020-10-20T00:00:00
+  20/08/1897,     69 21,    164 42,55,-1.5,      at sea arctic ocean,                      tic,chukchi sea,69N,172W
   21/08/1897,,,,,,,,,
   21/08/1897,   68 34 N,  166 38 W,68.9,-166.2,ed of cape lisburne alaska,            cape lisburne,,,
   22/08/1897,,,,,,,,,
@@ -267,7 +267,7 @@
   09/09/1897,,,,,,,,,
   09/09/1897,,,63.5,-162,       st michaels alaska,               st michael,,,
   10/09/1897,,,,,,,,,
-  10/09/1897,,,51.2,-127.8,  sd of egg island alaska,               egg island,norton sound,63 50 57N,2017-08-29T00:00:00
+  10/09/1897,,,51.2,-127.8,  sd of egg island alaska,               egg island,norton sound,63 50 57N,164 16 08W
   11/09/1897,,,,,,,,,
   11/09/1897,,,63.5,-162,       st michaels alaska,               st michael,,,
   12/09/1897,,,,,,,,,
@@ -359,7 +359,7 @@
   25/10/1897,,,,,,,,,
   25/10/1897,     54 17,    167 01,55,166.3,        at sea bering sea,                  behring,,,
   26/10/1897,,,,,,,,,
-  26/10/1897,,,55,124.5,kalekta head ese cape cheerful sexs,                    leyta,unalaska island,53 40 24N,2018-07-17T00:00:00
+  26/10/1897,,,55,124.5,kalekta head ese cape cheerful sexs,                    leyta,unalaska island,53 40 24N,166 38 54W
   27/10/1897,,,,,,,,,
   27/10/1897,,,53.9,-166.5,      dutch harbor alaska,             dutch harbor,,,
   28/10/1897,,,,,,,,,
@@ -379,8 +379,8 @@
   04/11/1897,,,,,,,,,
   04/11/1897,     49 01,    127 20,53.9,-166.5,from dutch harbor at to seattle wash,             dutch harbor,north pacific,,
   05/11/1897,,,,,,,,,
-  05/11/1897,,,22.2,113.9,protection island sxw 12 w 4 miles,                     taio,strait of georgia,49 17 39N,2018-01-02T01:23:00
-  06/11/1897,,,22.2,113.9,                  seattle,                     taio,seattle,47 36 35N,2018-08-21T01:22:00
+  05/11/1897,,,22.2,113.9,protection island sxw 12 w 4 miles,                     taio,strait of georgia,49 17 39N,123 48 26W
+  06/11/1897,,,22.2,113.9,                  seattle,                     taio,seattle,47 36 35N,122 19 59W
   06/11/1897,,,,,,,,,
   06/11/1897,,,,,,,,,
   06/11/1897,,,,,,,,,
@@ -439,7 +439,7 @@
   13/12/1897,,,,,,,,,
   13/12/1897,     62 33,    168 32,55,166.3,        at sea bering sea,                  behring,,,
   14/12/1897,,,,,,,,,
-  14/12/1897,     60 34,    160 50,55,166.3,        at sea bering sea,                  behring,etolin strait,60 20N,2017-12-26T00:00:00
+  14/12/1897,     60 34,    160 50,55,166.3,        at sea bering sea,                  behring,etolin strait,60 20N,165 25W
   15/12/1897,,,49.2,-123.1,           cape vancouver,                vancouver,etolin strait,,
   15/12/1897,,,49.2,-123.1,at anchor off cape vancouver hazen bay,                vancouver,etolin strait,,
   16/12/1897,,,,,,,,,

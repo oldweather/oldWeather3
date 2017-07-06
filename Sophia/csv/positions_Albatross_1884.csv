@@ -6,7 +6,7 @@
     1/1/1884,,,,,,,,,
     1/1/1884,,,,,,,,,
     1/1/1884,,,,,,,,,
-    2/2/1884,,,-13.8,-171.7,            gulf of paria,                     apia,gulf of paria,10 23N,0001-05-28
+    2/2/1884,,,-13.8,-171.7,            gulf of paria,                     apia,gulf of paria,10 23N,62 21W
     2/2/1884,,,,,,,,,
     2/2/1884,,,39.3,-76.6,skinners marine railway baltimore md,                baltimore,,,
   01/01/1884,,,,,,,,,
@@ -19,15 +19,15 @@
   04/01/1884,,,39.3,-76.6,skinners marine railway baltimore md,                baltimore,,,
   05/01/1884,,,,,,,,,
   05/01/1884,,,37,-76,skinners dock balitmore md and chesapeake bay,           chesapeake bay,,,
-  06/01/1884,,,36.9,7.8,standing down chesapeake bay and hampton roads to anchorage,                     bone,chesapeake bay,36 59 45N,0001-08-27
+  06/01/1884,,,36.9,7.8,standing down chesapeake bay and hampton roads to anchorage,                     bone,chesapeake bay,36 59 45N,75 57 34W
   06/01/1884,,,37,-76.3,hampton roads and navy yard norfold va,            hampton roads,,,
   07/01/1884,,,,,,,,,
-  07/01/1884,,,-43,147.8,     navy yard norfolk va,              norfolk bay,naval station norfolk,36 56.7N,0001-05-12
+  07/01/1884,,,-43,147.8,     navy yard norfolk va,              norfolk bay,naval station norfolk,36 56.7N,76 18.8W
   08/01/1884,,,,,,,,,
   08/01/1884,,,-43,147.8,     navy yard norfolk va,              norfolk bay,naval station norfolk,,
-  09/01/1884,,,,,,,norfolk virginia,36 55N,0001-03-26
-  09/01/1884,,,-43,147.8,navy yard norfolk va and at sea,              norfolk bay,hampton roads,36 58N,0001-06-04
-  10/01/1884,,,56.2,-3,          fortress monroe,                    forth,fort monroe,37 00 13N,0001-07-09
+  09/01/1884,,,,,,,norfolk virginia,36 55N,76 12W
+  09/01/1884,,,-43,147.8,navy yard norfolk va and at sea,              norfolk bay,hampton roads,36 58N,76 22W
+  10/01/1884,,,56.2,-3,          fortress monroe,                    forth,fort monroe,37 00 13N,76 18 27W
   10/01/1884,   34 48 N,   72 34 W,-43,147.8,making passage from norfolk va to st thomas vi,              norfolk bay,north atlantic,,
    11/1/1884,,,,,,,,,
    11/1/1884,   32 54 N,   70 42 W,-43,147.8,from norfolk va to st thomas vi,              norfolk bay,north atlantic,,
@@ -41,8 +41,8 @@
   15/01/1884,   21 09 N,   65 05 W,,,,,,,
    16/1/1884,,,,,,,,,
    16/1/1884,,,,,,,,,
-  17/01/1884,,,13.2,-59.6,at 6 am sighted land on port bow virgin gorda,                st thomas,virgin gorda,18 28 54.8N,0001-05-27
-  17/01/1884,,,13.2,-59.6,             st thomas wi,                st thomas,st thomas us virgin islands,18 20N,0002-01-21
+  17/01/1884,,,13.2,-59.6,at 6 am sighted land on port bow virgin gorda,                st thomas,virgin gorda,18 28 54.8N,64 23 20.95W
+  17/01/1884,,,13.2,-59.6,             st thomas wi,                st thomas,st thomas us virgin islands,18 20N,64 55W
   18/01/1884,,,,,,,,,
   18/01/1884,,,13.2,-59.6,             st thomas wi,                st thomas,st thomas us virgin islands,,
   19/01/1884,,,,,,,,,
@@ -50,7 +50,7 @@
   20/01/1884,,,,,,,,,
   20/01/1884,,,13.2,-59.6,   at anchor st thomas wi,                st thomas,st thomas us virgin islands,,
   21/01/1884,,,,,,,,,
-  21/01/1884,,,13.2,-59.6,   st thomas water island,                st thomas,water island usvi,18 19 11N,0001-03-26
+  21/01/1884,,,13.2,-59.6,   st thomas water island,                st thomas,water island usvi,18 19 11N,64 57 12W
   22/01/1884,,,,,,,,,
   22/01/1884,,,13.2,-59.6,             st thomas wi,                st thomas,water island usvi,,
   23/01/1884,,,,,,,,,
@@ -65,7 +65,7 @@
   27/01/1884,   13 34 N,   62 57 W,36.1,-5.3,            caribbean sea,                      gib,caribbean sea,,
   28/01/1884,,,,,,,,,
   28/01/1884,   11 53 N,   62 19 W,36.1,-5.3,            caribbean sea,                      gib,caribbean sea,,
-  29/01/1884,,,51.8,-177.9,granada island exs mag distant about 35 miles,            tanaga island,grenadines,12 44N,0001-05-28
+  29/01/1884,,,51.8,-177.9,granada island exs mag distant about 35 miles,            tanaga island,grenadines,12 44N,61 21W
   29/01/1884,,,10.7,-61.5,      port spain trinidad,                 trinidad,,,
   30/01/1884,,,35.7,-0.6,boca grande gulf of paria,                     oran,gulf of paria,,
   30/01/1884,,,10.7,-61.5,      port spain trinidad,                 trinidad,,,
@@ -73,9 +73,9 @@
   31/01/1884,,,10.7,-61.5,      port spain trinidad,                 trinidad,,,
   01/02/1884,,,,,,,,,
   01/02/1884,,,-13.8,-171.7,            gulf of paria,                     apia,gulf of paria,,
-  02/02/1884,,,10.7,-61.5,            monkey island,            port of spain,cayo santiago,18 09 23N,0001-01-22
+  02/02/1884,,,10.7,-61.5,            monkey island,            port of spain,cayo santiago,18 09 23N,65 44 03W
   02/02/1884,   11 01 N,,-13.8,-171.7,gulf of paria and caribbean sea,                     apia,gulf of paria,,
-  03/02/1884,,,36,14.2,               dehert bay,                     oran,blanquilla island,11 51 12N,0002-01-21
+  03/02/1884,,,36,14.2,               dehert bay,                     oran,blanquilla island,11 51 12N,64 35 55W
   03/02/1884,   12 37 N,   64 25 W,36.1,-5.3,            caribbean sea,                      gib,caribbean sea,,
   04/02/1884,,,,,,,,,
   04/02/1884,   14 21 N,   63 58 W,36.1,-5.3,            caribbean sea,                      gib,caribbean sea,,
@@ -87,9 +87,9 @@
   07/02/1884,   13 25 N,   66 25 W,36.1,-5.3,            caribbean sea,                      gib,caribbean sea,,
     8/2/1884,,,,,,,,,
     8/2/1884,   11 10 N,   66 27 W,36.1,-5.3,            caribbean sea,                      gib,caribbean sea,,
-  09/02/1884,,,29.9,32.6,at daylihgt sighted orchila island bearing s e x s mag,              hall island,la orchila island,11 48N,0001-03-12
-  09/02/1884,   11 55 N,   68 45 W,1.8,-77.1, santa ana harbor curacao,                  curacas,sint anna bay,12.1097N,0002-04-28
-  10/02/1884,,,15.5,117.1,   anchored in schottegat,                     poti,willemstad,12 7N,0002-01-28
+  09/02/1884,,,29.9,32.6,at daylihgt sighted orchila island bearing s e x s mag,              hall island,la orchila island,11 48N,66 10W
+  09/02/1884,   11 55 N,   68 45 W,1.8,-77.1, santa ana harbor curacao,                  curacas,sint anna bay,12.1097N,68.9326W
+  10/02/1884,,,15.5,117.1,   anchored in schottegat,                     poti,willemstad,12 7N,68 56W
   10/02/1884,,,1.8,-77.1,     santa ana curaçao wi,                  curacas,sint anna bay,,
    11/2/1884,,,,,,,,,
    11/2/1884,,,1.8,-77.1,        santa ana curacao,                  curacas,sint anna bay,,
@@ -113,10 +113,10 @@
   20/02/1884,   17 55 N,   72 20 W,36.1,-5.3,            caribbean sea,                      gib,caribbean sea,,
   21/02/1884,,,,,,,,,
   21/02/1884,   17 45 N,   73 05 W,36.1,-5.3,            caribbean sea,                      gib,caribbean sea,,
-  22/02/1884,,,36.9,55.5,west sud la vache island bore on stbd beam,                     bone,ile a vache,18 04 15N,0001-07-30
+  22/02/1884,,,36.9,55.5,west sud la vache island bore on stbd beam,                     bone,ile a vache,18 04 15N,73 38 30W
   22/02/1884,   17 45 N,   74 39 W,36.1,-5.3,            caribbean sea,                      gib,caribbean sea,,
   23/02/1884,,,,,,,,,
-   24/2/1884,   18 49 N,   74 17 W,36.1,-5.3,         windward passage,                      gib,windward passage,20N,0002-06-03
+   24/2/1884,   18 49 N,   74 17 W,36.1,-5.3,         windward passage,                      gib,windward passage,20N,74W
    24/2/1884,,,,,,,,,
    24/2/1884,   19 43 N,   74 56 W,36.1,-5.3,         windward passage,                      gib,windward passage,,
   25/02/1884,,,,,,,,,
@@ -151,16 +151,16 @@
   09/03/1884,,,18,-76.8,         kingston jamaica,         kingston jamaica,,,
   10/03/1884,,,,,,,,,
   10/03/1884,,,18,-76.8,         kingston jamaice,         kingston jamaica,,,
-  11/03/1884,,,22.4,114.2,at end of watch standing out of kingston harbor,              tolo harbor,kingston jamaica,17 59N,0001-12-03
-  11/03/1884,,,56.4,-5.3,    at anchor morant cays,                      gib,morant cays,17 24N,0002-02-18
-  12/03/1884,,,35.7,-0.6,at 950 sighted moramb s e cay on starboard bow,                     oran,south east cay,17 23N,0001-01-01
+  11/03/1884,,,22.4,114.2,at end of watch standing out of kingston harbor,              tolo harbor,kingston jamaica,17 59N,76 48W
+  11/03/1884,,,56.4,-5.3,    at anchor morant cays,                      gib,morant cays,17 24N,75 59W
+  12/03/1884,,,35.7,-0.6,at 950 sighted moramb s e cay on starboard bow,                     oran,south east cay,17 23N,76 00W
   12/03/1884,   16 06 N,   75 26 W,36.1,-5.3,            caribbean sea,                      gib,caribbean sea,,
   13/03/1884,,,,,,,,,
   13/03/1884,   13 52 N,   75 07 W,,,,,,,
    14/3/1884,,,,,,,,,
    14/3/1884,   11 51 N,   74 27 W,,,,,,,
    15/3/1884,,,,,,,,,
-   15/3/1884,,,-5.2,39.1,                savanilla,                   sadani,puerto colombia,11 01N,0002-01-07
+   15/3/1884,,,-5.2,39.1,                savanilla,                   sadani,puerto colombia,11 01N,74 53W
    16/3/1884,,,,,,,,,
    16/3/1884,,,12.1,-61.7,    savanilla new granada,                  grenada,puerto colombia,,
    17/3/1884,,,,,,,,,
@@ -178,9 +178,9 @@
   23/03/1884,,,,,,,,,
   23/03/1884,   09 45 N,   78 04 W,6.9,79.8, off coast of us colombia,                  colombo,caribbean sea,,
   24/03/1884,,,,,,,,,
-  24/03/1884,,,6.9,79.8,                   at sea,                  columbo,limon bay,9 20N,0002-01-28
+  24/03/1884,,,6.9,79.8,                   at sea,                  columbo,limon bay,9 20N,79 56W
   25/03/1884,,,43.1,16.7,         aspinwall harbor,                     hvar,limon bay,,
-  25/03/1884,,,6.9,79.8,    aspinwall us colombia,                  colombo,colon panama,9 21 26N,0002-01-21
+  25/03/1884,,,6.9,79.8,    aspinwall us colombia,                  colombo,colon panama,9 21 26N,79 53 55W
   26/03/1884,,,,,,,,,
   26/03/1884,,,6.9,79.8,    aspinwall us colombia,                  colombo,colon panama,,
   27/03/1884,,,,,,,,,
@@ -198,7 +198,7 @@
   02/04/1884,,,,,,,,,
   02/04/1884,   11 15 N,   80 41 W,4.3,-5.3,            carribean sea,                    warri,caribbean sea,,
   03/04/1884,,,,,,,,,
-  03/04/1884,   13 06 N,   81 25 W,22.4,114.3,catalina harbor old providence island,              long harbor,isla de providencia,13 20 56N,0001-07-23
+  03/04/1884,   13 06 N,   81 25 W,22.4,114.3,catalina harbor old providence island,              long harbor,isla de providencia,13 20 56N,81 22 29W
   04/04/1884,,,22.4,45,      old catalina harbor,              long harbor,isla de providencia,,
   04/04/1884,,,22.4,114.3,catalina harbor old providence island,              long harbor,isla de providencia,,
   05/04/1884,,,,,,,,,
@@ -217,14 +217,14 @@
   11/04/1884,   18 50 N,   83 49 W,36.1,-5.3,            caribbean sea,                      gib,caribbean sea,,
   12/04/1884,,,,,,,,,
   12/04/1884,   21 15 N,   84 47 W,,,at sea off the west end of cuba,,caribbean sea,,
-  13/04/1884,,,22.8,113.6,at 520 sighted cape san antonio light house bearing n 34 w ships head nnw distance 15 miles,                   canton,yucatan channel,21 34 42N,0001-07-09
-  13/04/1884,   23 48 N,   84 06 W,30,48.5,at sea straits of florida,                      fao,straits of florida,23 56 03N,0001-08-20
+  13/04/1884,,,22.8,113.6,at 520 sighted cape san antonio light house bearing n 34 w ships head nnw distance 15 miles,                   canton,yucatan channel,21 34 42N,85 54 27W
+  13/04/1884,   23 48 N,   84 06 W,30,48.5,at sea straits of florida,                      fao,straits of florida,23 56 03N,80 55 33W
   14/04/1884,,,,,,,,,
   14/04/1884,,,30,48.5,straits of florida  key west fla,                      fao,straits of florida,,
   15/04/1884,,,,,     sand key light abeam,,,,
   15/04/1884,,,,,             key west fla,,,,
   16/04/1884,,,,,,,,,
-  16/04/1884,,,51.1,1.3,government wharf key west fla,                    dover,key west,24 33 33N,0001-01-22
+  16/04/1884,,,51.1,1.3,government wharf key west fla,                    dover,key west,24 33 33N,81 47 03W
   17/04/1884,,,,,,,,,
   17/04/1884,,,51.1,1.3,government wharf key west florida,                    dover,key west,,
   18/04/1884,,,,,,,,,
@@ -275,7 +275,7 @@
   09/05/1884,,,30,48.5,key west fla and strait of florida,                      fao,straits of florida,,
   10/05/1884,,,56.2,-3,sighted sombrero light house bearing pc nn,                    forth,straits of florida,,
   10/05/1884,   27 17 N,   79 47 W,,,,,,,
-   11/5/1884,,,,,,,sargasso sea,28N,0002-04-08
+   11/5/1884,,,,,,,sargasso sea,28N,66W
    11/5/1884,   31 16 N,   78 25 W,38.9,-77,making passage from key west fla to washington dc,            washington dc,north atlantic,,
    12/5/1884,,,,,,,,,
    12/5/1884,   33 21 N,   75 16 W,,,,,,,
@@ -285,7 +285,7 @@
    14/5/1884,   35 53 N,   75 04 W,38.9,-77,making passage from key west fla to washingtion dc,            washington dc,north atlantic,,
    15/5/1884,,,55,-1.5,standing in for the capes of virginia and up the chesapeake bay,                     hvar,chesapeake bay,,
    15/5/1884,,,38.9,-77,            washington dc,            washington dc,,,
-  16/05/1884,,,36.9,-1.5,at end of watch midway between sandy pt  quantico,                     poti,quantico virginia,38 31 19N,0001-06-11
+  16/05/1884,,,36.9,-1.5,at end of watch midway between sandy pt  quantico,                     poti,quantico virginia,38 31 19N,77 17 23W
   16/05/1884,,,38.9,-77,            washington dc,            washington dc,,,
    17/5/1884,,,,,,,,,
    17/5/1884,,,38.9,-77,  navy yard washington dc,            washington dc,,,
@@ -355,7 +355,7 @@
    18/6/1884,,,38.9,-77,  navy yard washington dc,            washington dc,,,
   19/06/1884,,,,,,,,,
   19/06/1884,,,38.9,-77,   navy yar washington dc,            washington dc,,,
-  20/06/1884,,,44.1,15.2,the despatch in coming up grounded off buzzards point,                     zara,buzzard point,38.872N,0002-06-24
+  20/06/1884,,,44.1,15.2,the despatch in coming up grounded off buzzards point,                     zara,buzzard point,38.872N,77.011W
   20/06/1884,,,38.9,-77,  navy yard washington dc,            washington dc,,,
   21/06/1884,,,,,,,,,
   21/06/1884,,,38.9,-77,   navy yard washinton dc,            washington dc,,,
@@ -415,7 +415,7 @@
   11/07/1884,,,38.9,-77,  navy yard washington dc,            washington dc,,,
    12/7/1884,,,,,,,,,
    12/7/1884,,,37,-76,potomac river and chesapeake bay,           chesapeake bay,,,
-  07/13/1884,,,54,-166.6,at 410 got underway and stood down potomic river at 613 abreast of upper cedar point at 657 abreast mathias point at 735 lower cedarpoint abeam,              eider point,mathias point light,38.4051N,0002-06-24
+  07/13/1884,,,54,-166.6,at 410 got underway and stood down potomic river at 613 abreast of upper cedar point at 657 abreast mathias point at 735 lower cedarpoint abeam,              eider point,mathias point light,38.4051N,77.0428W
   07/13/1884,,,37,-76.3,hampton roads and navy yard norfolk va,            hampton roads,,,
    14/7/1884,,,36.8,16.7,                  norfolk,                     hvar,norfolk virginia,,
    14/7/1884,,,-43,147.8,dry dock norfolk navy yard,              norfolk bay,naval station norfolk,,
@@ -427,7 +427,7 @@
   17/07/1884,,,-43,147.8,at anchor navy yard norfolk virginia,              norfolk bay,naval station norfolk,,
   18/07/1884,,,,,,,,,
   18/07/1884,,,-43,147.8,navy yard norfolk va and at sea,              norfolk bay,naval station norfolk,,
-  19/07/1884,,,36.9,-5.3,at 750 abreast of willoughby spit buoy,                     bone,willoughby spit,36 58 1.2N,0002-02-03
+  19/07/1884,,,36.9,-5.3,at 750 abreast of willoughby spit buoy,                     bone,willoughby spit,36 58 1.2N,76 16 56.9W
   19/07/1884,   37 57 N,   73 54 W,15.5,73.9,at sea off the maryland coast,                      goa,north atlantic,,
   20/07/1884,,,,,,,,,
   20/07/1884,   38 03 N,   72 27 W,15.5,73.9,at sea off new jersey coast,                      goa,north atlantic,,
@@ -436,11 +436,11 @@
   22/07/1884,,,,,,,,,
   22/07/1884,   39 28 N,   71 49 W,65,-168.1,at sea south of long island,              king island,north atlantic,,
   23/07/1884,,,,,,,,,
-  23/07/1884,,,31.9,118.6,at sea and in block island sound,              duck island,block island sound,41.26N,0002-05-17
-  24/07/1884,,,42.2,41.7,at 522 beaver tail lighthouse abeam,                     poti,beavertail state park,41 26 56N,0002-02-11
-  07/24/1894,,,29.9,32.6,newport r i and tarpaulin leove,                   port t,newport rhode island,41.488002N,0002-05-15
+  23/07/1884,,,31.9,118.6,at sea and in block island sound,              duck island,block island sound,41.26N,71.66W
+  24/07/1884,,,42.2,41.7,at 522 beaver tail lighthouse abeam,                     poti,beavertail state park,41 26 56N,71 23 58W
+  07/24/1894,,,29.9,32.6,newport r i and tarpaulin leove,                   port t,newport rhode island,41.488002N,71.312622W
    25/7/1884,,,,,,,,,
-   25/7/1884,,,69.6,-138.9,          woods hole mass,             pauline cove,woods hole massachusetts,41 31 36N,0001-11-26
+   25/7/1884,,,69.6,-138.9,          woods hole mass,             pauline cove,woods hole massachusetts,41 31 36N,70 39 47W
   26/07/1884,,,,,,,,,
   26/07/1884,,,35.8,14.5, woods hole massachusetts,                    marsa,woods hole massachusetts,,
   27/07/1884,,,,,,,,,
@@ -487,7 +487,7 @@
   16/08/1884,,,,,          woods hole mass,,,,
   17/08/1884,,,,,,,,,
   17/08/1884,,,,,          woods hole mass,,,,
-  18/08/1884,,,36.9,4.8,gay head light still visible at 8 av steam 50 av revolutions 68,                    sigle,gay head light,41 20 54.4N,0001-02-10
+  18/08/1884,,,36.9,4.8,gay head light still visible at 8 av steam 50 av revolutions 68,                    sigle,gay head light,41 20 54.4N,70 50 5.8W
   18/08/1884,   39 37 N,   71 43 W,51.8,-177.8,at sea south of moutauk point,              trunk point,north atlantic,,
   19/08/1884,,,,,,,,,
   19/08/1884,   39 35 N,   71 31 W,51.8,-177.8,at sea south of montauk point,              trunk point,north atlantic,,
@@ -513,7 +513,7 @@
   29/08/1884,,,29.9,32.6,               newport ri,                   port t,newport rhode island,,
   30/08/1884,,,52.1,-174.4,at 1210pm anchored off coddington point and at 456 anchored inside goat island,              atka island,newport rhode island,,
   30/08/1884,,,29.9,32.6,               newport ri,                   port t,newport rhode island,,
-  31/08/1884,         r,,60.1,-149.4,at 635pm sighted nashuon island on the port bow and at 704 made tarpoulin cove light 2 points on port bow,             pauline cove,tarpaulin cove light,41 28 7.74N,0001-07-08
+  31/08/1884,         r,,60.1,-149.4,at 635pm sighted nashuon island on the port bow and at 704 made tarpoulin cove light 2 points on port bow,             pauline cove,tarpaulin cove light,41 28 7.74N,70 45 26.991W
   31/08/1884,,,69.6,-138.9,tarpaulin cove  woods holl mass,             pauline cove,tarpaulin cove light,,
   01/09/1884,,,,,,,,,
   01/09/1884,,,,,          woods holl mass,,,,
@@ -523,7 +523,7 @@
   03/09/1884,,,,,          woods holl mass,,,,
   04/09/1884,,,,,,,,,
   04/09/1884,,,,,          woods holl mass,,,,
-  05/09/1884,,,29.9,32.6,vineyard sound at end of watch 6pm off gay head at 7 southern end of no mans land bore off port beam course s 58 w,                   port t,nomans land island,41 15 18N,0002-01-14
+  05/09/1884,,,29.9,32.6,vineyard sound at end of watch 6pm off gay head at 7 southern end of no mans land bore off port beam course s 58 w,                   port t,nomans land island,41 15 18N,70 48 54W
   05/09/1884,   39 04 N,   70 49 W,55,-1.5,at sea south of nantucket island,                      tic,north atlantic,,
   06/09/1884,,,,,,,,,
   06/09/1884,   37 42 N,   69 22 W,55,-1.5,at sea south of nantucket island,                      tic,north atlantic,,
@@ -592,7 +592,7 @@
   08/10/1884,,,,,,,,,
   08/10/1884,,,40.7,-74,at sea and new york north river,                 new york,,,
   09/10/1884,,,,,,,,,
-  09/10/1884,,,40.7,-74,      west 23 st new york,                 new york,chelsea piers,40 44 50N,0001-09-03
+  09/10/1884,,,40.7,-74,      west 23 st new york,                 new york,chelsea piers,40 44 50N,74 0 35W
   10/10/1884,,,,,,,,,
   10/10/1884,,,40.7,-74,      west 23 st new york,                 new york,chelsea piers,,
   11/10/1884,,,,,,,,,
@@ -622,7 +622,7 @@
   21/10/1884,,,,,,,,,
   21/10/1884,,,,,,,,,
   21/10/1884,,,,,,,,,
-  21/10/1884,,,42.2,41.7,at sea and in potomac river,                     poti,potomac river,37 59 57N,0002-02-18
+  21/10/1884,,,42.2,41.7,at sea and in potomac river,                     poti,potomac river,37 59 57N,76 14 59W
   22/10/1884,,,,,,,,,
   22/10/1884,,,38.9,-77,  navy yard washington dc,            washington dc,,,
   23/10/1884,,,,,,,,,

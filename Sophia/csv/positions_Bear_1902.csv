@@ -11,14 +11,14 @@
   11/01/1902,,,37.8,-122.3,            sausalito cal,                sausalito,,,
   12/01/1902,,,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
   13/01/1902,,,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
-  14/01/1902,,,30.5,47.9,santa barbara channel cal,                    basra,santa barbara channel,34 14 31N,2017-12-19T01:19:00
+  14/01/1902,,,30.5,47.9,santa barbara channel cal,                    basra,santa barbara channel,34 14 31N,119 53 24W
   15/01/1902,,,32.7,-117.2,                   at sea,            san diego usa,,,
   16/01/1902,,,32.7,-117.2,            san diego cal,            san diego usa,,,
   17/01/1902,,,,,                   at sea,,,,
   18/01/1902,,,30.5,47.9,                   at sea,                    basra,north pacific,,
   19/01/1902,,,30.5,47.9,        santa barbara cal,                    basra,santa barbara channel,,
   20/01/1902,,,30.5,47.9,at sea santa barbara channel,                    basra,santa barbara channel,,
-  21/01/1902,,,35.9,-5.3,avalon santa catalina id cal,                   almina,avalon california,33 20 27N,2018-04-10T01:18:00
+  21/01/1902,,,35.9,-5.3,avalon santa catalina id cal,                   almina,avalon california,33 20 27N,118 19 40W
   22/01/1902,,,32.7,-117.2,                   at sea,                san diego,,,
   23/01/1902,,,32.7,-117.2,            san diego cal,            san diego usa,,,
   24/01/1902,,,,,                   at sea,,,,
@@ -28,7 +28,7 @@
   28/01/1902,,,30.5,47.9,        santa barbara cal,                    basra,santa barbara channel,,
   29/01/1902,,,35.9,-5.3,                   at sea,                   almina,north pacific,,
   30/01/1902,,,32.7,-117.2,                   at sea,            san diego usa,,,
-  31/01/1902,,,35.7,-0.6,             coronado cal,                     oran,coronado california,32 40 41N,2017-11-28T01:17:00
+  31/01/1902,,,35.7,-0.6,             coronado cal,                     oran,coronado california,32 40 41N,117 10 21W
   01/02/1902,,,35.7,-0.6,             coronado cal,                     oran,coronado california,,
   02/02/1902,,,35.7,-0.6,             coronado cal,                     oran,coronado california,,
   03/02/1902,,,35.7,-0.6,             coronado cal,                     oran,coronado california,,
@@ -108,12 +108,12 @@
   16/04/1902,,,37.8,-122.4,        san francisco cal,        san francisco bay,,,
   17/04/1902,,,,,                   at sea,,,,
   18/04/1902,,,,,                   at sea,,,,
-  19/04/1902,   43 26 N,2018-04-17T01:24:00,,,                   at sea,,,,
+  19/04/1902,   43 26 N,  124 41 W,,,                   at sea,,,,
   20/04/1902,,,,,                   at sea,,,,
   21/04/1902,,,48.1,-122.8,                   at sea,            port townsend,,,
   22/04/1902,,,,,              puget sound,,,,
   23/04/1902,,,47.6,-122.3,       seattle washington,                  seattle,,,
-  24/04/1902,,,43.1,16.7,    quartermasters harbor,                     hvar,quartermaster harbor,47.3793N,2019-11-08T00:00:00
+  24/04/1902,,,43.1,16.7,    quartermasters harbor,                     hvar,quartermaster harbor,47.3793N,122.4620W
   25/04/1902,,,47.3,-122.4,        tacoma washington,                   tacoma,,,
   26/04/1902,,,47.6,-122.3,       seattle washington,                  seattle,,,
   26/04/1902,,,,,,,,,
@@ -130,9 +130,9 @@
   26/04/1902,,,,,,,,,
   26/04/1902,,,47.6,-122.3,       seattle washington,                  seattle,,,
   14/07/1901,,,,,,,,,
-  14/07/1901,,,22.6,59.5,    at sea rosario strait,                      sur,rosario strait,48.5N,2019-11-10T00:00:00
+  14/07/1901,,,22.6,59.5,    at sea rosario strait,                      sur,rosario strait,48.5N,122.75W
   15/07/1901,,,,,,,,,
-  15/07/1901,,,43.1,16.7,           union wharf bc,                     hvar,salish sea,48 21N,2017-09-19T01:23:00
+  15/07/1901,,,43.1,16.7,           union wharf bc,                     hvar,salish sea,48 21N,123 11W
   16/07/1901,,,,,,,,,
   16/07/1901,,,43.1,16.7,           union wharf bc,                     hvar,salish sea,,
   17/07/1901,,,,,,,,,

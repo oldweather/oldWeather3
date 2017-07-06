@@ -1,5 +1,5 @@
   01/01/1914,        NA,        NA_2,        NA_3,        NA_4,                       NA,                       NA_2,h,i,j
-  01/01/1914,,,30.6,117.2,in dry dock 1 navy yard puget sound washington,                    mashi,puget sound,47.6N,2019-11-07T00:00:00
+  01/01/1914,,,30.6,117.2,in dry dock 1 navy yard puget sound washington,                    mashi,puget sound,47.6N,122.4W
   02/01/1914,,,,,,,,,
   02/01/1914,,,30.6,117.2,in dry dock 1 navy yard puget sound washington,                    mashi,puget sound,,
   03/01/1914,,,,,,,,,
@@ -285,7 +285,7 @@
   23/05/1914,,,,,,,,,
   23/05/1914,,,32.7,-117.2,     san diego california,            san diego usa,,,
   24/05/1914,,,,,,,,,
-  24/05/1914,,,54.1,-165.8,moored to east side of coal dock naval coaling station san diego california,          whaling station,san diego,32 42 54N,2018-05-15T01:17:00
+  24/05/1914,,,54.1,-165.8,moored to east side of coal dock naval coaling station san diego california,          whaling station,san diego,32 42 54N,117 09 45W
   25/05/1914,,,32.7,-117.2,     san diego california,            san diego usa,,,
   25/05/1914,,,32.7,-117.2,     san diego california,            san diego usa,,,
   26/05/1914,,,,,,,,,
@@ -333,7 +333,7 @@
   16/06/1914,,,,,,,,,
   16/06/1914,,,37.8,-122.4,in passage from san francisco cal to bremerton wash,        san francisco bay,,,
   17/06/1914,,,,,,,,,
-  17/06/1914,,,37.8,115.2,at anchor off us naval coaling station california city san francisco,          whaling station,san francisco bay,37 42 30N,2018-06-12T01:22:00
+  17/06/1914,,,37.8,115.2,at anchor off us naval coaling station california city san francisco,          whaling station,san francisco bay,37 42 30N,122 16 49W
   18/06/1914,,,,,,,,,
   18/06/1914,   38 06 N,  123 09 W,37.8,-122.4,        san francisco cal,        san francisco bay,north pacific,,
   19/06/1914,,,,,,,,,
@@ -845,7 +845,7 @@
   19/02/1915,,,,,,,,,
   19/02/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   20/02/1915,,,,,,,,,
-  20/02/1915,,,30.5,117.1,making passage for bellingham washington,                   anking,bellingham washington,48.750178N,2019-11-08T00:00:00
+  20/02/1915,,,30.5,117.1,making passage for bellingham washington,                   anking,bellingham washington,48.750178N,122.474975W
   21/02/1915,,,,,,,,,
   21/02/1915,,,30.6,117.2,at anchor bellingham washington,                    mashi,bellingham washington,,
   22/02/1915,,,,,,,,,
@@ -969,7 +969,7 @@
   23/04/1915,,,,,,,,,
   23/04/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   24/04/1915,,,,,,,,,
-  24/04/1915,,,58.3,-135.7,making passage down admiralty strait,               icy strait,admiralty inlet,48 09 44.44N,2018-01-19T01:22:00
+  24/04/1915,,,58.3,-135.7,making passage down admiralty strait,               icy strait,admiralty inlet,48 09 44.44N,122 43 28.55W
   25/04/1915,,,,,,,,,
   25/04/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   26/04/1915,,,,,,,,,
@@ -1023,7 +1023,7 @@
   14/05/1915,,,,,,,,,
   14/05/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   15/05/1915,,,,,,,,,
-  15/05/1915,,,47.6,-122.3,making passage for vashon island,             ashby island,vashon washington,47 24 58N,2017-08-15T01:22:00
+  15/05/1915,,,47.6,-122.3,making passage for vashon island,             ashby island,vashon washington,47 24 58N,122 28 6W
   16/05/1915,,,,,,,,,
   16/05/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   17/05/1915,,,,,,,,,
@@ -1051,7 +1051,7 @@
   28/05/1915,,,,,,,,,
   28/05/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   29/05/1915,,,,,,,,,
-  29/05/1915,,,29.9,32.6,steaming various courses for port discovery washington,                   port t,discovery bay washington,47 59 24N,2018-02-06T01:22:00
+  29/05/1915,,,29.9,32.6,steaming various courses for port discovery washington,                   port t,discovery bay washington,47 59 24N,122 53 31W
    30/5/1915,,,,,,,,,
    30/5/1915,,,47.6,-122.3,making passage from port discovery bay to west seattle washington,                  seattle,puget sound,,
   31/05/1915,,,,,,,,,
@@ -1079,7 +1079,7 @@
   11/06/1915,,,,,,,,,
   11/06/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   12/06/1915,,,,,,,,,
-  12/06/1915,,,30.5,117.1,making passage for keyport,                   anking,keyport washington,47 42 07N,2017-09-12T01:22:00
+  12/06/1915,,,30.5,117.1,making passage for keyport,                   anking,keyport washington,47 42 07N,122 37 10W
   13/06/1915,,,,,,,,,
   13/06/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   14/06/1915,,,,,,,,,
@@ -1191,7 +1191,7 @@
   06/08/1915,,,,,,,,,
   06/08/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   07/08/1915,,,,,,,,,
-  07/08/1915,,,29.9,32.6,making passage for port angles wash,                   port t,port angeles washington,48 06 47N,2018-01-09T01:23:00
+  07/08/1915,,,29.9,32.6,making passage for port angles wash,                   port t,port angeles washington,48 06 47N,123 26 27W
   08/08/1915,,,,,,,,,
   08/08/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   09/08/1915,,,,,,,,,
@@ -1331,7 +1331,7 @@
   15/10/1915,,,,,,,,,
   15/10/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   16/10/1915,,,,,,,,,
-  16/10/1915,,,47.6,-122.3,making a passage form seattle to fort worden washington,                  seattle,fort worden,48.139753N,2019-11-10T00:00:00
+  16/10/1915,,,47.6,-122.3,making a passage form seattle to fort worden washington,                  seattle,fort worden,48.139753N,122.76586W
   17/10/1915,,,,,,,,,
   17/10/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   18/10/1915,,,,,,,,,
@@ -1387,7 +1387,7 @@
   12/11/1915,,,,,,,,,
   12/11/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   13/11/1915,,,,,,,,,
-  13/11/1915,,,47.6,-122.3,making passage from west seattle to everett washington,                  seattle,everett washington,47 57 48N,2017-07-18T01:22:00
+  13/11/1915,,,47.6,-122.3,making passage from west seattle to everett washington,                  seattle,everett washington,47 57 48N,122 12 2W
   14/11/1915,,,,,,,,,
   14/11/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   15/11/1915,,,,,,,,,
@@ -1443,7 +1443,7 @@
   10/12/1915,,,,,,,,,
   10/12/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   11/12/1915,,,,,,,,,
-  11/12/1915,,,47.6,-122.3,enroute from seattle to tacoma washington,                  seattle,commencement bay,47.2897N,2019-11-08T00:00:00
+  11/12/1915,,,47.6,-122.3,enroute from seattle to tacoma washington,                  seattle,commencement bay,47.2897N,122.4580W
   12/12/1915,,,,,,,,,
   12/12/1915,,,47.6,-122.3,moored to dock at west seattle washington,                  seattle,,,
   13/12/1915,,,,,,,,,

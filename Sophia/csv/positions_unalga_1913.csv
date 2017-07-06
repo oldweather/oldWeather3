@@ -18,13 +18,13 @@
   09/12/1913,,,37.8,-122.3,     sausalito california,                sausalito,,,
   10/12/1913,,,,,,,,,
   10/12/1913,   36 44 N,  122 17 W,37.8,-122.3,     sausalito california,                sausalito,,,
-  11/12/1913,,,42.2,41.7,  pidgeon pt 4 pts on bow,                     poti,pigeon point lighthouse,37 10 54.3N,2018-03-27T01:22:00
+  11/12/1913,,,42.2,41.7,  pidgeon pt 4 pts on bow,                     poti,pigeon point lighthouse,37 10 54.3N,122 23 38.1W
   11/12/1913,   34 51 N,  121 18 W,55,-1.5,     at sea pacific coast,                      tic,north pacific,,
-  12/12/1913,,,12.8,45,   made arguella lt ne14n,                     aden,point arguello light,34 34 37.4N,2018-06-18T01:20:00
-  12/12/1913,   33 45 N,  118 36 W,30.5,47.9,entering san pedro harbor,            san pedro bay,san pedro los angeles,33.74N,2019-10-10T00:00:00
-  13/12/1913,,,12.5,-25,   ese58e for pt vincente,             point fortin,point vicente light,33.741867N,2019-10-10T00:00:00
+  12/12/1913,,,12.8,45,   made arguella lt ne14n,                     aden,point arguello light,34 34 37.4N,120 38 49.9W
+  12/12/1913,   33 45 N,  118 36 W,30.5,47.9,entering san pedro harbor,            san pedro bay,san pedro los angeles,33.74N,118.29W
+  13/12/1913,,,12.5,-25,   ese58e for pt vincente,             point fortin,point vicente light,33.741867N,118.410738W
   13/12/1913,   33 01 N,  117 37 W,33.7,-118.3,     san pedro california,          san pedro calif,north pacific,,
-  14/12/1913,,,41.1,-3,made vessels signal number to fort rosecrans and to uss yorktown,            san diego usa,naval base point loma,32 40 37N,2018-04-17T01:17:00
+  14/12/1913,,,41.1,-3,made vessels signal number to fort rosecrans and to uss yorktown,            san diego usa,naval base point loma,32 40 37N,117 14 41W
   14/12/1913,,,32.7,-117.2,          san diego calif,            san diego usa,,,
   15/12/1913,,,,,,,,,
   15/12/1913,,,32.7,-117.2,            san diego cal,            san diego usa,,,
@@ -33,12 +33,12 @@
   17/12/1913,,,,,,,,,
   17/12/1913,   33 40 N,  117 35 W,32.7,-117.2,     san diego california,            san diego usa,,,
   18/12/1913,,,56.2,-3,anchored off par 5 near fort rosecrans,                    forth,naval base point loma,,
-  18/12/1913,,,30.5,47.9,outer santa barbara channel,                     deal,santa barbara channel,34 14 31N,2017-12-19T01:19:00
+  18/12/1913,,,30.5,47.9,outer santa barbara channel,                     deal,santa barbara channel,34 14 31N,119 53 24W
   19/12/1913,,,55.1,-162.3,stood various courses out of dakins cove,                king cove,santa barbara channel,,
   19/12/1913,   33 22 N,  119 38 W,52.1,47.9,outer santa barbara channel,                    basra,santa barbara channel,,
-  20/12/1913,,,30.5,16.7,stood over toward beggs rock,                     hvar,begg rock,33.362N,2019-10-19T00:00:00
+  20/12/1913,,,30.5,16.7,stood over toward beggs rock,                     hvar,begg rock,33.362N,119.695W
   20/12/1913,,,33.7,-118.3,            san pedro cal,          san pedro calif,,,
-  21/12/1913,,,12.8,47.9,  hueneme lt abeam 48 mls,               st vincent,point hueneme light,34.145176N,2019-10-16T00:00:00
+  21/12/1913,,,12.8,47.9,  hueneme lt abeam 48 mls,               st vincent,point hueneme light,34.145176N,119.210019W
   21/12/1913,   36 32 N,  122 15 W,30.5,47.9,northern entrance to santa barbara channel,                    basra,santa barbara channel,,
   22/12/1913,,,42.2,41.7,pigeon point bearing nxe58e,                     poti,pigeon point lighthouse,,
   22/12/1913,,,37.8,-122.3,     sausalito california,                sausalito,,,
@@ -72,9 +72,9 @@
   31/12/1913,,,37.8,-122.3,     sausalito california,                sausalito,,,
   01/01/1914,,,,,,,,,
   01/01/1914,,,37.8,-122.3,     sausalito california,                sausalito,,,
-  02/01/1914,,,30,48.5, sexe38e for duxbury reef,                    forth,bolinas bay,37 53 36N,2018-08-14T01:22:00
-  02/01/1914,,,44.1,-122.3,    gulf of the farallows,                sausalito,gulf of the farallones,37.7504857N,2019-11-10T00:00:00
-  03/01/1914,,,44.1,15.2,farallon lt bore w18s mag,                     zara,farallon island light,37.698966N,2019-11-12T00:00:00
+  02/01/1914,,,30,48.5, sexe38e for duxbury reef,                    forth,bolinas bay,37 53 36N,122 39 58W
+  02/01/1914,,,44.1,-122.3,    gulf of the farallows,                sausalito,gulf of the farallones,37.7504857N,122.7516535W
+  03/01/1914,,,44.1,15.2,farallon lt bore w18s mag,                     zara,farallon island light,37.698966N,123.001651W
   03/01/1914,,,37.8,-122.3,     sausalito california,                sausalito,,,
   04/01/1914,,,,,,,,,
   04/01/1914,,,37.8,-122.3,     sausalito california,                sausalito,,,
@@ -84,25 +84,25 @@
   06/01/1914,,,37.8,-122.3,     sausalito california,                sausalito,,,
   07/01/1914,,,,,,,,,
   07/01/1914,,,37.8,-122.3,     sausalito california,                sausalito,,,
-  08/01/1914,,,37.8,-122.3,mile rock abeam  stood over for south channel and down south channel,                sausalito,mile rocks light,37.792765N,2019-11-08T00:00:00
-  08/01/1914,,,-8.7,115.2,           santa cruz cal,                     bali,santa cruz california,36 58 19N,2018-03-06T01:22:00
+  08/01/1914,,,37.8,-122.3,mile rock abeam  stood over for south channel and down south channel,                sausalito,mile rocks light,37.792765N,122.510366W
+  08/01/1914,,,-8.7,115.2,           santa cruz cal,                     bali,santa cruz california,36 58 19N,122 1 35W
   09/01/1914,,,,,    anchored off monterey,,,,
-  09/01/1914,,,22.6,59.5,      monterey california,                      sur,monterey california,36 36N,2018-07-17T01:21:00
-  10/01/1914,,,22.6,114.2,pt sur abeam dist 29 miles,                     tolo,point sur lighthouse,36 18 22.79N,2017-08-10T01:21:00
+  09/01/1914,,,22.6,59.5,      monterey california,                      sur,monterey california,36 36N,121 54W
+  10/01/1914,,,22.6,114.2,pt sur abeam dist 29 miles,                     tolo,point sur lighthouse,36 18 22.79N,121 54 5.36W
   10/01/1914,,,-8.7,115.2,  off coast of california,                     bali,point arguello light,,
   11/01/1914,,,30.5,47.9, judge rock bearing south,                    basra,santa barbara channel,,
   11/01/1914,,,30.5,47.9,        santa barbara cal,                    basra,santa barbara channel,,
-  12/01/1914,,,33.5,47.9,san luis point light abeam,                     nice,point san luis light,35.160362N,2019-10-27T00:00:00
+  12/01/1914,,,33.5,47.9,san luis point light abeam,                     nice,point san luis light,35.160362N,120.760882W
   12/01/1914,,,-8.7,115.2,  off coast of california,                     bali,gulf of the farallones,,
   13/01/1914,,,,,,,,,
   13/01/1914,,,37.8,-122.3,     sausalito california,                sausalito,,,
-  14/01/1914,,,22.1,114.3,rounded buoy 1 four fathom bank,             lima channel,bonita channel,37.829928N,2019-11-08T00:00:00
+  14/01/1914,,,22.1,114.3,rounded buoy 1 four fathom bank,             lima channel,bonita channel,37.829928N,122.559143W
   14/01/1914,,,37.8,-122.3,     sausalito california,                sausalito,,,
   15/01/1914,,,,,,,,,
   15/01/1914,,,37.8,-122.3,     sausalito california,                sausalito,,,
-  16/01/1914,,,37.8,122.3,pt san pedro abeam dist 24 miles,                sausalito,san pedro rock,37 35 43N,2018-01-09T01:22:00
+  16/01/1914,,,37.8,122.3,pt san pedro abeam dist 24 miles,                sausalito,san pedro rock,37 35 43N,122 31 27W
   16/01/1914,,,37.8,-122.3,     sausalito california,                sausalito,,,
-  17/01/1914,,,-8.7,-70.2,stood various courses and speeds from anchorage thru golden gate,                  el buoy,golden gate,37 49N,2018-01-23T01:22:00
+  17/01/1914,,,-8.7,-70.2,stood various courses and speeds from anchorage thru golden gate,                  el buoy,golden gate,37 49N,122 29W
   17/01/1914,,,37.8,-122.3,     sausalito california,                sausalito,,,
   18/01/1914,,,,,,,,,
   18/01/1914,,,37.8,-122.3,     sausalito california,                sausalito,,,
@@ -110,9 +110,9 @@
   19/01/1914,,,37.8,-122.3,     sausalito california,                sausalito,,,
   20/01/1914,,,,,,,,,
   20/01/1914,,,37.8,-122.3,     sausalito california,                sausalito,,,
-  21/01/1914,,,12.8,-3,      pt arena lt bg n14w,                     aden,point arena light,38 57 17.1N,2017-12-31T01:23:00
-  21/01/1914,,,36.1,115.2, cape vescaino california,                 cape ivi,rockport california,39 44 20N,2018-08-14T01:23:00
-  22/01/1914,,,12.8,45,pt delgada bg nxw dist 14 12 miles,                     aden,shelter cove california,40 01 50N,2017-12-12T01:24:00
+  21/01/1914,,,12.8,-3,      pt arena lt bg n14w,                     aden,point arena light,38 57 17.1N,123 44 25.8W
+  21/01/1914,,,36.1,115.2, cape vescaino california,                 cape ivi,rockport california,39 44 20N,123 48 58W
+  22/01/1914,,,12.8,45,pt delgada bg nxw dist 14 12 miles,                     aden,shelter cove california,40 01 50N,124 04 23W
   22/01/1914,,,56.2,-3,      north pacific ocean,                    forth,gulf of the farallones,,
   23/01/1914,,,12.8,41.7,made farralones slightly on stbd bow,                     aden,gulf of the farallones,,
   23/01/1914,,,55.1,-6,         monterey bay cal,                  red bay,monterey california,,
@@ -143,7 +143,7 @@
   31/01/1914,,,,,,,,,
   31/01/1914,,,,,,,,,
   31/01/1914,,,,,,,,,
-  31/01/1914,,,30.6,117.2,            neah bay wash,                    mashi,neah bay washington,48 21 56N,2018-07-31T01:24:00
+  31/01/1914,,,30.6,117.2,            neah bay wash,                    mashi,neah bay washington,48 21 56N,124 36 56W
   01/01/1916,,,,,,,,,
   01/01/1916,,,30.6,117.2,            neah bay wash,                    mashi,neah bay washington,,
   02/01/1916,,,,,,,,,
@@ -158,9 +158,9 @@
   06/01/1915,,,30.6,117.2,            neah bay wash,                    mashi,neah bay washington,,
   07/01/1916,,,,,,,,,
   07/01/1916,,,65.4,32.6,            neah bay wash,              port rescue,neah bay washington,,
-  08/01/1916,,,43.1,32.6,rounded ediz hook and stood into port angeles,                   port t,port angeles,48 06 47N,2018-01-09T01:23:00
+  08/01/1916,,,43.1,32.6,rounded ediz hook and stood into port angeles,                   port t,port angeles,48 06 47N,123 26 27W
   08/01/1916,,,29.9,32.6,        port angeles wash,                   port t,port angeles,,
-  09/01/1916,,,43.1,16.7,steamed to service wharf on ediz hook,                     hvar,ediz hook,48 8 29N,2017-10-17T01:23:00
+  09/01/1916,,,43.1,16.7,steamed to service wharf on ediz hook,                     hvar,ediz hook,48 8 29N,123 26 15W
   09/01/1916,,,29.9,32.6,        port angeles wash,                   port t,port angeles,,
   10/01/1916,,,,,,,,,
   10/01/1916,,,,,       off ediz hook wash,,,,
@@ -176,7 +176,7 @@
   15/01/1916,,,30.6,117.2,              neah bay wn,                    mashi,neah bay washington,,
   16/01/1916,,,,,,,,,
   16/01/1916,,,30.6,117.2,            neah bay wash,                    mashi,neah bay washington,,
-  17/01/1916,,,43.5,120.4,stood out by tatoosh island,                   cannes,tatoosh island washington,48.392N,2019-11-24T00:00:00
+  17/01/1916,,,43.5,120.4,stood out by tatoosh island,                   cannes,tatoosh island washington,48.392N,124.735W
   17/01/1916,,,34.2,132.6,              neah bay wn,                    mashi,neah bay washington,,
   18/01/1916,,,32,120.4,    tatoosch lt bg ssw14w,              rose island,tatoosh island washington,,
   18/01/1916,,,30.6,117.2,            neah bay wash,                    mashi,neah bay washington,,
@@ -192,9 +192,9 @@
   23/01/1915,,,29.9,32.6,  port angeles washington,                   port t,port angeles,,
   24/01/1915,,,54.2,-165.6,anchored in port angeles harbor,              lost harbor,port angeles,,
   24/01/1915,,,29.9,32.6,  port angeles washington,                   port t,port angeles,,
-  25/01/1915,,,30,-3.2,  marrowstone lt ho abeam,                   port t,marrowstone point light,48.1018N,2019-11-09T00:00:00
+  25/01/1915,,,30,-3.2,  marrowstone lt ho abeam,                   port t,marrowstone point light,48.1018N,122.6879W
   25/01/1915,,,,,,,,,
-  25/01/1915,,,48.8,-123,         west point abeam,              tolo harbor,west point light,47 39 42N,2017-08-29T01:22:00
+  25/01/1915,,,48.8,-123,         west point abeam,              tolo harbor,west point light,47 39 42N,122 26 8W
   25/01/1915,,,47.6,-122.3,       seattle washington,                  seattle,,,
   26/01/1915,,,,,,,,,
   26/01/1915,,,47.6,-122.3,               seattle wn,                  seattle,,,
@@ -324,7 +324,7 @@
   18/03/1916,,,47.6,-122.3,               seattle wn,                  seattle,,,
   19/03/1916,,,,,,,,,
   19/03/1916,,,47.6,-122.3,               seattle wn,                  seattle,,,
-  20/03/1916,,,22.4,114.2,stood various courses across seattle harbor around bainbridge reef and through richs passage to puget sound navy yard,              tolo harbor,rich passage,47.595N,2019-11-08T00:00:00
+  20/03/1916,,,22.4,114.2,stood various courses across seattle harbor around bainbridge reef and through richs passage to puget sound navy yard,              tolo harbor,rich passage,47.595N,122.555W
   20/03/1916,,,47.6,-122.6,             bremerton wn,                bremerton,,,
   21/03/1916,,,,,,,,,
   21/03/1916,,,47.6,-122.6,             bremerton wn,                bremerton,,,
@@ -342,11 +342,11 @@
   27/03/1916,,,47.6,-122.3,       seattle washington,                  seattle,,,
   28/03/1916,,,,,,,,,
   28/03/1916,,,47.6,-122.3,               seattle wn,                  seattle,,,
-  29/03/1916,,,22.4,114.2,stood various speeds and courses across seattle harbor and into eagle harbor,              tolo harbor,winslow bainbridge island,47 37 34N,2017-10-24T01:22:00
+  29/03/1916,,,22.4,114.2,stood various speeds and courses across seattle harbor and into eagle harbor,              tolo harbor,winslow bainbridge island,47 37 34N,122 31 16W
   29/03/1916,,,43.1,16.7,          eagle harbor wn,                     hvar,winslow bainbridge island,,
   30/03/1916,,,,,,,,,
   30/03/1916,,,43.1,16.7,          eagle harbor wn,                     hvar,winslow bainbridge island,,
-  31/03/1916,,,22.4,114.2,stood various courses out of eagle harbor and across seattle harbor to bell street municipal dock,              tolo harbor,belltown seattle,47.61322N,2019-11-07T00:00:00
+  31/03/1916,,,22.4,114.2,stood various courses out of eagle harbor and across seattle harbor to bell street municipal dock,              tolo harbor,belltown seattle,47.61322N,122.3465W
   31/03/1916,,,,,,,,,
   31/03/1916,,,,,,,,,
   31/03/1916,,,,,,,,,
@@ -368,7 +368,7 @@
   04/04/1916,,,48.1,-122.8,         port townsend wn,            port townsend,,,
   05/04/1916,,,48.3,-123.5,ediz hook light stood into port angeles bay washington,                     poti,ediz hook,,
   05/04/1916,,,29.9,32.6,  port angeles washington,                   port t,port angeles,,
-  06/04/1916,,,22.4,114.2,      stood up to rosario,                     oban,rosario strait,48.5N,2019-11-10T00:00:00
+  06/04/1916,,,22.4,114.2,      stood up to rosario,                     oban,rosario strait,48.5N,122.75W
   06/04/1916,,,22.6,59.5,           off rosario wn,                      sur,rosario strait,,
   07/04/1916,,,47.6,-70.2,west point abeam distant 10 miles,                     hvar,west point light,,
   07/04/1916,,,47.6,-122.3,               seattle wn,                  seattle,,,
@@ -377,8 +377,8 @@
   09/04/1916,,,,,,,,,
   09/04/1916,,,47.6,-122.3,               seattle wn,                  seattle,,,
   10/04/1916,,,,,,,,,
-  10/04/1916,,,47.6,-122.3,navy yard puget sound wash,                  seattle,puget sound navy yard,47.5585N,2019-11-09T00:00:00
-  11/04/1916,,,43.1,16.7,stood out of elliott bay various courses across puget sound up richs passage to puget sound navy yard,                     hvar,elliott bay,47.603N,2019-11-07T00:00:00
+  10/04/1916,,,47.6,-122.3,navy yard puget sound wash,                  seattle,puget sound navy yard,47.5585N,122.6442W
+  11/04/1916,,,43.1,16.7,stood out of elliott bay various courses across puget sound up richs passage to puget sound navy yard,                     hvar,elliott bay,47.603N,122.373W
   11/04/1916,,,47.6,-122.6,     bremerton washington,                bremerton,,,
   12/04/1916,,,43.1,16.7,steamed across elliott bay,                     hvar,elliott bay,,
   12/04/1916,,,47.6,-122.3,       seattle washington,                  seattle,,,
@@ -396,28 +396,28 @@
   18/04/1916,,,47.6,-122.3,       seattle washington,                  seattle,,,
   19/04/1916,,,,,,,,,
   19/04/1916,,,47.6,-122.3,       seattle washington,                  seattle,,,
-  20/04/1916,,,19.6,-128.1,     point partridge buoy,                  el buoy,point partridge,48 13 29N,2017-10-03T01:22:00
+  20/04/1916,,,19.6,-128.1,     point partridge buoy,                  el buoy,point partridge,48 13 29N,122 46 13W
   20/04/1916,,,,,,,,,
-  20/04/1916,,,53.2,-168.8,anchored off cherry point,                    paros,cherry point,48 52 53N,2017-10-17T01:22:00
+  20/04/1916,,,53.2,-168.8,anchored off cherry point,                    paros,cherry point,48 52 53N,122 44 15W
   20/04/1916,,,53.2,-168.8,off cherry point washington,              derby point,cherry point,,
-  21/04/1916,,,49.1,-123.8,ballenas id abeam 13 miles,                     bali,ballenas islands,49 21 02N,2018-03-13T01:24:00
-  21/04/1916,,,49.9,-125.2,             union bay bc,               oyster bay,union bay british columbia,49 35 05N,2017-09-12T01:24:00
-  22/04/1916,,,49.7,173.3,            shingle point,               oyster bay,valdes island,49 05N,2018-04-10T01:23:00
-  22/04/1916,,,49.9,-125.2,            oyster bay bc,               oyster bay,oyster river bc,49 52 22N,2018-06-05T01:25:00
+  21/04/1916,,,49.1,-123.8,ballenas id abeam 13 miles,                     bali,ballenas islands,49 21 02N,124 09 36W
+  21/04/1916,,,49.9,-125.2,             union bay bc,               oyster bay,union bay british columbia,49 35 05N,124 53 10W
+  22/04/1916,,,49.7,173.3,            shingle point,               oyster bay,valdes island,49 05N,123 40W
+  22/04/1916,,,49.9,-125.2,            oyster bay bc,               oyster bay,oyster river bc,49 52 22N,125 07 48W
   23/04/1916,,,50.1,-125.4,passed through seymour narrows,          seymour narrows,,,
   23/04/1916,     51 20,    129 51,50.6,-126.9,             alert bay bc,                alert bay,,,
-  24/04/1916,,,50.6,-127,stood out goletas channel,          galetos channel,shushartie,50 51 15N,2017-10-17T01:27:00
+  24/04/1916,,,50.6,-127,stood out goletas channel,          galetos channel,shushartie,50 51 15N,127 51 15W
   24/04/1916,     52 41,    132 30,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
-  25/04/1916,,,31.9,-128.5,marble island abeam 70 miles distant,              mare island,graham island,53 40N,2018-01-30T01:32:00
+  25/04/1916,,,31.9,-128.5,marble island abeam 70 miles distant,              mare island,graham island,53 40N,132 30W
   25/04/1916,     56 57,    136 46,55.3,-159.9,cape edgecumbe nnw 12 w 48 miles,               cape wedge,north pacific,,
-  26/04/1916,,,55.3,55.5,cape ommaney abeam distant 193 miles,               cape wedge,baranof island,56 57 05N,2018-07-03T01:34:00
+  26/04/1916,,,55.3,55.5,cape ommaney abeam distant 193 miles,               cape wedge,baranof island,56 57 05N,134 56 52W
   26/04/1916,     57 36,    140 47,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
   27/04/1916,,,,,,,,,
-  27/04/1916,     58 40,    148 07,56.2,-3,at sea north pacific ocean,                    forth,gulf of alaska,57N,2020-04-07T00:00:00
-  28/04/1916,,,52.1,-174.4,sighted barren islands two points on port bow,            garden island,shuyak island,58 31 31N,2017-10-31T01:52:00
-  28/04/1916,,,30,-131.5,cook islet pt possession ne x n 13 miles,                      fao,cook inlet,60 20 16N,2018-01-30T01:51:00
-  29/04/1916,,,58.9,48.5,came to at anchor in knik harbor,             spire island,knik arm,61.2000N,2020-05-20T00:00:00
-  29/04/1916,,,55.3,-131.5,fire island cook inlet alaska,             spire island,fire island anchorage alaska,61 09 34N,2018-07-24T01:50:00
+  27/04/1916,     58 40,    148 07,56.2,-3,at sea north pacific ocean,                    forth,gulf of alaska,57N,144W
+  28/04/1916,,,52.1,-174.4,sighted barren islands two points on port bow,            garden island,shuyak island,58 31 31N,152 30 17W
+  28/04/1916,,,30,-131.5,cook islet pt possession ne x n 13 miles,                      fao,cook inlet,60 20 16N,151 52 30W
+  29/04/1916,,,58.9,48.5,came to at anchor in knik harbor,             spire island,knik arm,61.2000N,150.2167W
+  29/04/1916,,,55.3,-131.5,fire island cook inlet alaska,             spire island,fire island anchorage alaska,61 09 34N,150 11 55W
   30/04/1916,,,55.3,-131.5,at anchor off fire island,             spire island,fire island anchorage alaska,,
   30/04/1916,,,,,,,,,
   30/04/1916,,,,,,,,,
@@ -434,41 +434,41 @@
   30/04/1916,,,55.3,-131.5,off fire island cook inlet alaska,             spire island,fire island anchorage alaska,,
   01/05/1916,,,,,,,,,
   01/05/1916,,,55.3,-131.5,off fire island cook inlet alaska,             spire island,fire island anchorage alaska,,
-  02/05/1916,,,52.1,48.5,the sisters abeam 32 miles distant,                      fao,kalgin island,60 27 53N,2018-06-26T01:51:00
+  02/05/1916,,,52.1,48.5,the sisters abeam 32 miles distant,                      fao,kalgin island,60 27 53N,151 55 51W
   02/05/1916,,,57.8,-152.4,            kodiak alaska,                   kodiak,,,
   03/05/1916,,,57.8,-152.4,ugak island abeam distant 45 mi,             cape chiniak,,,
   03/05/1916,     56 05,    154 45,56.2,-3,at sea north pacific ocean,                    forth,gulf of alaska,,
-  04/05/1916,,,30.6,47.8,hauling down to pass to southward of the shumagins,                    magil,shumagin islands,55 04 00N,2017-07-04T00:00:00
+  04/05/1916,,,30.6,47.8,hauling down to pass to southward of the shumagins,                    magil,shumagin islands,55 04 00N,160 03 00W
   04/05/1916,     54 55,    158 05,56.2,-3,at sea north pacific ocean,                    forth,shumagin islands,,
   05/05/1916,,,38.5,-28.6,stood through twelve fathom strait to an anchorage in simeonof harbor,                     hvar,shumagin islands,,
   05/05/1916,     54 54,    160 44,4,9.7,simeonof harbor simeonof island alaska,                    duala,shumagin islands,,
-  06/05/1916,,,53.2,-165.5,course sw12s for sannak island,             umnak island,sanak islands,54 24 35N,2017-08-01T00:00:00
+  06/05/1916,,,53.2,-165.5,course sw12s for sannak island,             umnak island,sanak islands,54 24 35N,162 36 04W
   06/05/1916,,,53.2,-168.4,lookout pt cuton is bearing north 25 miles,             umnak island,sanak islands,,
   07/05/1916,,,,,,,,,
-  07/05/1916,,,54.2,-165.9,north head akutan is ssw 30 mi,               north head,akutan island,54 07 41N,2017-08-08T00:00:00
+  07/05/1916,,,54.2,-165.9,north head akutan is ssw 30 mi,               north head,akutan island,54 07 41N,165 55 05W
   08/05/1916,,,54.1,-165.6,north head abeam distant 25 miles,               scotch cap,akutan island,,
   08/05/1916,,,53.9,-166.5,          unalaska alaska,             unalaska bay,,,
   09/05/1916,,,,,,,,,
   09/05/1916,     53 43,    168 25,53.9,-166.5,          unalaska alaska,             unalaska bay,bering sea,,
-  10/05/1916,,,59.9,-122.5,wislow island abeam distant 40 miles,                  winslow,wislow island,54 00 30N,2018-01-09T00:00:00
+  10/05/1916,,,59.9,-122.5,wislow island abeam distant 40 miles,                  winslow,wislow island,54 00 30N,166 43 27W
   10/05/1916,     52 47,    172 18,55,-166.3,        at sea bering sea,                  behring,bering sea,,
-  11/05/1916,,,43.1,16.7,   standing for nazan bay,                     hvar,atka island,52 08 17N,2018-05-01T00:00:00
+  11/05/1916,,,43.1,16.7,   standing for nazan bay,                     hvar,atka island,52 08 17N,174 26 43W
   11/05/1916,,,26.1,119.9,nazan bay atka island alaska,             matsa island,atka island,,
   12/05/1916,,,,,,,,,
   12/05/1916,     52 29,    172 51,26.1,119.9,nazan bay atka island alaska,             matsa island,atka island,,
   13/05/1916,,,20.1,92.9,cape kudugnak abeam distant 05 miles,                    akyab,atka island,,
   13/05/1916,     53 65,    167 22,55,-166.3,        at sea bering sea,                  behring,bering sea,,
-  14/05/1916,,,12.3,-83.7,stood around pirest rock at a distance of 15 miles and into unalga pass for english bay,             english bank,unalga island,53 58 35N,2018-04-03T00:00:00
+  14/05/1916,,,12.3,-83.7,stood around pirest rock at a distance of 15 miles and into unalga pass for english bay,             english bank,unalga island,53 58 35N,166 08 39W
   14/05/1916,     53 33,    166 05,53.7,-166.7,english bay unalaska island alaska,          unalaska island,,,
-  15/05/1916,,,15.5,117.1,stood through egg island passage and to the eastward of outer signal rocks,                   anking,egg island alaska,53 51 46N,2018-03-27T00:00:00
-  15/05/1916,,,35.5,-5.2, cape lazaref nw 25 miles,              cape mazari,unimak island,54 46 06N,2017-09-26T00:00:00
+  15/05/1916,,,15.5,117.1,stood through egg island passage and to the eastward of outer signal rocks,                   anking,egg island alaska,53 51 46N,166 02 38W
+  15/05/1916,,,35.5,-5.2, cape lazaref nw 25 miles,              cape mazari,unimak island,54 46 06N,164 11 12W
   16/05/1916,,,54.7,-163.1,vessel approaching cape lazaref,              cape mazari,unimak island,,
   16/05/1916,     54 28,    165 13,43.1,-164.8,scotch cap lh wnw12w 12 miles,               scotch cap,,,
-  17/05/1916,,,43.1,16.7,anchored in tigalda harbor,                     hvar,tigalda island,54 05 48N,2018-01-09T00:00:00
+  17/05/1916,,,43.1,16.7,anchored in tigalda harbor,                     hvar,tigalda island,54 05 48N,165 03 27W
   17/05/1916,,,54.1,-165.1,tigalda bay tigalda island alaska,           tigalda island,,,
   18/05/1916,,,54.2,-165.8,stood various courses to akutan harbor,               akutan bay,,,
   18/05/1916,,,54.1,-165.8,     akutan harbor alaska,                   akutan,,,
-  19/05/1916,,,43.1,16.7,around the north side of akun island and into akun cove,              long harbor,akun island,54 11 18N,2018-05-01T00:00:00
+  19/05/1916,,,43.1,16.7,around the north side of akun island and into akun cove,              long harbor,akun island,54 11 18N,165 31 43W
   19/05/1916,,,35,138.5,         akun cove alaska,                     kune,akun island,,
   20/05/1916,,,54.4,-164.8,  steaming in unimak pass,               scotch cap,,,
   20/05/1916,     54 01,    163 40,54.4,35,scotch cap lh wnw14w 14 miles,                    akaba,unimak island,,
@@ -482,7 +482,7 @@
   24/05/1916,     54 00,    165 13,55,-1.5,       tigalda bay alaska,                      tic,tigalda island,,
   25/05/1916,,,30,-83.7,course w34s for unalga pass,             english bank,unalga island,,
   25/05/1916,,,53.7,-166.7,english bay unalaska island alaska,          unalaska island,,,
-  26/05/1916,,,31.3,32.3,made fast to wharf at unalaska port side to,                port said,unalaska bay,53 56 55N,2018-07-17T00:00:00
+  26/05/1916,,,31.3,32.3,made fast to wharf at unalaska port side to,                port said,unalaska bay,53 56 55N,166 29 54W
   26/05/1916,,,53.9,-166.5,          unalaska alaska,             unalaska bay,,,
   27/05/1916,,,,,,,,,
   27/05/1916,,,53.9,-166.5,          unalaska alaska,             unalaska bay,,,
@@ -511,20 +511,20 @@
   03/06/1916,,,,,,,,,
   03/06/1916,,,53.9,-166.5,          unalaska alaska,             unalaska bay,,,
   04/06/1916,,,53.8,-167,priest rock bearing ne 30 miles,              priest rock,,,
-  04/06/1916,     55 50,    162 20,55,-166.3, cimuk island north 70 mi,                  behring,amak island,55 25 06N,2018-03-27T00:00:00
-  05/06/1916,,,55,-1.5,sarichef light abeam 120 miles distant,                      tic,kudobin islands,56 01 21N,2017-11-21T00:00:00
+  04/06/1916,     55 50,    162 20,55,-166.3, cimuk island north 70 mi,                  behring,amak island,55 25 06N,163 08 38W
+  05/06/1916,,,55,-1.5,sarichef light abeam 120 miles distant,                      tic,kudobin islands,56 01 21N,160 55 20W
   05/06/1916,     56 08,    161 16,55,-166.3,        at sea bering sea,                  behring,,,
   06/06/1916,,,,,,,,,
   06/06/1916,,,,,,,,,
 06/06/1916/ (continued),,,,,,,,,
 06/06/1916/ (continued),     56 29,    164 06,55,-166.3,        at sea bering sea,                  behring,,,
   07/06/1916,,,,,,,,,
-  07/06/1916,     56 34,    169 00,51.5,0.1,off saint george village alaska,            king george v,st george alaska,56.605546N,2020-10-02T00:00:00
+  07/06/1916,     56 34,    169 00,51.5,0.1,off saint george village alaska,            king george v,st george alaska,56.605546N,169.559584W
   08/06/1916,,,,,stood various courses to an anchorage off village st george island,,,,
   08/06/1916,,,57.1,-170.3,off saint paul village alaska,               saint paul,,,
   09/06/1916,,,57.1,-170.3,stood various courses into village cove,             village cove,,,
   09/06/1916,     57 24,    170 39,57.1,-170.3,off saint paul village alaska,               saint paul,,,
-  10/06/1916,,,42.2,41.7,sw point abeam distant 13 miles,                     poti,pribilof islands,56 50N,2017-07-04T00:00:00
+  10/06/1916,,,42.2,41.7,sw point abeam distant 13 miles,                     poti,pribilof islands,56 50N,170 00W
   10/06/1916,     59 32,    170 36,55,-166.3,        at sea bering sea,                  behring,,,
   11/06/1916,,,,,,,,,
   11/06/1916,     59 42,    169 21,55,-166.3,     at anchor bering sea,                  behring,,,
@@ -534,7 +534,7 @@
   13/06/1916,     59 51,    171 26,55,-166.3,     at anchor bering sea,                  behring,,,
   14/06/1916,,,60.4,-172.7,sighted st matthew island bearing nwxw14w,        st matthew island,,,
   14/06/1916,,,60.2,-172.8,pinnacle island bearing nwxw14w  18 miles,          pinnacle island,,,
-  15/06/1916,,,38.5,-28.6,position of anchorage cape upright bearing nxw78w distant 14 miles,                    horta,st matthew island,60 24 31N,2017-09-26T00:00:00
+  15/06/1916,,,38.5,-28.6,position of anchorage cape upright bearing nxw78w distant 14 miles,                    horta,st matthew island,60 24 31N,172 43 12W
   15/06/1916,,,60.4,-172.7,cape upright saint mathews island n34w  13 miles,     saint matthew island,,,
   16/06/1916,,,60.4,-172.7,cape upright st matthew island bearing nxw distant fourteen miles,        st matthew island,,,
   16/06/1916,     59 50,    171 56,60.2,-172.8,pinnacle island nnw  9 miles,          pinnacle island,,,
@@ -544,8 +544,8 @@
   18/06/1916,     59 12,    170 50,55,-166.3,     at anchor bering sea,                  behring,,,
   19/06/1916,,,,,,,,,
   19/06/1916,     57 04,    169 56,57.1,-170.3,east landing saint paul island,        saint paul island,,,
-  20/06/1916,,,-33,27.9,stood various courses to an anchorage off east landing st paul island,              east london,saint paul island alaska,57 11N,2017-10-24T00:00:00
-  20/06/1916,,,57.1,-170.3,walrus island south end west  05 miles,        saint paul island,walrus island pribilof islands,57 10 57.42N,2018-06-08T00:00:00
+  20/06/1916,,,-33,27.9,stood various courses to an anchorage off east landing st paul island,              east london,saint paul island alaska,57 11N,170 16W
+  20/06/1916,,,57.1,-170.3,walrus island south end west  05 miles,        saint paul island,walrus island pribilof islands,57 10 57.42N,169 56 48.56W
   21/06/1916,,,32,120.4,course nwxn for walrus island,              rose island,walrus island pribilof islands,,
   21/06/1916,     57 00,    171 00,57.1,-170.3,off saint paul island alaska,        saint paul island,,,
   22/06/1916,,,57,-170.4,stood to anchorage off village cove saint paul island,             otter island,saint paul island alaska,,
@@ -602,7 +602,7 @@
   11/07/1916,,,60.4,-172.7,glory of russia cape n34w  16 mi,        st matthew island,,,
   12/07/1916,,,,,,,,,
   12/07/1916,,,60.4,-172.7,glory of russia cape sexs  13 miles,     saint matthew island,,,
-  13/07/1916,,,64.6,-172.6,     close to hall island,             small island,hall island alaska,60 39 50N,2018-05-22T00:00:00
+  13/07/1916,,,64.6,-172.6,     close to hall island,             small island,hall island alaska,60 39 50N,173 05 46W
   13/07/1916,     59 25,    172 06,64.6,-172.8,              hall island,             small island,hall island alaska,,
   14/07/1916,,,64.6,-172.6,southern point of hall island bearing nne12e distant 60 miles,             small island,hall island alaska,,
   14/07/1916,     57 57,    171 06,55,-166.3,        at sea bering sea,                  behring,,,
@@ -624,18 +624,18 @@
   22/07/1916,     54 26,    164 00,54.1,-165.1,tigalda bay tigalda island alaska,           tigalda island,,,
   23/07/1916,,,56.2,-3,northern entrance bluff abeam distant 03 miles,                    forth,unimak island,,
   23/07/1916,,,4,9.7,   off bird island alaska,                     vila,unimak island,,
-  24/07/1916,,,54.7,-163.1,course nexe34e for off jude island,              cape pankof,pavlof islands,55 08 00N,2017-07-04T00:00:00
-  24/07/1916,     55 31,    159 07,57.4,-152.3,delarof harbor unga island alaska,              ugak island,unga alaska,55 11 03N,2017-11-07T00:00:00
-  25/07/1916,,,55.3,-160.4,around sand point and down popof strait,                     deal,sand point alaska,55.336593N,2020-07-31T00:00:00
+  24/07/1916,,,54.7,-163.1,course nexe34e for off jude island,              cape pankof,pavlof islands,55 08 00N,161 42 00W
+  24/07/1916,     55 31,    159 07,57.4,-152.3,delarof harbor unga island alaska,              ugak island,unga alaska,55 11 03N,160 30 18W
+  25/07/1916,,,55.3,-160.4,around sand point and down popof strait,                     deal,sand point alaska,55.336593N,160.493234W
   25/07/1916,     56 40,    156 27,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
-  26/07/1916,,,55.1,-131.2,foggy cape sutwik island bearing wxn distant 75 miles,             twin islands,sutwik island,56 33 26N,2017-09-05T01:57:00
-  26/07/1916,,,54.1,-4.5,cape douglas alaska swxw34w  180 miles,                  douglas,shelikof strait,57 52 54N,2018-02-06T01:54:00
-  27/07/1916,,,53.2,-168.4,cape steep afognak island bearing ese distant 38 miles,              ugak island,afognak,58 15 00N,2017-07-04T01:52:00
+  26/07/1916,,,55.1,-131.2,foggy cape sutwik island bearing wxn distant 75 miles,             twin islands,sutwik island,56 33 26N,157 10 09W
+  26/07/1916,,,54.1,-4.5,cape douglas alaska swxw34w  180 miles,                  douglas,shelikof strait,57 52 54N,154 25 31W
+  27/07/1916,,,53.2,-168.4,cape steep afognak island bearing ese distant 38 miles,              ugak island,afognak,58 15 00N,152 30 00W
   27/07/1916,,,60,-149.4,resurection bay alaska caines head west 05 mi,         resurrection bay,,,
   28/07/1916,,,60,-149.4,various courses up resurrection bay,         resurrection bay,,,
   28/07/1916,,,60,-149.4,            seward alaska,                   seward,,,
-  29/07/1916,,,60,-149.4,discovery point bearing ne 08 mile,         resurrection bay,knight island,60 21 58N,2017-12-05T01:47:00
-  29/07/1916,,,64.6,-70.2,            valdez alaska,                  el buoy,valdez alaska,61 7 51N,2018-07-17T01:46:00
+  29/07/1916,,,60,-149.4,discovery point bearing ne 08 mile,         resurrection bay,knight island,60 21 58N,147 44 22W
+  29/07/1916,,,64.6,-70.2,            valdez alaska,                  el buoy,valdez alaska,61 7 51N,146 20 54W
   30/07/1916,,,64.6,-146.3,made fast to wharf at valdez alaska,             small island,valdez alaska,,
   30/07/1916,,,61.1,-146.3,            valdez alaska,                   valdez,,,
   31/07/1916,,,,,,,,,
@@ -650,24 +650,24 @@
   31/07/1916,,,,,,,,,
   31/07/1916,,,,,,,,,
   31/07/1916,   60 49 N,  170 00 W,61.1,-146.3,            valdez alaska,                   valdez,,,
-  01/08/1916,,,30,113.9,   stood into hanning bay,             ashby island,montague island alaska,60 06 33N,2018-01-16T01:47:00
+  01/08/1916,,,30,113.9,   stood into hanning bay,             ashby island,montague island alaska,60 06 33N,147 20 28W
   01/08/1916,,,54.2,-165.5,hanning bay montague island,              akun island,montague island alaska,,
   02/08/1916,,,60,-149.4, stood out of hanning bay,              caines head,montague island alaska,,
   02/08/1916,,,60.1,-149.4,            seward alaska,                   seward,,,
   03/08/1916,,,59.9,-149.4,caines head light bearing wxs distant 05 miles,              caines head,,,
-  03/08/1916,     59 04,    152 02,57,-144,seldovia light east 20 miles,           gulf of alaska,seldovia alaska,59 26 20N,2018-05-15T01:51:00
+  03/08/1916,     59 04,    152 02,57,-144,seldovia light east 20 miles,           gulf of alaska,seldovia alaska,59 26 20N,151 42 45W
   04/08/1916,,,42.2,41.7,flat island abeam distant 10 mile,                     poti,cook inlet,,
   04/08/1916,,,42.2,41.7,        cook inlet alaska,                     poti,cook inlet,,
   05/08/1916,,,30.5,16.7,various courses up cook inlet,                    forth,cook inlet,,
-  05/08/1916,,,38.5,-28.6,         anchorage alaska,                    horta,anchorage alaska,61 13N,2018-07-17T01:49:00
+  05/08/1916,,,38.5,-28.6,         anchorage alaska,                    horta,anchorage alaska,61 13N,149 54W
   06/08/1916,,,,,,,,,
   06/08/1916,,,38.5,-28.6,         anchorage alaska,                    horta,anchorage alaska,,
   07/08/1916,,,,,,,,,
   07/08/1916,,,38.5,-28.6,         anchorage alaska,                    horta,anchorage alaska,,
-  08/08/1916,,,22.6,59.5,east foreland light ne14e distant 40 miles,                     tyne,nikiski alaska,60 42 28N,2018-05-22T01:51:00
+  08/08/1916,,,22.6,59.5,east foreland light ne14e distant 40 miles,                     tyne,nikiski alaska,60 42 28N,151 15 46W
   08/08/1916,,,42.2,41.7,        cook inlet alaska,                     poti,cook inlet,,
   09/08/1916,,,42.2,-174.4,flat island light abeam distant 15 miles,           cape elizabeth,cook inlet,,
-  09/08/1916,     59 26,    148 25,57,-144,            seward alaska,           gulf of alaska,seward alaska,60 07 28N,2017-07-04T01:49:00
+  09/08/1916,     59 26,    148 25,57,-144,            seward alaska,           gulf of alaska,seward alaska,60 07 28N,149 26 00W
   10/08/1916,,,59.9,-149.4, stopped off wharf seward,            rugged island,seward alaska,,
   10/08/1916,     58 21,    146 33,57,-144,    at sea gulf of alaska,           gulf of alaska,,,
   11/08/1916,,,,,,,,,
@@ -678,12 +678,12 @@
   13/08/1916,     53 07,    133 59,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
   14/08/1916,,,,,,,,,
   14/08/1916,     51 16,    129 59,50.9,-129.1,triangle island bc sexs  15 miles,          triangle island,,,
-  15/08/1916,,,50.9,-127.8,  anchored off false head,              cape sabine,queen charlotte sound bc,51 30N,2018-01-30T01:28:00
+  15/08/1916,,,50.9,-127.8,  anchored off false head,              cape sabine,queen charlotte sound bc,51 30N,128 30W
   15/08/1916,,,50.5,-126.1, queen charlotte sound bc,         johnstone strait,queen charlotte sound bc,,
-  16/08/1916,,,50,-125.9,various courses through johnstone strait and discovery passage,         johnstone strait,johnstone strait,50 28N,2017-08-08T01:26:00
-  16/08/1916,,,55,-1.5,          baynes sound bc,                     tyne,baynes sound,49 32 0N,2017-07-04T01:24:00
-  17/08/1916,,,49.2,117.1,entrance island light house abeam distant 20 miles,                     kobe,entrance island bc,49.209214N,2019-11-17T00:00:00
-  17/08/1916,,,53.2,-168.8,point no point se 12 e  40 miles,              derby point,point no point,47 54 43N,2018-02-20T01:22:00
+  16/08/1916,,,50,-125.9,various courses through johnstone strait and discovery passage,         johnstone strait,johnstone strait,50 28N,126 05W
+  16/08/1916,,,55,-1.5,          baynes sound bc,                     tyne,baynes sound,49 32 0N,124 50 0W
+  17/08/1916,,,49.2,117.1,entrance island light house abeam distant 20 miles,                     kobe,entrance island bc,49.209214N,123.808105W
+  17/08/1916,,,53.2,-168.8,point no point se 12 e  40 miles,              derby point,point no point,47 54 43N,122 31 33W
   18/08/1916,,,48.1,-122.8,stood into elliott bay for seattle washington,                     poti,elliott bay,,
   18/08/1916,,,47.6,-122.3,       seattle washington,                  seattle,,,
   19/08/1916,,,,,,,,,
@@ -710,7 +710,7 @@
   29/08/1916,,,47.6,-122.3,       seattle washington,                  seattle,,,
   30/08/1916,,,42.2,41.7,point no point abeam distant 06 miles,                     poti,point no point,,
   30/08/1916,   46 55 N,  124 32 W,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
-  31/08/1916,,,32,120.4,north head lighthouse bearing e34n distant 35 miles,              rose island,north head light,46.2990N,2019-11-19T00:00:00
+  31/08/1916,,,32,120.4,north head lighthouse bearing e34n distant 35 miles,              rose island,north head light,46.2990N,124.0785W
   31/08/1916,,,,,,,,,
   31/08/1916,,,,,,,,,
   31/08/1916,,,,,,,,,
@@ -720,17 +720,17 @@
   31/08/1916,,,,,,,,,
   31/08/1916,,,,,,,,,
   31/08/1916,,,46.2,-123.8,           astoria oregon,                  astoria,,,
-  01/09/1916,,,6.9,79.8,stood in over columbia river bar,                  columbo,columbia bar,46 15N,2017-07-18T01:24:00
+  01/09/1916,,,6.9,79.8,stood in over columbia river bar,                  columbo,columbia bar,46 15N,124 02W
   01/09/1916,,,46.2,-123.8,           astoria oregon,                  astoria,,,
   02/09/1916,,,,,,,,,
   02/09/1916,,,46.2,-123.8,           astoria oregon,                  astoria,,,
   03/09/1916,,,,,,,,,
   03/09/1916,,,46.2,-123.8,           astoria oregon,                  astoria,,,
-  04/09/1916,,,47.7,-171.7,grays harbor light abeam 134 miles distant,       min river entrance,grays harbor light,46.8883N,2019-11-19T00:00:00
+  04/09/1916,,,47.7,-171.7,grays harbor light abeam 134 miles distant,       min river entrance,grays harbor light,46.8883N,124.1170W
   04/09/1916,   48 18 N,  124 53 W,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
-  05/09/1916,,,29.9,32.6,heard cape flattery fog signal bearing nexn,                   port t,cape flattery,48 22 59N,2018-07-03T01:24:00
+  05/09/1916,,,29.9,32.6,heard cape flattery fog signal bearing nexn,                   port t,cape flattery,48 22 59N,124 42 52W
   05/09/1916,,,29.9,32.6,        port angeles wash,                   port t,port angeles,,
-  06/09/1916,,,22.6,103.4,      dungeness spit buoy,               east point,dungeness spit,48 10 07N,2017-12-05T01:23:00
+  06/09/1916,,,22.6,103.4,      dungeness spit buoy,               east point,dungeness spit,48 10 07N,123 08 22W
   06/09/1916,,,47.6,-122.3,       seattle washington,                  seattle,,,
   07/09/1916,,,,,,,,,
   07/09/1916,,,47.6,-122.3,       seattle washington,                  seattle,,,
@@ -764,11 +764,11 @@
   21/09/1916,,,47.6,-122.3,       seattle washington,                  seattle,,,
   22/09/1916,,,,,,,,,
   22/09/1916,,,47.6,-122.3,             seattle wash,                  seattle,,,
-  23/09/1916,,,43.1,16.7,apple cove point abeam 07 mile,                     hvar,appletree cove,47 47 27N,2018-07-21T01:22:00
+  23/09/1916,,,43.1,16.7,apple cove point abeam 07 mile,                     hvar,appletree cove,47 47 27N,122 29 54.7W
   23/09/1916,,,,,,,,,
   23/09/1916,,,4.8,103.4,various courses for of new dungeness light and around end of spit,                   dungun,dungeness spit,,
   23/09/1916,,,4.8,103.4,       new dungeness wash,                   dungun,dungeness spit,,
-  24/09/1916,,,65.4,-176, stood into port crescent,              port rescue,tongue point clallam county,48.1665N,2019-11-16T00:00:00
+  24/09/1916,,,65.4,-176, stood into port crescent,              port rescue,tongue point clallam county,48.1665N,123.7062W
   24/09/1916,,,29.9,32.6,        port angeles wash,                   port t,port angeles,,
   25/09/1916,,,-18.1,33.2,various courses for neah bay washington where anchored in east pass,                    beira,neah bay washington,,
   25/09/1916,,,29.9,32.6,            neah bay wash,                    mashi,neah bay washington,,
@@ -795,7 +795,7 @@
   01/10/1916,,,,,,,,,
   01/10/1916,,,47.6,-122.3,       seattle washington,                  seattle,,,
   02/10/1916,,,48.1,-122.8,various courses out of seattle harbor,            port townsend,elliott bay,,
-  02/10/1916,,,29.9,32.6,       port townsend wash,            port townsend,port townsend washington,48 6 59N,2018-02-06T01:22:00
+  02/10/1916,,,29.9,32.6,       port townsend wash,            port townsend,port townsend washington,48 6 59N,122 46 31W
   03/10/1916,,,4.8,144.7,ediz hook lighthouse abeam stood for coast guard wharf on ediz hook,                   dungun,ediz hook,,
   03/10/1916,,,30.6,32.6,            neah bay wash,                   port t,neah bay washington,,
   04/10/1916,,,29.9,32.6,hauled in for port angeles and anchored off city dock,                   port t,port angeles,,
@@ -837,10 +837,10 @@
   22/10/1916,,,,,,,,,
   22/10/1916,,,29.9,32.6,  port angeles washington,                   port t,port angeles,,
   23/10/1916,,,,,,,,,
-  23/10/1916,,,29.9,-176.6,waaddah island sw 7 miles,              adak island,waadah island,48 22 55N,2018-06-26T01:24:00
+  23/10/1916,,,29.9,-176.6,waaddah island sw 7 miles,              adak island,waadah island,48 22 55N,124 35 51W
   24/10/1916,   48 28 N,  124 30 W,22.4,32.6,heard cape flattery fog signal on port bow,                   port t,cape flattery,,
   24/10/1916,,,29.9,115.5,            neah bay wash,                low point,neah bay washington,,
-  25/10/1916,,,54.2,7.2,seal and sail rocks in range,                     oran,sail river,48 21 33N,2018-03-06T01:24:00
+  25/10/1916,,,54.2,7.2,seal and sail rocks in range,                     oran,sail river,48 21 33N,124 33 35W
   25/10/1916,,,30.6,117.2,           ediz hook wash,                    mashi,ediz hook,,
   26/10/1916,,,,,,,,,
   26/10/1916,,,30.6,117.2,           ediz hook wash,                    mashi,ediz hook,,
@@ -888,12 +888,12 @@
   11/11/1916,,,47.6,-122.3,             seattle wash,                  seattle,,,
   12/11/1916,,,,,,,,,
   12/11/1916,,,47.6,-122.3,             seattle wash,                  seattle,,,
-  13/11/1916,,,43.1,16.7,various courses down admiralty inlet,              story point,admiralty inlet,48 09 44.44N,2018-01-19T01:22:00
+  13/11/1916,,,43.1,16.7,various courses down admiralty inlet,              story point,admiralty inlet,48 09 44.44N,122 43 28.55W
   13/11/1916,,,,,,,,,
   13/11/1916,,,,,,,,,
   13/11/1916,,,48.1,-122.8,       port townsend wash,            port townsend,port townsend washington,,
-  14/11/1916,,,22.2,114.2,stood out around pt wilson and towards protection island,                     tolo,point wilson,48 8 38N,2017-10-17T01:22:00
-  14/11/1916,,,22.2,113.9,off protection island washington,                     taio,protection island washington,48 07 41N,2018-01-30T01:22:00
+  14/11/1916,,,22.2,114.2,stood out around pt wilson and towards protection island,                     tolo,point wilson,48 8 38N,122 45 15W
+  14/11/1916,,,22.2,113.9,off protection island washington,                     taio,protection island washington,48 07 41N,122 55 30W
   15/11/1916,,,,,,,,,
   15/11/1916,,,22.2,113.9,off protection island wash,                     taio,protection island washington,,
   16/11/1916,,,,,,,,,

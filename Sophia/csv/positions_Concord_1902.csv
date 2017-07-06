@@ -39,11 +39,11 @@
   17/01/1902,,,,,,,,,
   17/01/1902,   22 36 N,  108 17 W,9,-79.5,enroute from panama us of c to pichilingue bay mexico,                   panama,north pacific,,
   18/01/1902,,,,,,,,,
-  18/01/1902,,,9,-79.5,enroute from panama us of c to pichilingue bay mexico,                   panama,gulf of california,28 0N,2017-07-04T01:12:00
+  18/01/1902,,,9,-79.5,enroute from panama us of c to pichilingue bay mexico,                   panama,gulf of california,28 0N,112 0W
   19/01/1902,,,,,,,,,
   19/01/1902,,,38.5,-1.5,from panama us of c to pichilinque bay mexico,                      tic,gulf of california,,
   20/01/1902,,,,,,,,,
-  20/01/1902,,,55,-1.5,at anchor at pichilingue bay mexico,                      tic,pichilinque,24 16 34N,2018-04-10T01:10:00
+  20/01/1902,,,55,-1.5,at anchor at pichilingue bay mexico,                      tic,pichilinque,24 16 34N,110 19 40W
   21/01/1902,,,,,,,,,
   21/01/1902,,,55,-1.5,   off pichilinque mexico,                      tic,pichilinque,,
   22/01/1902,,,,,,,,,
@@ -97,7 +97,7 @@
   08/02/1902,,,,,,,,,
   08/02/1902,,,,,,,,,
   08/02/1902,,,,,,,,,
-  08/02/1902,,,-4.6,55.5,    navy yard mare is cal,                     mahe,mare island navy yard,38 5 24N,2018-06-05T01:22:00
+  08/02/1902,,,-4.6,55.5,    navy yard mare is cal,                     mahe,mare island navy yard,38 5 24N,122 15 48W
   09/02/1902,,,,,,,,,
   09/02/1902,,,-4.6,55.5,    navy yard mare is cal,                     mahe,mare island navy yard,,
   10/02/1902,,,,,,,,,
@@ -238,7 +238,7 @@ Wednesday 1903 June 24,,,38.1,-122.3,in dry dock mare island cal,              m
   30/06/1903,,,38.1,-122.3,navy yard mare island cal tuesday june 30 1903,              mare island,,,
   30/06/1903,,,,,,,,,
   01/07/1903,,,38.1,-122.3,navy yard mare island cal wednesday july 1 1903 and underway,              mare island,,,
-  01/07/1903,,,44.9,37.3,san pablo bay and underway,                    anapa,san pablo bay,38 04N,2017-12-12T01:22:00
+  01/07/1903,,,44.9,37.3,san pablo bay and underway,                    anapa,san pablo bay,38 04N,122 23W
   01/07/1903,,,37.8,-122.4,underway and at anchor off san francisco,            san francisco,,,
   01/07/1903,,,,,,,,,
   02/07/1903,,,37.8,-122.4,at anchor off san francisco and underway for trial,            san francisco,,,
@@ -277,7 +277,7 @@ Wednesday 1903 June 24,,,38.1,-122.3,in dry dock mare island cal,              m
   17/07/1903,,,,,,,,,
   17/07/1903,,,38.1,-122.3,navy yard mare island california,              mare island,,,
   18/07/1903,,,,,,,,,
-  18/07/1903,,,53.9,-166.5,at sea enroute to dutch harbor,             dutch harbor,gulf of the farallones,37.7504857N,2019-11-10T00:00:00
+  18/07/1903,,,53.9,-166.5,at sea enroute to dutch harbor,             dutch harbor,gulf of the farallones,37.7504857N,122.7516535W
   18/07/1903,,,,,,,,,
   18/07/1903,   39 04 N,  125 13 W,53.9,-166.5,at sea enroute to dutch harbor,             dutch harbor,north pacific,,
   19/07/1903,,,,,,,,,
@@ -320,7 +320,7 @@ Wednesday 1903 June 24,,,38.1,-122.3,in dry dock mare island cal,              m
   04/08/1903,,,53.9,-166.5,at anchor dutch harbor alaska,             dutch harbor,,,
   05/08/1903,,,,,,,,,
   05/08/1903,   53 56 N,  166 24 W,53.9,-166.5,at anchor dutch harbor and enroute to bremerton wash,             dutch harbor,,,
-  06/08/1903,,,55,-1.5,took departure at 855 cape morgan bearing north psc distant 1 34 miles pl reading 171,                    t i c,unalga island,53 58 35N,2018-04-03T00:00:00
+  06/08/1903,,,55,-1.5,took departure at 855 cape morgan bearing north psc distant 1 34 miles pl reading 171,                    t i c,unalga island,53 58 35N,166 08 39W
   06/08/1903,,,47.6,-122.6,enroute to bremerton wash,                bremerton,north pacific,,
   06/08/1903,,,,,,,,,
   06/08/1903,   53 33 N,  159 33 W,47.6,-122.6,enroute to bremerton wash,                bremerton,north pacific,,
@@ -348,11 +348,11 @@ Wednesday 1903 June 24,,,38.1,-122.3,in dry dock mare island cal,              m
   13/08/1903,,,,,,,,,
   13/08/1903,,,,,,,,,
   13/08/1903,,,48.2,-123.6,entering juan defuca strait and at buoy bremerton wash,      juan de fuca strait,,,
-  14/08/1903,     48 11,    123 11,4.8,103.4,at 1207 moored with port chain to buoy off puget sound naval station bremerton wash,               race rocks,puget sound navy yard,47.5585N,2019-11-09T00:00:00
+  14/08/1903,     48 11,    123 11,4.8,103.4,at 1207 moored with port chain to buoy off puget sound naval station bremerton wash,               race rocks,puget sound navy yard,47.5585N,122.6442W
   14/08/1903,,,47.6,-122.6,at buoy puget sound bremerton wash,                bremerton,,,
   15/08/1903,,,,,,,,,
   15/08/1903,,,47.6,-122.6,at buoy navy yard bremerton wash  enroute to astoria,                bremerton,,,
-  16/08/1903,     48 30,    123 06,29.9,32.6,steered various course until 345 set course w 58on psc pat log reading 29 and point no point bore on port beam distant one mile,                   port t,strait of juan de fuca,48 12 00N,2017-12-05T01:23:00
+  16/08/1903,     48 30,    123 06,29.9,32.6,steered various course until 345 set course w 58on psc pat log reading 29 and point no point bore on port beam distant one mile,                   port t,strait of juan de fuca,48 12 00N,123 34 22W
   16/08/1903,,,46.2,-123.8,enroute to astoria  at anchor astoria oregon,                  astoria,,,
   17/08/1903,     47 67,    124 33,55,-1.5,at 500 destruction island light bore abeam distant 66 miles,                     bone,north pacific,,
   17/08/1903,,,46.2,-123.8,    at anchor off astoria,                  astoria,,,
@@ -367,7 +367,7 @@ Wednesday 1903 June 24,,,38.1,-122.3,in dry dock mare island cal,              m
   21/08/1903,,,,,,,,,
   21/08/1903,,,46.2,-123.8,at anchor off astoria oregon,                  astoria,,,
   22/08/1903,,,,,,,,,
-  22/08/1903,,,50.5,-2.4,at anchor astoria oregon going up columbia river  at anchor portland oregon,                 portland,portland oregon,45 31 12N,2018-07-24T01:22:00
+  22/08/1903,,,50.5,-2.4,at anchor astoria oregon going up columbia river  at anchor portland oregon,                 portland,portland oregon,45 31 12N,122 40 55W
   23/08/1903,     45 57,    122 72,6.9,79.8,standing up columbia river under conn of pilot until 530 when anchored in 9 fathoms of water and veered to 30 fathoms on starboard chain,                  columbo,portland oregon,,
   23/08/1903,,,50.5,-2.4,at anchor portland oregon,                 portland,portland oregon,,
   24/08/1903,,,,,,,,,
@@ -433,14 +433,14 @@ Wednesday 1903 June 24,,,38.1,-122.3,in dry dock mare island cal,              m
   23/09/1903,,,,,,,,,
   23/09/1903,,,47.6,-77,bremerton washington and underway,                bremerton,,,
   24/09/1903,,,,,steered s 84o w untill 200 when steered various courses heading into esquimalt harbour at 325 moored to buoy no 3 with port chain in 7 fathoms of water,,,,
-  24/09/1903,,,54.2,-165.6, at buoy esquimalt harbor,              lost harbor,esquimalt harbour,48 26 00N,2017-07-04T01:23:00
+  24/09/1903,,,54.2,-165.6, at buoy esquimalt harbor,              lost harbor,esquimalt harbour,48 26 00N,123 26 00W
   25/09/1903,,,,,,,,,
   25/09/1903,,,37.8,-122.4,at bouy esquimalt bc and enroute san francisco cal,        san francisco bay,esquimalt harbour,,
   26/09/1903,,,34.2,132.6,at 353 sighted race rock light house,               race rocks,strait of juan de fuca,,
   26/09/1903,   46 10 N,  124 59 W,37.8,-122.4,at sea enroute to san francisco cal,        san francisco bay,north pacific,,
   27/09/1903,,,,,,,,,
   27/09/1903,   42 01 N,  124 52 W,37.8,-122.4,at sea enroute to san francisco cal,        san francisco bay,north pacific,,
-  28/09/1903,,,36.9,7.8,740 sighted humboldt light on the port beam,                   port t,punta gorda light,40.249433N,2019-11-21T00:00:00
+  28/09/1903,,,36.9,7.8,740 sighted humboldt light on the port beam,                   port t,punta gorda light,40.249433N,124.350220W
   28/09/1903,   38 35 N,  123 34 W,37.8,-122.4,at sea enroute to san francisco california,        san francisco bay,north pacific,,
   29/09/1903,,,12.8,45,     san francisco harbor,        san francisco bay,,,
   29/09/1903,,,37.8,-122.4,at anchor san francisco california,        san francisco bay,,,
@@ -496,9 +496,9 @@ Wednesday 1903 June 24,,,38.1,-122.3,in dry dock mare island cal,              m
   22/10/1903,   31 11 N,  121 17 W,12.8,45,at sea enroute to acapulco mexico,                     aden,north pacific,,
   23/10/1903,,,,,,,,,
   23/10/1903,,,,,                   at sea,,,,
-  23/10/1903,,,12.8,45,at 620 pt conception light bore abeam distant 11 miles pl reading 285,                     aden,point conception light,34 26 55.51N,2017-10-14T01:20:00
+  23/10/1903,,,12.8,45,at 620 pt conception light bore abeam distant 11 miles pl reading 285,                     aden,point conception light,34 26 55.51N,120 28 14.71W
   23/10/1903,   33 02 N,  117 58 W,12.8,45,at sea enroute to acapulco mexico,                     aden,north pacific,,
-  24/10/1903,,,32,32.6,at 515 los coronados islands bore abeam distant 67 miles pl reading 271,              rose island,coronado islands,32 25N,2017-10-17T01:17:00
+  24/10/1903,,,32,32.6,at 515 los coronados islands bore abeam distant 67 miles pl reading 271,              rose island,coronado islands,32 25N,117 15W
   24/10/1903,   29 51 N,  116 15 W,12.8,45,at sea enroute to acapulco mexico,                     aden,north pacific,,
   25/10/1903,,,,,,,,,
   25/10/1903,   26 48 N,  114 31 W,12.8,45,at sea enroute to acapulco mexico,                     aden,north pacific,,
@@ -513,7 +513,7 @@ Wednesday 1903 June 24,,,38.1,-122.3,in dry dock mare island cal,              m
   30/10/1903,,,,,,,,,
   30/10/1903,   16 53 N,  100 26 W,12.8,-5.5,enroute to acapulco mexico and at anchor off acapulco mexico,                     aden,north pacific,,
   31/10/1903,,,,,,,,,
-  31/10/1903,,,38.5,-28.6,at anchor acapulco mexico,                      tic,acapulco,16 51 49N,2018-08-07T00:00:00
+  31/10/1903,,,38.5,-28.6,at anchor acapulco mexico,                      tic,acapulco,16 51 49N,99 52 57W
   01/11/1903,,,,,,,,,
   01/11/1903,,,55,-28.6,at anchor acapulco mexico,                      tic,acapulco,,
   02/11/1903,,,,,,,,,
@@ -541,7 +541,7 @@ Wednesday 1903 June 24,,,38.1,-122.3,in dry dock mare island cal,              m
   10/11/1903,,,,,,,,,
   10/11/1903,,,,,,,,,
   10/11/1903,,,,,,,,,
-  10/11/1903,,,41.1,37.3,at anchor underway and at anchor in parita bay,                     unye,gulf of parita,8.1N,2019-01-17T00:00:00
+  10/11/1903,,,41.1,37.3,at anchor underway and at anchor in parita bay,                     unye,gulf of parita,8.1N,80.4W
   11/11/1903,,,,,,,,,
   11/11/1903,,,9,37.3,parita bay and enroute to,                   panama,gulf of parita,,
   12/11/1903,,,,,,,,,
@@ -554,17 +554,17 @@ Wednesday 1903 June 24,,,38.1,-122.3,in dry dock mare island cal,              m
   15/11/1903,,,9,-79.5,     at anchor off panama,                   panama,,,
   16/11/1903,,,,,,,,,
   16/11/1903,   08 16 N,   79 43 W,9,-79.5,at anchor panama underway and at sea,                   panama,,,
-  17/11/1903,,,51,32.6,at 535 s fraile island bore on stbd beam distant 42 miles,                   port t,gulf of panama,8.08642N,2019-01-09T00:00:00
-  17/11/1903,   07 33 N,   82 25 W,35.7,37.3,at sea at anchor david bay underway and anchored off,                     oran,david district,8 26N,2018-01-02T00:00:00
+  17/11/1903,,,51,32.6,at 535 s fraile island bore on stbd beam distant 42 miles,                   port t,gulf of panama,8.08642N,79.28284W
+  17/11/1903,   07 33 N,   82 25 W,35.7,37.3,at sea at anchor david bay underway and anchored off,                     oran,david district,8 26N,82 26W
   18/11/1903,,,,,,,,,
-  18/11/1903,   07 51 N,   82 09 W,56.4,-5.5,at anchor san lorenzo and underway,                     oban,san lorenzo chiriqui,8.3000N,2019-01-29T00:00:00
+  18/11/1903,   07 51 N,   82 09 W,56.4,-5.5,at anchor san lorenzo and underway,                     oban,san lorenzo chiriqui,8.3000N,82.1000W
   19/11/1903,,,,,,,,,
   19/11/1903,   07 09 N,   80 45 W,,,                   at sea,,,,
   20/11/1903,,,,,,,,,
   20/11/1903,   08 13 N,   78 43 W,,,                   at sea,,,,
   21/11/1903,,,,,,,,,
   21/11/1903,   08 14 N,   80 06 W,9,-79.5,at sea and at anchor off panama,                   panama,,,
-  22/11/1903,     08 94,     79 52,38.5,-28.6,bearings from anchorage san jose rock s 23oe psc left tang perico island south psc right tang naor island s 45ow psc,                    horta,panama bay,8.8333333N,2019-01-09T00:00:00
+  22/11/1903,     08 94,     79 52,38.5,-28.6,bearings from anchorage san jose rock s 23oe psc left tang perico island south psc right tang naor island s 45ow psc,                    horta,panama bay,8.8333333N,79.25W
   22/11/1903,,,9,-79.5,at anchor off panama underway moored alongside usn collier nero underway and anchored off panama,                   panama,,,
   23/11/1903,,,,,,,,,
   23/11/1903,,,9,-79.5,     at anchor off panama,                   panama,,,
@@ -598,7 +598,7 @@ Wednesday 1903 June 24,,,38.1,-122.3,in dry dock mare island cal,              m
   07/12/1903,   08 27 N,   79 34 W,9,-79.5,at anchor off panama underway and at sea,                   panama,,,
   08/12/1903,,,,,,,,,
   08/12/1903,   07 10 N,   80 29 W,,,                   at sea,,,,
-  09/12/1903,,,51,-127.7,at 545 sighted jicaron island 2 pts on stbd bow,              rose island,coiba,7 28N,2018-05-29T00:00:00
+  09/12/1903,,,51,-127.7,at 545 sighted jicaron island 2 pts on stbd bow,              rose island,coiba,7 28N,81 47W
   09/12/1903,,,,,at sea and at anchor davids bay,,,,
   10/12/1903,,,,,,,,,
   10/12/1903,,,,,               davids bay,,,,
@@ -644,8 +644,8 @@ Wednesday 1903 June 24,,,38.1,-122.3,in dry dock mare island cal,              m
   27/12/1903,,,9,-79.5,     at anchor off panama,                   panama,,,
   28/12/1903,,,,,,,,,
   28/12/1903,,,9,-79.5,at anchor off panama and at sea,                   panama,,,
-  29/12/1903,,,51.1,45,at 800 took departure from san jose rock bearing e by s psc distant 13 mile put over pl reading 00 and set course we psc,                    dover,isla san jose panama,8 15N,2017-08-22T00:00:00
-  29/12/1903,,,43.1,16.7,at sea and at anchor in darien harbor,                     hvar,la palma darien,8 24 36N,2017-07-04T00:00:00
+  29/12/1903,,,51.1,45,at 800 took departure from san jose rock bearing e by s psc distant 13 mile put over pl reading 00 and set course we psc,                    dover,isla san jose panama,8 15N,79 07W
+  29/12/1903,,,43.1,16.7,at sea and at anchor in darien harbor,                     hvar,la palma darien,8 24 36N,78 9 0W
   30/12/1903,,,30.5,-132.6,at 720 passed cocas pt abeam distant 14 miles,              bank island,la palma darien,,
   30/12/1903,,,35.7,-0.6,at anchor in darien harbor and at at sea,                     oran,la palma darien,,
   31/12/1903,,,,,,,,,

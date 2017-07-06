@@ -7,15 +7,15 @@
   01/01/1885,,,,,,,,,
   01/01/1885,,,,,,,,,
   12/01/1885,,,,,             key west fla,,,,
-  16/06/1885,,,15.5,73.9,      narragansett bay ri,                      goa,narragansett bay,41 36N,0001-05-28
-  16/06/1885,,,-43,147.8,     navy yard norfolk va,              norfolk bay,norfolk navy base,36 56.7N,0001-05-12
+  16/06/1885,,,15.5,73.9,      narragansett bay ri,                      goa,narragansett bay,41 36N,71 21W
+  16/06/1885,,,-43,147.8,     navy yard norfolk va,              norfolk bay,norfolk navy base,36 56.7N,76 18.8W
   01/01/1885,,,,,,,,,
   01/01/1885,,,-43,147.8,     navy yard norfolk va,              norfolk bay,norfolk navy base,,
   02/01/1885,,,,,,,,,
   02/01/1885,,,-43,147.8,     navy yard norfolk va,              norfolk bay,norfolk navy base,,
   03/01/1885,,,,,,,,,
   03/01/1885,   34 51 N,   75 16 W,15.5,73.9,at sea off the carolina coast,                      goa,north atlantic,,
-  04/01/1885,,,12.8,45,at 1240 sighted bodie id light bearing sw mag distant 19 miles,                     aden,cape hatteras national seashore,35 18 13N,0001-10-15
+  04/01/1885,,,12.8,45,at 1240 sighted bodie id light bearing sw mag distant 19 miles,                     aden,cape hatteras national seashore,35 18 13N,75 30 41W
   04/01/1885,   32 53 N,   77 53 W,15.5,73.9,at sea off the carolina coast,                      goa,north atlantic,,
   05/01/1885,,,,,,,,,
   05/01/1885,   31 41 N,   79 25 W,36.1,-5.3,at sea off carolina  georgia coast,                      gib,north atlantic,,
@@ -23,10 +23,10 @@
   06/01/1885,   30 23 N,   79 16 W,36.1,-5.3,                  at noon,                      gib,north atlantic,,
   07/01/1885,,,,,,,,,
   07/01/1885,   26 53 N,   79 42 W,30,48.5,at sea off the florida coast,                      fao,north atlantic,,
-  08/01/1885,,,56.4,48.5,at 445 orange grove house of refuge abeam 1 12 miles distant pl 135,                     oban,palm beach florida,26 42 54N,0001-06-04
+  08/01/1885,,,56.4,48.5,at 445 orange grove house of refuge abeam 1 12 miles distant pl 135,                     oban,palm beach florida,26 42 54N,80 2 22W
   08/01/1885,,,,,at sea and in key west fla,,,,
   09/01/1885,,,,,,,,,
-  09/01/1885,,,30,48.5,             key west fla,                      fao,key west,24 33 33N,0001-01-22
+  09/01/1885,,,30,48.5,             key west fla,                      fao,key west,24 33 33N,81 47 03W
    10/1/1885,,,,,,,,,
    10/1/1885,,,51.1,1.3,government wharf key west fla,                    dover,key west,,
   11/01/1885,,,,,,,,,
@@ -49,8 +49,8 @@
   19/01/1885,,,23.1,-82.4,              havana cuba,                   havana,,,
   20/01/1885,,,,,,,,,
   20/01/1885,   22 35 N,   84 23 W,,,at sea off west end of cuba,,,,
-  21/01/1885,,,22.8,113.6,                organ mts,                   canton,yucatan channel,21 34 42N,0001-07-09
-  21/01/1885,   20 56 N,   86 27 W,54.8,-162.7,at sea and at anchor off north end of cozumel island,              umga island,cozumel,20 25N,0002-01-21
+  21/01/1885,,,22.8,113.6,                organ mts,                   canton,yucatan channel,21 34 42N,85 54 27W
+  21/01/1885,   20 56 N,   86 27 W,54.8,-162.7,at sea and at anchor off north end of cozumel island,              umga island,cozumel,20 25N,86 55W
   22/01/1885,,,54.8,-162.7,           cozumel island,              umga island,cozumel,,
   22/01/1885,,,54.8,-162.7,san miguel cozumel island yucatan,              umga island,cozumel,,
   23/01/1885,,,54.8,-162.7,           cozumel island,              umga island,cozumel,,
@@ -66,7 +66,7 @@
   28/01/1885,,,,,,,,,
   28/01/1885,,,54.8,-162.7,off cozumel island yucatan,              umga island,cozumel,,
   29/01/1885,,,,,,,,,
-  29/01/1885,   22 08 N,   87 06 W,55,-1.5,at sea off yueatan me xico,                      tic,gulf of mexico,25N,0002-09-23
+  29/01/1885,   22 08 N,   87 06 W,55,-1.5,at sea off yueatan me xico,                      tic,gulf of mexico,25N,90W
   30/01/1885,,,,,,,,,
   30/01/1885,   24 43 N,   86 54 W,30,48.5,           gulf of mexico,                      fao,gulf of mexico,,
   31/01/1885,,,,,,,,,
@@ -82,11 +82,11 @@
   05/02/1885,,,,,,,,,
   05/02/1885,,,,,      navy yard pensacola,,,,
   06/02/1885,,,,,,,,,
-  06/02/1885,   29 15 N,   85 34 W,30,48.5,gulf of mexico off florida coast,                      fao,cape san blas,29 39 49N,0001-05-21
+  06/02/1885,   29 15 N,   85 34 W,30,48.5,gulf of mexico off florida coast,                      fao,cape san blas,29 39 49N,85 21 20W
   07/02/1885,,,,,,,,,
   07/02/1885,,,,,  navy yard pensacola fla,,,,
   08/02/1885,,,,,,,,,
-  08/02/1885,,,30,48.5,pensacola navy yard florida,                      fao,pensacola bay,30 22 06N,0001-01-22
+  08/02/1885,,,30,48.5,pensacola navy yard florida,                      fao,pensacola bay,30 22 06N,87 12 03W
   09/02/1885,,,,,,,,,
   09/02/1885,,,,,navy yard pensacola and at sea,,,,
   10/02/1885,,,,,,,,,
@@ -94,8 +94,8 @@
   11/02/1885,,,,,,,,,
   11/02/1885,,,,,,,,,
   11/02/1885,,,,,passed soutre light bearing swxw mag,,,,
-  11/02/1885,,,30,48.5,gulf of mexico  mississippi river,                      fao,pass a loutre,29 7 7 N,0001-06-18
-  12/02/1885,,,56.2,-3,  fort st philip  jackson,                    forth,fort jackson louisiana,29 21 28N,0001-05-07
+  11/02/1885,,,30,48.5,gulf of mexico  mississippi river,                      fao,pass a loutre,29 7 7 N,89 12 24W
+  12/02/1885,,,56.2,-3,  fort st philip  jackson,                    forth,fort jackson louisiana,29 21 28N,89 27 18 W
   12/02/1885,,,30,-90.1,mississippi river and new orleans la,              new orleans,,,
   13/02/1885,,,,,,,,,
   13/02/1885,,,30,-90.1,forwoods wharf new orleans la,              new orleans,,,
@@ -149,7 +149,7 @@
   07/03/1885,   29 09 N,   85 32 W,30,48.5,           gulf of mexico,                      fao,gulf of mexico,,
   08/03/1885,,,,,,,,,
   08/03/1885,   30 14 N,,30,48.5,      pensacola navy yard,                      fao,pensacola bay,,
-  09/03/1885,,,43.1,16.7,    santa rosa id florida,                     hvar,santa rosa island florida,30 22 57N,0001-06-11
+  09/03/1885,,,43.1,16.7,    santa rosa id florida,                     hvar,santa rosa island florida,30 22 57N,86 51 23W
   09/03/1885,,,,,            pensacola fla,,,,
    10/3/1885,,,,,,,,,
    10/3/1885,,,,,   navy yard pensacola fl,,,,
@@ -168,7 +168,7 @@
    16/3/1885,,,,,,,,,
    16/3/1885,,,,,,,,,
   16/03/----,,,,,,,,,
-  16/03/----,,,30,48.5,gulf of mexico  tampa bay,                      fao,tampa bay,27 45 45N,0001-11-12
+  16/03/----,,,30,48.5,gulf of mexico  tampa bay,                      fao,tampa bay,27 45 45N,82 32 45W
   07/03/1885,,,,,,,,,
   07/03/1885,   27 11 N,   83 15 W,30,48.5, tampa bay gulf of mexico,                      fao,tampa bay,,
    18/3/1885,,,,,,,,,
@@ -196,7 +196,7 @@
    28/3/1885,,,,,,,,,
    28/3/1885,,,,,             key west fla,,,,
     29/03/85,,,,,,,,,
-    29/03/85,,,30,48.5,key west fla  strait of florida,                      fao,straits of florida,23 56 03N,0001-08-20
+    29/03/85,,,30,48.5,key west fla  strait of florida,                      fao,straits of florida,23 56 03N,80 55 33W
   30/03/1885,,,,,,,,,
   30/03/1885,   28 02 N,   79 49 W,30,48.5,at sea off east coast of florida,                      fao,north atlantic,,
   31/03/1885,,,,,,,,,
@@ -209,7 +209,7 @@
   03/04/1885,   37 01 N,   74 10 W,36.1,-5.3,at sea off the virginia coast,                      gib,north atlantic,,
   04/04/1885,,,,,,,,,
   04/04/1885,   37 04 N,   75 07 W,37,-76,at sea and chesapeake bay,           chesapeake bay,,,
-  05/04/1885,,,37,-1.5,       smiths point light,                     poti,solomons lump light,38.04806N,0002-06-17
+  05/04/1885,,,37,-1.5,       smiths point light,                     poti,solomons lump light,38.04806N,76.01502W
   05/04/1885,,,37,-77,chesapeake bay and navy yard washington dc,            washington dc,,,
   06/04/1885,,,,,,,,,
   06/04/1885,,,38.9,-77,  navy yard washington dc,            washington dc,,,
@@ -349,16 +349,16 @@
   11/06/1885,,,38.9,-77,  navy yard washington dc,            washington dc,,,
   12/06/1885,,,,,,,,,
   12/06/1885,,,38.9,-77,navy yard washington dc  potomac river,            washington dc,,,
-  13/06/1885,,,22.4,117.2,mathias point light house,              eider point,mathias point light,38.4051N,0002-06-24
+  13/06/1885,,,22.4,117.2,mathias point light house,              eider point,mathias point light,38.4051N,77.0428W
   13/06/1885,   37 16 N,         W,38.9,-77,making passage from washington dc to narragansett bay,            washington dc,,,
-  14/06/1885,,,37,16.7,             cape charles,                     hvar,cape charles,37 08 57N,0001-07-16
+  14/06/1885,,,37,16.7,             cape charles,                     hvar,cape charles,37 08 57N,75 57 28W
   14/06/1885,   40 17 N,   72 32 W,29.9,32.6,    at sea and newport ri,                   port t,north atlantic,,
   15/06/1885,,,,,,,,,
-  15/06/1885,,,54.2,-165.6,newport harbor  narragansett bay,              lost harbor,newport rhode island,41.488002N,0002-05-15
+  15/06/1885,,,54.2,-165.6,newport harbor  narragansett bay,              lost harbor,newport rhode island,41.488002N,71.312622W
   16/06/1885,,,,,,,,,
   16/06/1885,,,29.9,32.6,    newport ri and at sea,                   port t,newport rhode island,,
   17/06/1885,,,,,,,,,
-  17/06/1885,   40 55 N,   67 39 W,56.4,-5.5,at sea off the georges banks,                     oban,georges bank,41 12 36N,0001-12-30
+  17/06/1885,   40 55 N,   67 39 W,56.4,-5.5,at sea off the georges banks,                     oban,georges bank,41 12 36N,67 22 51.9W
   18/06/1885,,,,,,,,,
   18/06/1885,   41 19 N,   63 36 W,42.2,41.7,   at sea off nova scotia,                     poti,north atlantic,,
   19/06/1885,,,,,,,,,
@@ -436,7 +436,7 @@
   13/07/1885,,,,,,,,,
   13/07/1885,   40 51 N,   66 29 W,56.4,-5.5,at sea and off george banks,                     oban,georges bank,,
   14/07/1885,,,,,,,,,
-  14/07/1885,   43 03 N,   67 29 W,56.4,-5.5,at sea south of georges banks,                     oban,gulf of maine,43N,0002-04-22
+  14/07/1885,   43 03 N,   67 29 W,56.4,-5.5,at sea south of georges banks,                     oban,gulf of maine,43N,68W
   15/07/1885,,,,,,,,,
   15/07/1885,,,,,at sea and woods hall mass,,,,
   16/07/1885,,,,,,,,,
@@ -579,9 +579,9 @@
   22/09/1885, 37 693611,   73 04 W,65,-168.1,at sea south of long island,              king island,north atlantic,,
   23/09/1885,,,,,,,,,
   23/09/1885,   39 12 N,   72 24 W,65,-168.1,   at sea off long island,              king island,north atlantic,,
-  24/09/1885,,,55.3,-131.6,       black island light,            blank islands,block island southeast light,41 9 12.3N,0001-02-23
+  24/09/1885,,,55.3,-131.6,       black island light,            blank islands,block island southeast light,41 9 12.3N,71 33 7.7W
   24/09/1885,,,,,at sea and in woods holl mass,,,,
-  25/09/1885,,,15.5,73.9,           gay head light,                      goa,gay head light,41 20 54.4N,0001-02-10
+  25/09/1885,,,15.5,73.9,           gay head light,                      goa,gay head light,41 20 54.4N,70 50 5.8W
   25/09/1885,,,,,          woods hall mass,,,,
   26/09/1885,,,,,,,,,
   26/09/1885,,,,,          woods hall mass,,,,
@@ -609,9 +609,9 @@
   07/10/1885,,,29.9,32.6,woods hole mass and newport ri,                   port t,newport rhode island,,
   08/10/1885,,,,,,,,,
   08/10/1885,,,65,32.6,               newport ri,                   port t,newport rhode island,,
-  09/10/1885,,,-13.8,-171.7,great captans id light bearing ne by e mag,                     apia,great captain island light,40.9825N,0002-05-31
-  09/10/1885,,,65,-168.1,long island sound  new york,              king island,long island sound,41 05 48N,0001-12-31
-  10/10/1885,,,52.9,-3,anchored in 8 fathoms off w 23d st north river,                    forth,chelsea piers,40 44 50N,0001-09-03
+  09/10/1885,,,-13.8,-171.7,great captans id light bearing ne by e mag,                     apia,great captain island light,40.9825N,73.6235W
+  09/10/1885,,,65,-168.1,long island sound  new york,              king island,long island sound,41 05 48N,72 52 52W
+  10/10/1885,,,52.9,-3,anchored in 8 fathoms off w 23d st north river,                    forth,chelsea piers,40 44 50N,74 0 35W
   10/10/1885,,,40.7,-74,off  23rd street north river new york,                 new york,,,
   11/10/1885,,,,,,,,,
   11/10/1885,,,40.7,-74,at anchor off west 23d street new york,                 new york,,,
@@ -621,7 +621,7 @@
   13/10/1885,,,40.7,-74,at anchor off west 23d street new york,                 new york,,,
   14/10/1885,,,,,,,,,
   14/10/1885,,,40.7,-74,                 new york,                 new york,,,
-  15/10/1885,,,54.9,-5.8,barnegat light abeam at 6,                    larne,barnegat light new jersey,39.752007N,0002-06-03
+  15/10/1885,,,54.9,-5.8,barnegat light abeam at 6,                    larne,barnegat light new jersey,39.752007N,74.110893W
   15/10/1885,   57 27 N,   74 20 W,15.5,73.9,at sea off coasts of new jersey and maryland,                      goa,north atlantic,,
   16/10/1885,,,,,,,,,
   16/10/1885,   35 01 N,   75 12 W,,, at sea off cape hatteras,,,,
@@ -631,7 +631,7 @@
    17/10/18?,   34 41 N,   75 33 W,56.2,-3,at sea off north carolina coast,                    forth,north atlantic,,
   18/10/1885,,,,,           ocracake light,,,,
   18/10/1885,,,,,,,,,
-  18/10/1885,,,50.1,-127.9,  cape lookout light beam,                cape cook,cape lookout lighthouse,34 36 19N,0001-03-12
+  18/10/1885,,,50.1,-127.9,  cape lookout light beam,                cape cook,cape lookout lighthouse,34 36 19N,76 32 10W
   18/10/1885,   34 12 N,   76 08 W,50.1,-127.9,at sea off cape lookout nc,                cape cook,cape lookout lighthouse,,
   19/10/1885,,,,,,,,,
   19/10/1885,   33 37 N,   77 36 W,56.2,-3,at sea off cape fear north carolina,                    forth,north atlantic,,

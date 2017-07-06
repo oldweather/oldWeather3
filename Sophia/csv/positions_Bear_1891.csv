@@ -1,5 +1,5 @@
   05/04/1891,        NA,        NA_2,47.6,-122.3,       seattle washington,                  seattle,h,i,j
-  05/04/1891,,,22.6,59.5,   strait of juan de fuca,                      sur,strait of juan de fuca,48 12 00N,2017-12-05T01:23:00
+  05/04/1891,,,22.6,59.5,   strait of juan de fuca,                      sur,strait of juan de fuca,48 12 00N,123 34 22W
   06/04/1891,,,47.6,-122.3,       seattle washington,                  seattle,,,
   06/04/1891,,,47.6,-122.3,       seattle washington,                  seattle,,,
   07/04/1891,,,47.6,-122.3,       seattle washington,                  seattle,,,
@@ -8,7 +8,7 @@
   08/04/1891,,,47.6,-122.3,       seattle washington,                  seattle,,,
   09/04/1891,,,47.6,-122.3,       seattle washington,                  seattle,,,
   09/04/1891,,,47.6,-122.3,       seattle washington,                  seattle,,,
-  10/04/1891,,,38.1,-122.3, race island  nnw 4 miles,              mare island,queen charlotte strait,50 53 50N,2017-09-19T01:27:00
+  10/04/1891,,,38.1,-122.3, race island  nnw 4 miles,              mare island,queen charlotte strait,50 53 50N,127 21 11W
   10/04/1891,,,47.6,-122.3,       seattle washington,                  seattle,,,
   11/04/1891,   49 24 N,  127 22 W,,,,,,,
   11/04/1891,,,,,                   at sea,,,,
@@ -38,21 +38,21 @@
   23/04/1891,,,53.9,-166.5,   unalaska harbor alaska,             unalaska bay,,,
   24/04/1891,   56 22 N,  169 27 W,,,,,,,
   24/04/1891,,,55,166.3,              behring sea,                  behring,,,
-  25/04/1891,   56 25 N,  169 16 W,42.2,41.7,  reef point east 34 mile,                     poti,st george island,56 35 00N,2017-07-04T00:00:00
+  25/04/1891,   56 25 N,  169 16 W,42.2,41.7,  reef point east 34 mile,                     poti,st george island,56 35 00N,169 35 00W
   25/04/1891,,,55,166.3,       at sea behring sea,                  behring,,,
   26/04/1891,   54 26 N,  167 01 W,,,,,,,
   26/04/1891,,,55,166.3,       at sea behring sea,                  behring,,,
   27/04/1891,   54 24 N,  164 14 W,,,,,,,
   27/04/1891,,,55,-162.3,       at sea behring sea,                king cove,,,
   28/04/1891,   55 07 N,  160 28 W,,,,,,,
-  28/04/1891,,,55.1,-162.3,        kings cove alaska,                king cove,unga island,55 15 38N,2018-04-24T00:00:00
+  28/04/1891,,,55.1,-162.3,        kings cove alaska,                king cove,unga island,55 15 38N,160 41 42W
   29/04/1891,   55 07 N,  160 28 W,,,,,unga island,,
   28/04/1891,,,55.1,-162.3,        kings cove alaska,                king cove,unga island,,
   29/04/1891,,,56.2,-171.1,north end cheonabour id sexe 5 miles,               south head,unga island,,
   29/04/1891,,,57.4,-152.3,unga harbor unga island alaska,              ugak island,unga island,,
   30/04/1891,,,65.5,-171.1,      north falmouth head,               south head,unga island,,
-  30/04/1891,,,53.9,-166.5,falmouth harbor nagai island alaska,             dutch harbor,nagai island,55 05N,2017-07-11T00:00:00
-  01/05/1891,,,54.2,-165.6,humboldt harbor popoff id alaska,              lost harbor,sand point,55.336593N,2020-07-31T00:00:00
+  30/04/1891,,,53.9,-166.5,falmouth harbor nagai island alaska,             dutch harbor,nagai island,55 05N,160 01W
+  01/05/1891,,,54.2,-165.6,humboldt harbor popoff id alaska,              lost harbor,sand point,55.336593N,160.493234W
   01/05/1891,,,54.2,-165.6,humboldt harbor popoff id alaska,              pook island,sand point,,
   02/05/1891,,,54.2,-165.6,humboldt harbor popoff id alaska,              lost harbor,sand point,,
   02/05/1891,,,54.2,-165.6,humboldt harbor popoff id alaska,              lost harbor,sand point,,
@@ -62,8 +62,8 @@
   04/05/1891,,,,,                   at sea,,,,
   05/05/1891,   54 29 N,  163 38 W,,,,,,,
   05/05/1891,,,,,                   at sea,,,,
-  06/05/1891,Belkofsky Bay,2,,,belkofsky bay belkofsky pt swxw 2 miles,,belkofski alaska,55 05 20N,2018-06-19T00:00:00
-  06/05/1891,,,-18.1,178.4,east anchor cove ikatok peninsula alaska,                     suva,ikatan bay,54.79N,2020-08-20T00:00:00
+  06/05/1891,Belkofsky Bay,2,,,belkofsky bay belkofsky pt swxw 2 miles,,belkofski alaska,55 05 20N,162 01 50W
+  06/05/1891,,,-18.1,178.4,east anchor cove ikatok peninsula alaska,                     suva,ikatan bay,54.79N,163.29W
   07/05/1891,   53 26 N,  159 17 W,15.5,73.9, unga cape n 12 w 2 miles,                      goa,unga island,,
   07/05/1891,,,12.5,-70,          bear bay alaska,                    aruba,belkofski alaska,,
   08/05/1891,   55 36 N,  157 10 W,,,,,,,
@@ -94,7 +94,7 @@
   20/05/1891,,,47.6,-122.3,             seattle wash,                  seattle,,,
   21/05/1891,,,47.6,-122.3,       seattle washington,                  seattle,,,
   21/05/1891,,,47.6,-122.3,             seattle wash,                  seattle,,,
-  22/05/1891,,,52.1,-128.1,        marrowstone point,              story point,marrowstone point light,48.1018N,2019-11-09T00:00:00
+  22/05/1891,,,52.1,-128.1,        marrowstone point,              story point,marrowstone point light,48.1018N,122.6879W
   22/05/1891,,,47.6,-122.3,             seattle wash,                  seattle,,,
   23/05/1891,,,48.1,-122.8, port townsend washington,            port townsend,,,
   23/05/1891,,,48.1,-122.8,       port townsend wash,            port townsend,,,
@@ -106,7 +106,7 @@
   26/05/1891,,,48.1,-122.8,       port townsend wash,            port townsend,,,
   27/05/1891,,,48.1,-122.8, port townsend washington,            port townsend,,,
   27/05/1891,,,48.1,-122.8,       port townsend wash,            port townsend,,,
-  28/05/1891,,,48.1,117.2,      townsend washington,                    mashi,port townsend,48 6 59N,2018-02-06T01:22:00
+  28/05/1891,,,48.1,117.2,      townsend washington,                    mashi,port townsend,48 6 59N,122 46 31W
   28/05/1891,,,48.1,-122.8,            port townsend,            port townsend,,,
   29/05/1891,,,48.1,-122.8, port townsend washington,            port townsend,,,
   29/05/1891,,,48.1,-122.8,       port townsend wash,            port townsend,,,
@@ -124,9 +124,9 @@
   03/06/1891,,,,,                   at sea,,,,
   04/06/1891,   58 24 N,  138 56 W,,,,,,,
   04/06/1891,,,,,                   at sea,,,,
-  05/06/1891,,,29.9,32.6,  port mulgran yuktat bay,                   port t,yakutat bay,59 43 54N,2017-11-14T01:39:00
+  05/06/1891,,,29.9,32.6,  port mulgran yuktat bay,                   port t,yakutat bay,59 43 54N,139 50 19W
   05/06/1891,,,54.2,-165.7,port mulgran yakutat bay alaska,               akutan bay,yakutat bay,,
-  06/06/1891,,,55,-1.5,           icy bay alaska,                      tic,icy bay,59 59 24N,2017-12-26T01:41:00
+  06/06/1891,,,55,-1.5,           icy bay alaska,                      tic,icy bay,59 59 24N,141 23 25W
   06/06/1891,,,54.2,-165.7,port mulgran yakutat bay alaska,               akutan bay,yakutat bay,,
   07/06/1891,,,55,-1.5,           icy bay alaska,                      tic,icy bay,,
   07/06/1891,,,55,-1.5,           icy bay alaska,                      tic,icy bay,,
@@ -155,7 +155,7 @@
   19/06/1891,   56 57 N,  161 50 W,,,,,,,
   19/06/1891,,,54.2,-165.6,humboldt harbor popoff id alaska,              lost harbor,sand point,,
   20/06/1891,   54 04 N,  166 18 W,,,,,,,
-  20/06/1891,,,,,                   at sea,,unalaska bay,53 56 55N,2018-07-17T00:00:00
+  20/06/1891,,,,,                   at sea,,unalaska bay,53 56 55N,166 29 54W
   22/06/1891,,,53.9,-166.5,  ounalaska harbor alaska,             unalaska bay,,,
   21/06/1891,,,53.9,-166.5,          unalaska alaska,             unalaska bay,,,
   22/06/1891,,,53.9,-166.5,          unalaska alaska,             unalaska bay,,,
@@ -192,18 +192,18 @@
   06/07/1891,,,65.2,-166.7,     port clarence alaska,           port clearance,,,
   07/07/1891,,,65.2,-166.7,     port clarence alaska,           port clearance,,,
   07/07/1891,,,65.2,-166.7,     port clarence alaska,           port clearance,,,
-  08/07/1891,,,53.4,-3,at anchor off cape prince of wales,                     alex,cape prince of wales,65 38 24N,2017-09-26T00:00:00
+  08/07/1891,,,53.4,-3,at anchor off cape prince of wales,                     alex,cape prince of wales,65 38 24N,168 7 12W
   08/07/1891,,,53.4,-3,at anchor off cape prince of wales,                     alex,cape prince of wales,,
-  09/07/1891,   65 00 N,  171 15 W,24.5,118.1,cape numiagamo swxs 20 miles,                     amoy,st lawrence bay chukotka,65.6667N,2020-10-13T00:00:00
-  09/07/1891,,,69.8,176.2,           behring strait,              long strait,bering strait,66 0N,2017-07-04T00:00:00
+  09/07/1891,   65 00 N,  171 15 W,24.5,118.1,cape numiagamo swxs 20 miles,                     amoy,st lawrence bay chukotka,65.6667N,171.0833W
+  09/07/1891,,,69.8,176.2,           behring strait,              long strait,bering strait,66 0N,169 0W
   10/07/1891,,,64.4,-172.2,at anchor off indian point siberia,             indian point,,,
-  10/07/1891,,,55,166.3,        at sea bering sea,                  behring,providence bay,64 25 00N,2017-07-04T00:00:00
-  11/07/1891,   64 11 N,  174 05 W,-10,39.7,    indian pt nxw 2 miles,                    lindi,gulf of anadyr,64 00N,2017-07-04T00:00:00
+  10/07/1891,,,55,166.3,        at sea bering sea,                  behring,providence bay,64 25 00N,173 24 00W
+  11/07/1891,   64 11 N,  174 05 W,-10,39.7,    indian pt nxw 2 miles,                    lindi,gulf of anadyr,64 00N,178 00W
   11/07/1891,,,64.4,-172.2,at anchor off indian point siberia,             indian point,,,
   12/07/1891,   65 05 N,  176 53 W,,,,,,,
   12/07/1891,,,64,-178,    at sea gulf of anadir,           gulf of anadyr,,,
   13/07/1891,,,31.5,118.4,at anchor off cape metchken siberia,                    erjia,gulf of anadyr,,
-  13/07/1891,,,31.5,118.4,at anchor off cape metchken siberia,                    erjia,kresta bay,66.000N,2020-12-09T00:00:00
+  13/07/1891,,,31.5,118.4,at anchor off cape metchken siberia,                    erjia,kresta bay,66.000N,179.250W
   14/07/1891,,,66,-179.2,   holy cross bay siberia,           holy cross bay,,,
   14/07/1891,,,64,-178,   gulf of anadil siberia,           gulf of anadyr,,,
   15/07/1891,,,66,-179.2,   holy cross bay siberia,           holy cross bay,,,
@@ -227,17 +227,17 @@
   24/07/1891,   64 10 N,  172 55 W,,,,,,,
   24/07/1891,,,43.7,7.2,port providence plover bay siberia,                     nice,providence bay,,
   25/07/1891,   65 01 N,  175 51 W,31.5,-172.2,     indian point siberia,                    erjia,gulf of anadyr,,
-  25/07/1891,,,43.7,7.2,at anchor off st lawrence isld,                     nice,st lawrence island,63 24N,2017-09-12T00:00:00
+  25/07/1891,,,43.7,7.2,at anchor off st lawrence isld,                     nice,st lawrence island,63 24N,170 10W
   26/07/1891,   66 14 N,  167 42 W,,,,,,,
   26/07/1891,,,55,166.3,        at sea bering sea,                  behring,bering strait,,
   27/07/1891,   66 42 N,  162 34 W,66.5,-162.8,at anchor kotzebue sound alaska cape blossom e 12 n 2 miles,           kotzebue sound,,,
-  27/07/1891,,,55,-1.5,      at sea arctic ocean,                      tic,chukchi sea,69N,2020-10-20T00:00:00
+  27/07/1891,,,55,-1.5,      at sea arctic ocean,                      tic,chukchi sea,69N,172W
   28/07/1891,   66 42 N,  162 40 W,,,,,,,
   28/07/1891,,,66.5,-162.8,at anchor off cape blossom alaska kotzebue sound,           kotzebue sound,,,
   29/07/1891,   68 14 N,  166 25 W,,,at anchor off cape thompson alaska,,,,
   29/07/1891,,,55,-1.5,      at sea arctic ocean,                      tic,chukchi sea,,
   30/07/1891,,,68.3,-166.8,at anchor north side point hope alaska,               point hope,,,
-  30/07/1891,,,54,-166.6,at anchor north side point hope alaska,              eider point,point hope,68 20 27N,2017-07-04T00:00:00
+  30/07/1891,,,54,-166.6,at anchor north side point hope alaska,              eider point,point hope,68 20 27N,166 50 00W
   31/07/1891,,,56.2,-3,at anchor north side point hope alaska,                    forth,point hope,,
   31/07/1891,,,54,-166.6,at anchor north side point hope alaska,              eider point,point hope,,
   01/08/1891,,,,,           pt hope alaska,,point hope,,
@@ -246,7 +246,7 @@
   02/08/1891,,,68.9,-166.2,at anchor off cape lisburne alaska,            cape lisburne,,,
   03/08/1891,,,68.9,-166.2,at anchor off cape lisburne alaska,            cape lisburne,,,
   03/08/1891,,,68.9,-166.2,at anchor off cape lisburne alaska,            cape lisburne,,,
-  04/08/1891,,,78.7,-74.3,at anchor off coal mine near cape sabine alaska,              cape sabine,cape sabine alaska,68 55 00N,2017-10-17T00:00:00
+  04/08/1891,,,78.7,-74.3,at anchor off coal mine near cape sabine alaska,              cape sabine,cape sabine alaska,68 55 00N,164 36 15W
   04/08/1891,,,78.7,-74.3,at anchor off coal mine near cape sabine alaska,              cape sabine,cape sabine alaska,,
   05/08/1891,,,78.7,-74.3,              cape sabine,              cape sabine,cape sabine alaska,,
   05/08/1891,,,78.7,-74.3,at anchor off coal mine near cape sabine alaska,              cape sabine,cape sabine alaska,,
@@ -292,7 +292,7 @@
   25/08/1891,,,55,-1.5,      at sea arctic ocean,                      tic,chukchi sea,,
   26/08/1891,   68 10 N,  167 35 W,,,,,,,
   26/08/1891,,,55,-1.5,      at sea arctic ocean,                      tic,chukchi sea,,
-  27/08/1891,   66 15 N,  169 32 W,31.5,118.4,at anchor off enchowan village siberia,                    erjia,inchoun,66 18N,2017-10-31T00:00:00
+  27/08/1891,   66 15 N,  169 32 W,31.5,118.4,at anchor off enchowan village siberia,                    erjia,inchoun,66 18N,170 17W
   27/08/1891,,,55,-1.5,      at sea arctic ocean,                      tic,chukchi sea,,
   28/08/1891,,,31.5,118.4,at anchor off enchowan village siberia,                    erjia,inchoun,,
   28/08/1891,,,31.5,118.4,at anchor off enchowan village siberia,                    erjia,inchoun,,
@@ -301,23 +301,23 @@
   30/08/1891,,,53.4,-3,cape prince of wales alaska,            king's island,cape prince of wales,,
   30/08/1891,,,53.4,-3,at anchor off cape prince of wales alaska,                     alex,cape prince of wales,,
   31/08/1891,   64 12 N,  165 40 W,,,,,,,
-  31/08/1891,,,55,166.3,        at sea bering sea,                  behring,norton sound,63 50 57N,2017-08-29T00:00:00
+  31/08/1891,,,55,166.3,        at sea bering sea,                  behring,norton sound,63 50 57N,164 16 08W
   01/09/1891,,,63.5,-162,              st michaels,               egg island,,,
   01/09/1891,,,,,      at sea norton sound,,norton sound,,
   02/09/1891,,,51.2,-127.8,egg island nxe 182 e 3 miles,               egg island,,,
   02/09/1891,,,63.5,-162,at anchor off st michaels alaska,               st michael,,,
   03/09/1891,,,63.5,-162,               egg island,               egg island,,,
   03/09/1891,,,51.2,-127.8,at anchor under egg island norton sound,               egg island,,,
-  04/09/1891,   64 37 N,  167 05 W,-5.7,38.9,kadge island w 14 n 5 miles,             sange island,king island alaska,64 58 30N,2018-03-06T00:00:00
+  04/09/1891,   64 37 N,  167 05 W,-5.7,38.9,kadge island w 14 n 5 miles,             sange island,king island alaska,64 58 30N,168 03 35W
   04/09/1891,,,,,      at sea norton sound,,,,
   05/09/1891,   65 03 N,  168 00 W,,,,,,,
   05/09/1891,,,55,166.3,        at sea bering sea,                  behring,king island alaska,,
   06/09/1891,   64 43 N,  169 00 W,65,-168.1,at anchor under kings isld,            king's island,,,
   06/09/1891,,,65.2,-166.7,  at anchor port clarence,           port clearance,,,
   07/09/1891,,,64.4,-172.2,     indian point siberia,             indian point,,,
-  07/09/1891,,,55,166.3,        at sea bering sea,                  behring,senyavin strait,64 46 34N,2017-09-05T00:00:00
+  07/09/1891,,,55,166.3,        at sea bering sea,                  behring,senyavin strait,64 46 34N,172 38 9W
   08/09/1891,,,31.5,118.4, glasenapp harbor siberia,                    erjia,senyavin strait,,
-  08/09/1891,,,31.5,117.1,at anchor off indian pt siberia,                    erjia,cape chaplino,64.4048N,2020-10-21T00:00:00
+  08/09/1891,,,31.5,117.1,at anchor off indian pt siberia,                    erjia,cape chaplino,64.4048N,172.227516W
   09/09/1891,,,31.5,118.4, glasenapp harbor siberia,                    erjia,senyavin strait,,
   09/09/1891,,,31.5,118.4,at anchor glasenapp harbor siberia,                    erjia,senyavin strait,,
   10/09/1891,,,31.5,118.4,at anchor glasenapp harbor siberia,                    erjia,senyavin strait,,
@@ -692,7 +692,7 @@
   10/12/1891,,,,,                   at sea,,,,
   11/12/1891,   39 43 N,  126 38 W,,,,,,,
   11/12/1891,,,,,                   at sea,,,,
-  12/12/1891,,,37.8,41.7,druxbury point nxe 14 e 4 12 miles,                     poti,gulf of the farallones,37.7504857N,2019-11-10T00:00:00
+  12/12/1891,,,37.8,41.7,druxbury point nxe 14 e 4 12 miles,                     poti,gulf of the farallones,37.7504857N,122.7516535W
   12/12/1891,,,,,                   at sea,,,,
   12/12/1891,,,,,,,,,
   12/12/1891,,,,,,,,,

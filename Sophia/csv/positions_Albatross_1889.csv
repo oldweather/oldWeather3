@@ -22,21 +22,21 @@
   01/01/1889,,,37.8,-122.4,        san francisco cal,        san francisco bay,,,
   02/01/1889,,,,,,,,,
   02/01/1889,,,37.8,-122.4,at anchor in san francisco bay cal and at sea,        san francisco bay,,,
-  03/01/1889,,,42.2,41.7,pigeon point light bearing sexs,                     poti,pigeon point lighthouse,37 10 54N,2018-03-27T01:22:00
+  03/01/1889,,,42.2,41.7,pigeon point light bearing sexs,                     poti,pigeon point lighthouse,37 10 54N,122 23 38W
   03/01/1889,     36 14,    121 42,,,,,,,
   04/01/1889,,,,,,,,,
   04/01/1889,   33 53 N,  120 32 W,,,                   at sea,,,,
   05/01/1889,,,,,,,,,
-  05/01/1889,   34 00 N,  120 29 W,22.2,113.9,              bechers bay,                     taio,santa rosa island california,33.965681N,2019-10-22T00:00:00
+  05/01/1889,   34 00 N,  120 29 W,22.2,113.9,              bechers bay,                     taio,santa rosa island california,33.965681N,120.108369W
   06/01/1889,,,4.3,138.5,              beacon reef,               ella point,santa rosa island california,,
   06/01/1889,   34 01 N,  120 01 W,,,             belchers bay,,,,
   07/01/1889,,,,,,,,,
-  07/01/1889,   34 23 N,  120 11 W,30.5,47.9,        santa barbara cal,                    basra,santa barbara california,34 25 33N,2018-06-26T01:19:00
+  07/01/1889,   34 23 N,  120 11 W,30.5,47.9,        santa barbara cal,                    basra,santa barbara california,34 25 33N,119 42 51W
   08/01/1889,,,30.5,47.9,            santa barbara,                    basra,santa barbara california,,
   08/01/1889,,,30.5,47.9,at anchor santa barbarba cal,                    basra,santa barbara california,,
-  09/01/1889,,,30.5,47.9,               pt hueneme,                    basra,port of hueneme,34 8 50N,2018-01-30T01:19:00
+  09/01/1889,,,30.5,47.9,               pt hueneme,                    basra,port of hueneme,34 8 50N,119 12 30W
   09/01/1889,,,32.7,-117.2,            san diego cal,            san diego usa,,,
-  10/01/1889,,,32.7,-117.2,             san pedro st,            san diego usa,ventura california,34 16 30N,2018-04-10T01:19:00
+  10/01/1889,,,32.7,-117.2,             san pedro st,            san diego usa,ventura california,34 16 30N,119 13 40W
   10/01/1889,,,32.7,-117.2,            san diego cal,            san diego usa,,,
    11/1/1889,,,,,,,,,
    11/1/1889,,,32.7,-117.2,            san diego cal,            san diego usa,,,
@@ -51,10 +51,10 @@
   16/01/1889,,,,,,,,,
   16/01/1889,   32 28 N,  119 13 W,,,,,,,
   17/01/1889,,,,,,,,,
-  17/01/1889,   33 06 N,  118 37 W,29.8,116.2,       san nicolas island,               lay island,san nicolas island,33 15N,2018-01-30T01:19:00
+  17/01/1889,   33 06 N,  118 37 W,29.8,116.2,       san nicolas island,               lay island,san nicolas island,33 15N,119 30W
   18/01/1889,,,35.9,-5.3,       san nicolas island,                   almina,san nicolas island,,
   18/01/1889,     32 38,    117 29,32.7,-117.2,            san diego cal,            san diego usa,,,
-  19/01/1889,,,37.1,25.5,               pt soma st,                    nakos,point loma san diego,32 40 12N,2018-02-06T01:17:00
+  19/01/1889,,,37.1,25.5,               pt soma st,                    nakos,point loma san diego,32 40 12N,117 14 31W
   19/01/1889,,,32.7,-117.2,  at anchor san diego cal,            san diego usa,,,
   20/01/1889,,,,,,,,,
   20/01/1889,,,32.7,-117.2,            san diego cal,            san diego usa,,,
@@ -62,7 +62,7 @@
   21/01/1889,,,32.7,-117.2,            san diego cal,            san diego usa,,,
   22/01/1889,,,,,,,,,
   22/01/1889,   32 43 N,  117 52 W,32.7,-117.2,            san diego cal,            san diego usa,,,
-  23/01/1889,,,35.9,-5.3,smugglers cove san clemente isld,            san diego usa,san clemente island,32 54N,2018-01-30T01:18:00
+  23/01/1889,,,35.9,-5.3,smugglers cove san clemente isld,            san diego usa,san clemente island,32 54N,118 30W
   23/01/1889,   32 45 N,  119 16 W,,,        san clemente isld,,,,
   24/01/1889,,,,,,,,,
   24/01/1889,,,,,,,,,
@@ -77,7 +77,7 @@
   28/01/1889,,,,,,,,,
   28/01/1889,,,32.7,-117.2,            san diego cal,            san diego usa,,,
   29/01/1889,,,,,,,,,
-  29/01/1889,,,22.2,113.9,        national city cal,                     taio,national city california,32 40 41N,2018-08-07T01:17:00
+  29/01/1889,,,22.2,113.9,        national city cal,                     taio,national city california,32 40 41N,117 05 57W
   30/01/1889,,,,,,,,,
   30/01/1889,,,32.7,-117.2,national city and san diego cal,            san diego usa,,,
   31/01/1889,,,,,,,,,
@@ -89,7 +89,7 @@
   03/02/1889,,,,,,,,,
   03/02/1889,   33 16 N,  117 26 W,32.7,-117.2, san diego cal and at sea,            san diego usa,,,
   04/02/1889,,,,,,,,,
-  04/02/1889,   33 51 N,  118 13 W,10.2,-61.7,         off point fermin,             point fortin,point fermin light,33.7054N,2019-10-10T00:00:00
+  04/02/1889,   33 51 N,  118 13 W,10.2,-61.7,         off point fermin,             point fortin,point fermin light,33.7054N,118.2937W
   05/02/1889,,,,,,,,,
   05/02/1889,,,,,,,,,
   05/02/1889,,,,,,,,,
@@ -101,14 +101,14 @@
   07/02/1889,,,,,,,,,
   07/02/1889,   33 48 N,  119 55 W,22.2,113.9,at anchor bechers bay at sea and at anchor san meguil isld,                     taio,santa rosa island california,,
   08/02/1889,,,-1.8,6.2, south pt santa rosa isld,                    ceara,santa rosa island california,,
-  08/02/1889,   34 06 N,  120 22 W,30.5,47.9,          san miguel isld,                    basra,san miguel island,34 2N,2017-12-12T01:20:00
+  08/02/1889,   34 06 N,  120 22 W,30.5,47.9,          san miguel isld,                    basra,san miguel island,34 2N,120 23W
   09/02/1889,,,,,,,,,
   09/02/1889,,,30.5,47.9,        santa barbara cal,                    basra,santa barbara california,,
   10/02/1889,,,,,,,,,
   10/02/1889,   34 20 N,  119 38 W,30.5,47.9,        santa barbara cal,                    basra,santa barbara california,,
   11/02/1889,,,,,,,,,
   11/02/1889,   34 04 N,  119 27 W,30.5,47.9,        santa barbara cal,                    basra,santa barbara california,,
-  12/02/1889,,,58.9,-3.1,             san pedro pt,                    scapa,santa cruz island,34 00 13N,2018-03-06T01:19:00
+  12/02/1889,,,58.9,-3.1,             san pedro pt,                    scapa,santa cruz island,34 00 13N,119 43 35W
   12/02/1889,   33 25 N,  119 07 W,30.5,47.9,       santa barbara isld,                    basra,santa barbara california,,
    13/2/1889,,,,,,,,,
    13/2/1889,   33 09 N,  118 11 W,30.5,-117.2,            san diego cal,                    basra,san clemente island,,
@@ -136,26 +136,26 @@
   24/02/1889,,,22.2,113.9,            national city,                     taio,national city california,,
   25/02/1889,,,,,,,,,
   25/02/1889,   31 54 N,  117 27 W,32.7,-117.2,            san diego cal,            san diego usa,,,
-  26/02/1889,,,37.1,-117.2,      los coronados islds,            san diego usa,south coronado island,32 24.5N,2017-10-15T01:17:00
+  26/02/1889,,,37.1,-117.2,      los coronados islds,            san diego usa,south coronado island,32 24.5N,117 14.75W
   26/02/1889,   29 54 N,  117 51 W,,,,,,,
-  27/02/1889,,,54.3,-130.6,         guadalupe island,              lucy island,guadalupe island,29 1 51N,2018-06-05T01:18:00
+  27/02/1889,,,54.3,-130.6,         guadalupe island,              lucy island,guadalupe island,29 1 51N,118 16 48W
   27/02/1889,   28 52 N,  118 16 W,54.3,-130.6,         guadalupe island,              lucy island,guadalupe island,,
   28/02/1889,,,,,,,,,
   28/02/1889,   26 58 N,  117 02 W,,,,,,,
   01/03/1889,,,,,,,,,
   01/03/1889,   23 52 N,  115 43 W,,,,,,,
-  02/03/1889,,,-8.7,115.2,    south rock alijos rks,                     bali,south rock rocas alijos,24 57 03N,2018-07-24T01:15:00
+  02/03/1889,,,-8.7,115.2,    south rock alijos rks,                     bali,south rock rocas alijos,24 57 03N,115 44 55W
   02/03/1889,   21 53 N,  115 11 W,,,,,,,
   03/03/1889,,,,,,,,,
   03/03/1889,   18 42 N,  114 45 W,,,           clarion island,,,,
   04/03/1889,,,,,,,,,
-  04/03/1889,,,22.6,59.5,sulphur bay clarion island,                      sur,clarion island,18 22N,2018-05-08T01:14:00
+  04/03/1889,,,22.6,59.5,sulphur bay clarion island,                      sur,clarion island,18 22N,114 44W
   05/03/1889,,,,,,,,,
   05/03/1889,   18 17 N,  114 42 W,22.6,59.5, sulphur bay clarion isld,                      sur,clarion island,,
   06/03/1889,,,,,,,,,
   06/03/1889,   18 36 N,  112 24 W,,,,,,,
   07/03/1889,,,,,,,,,
-  07/03/1889,,,32,120.4,briathwaite bay socorro island,              rose island,socorro island,18 47 04N,2018-01-30T01:10:00
+  07/03/1889,,,32,120.4,briathwaite bay socorro island,              rose island,socorro island,18 47 04N,110 58 30W
   08/03/1889,,,,,,,,,
   08/03/1889,,,32,120.4,braithwaite bay socorro island,              rose island,socorro island,,
   09/03/1889,,,,,,,,,
@@ -163,7 +163,7 @@
   10/03/1889,,,36.9,7.8,          braithwaite bay,                     bone,socorro island,,
   10/03/1889,   21 50 N,  110 06 W,,,,,,,
   11/03/1889,,,,,,,,,
-  11/03/1889,,,-8.7,115.2,pichilinque bay lower california,                     bali,la paz baja california sur,24 08 32N,2018-04-03T01:10:00
+  11/03/1889,,,-8.7,115.2,pichilinque bay lower california,                     bali,la paz baja california sur,24 08 32N,110 18 39W
   12/03/1889,,,35.7,-0.6,         san lorenzo reef,                     oran,la paz baja california sur,,
   12/03/1889,,,55,-1.5,   pichilinque bay mexico,                      tic,la paz baja california sur,,
   13/03/1889,,,,,,,,,
@@ -173,29 +173,29 @@
   15/03/1889,,,,,,,,,
   15/03/1889,   24 31 N,  110 29 W,55,-1.5,          pichilinque bay,                      tic,la paz baja california sur,,
   16/03/1889,,,,,,,,,
-  16/03/1889,   25 23 N,  110 50 W,-35.1,150.6,san jose island carmen island,            garden island,isla san jose baja california sur,24 58 27N,2018-07-03T01:10:00
+  16/03/1889,   25 23 N,  110 50 W,-35.1,150.6,san jose island carmen island,            garden island,isla san jose baja california sur,24 58 27N,110 36 52W
   17/03/1889,,,,,,,,,
-  17/03/1889,   25 59 N,  111 07 W,35.9,-5.3,salinas bay carmen isld and at sea,                   almina,loreto municipality,26 00 46N,2018-03-13T01:11:00
+  17/03/1889,   25 59 N,  111 07 W,35.9,-5.3,salinas bay carmen isld and at sea,                   almina,loreto municipality,26 00 46N,111 20 36W
   18/03/1889,,,55,-1.5,     lobos pt carmen isla,                      tic,loreto municipality,,
-  18/03/1889,   26 45 N,  111 53 W,43.7,7.2,           concepcion bay,                     nice,bahia concepcion,26.67075N,2019-08-25T00:00:00
+  18/03/1889,   26 45 N,  111 53 W,43.7,7.2,           concepcion bay,                     nice,bahia concepcion,26.67075N,111.81359W
   19/03/1889,,,43.7,7.2,           concepcion bay,                     nice,bahia concepcion,,
   19/03/1889,   27 23 N,  111 25 W,43.7,7.2,           concepcion bay,                     nice,bahia concepcion,,
-  20/03/1889,,,43.1,16.7,             cape haro lt,                     hvar,guaymas,27 55 06N,2018-07-31T01:10:00
+  20/03/1889,,,43.1,16.7,             cape haro lt,                     hvar,guaymas,27 55 06N,110 53 56W
   20/03/1889,,,12.5,-70,       guaymar bay mexico,                    aruba,guaymas,,
   21/03/1889,,,,,,,,,
   21/03/1889,,,13.4,144.7,          guarymar mexico,                     guam,guaymas,,
   22/03/1889,,,,,,,,,
   22/03/1889,   28 01 N,  111 24 W,13.4,144.7,           guaymar mexico,                     guam,guaymas,,
   23/03/1889,,,55,-5.5,           guaymas harbor,                     oran,guaymas,,
-  23/03/1889,   29 56 N,  113 01 W,,,       off georges island,,sonora,29 38 46N,2017-08-29T01:10:00
+  23/03/1889,   29 56 N,  113 01 W,,,       off georges island,,sonora,29 38 46N,110 52 08W
   24/03/1889,,,,,,,,,
-  24/03/1889,   31 16 N,  113 29 W,31.5,118.4,         near rocky point,              rocky point,puerto penasco,31 19 00N,2017-10-03T01:13:00
+  24/03/1889,   31 16 N,  113 29 W,31.5,118.4,         near rocky point,              rocky point,puerto penasco,31 19 00N,113 32 13W
   25/03/1889,,,,,,,,,
-  25/03/1889,   31 31 N,  114 17 W,35.7,-0.6,off mouth of colorado river,                     oran,colorado river delta,31.74N,2019-09-14T00:00:00
+  25/03/1889,   31 31 N,  114 17 W,35.7,-0.6,off mouth of colorado river,                     oran,colorado river delta,31.74N,114.66W
   26/03/1889,,,,,,,,,
   26/03/1889,   30 40 N,  114 28 W,35.7,-0.6,off mouth of colorado river,                     oran,colorado river delta,,
   27/03/1889,,,,,,,,,
-  27/03/1889,   29 48 N,  114 23 W,53.4,-3,             gonzales bay,                     alex,isla san luis,29 58 17.41N,2018-01-04T01:14:00
+  27/03/1889,   29 48 N,  114 23 W,53.4,-3,             gonzales bay,                     alex,isla san luis,29 58 17.41N,114 24 26.30W
   28/03/1889,,,53.4,-3,              point final,                     poti,isla san luis,,
   28/03/1889,   29 40 N,  114 02 W,53.4,-3,             gonzales bay,                     alex,isla san luis,,
   29/03/1889,,,,,,,,,
@@ -205,7 +205,7 @@
   31/03/1889,,,,,,,,,
   31/03/1889,   27 39 N,  110 41 W,,,              yaqui river,,,,
   01/04/1889,,,,,,,,,
-  01/04/1889,   26 01 N,  109 28 W,22.6,59.5,near mouth of fuerte river,                      sur,topolobampo,25 36 20N,2017-07-04T01:09:00
+  01/04/1889,   26 01 N,  109 28 W,22.6,59.5,near mouth of fuerte river,                      sur,topolobampo,25 36 20N,109 03 0W
   02/04/1889,,,,,,,,,
   02/04/1889,,,55,-1.5,            la paz mexico,                      tic,la paz baja california sur,,
   03/04/1889,,,,,,,,,
@@ -217,20 +217,20 @@
   06/04/1889,,,,,,,,,
   06/04/1889,,,,,            san lucas bay,,,,
   07/04/1889,,,,,,,,,
-  07/04/1889,   24 33 N,  112 03 W,41.2,9.4,            magdalena bay,                maddalena,magdalena bay,24 35N,2017-07-04T01:12:00
+  07/04/1889,   24 33 N,  112 03 W,41.2,9.4,            magdalena bay,                maddalena,magdalena bay,24 35N,112 00W
   08/04/1889,,,,,,,,,
   08/04/1889,,,41.2,9.4,            magdalena bay,                maddalena,magdalena bay,,
   09/04/1889,,,41.2,168.6,               entrada pt,                hen point,magdalena bay,,
   09/04/1889,   26 07 N,  113 33 W,,,,,,,
   10/04/1889,,,,,,,,,
-  10/04/1889,,,22.4,114.2,        san bartolome bay,                     tolo,punta eugenia,27 50 49N,2018-07-17T01:15:00
+  10/04/1889,,,22.4,114.2,        san bartolome bay,                     tolo,punta eugenia,27 50 49N,115 4 54W
   11/04/1889,,,,,,,,,
   11/04/1889,   27 52 N,  115 07 W,22.4,114.2,        san bartolome bay,                     tolo,punta eugenia,,
-  12/04/1889,,,28.2,-128,morro redondo pt cerros island,            cedros island,cedros island mexico,28 10 58N,2017-08-01T01:15:00
-  12/04/1889,,,55,-1.5,san quentin bay  san martin id,                      tic,isla san martin,30 29 20.07N,2018-06-23T01:16:00
+  12/04/1889,,,28.2,-128,morro redondo pt cerros island,            cedros island,cedros island mexico,28 10 58N,115 13 04W
+  12/04/1889,,,55,-1.5,san quentin bay  san martin id,                      tic,isla san martin,30 29 20.07N,116 06 50.61W
   13/04/1889,,,,,,,,,
   13/04/1889,     32 20,    117 06,32.7,-117.2,            san diego cal,            san diego usa,,,
-  14/04/1889,,,22.4,-117.2,      harbor of san diego,                     tolo,san diego bay,32.65N,2019-10-02T00:00:00
+  14/04/1889,,,22.4,-117.2,      harbor of san diego,                     tolo,san diego bay,32.65N,117.19W
   14/04/1889,,,32.7,-117.2,            san diego cal,            san diego usa,,,
   15/04/1889,,,,,,,,,
   15/04/1889,,,32.7,-117.2,            san diego cal,            san diego usa,,,
@@ -281,7 +281,7 @@
   08/05/1889,,,,,,,,,
   08/05/1889,,,37.8,-122.4,        san francisco cal,        san francisco bay,,,
   09/05/1889,,,,,,,,,
-  09/05/1889,,,37.8,-122.4,union iron works san francisco cal,        san francisco bay,union iron works,37 45 38.68N,2017-08-01T01:22:00
+  09/05/1889,,,37.8,-122.4,union iron works san francisco cal,        san francisco bay,union iron works,37 45 38.68N,122 23 4.01W
    10/5/1889,,,,,,,,,
    10/5/1889,,,37.8,-122.4,union iron works san francisco cal,        san francisco bay,union iron works,,
   11/05/1889,,,,,,,,,
@@ -311,19 +311,19 @@
   23/05/1889,,,,,,,,,
   23/05/1889,   46 16 N,  124 09 W,,,,,,,
   24/05/1889,,,,,,,,,
-  24/05/1889,   48 57 N,  123 22 W,55.1,-6,            departure bay,                  red bay,departure bay bc,49.192011N,2019-11-18T00:00:00
+  24/05/1889,   48 57 N,  123 22 W,55.1,-6,            departure bay,                  red bay,departure bay bc,49.192011N,123.954556W
   25/05/1889,,,,,,,,,
   25/05/1889,,,55.1,-6,         departure bay bc,                  red bay,departure bay bc,,
   26/05/1889,,,48.9,-123.3,        strait of georgia,              active pass,,,
   26/05/1889,,,48.9,-123.3,active pass and victoria harbor bc,              active pass,,,
-  27/05/1889,,,43.1,16.7,          victoria harbor,                     hvar,victoria british columbia,48.422N,2019-11-14T00:00:00
+  27/05/1889,,,43.1,16.7,          victoria harbor,                     hvar,victoria british columbia,48.422N,123.365W
   27/05/1889,,,43.1,16.7,       victoria harbor bc,                     hvar,victoria british columbia,,
   28/05/1889,,,,,,,,,
   28/05/1889,,,48.1,-122.8,       victoria harbor bc,            port townsend,,,
   29/05/1889,,,48.1,-122.8,            port townsend,            port townsend,,,
   29/05/1889,,,48.1,-122.8,            port townsend,            port townsend,,,
   30/05/1889,,,,,,,,,
-  30/05/1889,,,22.4,114.2,      seattle harbor wash,              tolo harbor,seattle,47 36 35N,2018-08-21T01:22:00
+  30/05/1889,,,22.4,114.2,      seattle harbor wash,              tolo harbor,seattle,47 36 35N,122 19 59W
   31/05/1889,,,,,,,,,
   31/05/1889,,,22.4,114.2,   seattle harbor wash ty,              tolo harbor,seattle,,
   01/06/1889,,,,,,,,,
@@ -405,38 +405,38 @@
   03/07/1889,,,55.1,-6,            departure bay,                  red bay,departure bay bc,,
   03/07/1889,   48 23 N,  123 20 W,55,-1.5,              victoria bc,                      tic,victoria british columbia,,
   04/07/1889,,,48.1,16.7,          victoria harbor,                     hvar,victoria british columbia,,
-  04/07/1889,,,48.1,-122.4,            port townsend,                   tacoma,port townsend washington,48 6 59N,2018-02-06T01:22:00
-  05/07/1889,,,48.1,-122.4,              puget sound,                     hvar,puget sound,47.6N,2019-11-07T00:00:00
+  04/07/1889,,,48.1,-122.4,            port townsend,                   tacoma,port townsend washington,48 6 59N,122 46 31W
+  05/07/1889,,,48.1,-122.4,              puget sound,                     hvar,puget sound,47.6N,122.4W
   05/07/1889,,,47.3,-122.4,             tacoma wash ,                   tacoma,,,
   06/07/1889,,,,,,,,,
   06/07/1889,   47 30 N,  122 25 W,48.1,-122.4,                   tacoma,                   tacoma,,,
   07/07/1889,,,48.1,-122.8,              puget sound,            port townsend,,,
-  07/07/1889,   49 38 N,  124 40 W,51.5,-123.8,                   at sea,        strait of georgia,strait of georgia,49 17 39N,2018-01-02T01:23:00
+  07/07/1889,   49 38 N,  124 40 W,51.5,-123.8,                   at sea,        strait of georgia,strait of georgia,49 17 39N,123 48 26W
   08/07/1889,,,50.5,-125.3,         johnstone strait,         johnstone strait,,,
-  08/07/1889,   51 32 N,  128 53 W,47.7,-52.7,            carter bay bc,                  tor bay,mussel inlet,52 54N,2017-08-22T01:28:00
-  09/07/1889,,,52.1,-128.1,    queen charlotte sound,          fitz hugh sound,queen charlotte sound,51 30N,2018-01-30T01:28:00
-  09/07/1889,   53 24 N,  129 23 W,47.7,-52.7,           cordina bay bc,                  tor bay,hecate strait,53 11N,2018-06-19T01:30:00
+  08/07/1889,   51 32 N,  128 53 W,47.7,-52.7,            carter bay bc,                  tor bay,mussel inlet,52 54N,128 07W
+  09/07/1889,,,52.1,-128.1,    queen charlotte sound,          fitz hugh sound,queen charlotte sound,51 30N,128 30W
+  09/07/1889,   53 24 N,  129 23 W,47.7,-52.7,           cordina bay bc,                  tor bay,hecate strait,53 11N,130 50W
   10/07/1889,,,,,,,,,
-  10/07/1889,   54 46 N,  130 54 W,29.9,32.6,             port chester,             port shelter,chatham sound,54 22 00N,2017-07-04T01:30:00
+  10/07/1889,   54 46 N,  130 54 W,29.9,32.6,             port chester,             port shelter,chatham sound,54 22 00N,130 35 00W
   11/07/1889,,,,,,,,,
   11/07/1889,,,22.4,114.3,             port chester,             port shelter,chatham sound,,
   12/07/1889,,,,,,,,,
   12/07/1889,,,56.5,-132.4,     fort wrangell alaska,                 wrangell,,,
   13/07/1889,,,,,,,,,
   13/07/1889,   57 31 N,  135 27 W,57,-135.4,             sitka alaska,                    sitka,,,
-  14/07/1889,,,42.2,41.7,              neva strait,                     poti,partofshikof island,57 16 16N,2018-02-06T01:35:00
+  14/07/1889,,,42.2,41.7,              neva strait,                     poti,partofshikof island,57 16 16N,135 37 31W
   14/07/1889,,,57,-135.4,             sitka alaska,                    sitka,,,
    15/7/1889,,,,,,,,,
-   15/7/1889,,,38.5,-28.6,       favorite anchorage,                    horta,cozian reef,57 33 59N,2017-07-18T01:35:00
-  16/07/1889,,,12.7,43.4,             peril strait,                    perim,peril strait,57 31 52N,2017-10-10T01:35:00
-  16/07/1889,,,47.7,48.5,             favorite bay,                  tor bay,angoon alaska,57 29 49N,2017-12-26T01:34:00
+   15/7/1889,,,38.5,-28.6,       favorite anchorage,                    horta,cozian reef,57 33 59N,135 26 02W
+  16/07/1889,,,12.7,43.4,             peril strait,                    perim,peril strait,57 31 52N,135 16 14W
+  16/07/1889,,,47.7,48.5,             favorite bay,                  tor bay,angoon alaska,57 29 49N,134 34 25W
   17/07/1889,,,12.7,43.4,            peril straits,                    perim,peril strait,,
-  17/07/1889,   58 40 N,  136 06 W,15.5,73.9,              glacier bay,                      goa,glacier bay basin,58 42N,2017-09-05T01:36:00
-  18/07/1889,,,15.5,73.9,           gustavus point,                      goa,gustavus alaska,58 24 59N,2018-05-08T01:35:00
-  18/07/1889,   58 39 N,  135 17 W,38.5,16.7,at anchor hoonyah harbor at sea at anchor portage bay at sea and at anchor pyramid h,                     hvar,hoonah alaska,58 06 34N,2017-09-19T01:35:00
+  17/07/1889,   58 40 N,  136 06 W,15.5,73.9,              glacier bay,                      goa,glacier bay basin,58 42N,136 09W
+  18/07/1889,,,15.5,73.9,           gustavus point,                      goa,gustavus alaska,58 24 59N,135 44 44W
+  18/07/1889,   58 39 N,  135 17 W,38.5,16.7,at anchor hoonyah harbor at sea at anchor portage bay at sea and at anchor pyramid h,                     hvar,hoonah alaska,58 06 34N,135 26 11W
    19/7/1889,,,,,,,,,
-   19/7/1889,   59 01 N,  135 19 W,-22.3,16.7,           pyramid harbor,                     hvar,chilkat inlet,59 09 27N,2018-04-17T01:35:00
-  20/07/1889,,,-22.3,166.4,            juneau harbor,                    nunea,juneau alaska,58 18 0N,2017-07-04T01:34:00
+   19/7/1889,   59 01 N,  135 19 W,-22.3,16.7,           pyramid harbor,                     hvar,chilkat inlet,59 09 27N,135 25 41W
+  20/07/1889,,,-22.3,166.4,            juneau harbor,                    nunea,juneau alaska,58 18 0N,134 25 0W
   20/07/1889,,,-22.3,166.4,  at anchor juneau alaska,                    nunea,juneau alaska,,
   21/07/1889,,,,,,,,,
   21/07/1889,,,-22.3,166.4,            juneau alaska,                    nunea,juneau alaska,,
@@ -477,8 +477,8 @@
   08/08/1889,,,,,,,,,
   08/08/1889,   50 15 N,  129 02 W,,,,,,,
   09/08/1889,,,,,,,,,
-  09/08/1889,   48 24 N,  124 55 W,22.6,59.5,              duncan rock,                      sur,cape flattery,48 22 59N,2018-07-03T01:24:00
-  10/08/1889,,,22.6,59.5,              waddah isld,                      sur,waadah island,48 22 55N,2018-06-26T01:24:00
+  09/08/1889,   48 24 N,  124 55 W,22.6,59.5,              duncan rock,                      sur,cape flattery,48 22 59N,124 42 52W
+  10/08/1889,,,22.6,59.5,              waddah isld,                      sur,waadah island,48 22 55N,124 35 51W
   10/08/1889,,,48.1,-122.8,    port townsend wash wj,            port townsend,,,
   11/08/1889,,,42.2,41.7,          steamship wharf,                     poti,port townsend washington,,
   11/08/1889,,,48.1,-122.8,         port townsend wj,            port townsend,,,
@@ -502,7 +502,7 @@
   20/08/1889,,,48.1,-122.8,         port townsend wt,            port townsend,,,
   21/08/1889,,,,,,,,,
   21/08/1889,,,48.1,-122.8,port townsend wt and miners bay bc,            port townsend,,,
-  22/08/1889,,,42.2,41.7,   miners bay active pass,                     poti,active pass,48 51 35N,2018-05-01T01:23:00
+  22/08/1889,,,42.2,41.7,   miners bay active pass,                     poti,active pass,48 51 35N,123 18 43W
   22/08/1889,,,55.1,-6,         departure bay bc,                  red bay,departure bay bc,,
   23/08/1889,,,49.3,-123.8,            departure bay,        strait of georgia,departure bay bc,,
   23/08/1889,   49 13 N,  123 49 W,47.7,-52.7,                otter bay,                  tor bay,strait of georgia,,
@@ -512,39 +512,39 @@
   25/08/1889,,,55,-1.5,              victoria bc,                      tic,victoria british columbia,,
   26/08/1889,,,,,,,,,
   26/08/1889,   48 21 N,  123 26 W,55,-1.5,              victoria bc,                      tic,victoria british columbia,,
-  27/08/1889,,,53.4,41.7,              otter point,              clark point,otter point greater victoria,48.3838N,2019-11-17T00:00:00
+  27/08/1889,,,53.4,41.7,              otter point,              clark point,otter point greater victoria,48.3838N,123.7962W
   27/08/1889,   47 05 N,  124 20 W,,,                  at sea ,,,,
-  28/08/1889,,,47.7,118.1,                 pt brown,                     poti,ocean shores,46 58 18N,2017-10-31T01:24:00
+  28/08/1889,,,47.7,118.1,                 pt brown,                     poti,ocean shores,46 58 18N,124 9 17W
   28/08/1889,   45 20 N,  124 23 W,,,                   at sea,,,,
   29/08/1889,,,,,,,,,
   29/08/1889,   44 50 N,  124 51 W,,,                   at sea,,,,
   30/08/1889,,,,,               yaquina lt,,,,
   30/08/1889,   44 11 N,  124 30 W,,,,,,,
-  31/08/1889,,,15.5,73.9,                heceta hd,                      goa,heceta head,44.13889N,2019-11-19T00:00:00
+  31/08/1889,,,15.5,73.9,                heceta hd,                      goa,heceta head,44.13889N,124.12639W
   31/08/1889,   44 00 N,  124 59 W,,,,,,,
-  01/09/1889,,,15.5,73.9,       cape gregory light,                      goa,cape arago light,43.34123N,2019-11-21T00:00:00
+  01/09/1889,,,15.5,73.9,       cape gregory light,                      goa,cape arago light,43.34123N,124.37543W
   01/09/1889,   44 22 N,  124 26 W,,,,,,,
   02/09/1889,,,,,                heceta hd,,,,
   02/09/1889,   44 40 N,  124 27 W,,,,,,,
   03/09/1889,,,,,          yaquina head lt,,,,
   03/09/1889,   46 06 N,  124 03 W,46.2,-123.8,           astoria oregon,                  astoria,,,
-  04/09/1889,,,6.9,79.8,       columbia river bar,                  columbo,columbia bar,46 15N,2017-07-18T01:24:00
+  04/09/1889,,,6.9,79.8,       columbia river bar,                  columbo,columbia bar,46 15N,124 02W
   04/09/1889,,,46.2,-123.8,           astoria oregon,                  astoria,,,
   05/09/1889,,,,,,,,,
   05/09/1889,,,46.2,-123.8,           astoria oregon,                  astoria,,,
-  06/09/1889,,,43.1,16.7,              grays wharf,                     hvar,grays harbor,46 57 02N,2017-08-01T01:24:00
+  06/09/1889,,,43.1,16.7,              grays wharf,                     hvar,grays harbor,46 57 02N,124 03 04W
   06/09/1889,   46 16 N,  124 02 W,46.2,-123.8,           astoria oregon,                  astoria,,,
   07/09/1889,,,30,48.5,           columbia river,                      fao,columbia bar,,
   07/09/1889,   45 30 N,  123 54 W,,,,,,,
-  08/09/1889,,,55,45,              cape meares,                      tic,cape meares oregon,45 29 23N,2018-02-06T01:23:00
-  08/09/1889,   45 14 N,  124 03 W,29.9,32.6,             cape lookout,                   port t,cape lookout oregon,45.339546N,2019-11-18T00:00:00
+  08/09/1889,,,55,45,              cape meares,                      tic,cape meares oregon,45 29 23N,123 57 31W
+  08/09/1889,   45 14 N,  124 03 W,29.9,32.6,             cape lookout,                   port t,cape lookout oregon,45.339546N,123.992901W
   09/09/1889,,,15.5,45,             cape lookout,                      tic,cape lookout oregon,,
   09/09/1889,   43 43 N,  124 18 W,,,,,,,
-  10/09/1889,,,15.5,48.5,            yaquina light,                      tic,yaquina head light,44 40 36.4N,2018-05-21T01:24:00
+  10/09/1889,,,15.5,48.5,            yaquina light,                      tic,yaquina head light,44 40 36.4N,124 4 45.9W
   10/09/1889,   43 28 N,  124 30 W,,,,,,,
   11/09/1889,,,15.5,48.5,         cape gregorys lt,                      goa,cape arago light,,
-  11/09/1889,   43 05 N,  124 34 W,29.9,32.6,at sea  at anchor port orford oregon,                   port t,port orford oregon,42 44 59N,2018-07-10T01:24:00
-  12/09/1889,,,19.6,48.5,      coquille river buoy,                  el buoy,coquille river light,43.123911N,2019-11-21T00:00:00
+  11/09/1889,   43 05 N,  124 34 W,29.9,32.6,at sea  at anchor port orford oregon,                   port t,port orford oregon,42 44 59N,124 29 53W
+  12/09/1889,,,19.6,48.5,      coquille river buoy,                  el buoy,coquille river light,43.123911N,124.424222W
   12/09/1889,   42 41 N,  124 43 W,29.9,32.6,              port orford,                   port t,port orford oregon,,
   13/09/1889,,,55,-1.5,           tichenors rock,                      tic,port orford oregon,,
   13/09/1889,   43 59 N,  124 16 W,,,                  at sea ,,,,
@@ -571,7 +571,7 @@
   24/09/1889,,,,,,,,,
   24/09/1889,,,46.2,-123.8,           astoria oregon,                  astoria,,,
   25/09/1889,,,,,,,,,
-  25/09/1889,,,50.5,-2.4,astoria and portland oregon,                 portland,portland oregon,45 31 12N,2018-07-24T01:22:00
+  25/09/1889,,,50.5,-2.4,astoria and portland oregon,                 portland,portland oregon,45 31 12N,122 40 55W
   26/09/1889,,,,,,,,,
   26/09/1889,,,50.5,-2.4,          portland oregon,                 portland,portland oregon,,
   27/09/1889,,,,,,,,,
@@ -608,7 +608,7 @@
   12/10/1889,   41 22 N,  124 38 W,,,                   at sea,,,,
   13/10/1889,,,,,,,,,
   13/10/1889,   39 05 N,  124 02 W,37.8,-122.4,at sea and at anchor san francisco bay cal,        san francisco bay,,,
-  14/10/1889,,,12.8,45,        point arena lt hs,                     aden,point arena light,38 57 17N,2018-01-02T01:23:00
+  14/10/1889,,,12.8,45,        point arena lt hs,                     aden,point arena light,38 57 17N,123 44 26W
   14/10/1889,,,37.8,-122.4,        san francisco cal,        san francisco bay,,,
   15/10/1889,,,,,,,,,
   15/10/1889,,,37.8,-122.4,        san francisco cal,        san francisco bay,,,
@@ -629,8 +629,8 @@
   23/10/1889,,,,,,,,,
   23/10/1889,,,37.8,-122.4,       san francisco cala,        san francisco bay,,,
   24/10/1889,,,,,,,,,
-  24/10/1889,,,37.8,-122.3,    mare island navy yard,              mare island,mare island navy yard,38 5 24N,2018-06-05T01:22:00
-  25/10/1889,,,44.9,37.3,            san pablo bay,                    anapa,san pablo bay,38 04N,2017-12-12T01:22:00
+  24/10/1889,,,37.8,-122.3,    mare island navy yard,              mare island,mare island navy yard,38 5 24N,122 15 48W
+  25/10/1889,,,44.9,37.3,            san pablo bay,                    anapa,san pablo bay,38 04N,122 23W
   25/10/1889,,,38.1,-122.3,navy yard mare island cala,              mare island,mare island navy yard,,
   26/10/1889,,,,,,,,,
   26/10/1889,,,38.1,-122.3,navy yard mare island cala,              mare island,mare island navy yard,,

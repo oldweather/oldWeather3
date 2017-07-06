@@ -4,7 +4,7 @@
     1/1/1887,,,,,,,,,
     1/1/1887,,,,,,,,,
     1/1/1887,,,,,,,,,
-    1/1/1887,,,38.9,-77,  navy yard washington dc,            washington dc,washington navy yard,38 52 24N,0001-12-10
+    1/1/1887,,,38.9,-77,  navy yard washington dc,            washington dc,washington navy yard,38 52 24N,76 59 49W
   01/01/1887,,,,,,,,,
   01/01/1887,,,38.9,-77,  navy yard washington dc,            washington dc,washington navy yard,,
   02/01/1887,,,,,,,,,
@@ -193,15 +193,15 @@ Monday 28/2/1887,,,38.9,-77,  navy yard washington dc,            washington dc,
   03/04/1887,,,38.9,-77,  navy yard washington dc,            washington dc,washington navy yard,,
   04/04/1887,,,,,,,,,
   04/04/1887,,,38.9,-77,  navy yard washington dc,            washington dc,washington navy yard,,
-  05/04/1887,,,42.2,41.7,           maryland point,                     poti,maryland point light,38.3495N,0002-06-25
+  05/04/1887,,,42.2,41.7,           maryland point,                     poti,maryland point light,38.3495N,77.1975W
   05/04/1887,,,37,-76.3,            hampton roads,            hampton roads,,,
-  06/04/1887,,,37,-76,          fortress monroe,                    forth,fort monroe,37 00 13N,0001-07-09
+  06/04/1887,,,37,-76,          fortress monroe,                    forth,fort monroe,37 00 13N,76 18 27W
   06/04/1887,,,37,-76.3,         hampton roads va,            hampton roads,,,
   07/04/1887,,,,,,,,,
   07/04/1887,,,37,-76.3,hampton roads va  potomac river,            hampton roads,,,
-  08/04/1887,,,42.2,41.7,           chesapeake bay,                     poti,chesapeake bay,36 59 45N,0001-08-27
+  08/04/1887,,,42.2,41.7,           chesapeake bay,                     poti,chesapeake bay,36 59 45N,75 57 34W
   08/04/1887,,,38.9,-77,  navy yard washington dc,            washington dc,washington navy yard,,
-  09/04/1871,,,31.2,-3,             liverpool pt,                     poti,mallows bay,38 28 21.4N,0001-02-18
+  09/04/1871,,,31.2,-3,             liverpool pt,                     poti,mallows bay,38 28 21.4N,77 16 6.9W
   09/04/1871,,,38.9,-77,  navy yard washington dc,            washington dc,washington navy yard,,
   10/04/1887,,,,,,,,,
   10/04/1887,,,38.9,-77,  navy yard washington dc,            washington dc,washington navy yard,,
@@ -247,8 +247,8 @@ Monday 28/2/1887,,,38.9,-77,  navy yard washington dc,            washington dc,
   30/04/1887,,,38.9,-77,  navy yard washington dc,            washington dc,washington navy yard,,
   01/05/1887,,,,,,,,,
   01/05/1887,,,38.9,-77,navy yard washington dc  patuxent river,            washington dc,washington navy yard,,
-  02/05/1887,,,22.4,16.7,           lower cedar pt,                     poti,lower cedar point light,38.340N,0002-06-23
-  02/05/1887,,,39.3,-76.6,patuxent river  columbian iron works baltimore md,                baltimore,columbian iron works dry dock,39 16 11.07N,0001-02-28
+  02/05/1887,,,22.4,16.7,           lower cedar pt,                     poti,lower cedar point light,38.340N,76.993W
+  02/05/1887,,,39.3,-76.6,patuxent river  columbian iron works baltimore md,                baltimore,columbian iron works dry dock,39 16 11.07N,76 35 8.40W
   03/05/1887,,,7.9,-77.3,     columbian iron works,                  columbo,columbian iron works dry dock,,
   03/05/1887,,,39.3,-76.6,columbian iron works baltimore md,                baltimore,columbian iron works dry dock,,
   04/05/1887,,,,,,,,,
@@ -341,7 +341,7 @@ Monday 28/2/1887,,,38.9,-77,  navy yard washington dc,            washington dc,
   16/06/1887,,,39.3,-76.6,columbian iron works baltimore md,                baltimore,columbian iron works dry dock,,
   17/06/1887,,,,,,,,,
   17/06/1887,,,39.3,-76.6,columbian iron works baltimore md,                baltimore,columbian iron works dry dock,,
-  18/06/1887,,,39.3,113.9,battery station havre de grace,                baltimore,havre de grace maryland,39 32 54N,0001-12-24
+  18/06/1887,,,39.3,113.9,battery station havre de grace,                baltimore,havre de grace maryland,39 32 54N,76 5 51W
   18/06/1887,,,39.3,-76.6,columbian iron works baltimore maryland,                baltimore,columbian iron works dry dock,,
   19/06/1887,,,,,,,,,
   19/06/1887,,,39.3,-76.6,columbian iron works baltimore maryland,                baltimore,columbian iron works dry dock,,
@@ -541,7 +541,7 @@ Monday 28/2/1887,,,38.9,-77,  navy yard washington dc,            washington dc,
    18/9/1887,,,,,                   at sea,,,,
   19/09/1887,,,,,,,,,
   19/09/1887,,,,,at sea and woods hole mass,,,,
-   20/9/1887,,,43.1,16.7,fish commission wharf woods hole mass,                     hvar,woods hole massachusetts,41 31 36N,0001-11-26
+   20/9/1887,,,43.1,16.7,fish commission wharf woods hole mass,                     hvar,woods hole massachusetts,41 31 36N,70 39 47W
    20/9/1887,,,,,          woods holl mass,,,,
    21/9/1887,,,,,,,,,
    21/9/1887,,,,,          woods holl mass,,,,
@@ -600,7 +600,7 @@ Monday 28/2/1887,,,38.9,-77,  navy yard washington dc,            washington dc,
   18/10/1887,,,,,,,,,
   18/10/1887,,,,,          woods holl mass,,,,
   19/10/1887,,,,,,,,,
-  19/10/1887,   37 24 N,   74 36 W,12.8,45,at sea and lynnhaven roads va,                     aden,lynnhaven virginia,36 48 47.7N,0001-02-09
+  19/10/1887,   37 24 N,   74 36 W,12.8,45,at sea and lynnhaven roads va,                     aden,lynnhaven virginia,36 48 47.7N,76 4 5.7W
   20/10/1887,,,,,,,,,
   20/10/1887,,,12.8,45,lynnhaven roads va  potomac river,                     aden,lynnhaven virginia,,
   21/10/1887,,,,,,,,,
@@ -646,7 +646,7 @@ Monday 28/2/1887,,,38.9,-77,  navy yard washington dc,            washington dc,
   10/11/1887,,,,,,,,,
   10/11/1887,,,37,-76,chesapeake bay  navy yard norfolk va,           chesapeake bay,,,
   11/11/1887,,,,,,,,,
-  11/11/1887,,,-43,147.8,     navy yard norfolk va,              norfolk bay,navy yard norfolk,36 56.7N,0001-05-12
+  11/11/1887,,,-43,147.8,     navy yard norfolk va,              norfolk bay,navy yard norfolk,36 56.7N,76 18.8W
   12/11/1887,,,,,,,,,
   12/11/1887,,,-43,147.8,     navy yard norfolk va,              norfolk bay,navy yard norfolk,,
   13/11/1887,,,,,,,,,
@@ -667,7 +667,7 @@ Monday 28/2/1887,,,38.9,-77,  navy yard washington dc,            washington dc,
   20/11/1887,,,36.8,-76.3,navy yard norfolk virginia and at sea,               norfolk va,navy yard norfolk,,
   21/11/1887,,,,,,,,,
   21/11/1887,   34 50 N,   74 50 W,36.8,-76.3,      from norfolk to sea,                  norfolk,north atlantic,,
-  22/11/1887,,,55,-1.5,          currituck light,                      tic,currituck beach light,36.376667N,0002-06-15
+  22/11/1887,,,55,-1.5,          currituck light,                      tic,currituck beach light,36.376667N,75.830833W
   22/11/1887,   32 00 N,   72 24 W,,,                   at sea,,,,
   23/11/1887,,,,,,,,,
   23/11/1887,   29 08 N,   70 21 W,,,,,,,
@@ -679,7 +679,7 @@ Monday 28/2/1887,,,38.9,-77,  navy yard washington dc,            washington dc,
   26/11/1887,   19 22 N,   63 41 W,,,,,,,
   27/11/1887,,,,,      sombrero lighthouse,,,,
   27/11/1887,   16 50 N,   63 16 W,,,                   at sea,,,,
-  28/11/1887,,,-8.7,1.4,               montserrat,               montserrat,montserrat,16 45N,0001-03-26
+  28/11/1887,,,-8.7,1.4,               montserrat,               montserrat,montserrat,16 45N,62 12W
   28/11/1887,,,14,-61,   port castries st lucia,            port castries,,,
   29/11/1887,,,,,,,,,
   29/11/1887,,,14,-61,   port castries st lucia,            port castries,,,
@@ -691,7 +691,7 @@ Monday 28/2/1887,,,38.9,-77,  navy yard washington dc,            washington dc,
    2/12/1887,,,14,-61,   port castries st lucia,            port castries,,,
   03/12/1887,,,,,,,,,
   03/12/1887,   13 36 N,   61 04 W,14,-61,port castries st lucia  at sea,            port castries,,,
-  04/12/1887,,,16.8,-25,               st vincent,               st vincent,saint vincent antilles,13 15N,0001-03-26
+  04/12/1887,,,16.8,-25,               st vincent,               st vincent,saint vincent antilles,13 15N,61 12W
   04/12/1887,   11 32 N,   58 10 W,,,                   at sea,,,,
   05/12/1887,,,,,,,,,
   05/12/1887,   09 49 N,   55 57 W,,,                   at sea,,,,
@@ -720,7 +720,7 @@ Monday 28/2/1887,,,38.9,-77,  navy yard washington dc,            washington dc,
   17/12/1887,,,,,,,,,
   17/12/1887,   11 52 S,   36 57 W,,,                   at sea,,,,
   18/12/1887,,,,,,,,,
-  18/12/1887,,,-13,-38.5,  at sea and bahia brazil,                    bahia,salvador bahia,12 58 29S,0001-09-10
+  18/12/1887,,,-13,-38.5,  at sea and bahia brazil,                    bahia,salvador bahia,12 58 29S,38 28 36W
   19/12/1887,,,-13.8,-171.7,            itapuan light,                     apia,salvador bahia,,
   19/12/1887,,,-13,-38.5,             bahia brazil,                    bahia,salvador bahia,,
   20/12/1887,,,,,,,,,
@@ -736,7 +736,7 @@ Monday 28/2/1887,,,38.9,-77,  navy yard washington dc,            washington dc,
   25/12/1887,,,,,,,,,
   25/12/1887,   15 26 S,   38 32 W,,,                   at sea,,,,
   26/12/1887,,,,,,,,,
-  26/12/1887,,,38.4,26, at sea  abrolhos islands,             khios island,abrolhos archipelago,17 55 34S,0001-02-19
+  26/12/1887,,,38.4,26, at sea  abrolhos islands,             khios island,abrolhos archipelago,17 55 34S,38 56 07W
   27/12/1887,,,-18,-38.7,           abrolhos light,                 abrolhos,abrolhos archipelago,,
   27/12/1887,,,38.4,26,         abrolhos islands,             khios island,abrolhos archipelago,,
   28/12/1887,,,,,,,,,

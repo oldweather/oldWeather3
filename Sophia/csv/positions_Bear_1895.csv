@@ -150,7 +150,7 @@
   14/11/1894,,,,,,,,,
   14/11/1894,,,,,,,,,
   14/11/1894,,,,,,,,,
-  14/11/1894,,,56.2,-3,fort point bearing sw dist 2 miles,                    forth,san francisco bay,37 42 30N,2018-06-12T01:22:00
+  14/11/1894,,,56.2,-3,fort point bearing sw dist 2 miles,                    forth,san francisco bay,37 42 30N,122 16 49W
   21/04/1894,,,37.8,-122.4,        san francisco cal,        san francisco bay,,,
   21/04/1894,   39 53 N,  124 26 W,,,,,,,
   22/04/1894,,,,,                   at sea,,,,
@@ -158,7 +158,7 @@
   23/04/1894,,,,,                   at sea,,,,
   23/04/1894,   46 19 N,  124 16 W,,,,,,,
   24/04/1894,,,,,                   at sea,,,,
-  24/04/1894,,,51.4,-127.9,pillar point straits of fuca swxs dist 4 12 miles,              clark point,strait of juan de fuca,48 12 00N,2017-12-05T01:23:00
+  24/04/1894,,,51.4,-127.9,pillar point straits of fuca swxs dist 4 12 miles,              clark point,strait of juan de fuca,48 12 00N,123 34 22W
   25/04/1894,,,48.1,-122.8,            port townsend,            port townsend,,,
   25/04/1894,,,47.6,-122.3,             seattle wash,                  seattle,,,
   26/04/1894,,,48.1,-122.8,       port townsend wash,            port townsend,,,
@@ -219,22 +219,22 @@
   20/05/1894,,,60.5,-145.8,head of cordova bay alaska,                  cordova,,,
   24/05/1894,,,60.5,-145.8,       cordova bay alaska,                  cordova,,,
   24/05/1894,,,60.3,-146.6,       port etches alaska,              port etches,,,
-  25/05/1894,,,43.7,7.2,    prince williams sound,                     nice,prince william sound,60 36 54N,2017-08-08T01:47:00
+  25/05/1894,,,43.7,7.2,    prince williams sound,                     nice,prince william sound,60 36 54N,147 10 05W
   25/05/1894,,,60.3,-146.6,       port etches alaska,              port etches,,,
   26/05/1894,,,60.3,-146.6,       port etcher alaska,              port etches,,,
   26/05/1894,     59 36,    148 13,,,,,,,
   27/05/1894,,,,,                   at sea,,,,
   27/05/1894,     59 42,    152 12,,,,,,,
-  28/05/1894,,,,,at sea cooks inlet alaska,,cook inlet,60 20 16N,2018-01-30T01:51:00
+  28/05/1894,,,,,at sea cooks inlet alaska,,cook inlet,60 20 16N,151 52 30W
   28/05/1894,     60 28,    151 40,35.1,-2.1,at anchor off port kinai cooks inlet,                port kela,cook inlet,,
   29/05/1894,,,57.1,-170.3,munina village cooks inlet,             village cove,cook inlet,,
   29/05/1894,     59 30,    152 43,,,,,,,
   30/05/1894,,,56.2,-2.1,   fort kenai cooks inlet,                    forth,cook inlet,,
-  30/05/1894,,,29.5,35,            karluk alaska,                    akaba,karluk alaska,57 34 41N,2018-05-15T01:54:00
+  30/05/1894,,,29.5,35,            karluk alaska,                    akaba,karluk alaska,57 34 41N,154 21 45W
   31/05/1894,,,57.4,-154.9,   at sea shilikof strait,          shelikof strait,,,
-  31/05/1894,,,57.8,-152.4,uyak bay kodiak id alaska,                   kodiak,shelikof strait,57 52 54N,2018-02-06T01:54:00
+  31/05/1894,,,57.8,-152.4,uyak bay kodiak id alaska,                   kodiak,shelikof strait,57 52 54N,154 25 31W
   01/06/1894,,,29.5,35,          uyak bay alaska,                    akaba,shelikof strait,,
-  01/06/1894,     58 00,    153 33,10,79.8,dry islands kodiak straits,             palk straits,raspberry island,58 04 02N,2018-07-24T01:53:00
+  01/06/1894,     58 00,    153 33,10,79.8,dry islands kodiak straits,             palk straits,raspberry island,58 04 02N,153 10 55W
   02/06/1894,,,29.5,35,          uyak bay alaska,                    akaba,shelikof strait,,
   02/06/1894,,,57.8,-152.4, st paul harbor kodiak id,           st paul harbor,,,
   03/06/1894,,,57.8,-152.4,    st paul harbor kodiak,           st paul harbor,,,
@@ -244,7 +244,7 @@
   05/06/1894,,,,,                   at sea,,,,
   05/06/1894,     55 10,    160 30,,,,,,,
   06/06/1894,,,,,                   at sea,,,,
-  06/06/1894,,,42.2,41.7,        sand point alaska,                     poti,sand point alaska,55.336593N,2020-07-31T00:00:00
+  06/06/1894,,,42.2,41.7,        sand point alaska,                     poti,sand point alaska,55.336593N,160.493234W
   07/06/1894,,,54.2,-165.6,sand point humboldt harbor,              lost harbor,sand point alaska,,
   07/06/1894,     55 18,    161 34,,,     off belkofsky alaska,,,,
   08/06/1894,,,42.2,41.7,        sand point alaska,                     poti,sand point alaska,,
@@ -297,7 +297,7 @@
   01/07/1894,     65 16,  170 08 W,,,,,,,
   02/07/1894,,,65.5,-171.1,       south head siberia,               south head,,,
   02/07/1894,,,,,,,,,
-  03/07/1894,,,22.2,113.9,        at sea bering sea,                     taio,bering strait,66 0N,2017-07-04T00:00:00
+  03/07/1894,,,22.2,113.9,        at sea bering sea,                     taio,bering strait,66 0N,169 0W
   03/07/1894,,,,,reindeer station port clarence,,,,
   04/07/1894,,,,,at anchor off reindeer station port clarence alaska,,,,
   04/07/1894,,,,,cape riley nxw dist 5 miles,,,,
@@ -314,7 +314,7 @@
   10/07/1894,,,65.2,-166.7,     port clarence alaska,           port clearance,,,
   10/07/1894,,,65.7,-171.1,at anchor off south bay st lawrence bay siberia,          st lawrence bay,,,
   11/07/1894,,,55,166.3,        at sea bering sea,                  behring,,,
-  11/07/1894,     66 02,    169 55,63.1,-168.9,at anchor off east cape village siberia,                east cape,cape dezhnev,66 4 45N,2017-08-22T00:00:00
+  11/07/1894,     66 02,    169 55,63.1,-168.9,at anchor off east cape village siberia,                east cape,cape dezhnev,66 4 45N,169 39 7W
   12/07/1894,,,55,166.3,        at sea bering sea,                  behring,,,
   12/07/1894,     66 02,    169 55,,,,,,,
   13/07/1894,,,63.1,-168.9,at anchor of westend of east cape siberia,                east cape,cape dezhnev,,
@@ -333,7 +333,7 @@
   19/07/1894,     66 12,    169 40,,,,,,,
   20/07/1820,,,66.2,-169.8,at anchor off whalen siberia,                   whalen,,,
   20/07/1820,,,66.2,-169.8,at anchor off entrance to lagoon wd of whalen siberia,                   whalen,,,
-  21/07/1894,,,60.1,-149.4,at anchor to westward of whalen siberia,                   seward,uelen,66 09 34N,2018-02-20T00:00:00
+  21/07/1894,,,60.1,-149.4,at anchor to westward of whalen siberia,                   seward,uelen,66 09 34N,169 48 33W
   21/07/1894,     66 40,    171 20,,,,,,,
   22/07/1894,,,60.1,-149.4,at anchor to westward of whalen siberia,                   seward,uelen,,
   22/07/1894,,,-11.1,-77.6,off chachony village siberia,                   huacho,uelen,,
@@ -347,21 +347,21 @@
   26/07/1894,     63 34,    168 13,,,at anchor off reindeer station port clarence alaska,,,,
   27/07/1894,,,,,at anchor off reindeer station port clarence alaska,,,,
   27/07/1894,   66 29 N,  165 03 W,,,,,,,
-  28/07/1894,,,55,-1.5,      at sea arctic ocean,                      tic,kotzebue sound,66 32 46N,2018-08-14T00:00:00
+  28/07/1894,,,55,-1.5,      at sea arctic ocean,                      tic,kotzebue sound,66 32 46N,162 44 58W
   28/07/1894,     66 44,    162 27,,,,,,,
   29/07/1894,,,55,-1.5,      at sea arctic ocean,                      tic,kotzebue sound,,
   29/07/1894,     66 51,    163 13,59.9,10.8,             cape blossom,                     oslo,kotzebue sound,,
   30/07/1894,,,66.5,-162.8,at anchor off cape blossom kotzebue sound alaska,           kotzebue sound,,,
   30/07/1894,     68 17,    165 25,,,,,,,
-  31/07/1894,,,55,-1.5,      at sea arctic ocean,                      tic,lisburne peninsula,68 30N,2017-10-17T00:00:00
+  31/07/1894,,,55,-1.5,      at sea arctic ocean,                      tic,lisburne peninsula,68 30N,165 15W
   31/07/1894,     68 21,    166 43,,,,,,,
   01/08/1894,,,68.3,-166.8,at anchor off point hope alaska,               point hope,,,
   01/08/1894,     68 43,    166 24,,,,,,,
   02/08/1894,,,68.3,-166.8,at anchor off point hope alaska,               point hope,,,
   02/08/1894,     69 34,    163 28,,,,,,,
-  03/08/1894,,,55,-1.5,      at sea arctic ocean,                      tic,point lay,69 44 28N,2018-02-06T00:00:00
+  03/08/1894,,,55,-1.5,      at sea arctic ocean,                      tic,point lay,69 44 28N,163 0 31W
   03/08/1894,     70 38,    160 10,70.6,-160,off wainwright inlet alaska,         wainwright inlet,,,
-  04/08/1894,,,55,-1.5,      at sea arctic ocean,                      tic,barrow alaska,71 17 44N,2018-08-21T01:56:00
+  04/08/1894,,,55,-1.5,      at sea arctic ocean,                      tic,barrow alaska,71 17 44N,156 45 59W
   04/08/1894,     71 13,    156 48,,,,,,,
   05/08/1894,,,70.6,-160,at anchor off wainwright inlet alaska,         wainwright inlet,,,
   05/08/1894,,,,,at anchor off refuge station point barrow alaska,,,,
@@ -382,7 +382,7 @@
   13/08/1894,,,68.9,-165.1,at anchor off corwin coal mine alaska,         corwin coal mine,,,
   13/08/1894,     68 57,    165 00,68.9,-165.1,off corwin coal mine alaska,         corwin coal mine,,,
   14/08/1894,,,68.9,-165.1,at anchor off corwin coal mine alaska,         corwin coal mine,,,
-  14/08/1894,     68 23,    166 55,54,-166.6,anchored off north side point hope alaska,              eider point,point hope,68 20 49N,2018-05-29T00:00:00
+  14/08/1894,     68 23,    166 55,54,-166.6,anchored off north side point hope alaska,              eider point,point hope,68 20 49N,166 45 47W
   15/08/1894,,,68.3,-166.8,at anchor off point hope alaska,               point hope,,,
   15/08/1894,     67 18,    167 53,,,,,,,
   16/08/1894,,,68.3,-166.8,at anchor off point hope alaska,               point hope,,,
@@ -396,11 +396,11 @@
   20/08/1894,,,,,at anchor off reindeer station port clarence alaska,,,,
   20/08/1894,,,,,at anchor off us reindeer station port clarence alaska,,,,
   21/08/1894,,,,,at anchor off us reindeer station port clarence alaska,,,,
-  21/08/1894,     65 19,  167 12 W,53.4,-3,anchored off cape prince of wales alaska,                     alex,cape prince of wales,65 38 24N,2017-09-26T00:00:00
+  21/08/1894,     65 19,  167 12 W,53.4,-3,anchored off cape prince of wales alaska,                     alex,cape prince of wales,65 38 24N,168 7 12W
   22/08/1894,,,,,at anchor off us reindeer station port clarence alaska,,,,
   22/08/1894,     64 35,  170 00 W,,,,,,,
   23/08/1894,,,55,166.3,        at sea bering sea,                  behring,,,
-  23/08/1894,     64 25,    172 08,64.4,-172.2,anchored off st lawrence island village,             indian point,gambell st lawrence island,63 46 34N,2017-07-25T00:00:00
+  23/08/1894,     64 25,    172 08,64.4,-172.2,anchored off st lawrence island village,             indian point,gambell st lawrence island,63 46 34N,171 42 03W
   24/08/1894,,,55,166.3,        at sea bering sea,                  behring,,,
   24/08/1894,,,43.7,7.2,anchored off st lawrence village st lawrence island at noon,                     nice,gambell st lawrence island,,
   25/08/1894,,,43.7,7.2,anchored off st lawrence village st lawrence island,                     nice,gambell st lawrence island,,
@@ -421,7 +421,7 @@
   01/09/1894,,,41.1,168.3,cape studye west 05 miles at 8 am,                    erjia,bering strait,,
   02/09/1894,,,31.5,118.4,anchored off kilowwun village siberia,                    erjia,bering strait,,
   02/09/1894,,,31.5,168.3,anchored off kilowwun village siberia at noon,                    erjia,bering strait,,
-  03/09/1894,,,-17.7,168.3,at anchor enowrunan village alaska,                     vila,enurmino,66 57N,2018-06-12T00:00:00
+  03/09/1894,,,-17.7,168.3,at anchor enowrunan village alaska,                     vila,enurmino,66 57N,171 49W
   03/09/1894,     66 48,    171 68,,,,,,,
   04/09/1894,,,31.5,118.4,anchored off enowunan village siberia,                    erjia,enurmino,,
   04/09/1894,     65 37,    168 07,69.8,176.2,off south end ratmanoff id bering straits at 8 am,              long strait,bering strait,,
@@ -435,7 +435,7 @@
   08/09/1894,     64 46,  167 37 W,,,,,,,
   09/09/1894,,,55,166.3,        at sea bering sea,                  behring,,,
   09/09/1894,     63 33,  161 43 W,63.5,-162,anchored off st michaels alaska,               st michael,,,
-  10/09/1894,,,4,9.7,at sea norton sound alaska,                    duala,norton sound,63 50 57N,2017-08-29T00:00:00
+  10/09/1894,,,4,9.7,at sea norton sound alaska,                    duala,norton sound,63 50 57N,164 16 08W
   10/09/1894,,,63.5,-162,anchord off st michaik alaska at noon,               st michael,,,
   11/09/1894,,,63.5,-162,at anchor off st michaels alaska,               st michael,,,
   11/09/1894,,,63.5,-162,at anchor off st michaels alaska,               st michael,,,
@@ -529,7 +529,7 @@
   25/10/1894,     54 19,    166 50,,,,,,,
   26/10/1894,,,53.9,-166.5,          unalaska alaska,             unalaska bay,,,
   26/10/1894,     56 23,  170 00 W,,,,,,,
-  27/10/1894,,,55,166.3,        at sea bering sea,                  behring,pribilof islands,56 50N,2017-07-04T00:00:00
+  27/10/1894,,,55,166.3,        at sea bering sea,                  behring,pribilof islands,56 50N,170 00W
   27/10/1894,     57 00,  170 07 W,,,,,,,
   28/10/1894,,,55,166.3,        at sea bering sea,                  behring,,,
   28/10/1894,     55 42,  168 23 W,56.6,-169.6,at anchor off st george village alaska,                st george,,,
@@ -675,10 +675,10 @@
   01/05/1895,,,-35.1,150.6,              green id lh,            garden island,strait of juan de fuca,,
   02/05/1895,,,55,-1.5,     at sea pacific ocean,                      tic,strait of juan de fuca,,
   02/05/1895,,,,,   pt wilson s se 4 miles,,strait of juan de fuca,,
-  03/05/1895,,,30.6,117.2,    newwhatcom washington,                    mashi,bellingham,48.750178N,2019-11-08T00:00:00
+  03/05/1895,,,30.6,117.2,    newwhatcom washington,                    mashi,bellingham,48.750178N,122.474975W
   03/05/1895,,,48.1,-122.8, port townsend washington,            port townsend,,,
   04/05/1895,,,,,,,,,
-  04/05/1895,,,43.1,16.7,quarter master harbor washington,                     hvar,quartermaster harbour,47.3793N,2019-11-08T00:00:00
+  04/05/1895,,,43.1,16.7,quarter master harbor washington,                     hvar,quartermaster harbour,47.3793N,122.4620W
   05/05/1895,,,,,,,,,
   05/05/1895,,,43.1,16.7,quarter master harbor washington,                     hvar,quartermaster harbour,,
   06/05/1895,,,,,,,,,
@@ -706,7 +706,7 @@
   17/05/1895,,,,,,,,,
   17/05/1895,   57 14 N,  138 27 W,56.2,-3,at sea north pacific ocean,                    forth,north pacific,,
   18/05/1895,,,,,,,,,
-  18/05/1895,   58 24 N,  140 47 W,56.2,-3,at sea north pacific ocean,                    forth,gulf of alaska,57N,2020-04-07T00:00:00
+  18/05/1895,   58 24 N,  140 47 W,56.2,-3,at sea north pacific ocean,                    forth,gulf of alaska,57N,144W
   19/05/1895,,,,,,,,,
   19/05/1895,   58 34 N,  145 24 W,56.2,-3,at sea north pacific ocean,                    forth,gulf of alaska,,
   20/05/1895,,,,,,,,,
@@ -746,7 +746,7 @@
   06/06/1895,,,,,,,,,
   06/06/1895,,,4,9.7,sand point popoff isld alaska,                    duala,sand point alaska,,
   07/06/1895,,,,,,,,,
-  07/06/1895,,,4,73.9,              unga alaska,                    duala,unga,55 11 03N,2017-11-07T00:00:00
+  07/06/1895,,,4,73.9,              unga alaska,                    duala,unga,55 11 03N,160 30 18W
   08/06/1895,,,,,,,,,
   08/06/1895,   54 30 N,  161 28 W,15.5,73.9,                      8pm,                      goa,north pacific,,
   09/06/1895,,,,,,,,,
@@ -812,7 +812,7 @@
   08/07/1895,,,,,,,,,
   08/07/1895,   65 20 N,  169 46 W,55,166.3,        at sea bering sea,                  behring,bering strait,,
   09/07/1895,,,,,,,,,
-  09/07/1895,   66 15 N,  170 02 W,31.5,118.4,            walou siberia,                    erjia,chukchi sea,69N,2020-10-20T00:00:00
+  09/07/1895,   66 15 N,  170 02 W,31.5,118.4,            walou siberia,                    erjia,chukchi sea,69N,172W
   10/07/1895,,,31.5,118.4,           cuutpa siberia,                    erjia,chukchi sea,,
   10/07/1895,   67 07 N,  170 59 W,31.5,118.4,           chutpa siberia,                    erjia,chukchi sea,,
   11/07/1895,,,,,,,,,
@@ -826,7 +826,7 @@
   15/07/1895,,,,,,,,,
   15/07/1895,   66 13 N,  169 50 W,31.5,118.4,west side of cape serdze siberia,                    erjia,chukchi sea,,
   16/07/1895,,,,,,,,,
-  16/07/1895,,,65.2,-166.7,     port clarence alaska,           port clearance,port clarence alaska,65 15 58N,2017-09-12T00:00:00
+  16/07/1895,,,65.2,-166.7,     port clarence alaska,           port clearance,port clarence alaska,65 15 58N,166 51 10W
   17/07/1895,,,,,,,port clarence alaska,,
   17/07/1895,,,65.2,-166.7,     port clarence alaska,           port clearance,port clarence alaska,,
   18/07/1895,,,,,,,port clarence alaska,,
@@ -854,7 +854,7 @@
   29/07/1895,,,,,,,,,
   29/07/1895,   66 21 N,  162 10 W,48.8,-162.8,    at sea kotzebue sound,           kotzebue sound,,,
   30/07/1895,,,,,,,,,
-  30/07/1895,,,69.8,-53.5,at anchor off chamisso island,             disko island,chamisso island,66 13 07N,2018-02-20T00:00:00
+  30/07/1895,,,69.8,-53.5,at anchor off chamisso island,             disko island,chamisso island,66 13 07N,161 49 33W
   31/07/1895,,,,,,,,,
   31/07/1895,,,69.8,-53.5,at anchor off chamisso island,             disko island,chamisso island,,
   01/08/1895,,,,,,,,,
@@ -926,11 +926,11 @@
   02/09/1895,,,,,,,,,
   02/09/1895,   64 00 N,  162 51 W,63.5,-162,at anchor off st michaels alaska,               st michael,,,
   03/09/1895,,,,,,,,,
-  03/09/1895,   63 54 N,  169 30 W,55,166.3,        at sea bering sea,                  behring,savoonga st lawrence island,63 41 48N,2018-04-03T00:00:00
+  03/09/1895,   63 54 N,  169 30 W,55,166.3,        at sea bering sea,                  behring,savoonga st lawrence island,63 41 48N,170 27 39W
   04/09/1895,,,,,,,,,
   04/09/1895,   63 03 N,  172 12 W,43.7,7.2,at anchor off st lawrence island,                     nice,gambell st lawrence island,,
   05/09/1895,,,,,,,,,
-  05/09/1895,   60 45 N,  172 35 W,55,166.3,               bering sea,                  behring,st matthew island,60 24 31N,2017-09-26T00:00:00
+  05/09/1895,   60 45 N,  172 35 W,55,166.3,               bering sea,                  behring,st matthew island,60 24 31N,172 43 12W
   06/09/1895,,,,,,,,,
   06/09/1895,   57 27 N,  170 10 W,55,166.3,        at sea bering sea,                  behring,,,
   07/09/1895,,,,,,,,,

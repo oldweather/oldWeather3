@@ -5,7 +5,7 @@
   03/01/1890,,,,,,,,,
   03/01/1890,   11 12 N,   61 08 W,,,,,,,
   04/01/1890,,,,,,,,,
-  04/01/1890,,,-13.8,-171.7,   entering gulf of paria,                     apia,gulf of paria,10 23N,0001-05-28
+  04/01/1890,,,-13.8,-171.7,   entering gulf of paria,                     apia,gulf of paria,10 23N,62 21W
   05/01/1890,,,,,,,,,
   05/01/1890,,,10.7,-61.5,at anchor gulf of paria trinidad wi,                 trinidad,,,
   06/01/1890,,,,,,,,,
@@ -49,9 +49,9 @@
   24/01/1890,,,,,,,,,
   24/01/1890,   15 37 N,   63 03 W,,,,,,,
   25/01/1890,,,,,,,,,
-  25/01/1890,,,13.2,-59.6,at sea making passage from trinidad wi to st thomas wi,                st thomas,lesser antilles,14 14N,0001-05-28
+  25/01/1890,,,13.2,-59.6,at sea making passage from trinidad wi to st thomas wi,                st thomas,lesser antilles,14 14N,61 21W
   26/01/1890,,,,,,,,,
-  26/01/1890,,,13.2,-59.6,anchored at st thomas west indies,                st thomas,saint thomas usvi,18 20N,0002-01-21
+  26/01/1890,,,13.2,-59.6,anchored at st thomas west indies,                st thomas,saint thomas usvi,18 20N,64 55W
   27/01/1890,,,,,,,,,
   27/01/1890,,,18.3,-64.9,at anchor charlotte amelia st thomas wi,         charlotte amalie,,,
   28/01/1890,,,,,,,,,
@@ -73,7 +73,7 @@
   05/02/1890,,,,,,,,,
   05/02/1890,   26 51 N,   76 05 W,,,,,,,
   06/02/1890,,,,,,,,,
-  06/02/1890,,,13.2,-59.6,at sea making passage from st thomas wi to port royal s c,                st thomas,abaco islands,26 28N,0001-02-05
+  06/02/1890,,,13.2,-59.6,at sea making passage from st thomas wi to port royal s c,                st thomas,abaco islands,26 28N,77 05W
   06/02/1890,,,,,,,,,
   06/02/1890,   27 50 N,   77 42 W,13.2,-59.6,at sea making passage from st thomas wi to port royal s c,                st thomas,north atlantic,,
   07/02/1890,,,,,,,,,
@@ -89,11 +89,11 @@
   12/02/1890,,,,,,,,,
   12/02/1890,   31 30 N,   80 49 W,,,,,,,
   13/02/1890,,,,,,,,,
-  13/02/1890,,,55,-1.5,at anchor off martins industry lightship,                      tic,hilton head island sc,32 10 44N,0001-09-03
+  13/02/1890,,,55,-1.5,at anchor off martins industry lightship,                      tic,hilton head island sc,32 10 44N,80 44 35W
   14/02/1890,,,,,,,,,
   14/02/1890,,,55,-1.5,at anchor off martins industry lightship,                      tic,hilton head island sc,,
   15/02/1890,,,,,,,,,
-  15/02/1890,,,29.9,32.6,at anchor off port royal sc,                   port t,port royal south carolina,32 23 0N,0001-11-05
+  15/02/1890,,,29.9,32.6,at anchor off port royal sc,                   port t,port royal south carolina,32 23 0N,80 41 44W
   16/02/1890,,,,,,,,,
   16/02/1890,,,29.9,32.6,at anchor off port royal sc naval station,                   port t,port royal south carolina,,
   17/02/1890,,,,,,,,,
@@ -127,9 +127,9 @@
   03/03/1890,,,,,,,,,
   03/03/1890,,,29.9,32.6,at anchor off port royal sc,                   port t,port royal south carolina,,
   04/03/1890,,,,,,,,,
-  04/03/1890,,,42.2,41.7,at anchor off bay point sc,                     poti,port royal sound,32 15 43N,0001-10-15
+  04/03/1890,,,42.2,41.7,at anchor off bay point sc,                     poti,port royal sound,32 15 43N,80 40 41W
   05/03/1890,,,,,,,,,
-  05/03/1890,,,22.2,113.9,at anchor off station creek sc,                     taio,saint helena island sc,32.376272N,0002-07-19
+  05/03/1890,,,22.2,113.9,at anchor off station creek sc,                     taio,saint helena island sc,32.376272N,80.572228W
   06/03/1890,,,,,,,,,
   06/03/1890,,,42.2,41.7,at anchor off bay point sc,                     poti,port royal sound,,
   07/03/1890,,,,,,,,,
@@ -197,7 +197,7 @@
   07/04/1890,,,,,,,,,
   07/04/1890,,,37,-76.3,making passage from port royal sc to hampton roads va,            hampton roads,,,
   08/04/1890,,,,,,,,,
-  08/04/1890,,,56.2,-3,at anchor off fortress monroe va,                    forth,fort monroe,37 00 13N,0001-07-09
+  08/04/1890,,,56.2,-3,at anchor off fortress monroe va,                    forth,fort monroe,37 00 13N,76 18 27W
   09/04/1890,,,,,,,,,
   09/04/1890,,,56.2,-3,at anchor off fortress monroe va,                    forth,fort monroe,,
   10/04/1890,,,,,,,,,
@@ -227,7 +227,7 @@
   14/04/1890,,,,,,,,,
   14/04/1890,,,56.2,-3,at anchor off fortress monroe va,                    forth,fort monroe,,
   15/04/1890,,,,,,,,,
-  15/04/1890,,,-43,147.8,     navy yard norfolk va,              norfolk bay,naval station norfolk,36 56.7N,0001-05-12
+  15/04/1890,,,-43,147.8,     navy yard norfolk va,              norfolk bay,naval station norfolk,36 56.7N,76 18.8W
   16/04/1890,,,,,,,,,
   16/04/1890,,,-43,147.8,     navy yard norfolk va,              norfolk bay,naval station norfolk,,
   17/04/1890,,,,,,,,,
@@ -299,9 +299,9 @@
   19/05/1890,,,,,,,,,
   19/05/1890,,,37,-76.3,making passage from hampton roads va to new york ny,            hampton roads,,,
   20/05/1890,,,,,,,,,
-  20/05/1890,,,37,-76.3,making passage from hampton roads va to new york ny,            hampton roads,new york bight,40 05 42N,0002-01-21
+  20/05/1890,,,37,-76.3,making passage from hampton roads va to new york ny,            hampton roads,new york bight,40 05 42N,73 14 55W
   21/05/1890,,,,,,,,,
-  21/05/1890,,,40.7,-74,at anchor off 39th street north river new york,                 new york,north river hudson river,40 47 12N,0001-08-06
+  21/05/1890,,,40.7,-74,at anchor off 39th street north river new york,                 new york,north river hudson river,40 47 12N,73 59 31W
   22/05/1890,,,,,,,,,
   22/05/1890,,,40.7,-74,at anchor off 34th street north river new york,                 new york,north river hudson river,,
   23/05/1890,,,,,,,,,
@@ -353,9 +353,9 @@
   14/06/1890,,,,,,,,,
   14/06/1890,,,40.7,-74,making passage from new york city to newport ri,                 new york,new york bight,,
   15/06/1890,,,,,,,,,
-  15/06/1890,,,40.7,-74,making passage from new york city to newport ri,                 new york,rhode island sound,41 26 00N,0002-02-11
+  15/06/1890,,,40.7,-74,making passage from new york city to newport ri,                 new york,rhode island sound,41 26 00N,71 12 58W
   15/06/1890,,,,,,,,,
-  15/06/1890,,,29.9,32.6,               newport ri,                   port t,newport rhode island,41.488002N,0002-05-15
+  15/06/1890,,,29.9,32.6,               newport ri,                   port t,newport rhode island,41.488002N,71.312622W
   16/06/1890,,,,,,,,,
   16/06/1890,,,29.9,32.6,               newport ri,                   port t,newport rhode island,,
   17/06/1890,,,,,,,,,
@@ -423,7 +423,7 @@
   15/07/1890,,,,,,,,,
   15/07/1890,   48 52 N,   12 15 W,,,,,,,
   16/07/1890,,,,,,,,,
-  16/07/1890,,,50.4,-4.1,making passage from newport ri to plymouth england,                 plymouth,celtic sea,50N,0001-02-26
+  16/07/1890,,,50.4,-4.1,making passage from newport ri to plymouth england,                 plymouth,celtic sea,50N,8W
   16/07/1890,,,,,,,,,
   16/07/1890,   49 01 N,   09 16 W,,,,,,,
   17/07/1890,,,,,,,,,
@@ -433,7 +433,7 @@
   18/07/1890,,,,,,,,,
   18/07/1890,   50 16 N,   04 38 W,,,,,,,
   19/07/1890,,,,,,,,,
-  19/07/1890,,,42,-70.6,  plymouth harbor england,             plymouth bay,plymouth,50 22 17N,0001-08-13
+  19/07/1890,,,42,-70.6,  plymouth harbor england,             plymouth bay,plymouth,50 22 17N,4 08 32W
   20/07/1890,,,,,,,,,
   20/07/1890,,,42,-70.6,  plymouth harbor england,             plymouth bay,plymouth,,
   21/07/1890,,,,,,,,,
@@ -595,7 +595,7 @@
   03/10/1890,,,,,,,,,
   03/10/1890,   39 25 N,   73 39 W,,,,,,,
   04/10/1890,,,,,,,,,
-  04/10/1890,,,40.7,-74,making passage from lynnhaven bay va to new york and anchored off rackaway ny,                     amay,rockaway queens,40.591286N,0002-06-01
+  04/10/1890,,,40.7,-74,making passage from lynnhaven bay va to new york and anchored off rackaway ny,                     amay,rockaway queens,40.591286N,73.816112W
   05/10/1890,,,,,,,,,
   05/10/1890,,,40.7,-74,making passage from lynnhaven bay va to new york and anchored off rackaway ny,                 new york,rockaway queens,,
   05/10/1890,,,,,,,,,
@@ -745,11 +745,11 @@
   02/12/1890,,,,,,,,,
   02/12/1890,,,,,at anchor in york river off yorktown va,,,,
   03/12/1890,,,,,,,,,
-  03/12/1890,,,30.5,117.1,at anchor off york spit and making passage to annapolis md,                   anking,york spit light,37.2096N,0002-06-18
+  03/12/1890,,,30.5,117.1,at anchor off york spit and making passage to annapolis md,                   anking,york spit light,37.2096N,76.2542W
   04/12/1890,,,,,,,,,
   04/12/1890,,,30.5,117.1,making passage from yorktown va to annapolis md,                   anking,york spit light,,
   05/12/1890,,,,,,,,,
-  05/12/1890,,,30.5,117.1,making passage to annapolis md,                   anking,annapolis maryland,38 58 22.6N,0001-01-30
+  05/12/1890,,,30.5,117.1,making passage to annapolis md,                   anking,annapolis maryland,38 58 22.6N,76 30 4.17W
   06/12/1890,,,,,,,,,
   06/12/1890,,,30.5,117.1,making passage to annapolis md,                   anking,annapolis maryland,,
   07/12/1890,,,,,,,,,
@@ -837,7 +837,7 @@
   14/01/1891,,,,,,,,,
   14/01/1891,,,-43,147.8,moored to wharf navy yard norfolk at anchor lynhaven bay,              norfolk bay,naval station norfolk,,
   15/01/1891,,,,,,,,,
-  15/01/1891,,,12.8,45,at anchor in lynnhaven bay virginia,                     aden,lynnhaven virginia,36 48 47.7N,0001-02-09
+  15/01/1891,,,12.8,45,at anchor in lynnhaven bay virginia,                     aden,lynnhaven virginia,36 48 47.7N,76 4 5.7W
   16/01/1891,,,,,,,,,
   16/01/1891,   36 56 N,   75 57 W,12.8,45,    lynhaven bay virginia,                     aden,lynnhaven virginia,,
   17/01/1891,,,,,,,,,
@@ -849,7 +849,7 @@
   20/01/1891,,,,,,,,,
   20/01/1891,   33 42 N,   77 14 W,,,,,,,
   21/01/1891,,,,,,,,,
-  21/01/1891,,,-43,147.8,at sea passage from norfolk va to port royal sc,              norfolk bay,frying pan shoals,33 48 04N,0001-12-10
+  21/01/1891,,,-43,147.8,at sea passage from norfolk va to port royal sc,              norfolk bay,frying pan shoals,33 48 04N,77 56 49W
   21/01/1891,,,,,,,,,
   21/01/1891,   34 08 N,   76 41 W,,,,,,,
   22/01/1891,,,,,,,,,
@@ -1347,7 +1347,7 @@
   13/09/1891,,,,,,,,,
   13/09/1891,   32 46 N,   16 10 W,,,,,,,
   13/09/1891,,,,,,,,,
-  13/09/1891,,,50.4,-4.1,making the passage from plymouth eng to funchal madeira,                 plymouth,funchal,32 39N,0002-01-21
+  13/09/1891,,,50.4,-4.1,making the passage from plymouth eng to funchal madeira,                 plymouth,funchal,32 39N,16 55W
   14/09/1891,,,,,,,,,
   14/09/1891,,,32.7,-16.9,          funchal madeira,                  madeira,,,
   15/09/1891,,,,,,,,,
@@ -1489,13 +1489,13 @@
    8/11/1891,,,,,,,,,
    8/11/1891,,,40.7,-74,at anchor off 31st street north river new york city,                 new york,,,
   08/11/1891,,,,,,,,,
-  08/11/1891,,,65,120.4,making passage from new york to newport rhode island through long island sound,              king island,long island sound,41 05 48N,0001-12-31
+  08/11/1891,,,65,120.4,making passage from new york to newport rhode island through long island sound,              king island,long island sound,41 05 48N,72 52 52W
   09/11/1891,,,,,,,,,
   09/11/1891,,,32,120.4,making passage from new york to newport rhode island through long island sound,              rose island,long island sound,,
   09/11/1891,,,,,,,,,
   09/11/1891,,,32,-168.1,making the passage from new york to newport ri through long island sound,              king island,long island sound,,
   10/11/1891,,,,,,,,,
-  10/11/1891,     41 18,     71 38,51.5,-0.1,          new london conn,                   london,new london connecticut,41.354069N,0002-05-20
+  10/11/1891,     41 18,     71 38,51.5,-0.1,          new london conn,                   london,new london connecticut,41.354069N,72.10104W
   11/11/1891,,,,,,,,,
   11/11/1891,,,51.5,-0.1,at anchor off new london conn,                   london,new london connecticut,,
   11/11/1891,,,,,,,,,

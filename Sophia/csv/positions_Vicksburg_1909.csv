@@ -79,9 +79,9 @@
   23/06/1909,,,,,,,,,
   23/06/1909,   17 15 N,  102 56 W,,,,,,,
   24/06/1909,,,,,,,,,
-  24/06/1909,,,30.5,117.1,at sea making passage to acapluco mexico,                   anking,guerrero,17 37N,2018-08-07T00:00:00
+  24/06/1909,,,30.5,117.1,at sea making passage to acapluco mexico,                   anking,guerrero,17 37N,99 57W
   25/06/1909,,,,,,,,,
-  25/06/1909,   16 33 N,   99 28 W,43.1,16.7,at anchor in the harbor of acapulco mexico,                     hvar,acapulco,16 51 49N,2018-08-07T00:00:00
+  25/06/1909,   16 33 N,   99 28 W,43.1,16.7,at anchor in the harbor of acapulco mexico,                     hvar,acapulco,16 51 49N,99 52 57W
   26/06/1909,,,,,,,,,
   26/06/1909,   15 47 N,   97 30 W,,,,,,,
   27/06/1909,,,,,,,,,
@@ -91,7 +91,7 @@
   29/06/1909,,,,,,,,,
   29/06/1909,   12 33 N,   87 23 W,,,,,,,
   30/06/1909,,,,,,,,,
-  30/06/1909,,,-1.8,-44.8,        corinto nicaragua,                    ceara,corinto nicaragua,12 29N,2017-09-19T00:00:00
+  30/06/1909,,,-1.8,-44.8,        corinto nicaragua,                    ceara,corinto nicaragua,12 29N,87 11W
   01/07/1909,,,,,,,,,
   01/07/1909,,,-1.8,-44.8,        corinto nicaragua,                    ceara,corinto nicaragua,,
   02/07/1909,,,,,,,,,
@@ -207,7 +207,7 @@
   24/08/1909,,,,,,,,,
   24/08/1909,   07 35 N,   79 31 W,,,,,,,
   25/08/1909,,,,,,,,,
-  25/08/1909,,,9,-79.5,             panama roads,                   panama,panama city,8 59N,2018-02-06T00:00:00
+  25/08/1909,,,9,-79.5,             panama roads,                   panama,panama city,8 59N,79 31W
   26/08/1909,,,,,,,,,
   26/08/1909,,,9,-79.5,             panama roads,                   panama,panama city,,
   27/08/1909,,,,,,,,,
@@ -219,7 +219,7 @@
   30/08/1909,,,,,,,,,
   30/08/1909,,,9,-79.5,             panama roads,                   panama,panama city,,
   31/08/1909,,,,,,,,,
-  31/08/1909,,,30.5,117.1,at sea making passage to corinto nicaragua,                   anking,gulf of panama,8.08642N,2019-01-09T00:00:00
+  31/08/1909,,,30.5,117.1,at sea making passage to corinto nicaragua,                   anking,gulf of panama,8.08642N,79.28284W
   01/09/1909,,,,,,,,,
   01/09/1909,   06 40 N,   81 06 W,,,,,,,
   02/09/1909,,,,,,,,,
@@ -231,13 +231,13 @@
   04/09/1909,,,,,,,,,
   04/09/1909,,,-1.8,-44.8,        corinto nicaragua,                    ceara,corinto nicaragua,,
   05/09/1909,,,,,,,,,
-  05/09/1909,,,30.5,117.1,at sea making passage to la union salvador,                   anking,gulf of fonseca,13 15N,2018-05-15T00:00:00
+  05/09/1909,,,30.5,117.1,at sea making passage to la union salvador,                   anking,gulf of fonseca,13 15N,87 45W
   06/09/1909,,,,,,,,,
   06/09/1909,,,30.5,117.1,at sea making passage to la union salvador,                   anking,gulf of fonseca,,
   06/09/1909,,,,,,,,,
   06/09/1909,,,30.5,117.1,at sea making passage to la union salvador,                   anking,gulf of fonseca,,
   07/09/1909,,,,,,,,,
-  07/09/1909,,,43.1,16.7,at anchor in the harbor of la union salvador,                     hvar,la union el salvador,13 20 13N,2018-03-27T00:00:00
+  07/09/1909,,,43.1,16.7,at anchor in the harbor of la union salvador,                     hvar,la union el salvador,13 20 13N,87 50 38W
   08/09/1909,,,,,,,,,
   08/09/1909,,,43.1,16.7,at anchor in the harbor of la union salvador,                     hvar,la union el salvador,,
   08/09/1909,,,,,,,,,
@@ -271,7 +271,7 @@
   20/09/1909,,,,,,,,,
   20/09/1909,   13 18 N,   87 51 W,,,        la union salvador,,la union el salvador,,
   21/09/1909,,,,,,,,,
-  21/09/1909,,,36.1,-5.3,     la libertad salvador,                      gib,la libertad,13 29N,2017-11-14T00:00:00
+  21/09/1909,,,36.1,-5.3,     la libertad salvador,                      gib,la libertad,13 29N,89 19W
   22/09/1909,,,,,,,,,
   22/09/1909,,,36.1,-5.3,     la libertad salvador,                      gib,la libertad,,
   23/09/1909,,,,,,,,,
@@ -299,7 +299,7 @@
   04/10/1909,,,,,,,,,
   04/10/1909,,,36.1,-5.3,at anchor off la libertad salvador and at sea making passage to acajutla,                   anking,la libertad,,
   05/10/1909,,,,,,,,,
-  05/10/1909,,,30.5,117.1,at anchor off la libertad salvador and at sea making passage to acajutla,                   anking,acajutla,13 35 24N,2017-07-11T00:00:00
+  05/10/1909,,,30.5,117.1,at anchor off la libertad salvador and at sea making passage to acajutla,                   anking,acajutla,13 35 24N,89 50 01W
   05/10/1909,,,,,,,,,
   05/10/1909,,,,,        acajutla salvador,,,,
   06/10/1909,,,,,,,,,
@@ -333,7 +333,7 @@
   20/10/1909,,,,,,,,,
   20/10/1909,,,30.5,117.1,        acajutla salvador,                   anking,acajutla,,
   21/10/1909,,,,,,,,,
-  21/10/1909,,,35.9,14.4,       san jose guatemala,                    malta,puerto san jose,13 56N,2018-06-12T00:00:00
+  21/10/1909,,,35.9,14.4,       san jose guatemala,                    malta,puerto san jose,13 56N,90 49W
   22/10/1909,,,,,,,,,
   22/10/1909,,,35.9,14.4,       san jose guatemala,                    malta,puerto san jose,,
   23/10/1909,,,,,,,,,
@@ -505,7 +505,7 @@
   05/01/1910,,,,,,,,,
   05/01/1910,   15 33 N,   93 38 W,,,,,,,
   06/01/1910,,,,,,,,,
-  06/01/1910,   15 57 N,   94 50 W,35.9,-5.3,              salina cruz,                   almina,salina cruz,16 10N,2017-09-26T00:00:00
+  06/01/1910,   15 57 N,   94 50 W,35.9,-5.3,              salina cruz,                   almina,salina cruz,16 10N,95 12W
   07/01/1910,,,,,,,,,
   07/01/1910,   14 31 N,   91 57 W,,,,,,,
   08/01/1910,,,,,,,,,
@@ -1055,7 +1055,7 @@
   24/07/1910,,,,,,,,,
   24/07/1910,   11 15 N,   26 01 W,,,,,,,
   25/07/1910,,,,,,,,,
-  25/07/1910,,,37.4,25.3,san juan del sur nicaragua,                    delos,san juan del sur,11 15N,2018-07-03T00:00:00
+  25/07/1910,,,37.4,25.3,san juan del sur nicaragua,                    delos,san juan del sur,11 15N,85 52W
   26/07/1910,,,,,,,,,
   26/07/1910,,,37.4,25.3,san juan del sur nicaragua,                    delos,san juan del sur,,
   27/07/1910,,,,,,,,,
@@ -1279,7 +1279,7 @@
   04/11/1910,,,,,,,,,
   04/11/1910,   24 12 N,  109 58 W,,,,,,,
   05/11/1910,,,,,,,,,
-  05/11/1910,,,55,-1.5,       pichilinque mexico,                      tic,la paz baja california sur,24 08 32N,2018-04-03T01:10:00
+  05/11/1910,,,55,-1.5,       pichilinque mexico,                      tic,la paz baja california sur,24 08 32N,110 18 39W
   06/11/1910,,,,,,,,,
   06/11/1910,,,55,-1.5,       pichilinque mexico,                      tic,la paz baja california sur,,
   07/11/1910,,,,,,,,,

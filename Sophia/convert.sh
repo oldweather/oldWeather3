@@ -1,84 +1,84 @@
-in2csv xlsx/positions_Albatross_1884.xlsx	 > csv/positions_Albatross_1884.csv
-in2csv xlsx/positions_Albatross_1885.xlsx	 > csv/positions_Albatross_1885.csv
-in2csv xlsx/positions_Albatross_1886.xlsx	 > csv/positions_Albatross_1886.csv
-in2csv xlsx/positions_Albatross_1887.xlsx	 > csv/positions_Albatross_1887.csv
-in2csv xlsx/positions_Albatross_1888.xlsx	 > csv/positions_Albatross_1888.csv
-in2csv xlsx/positions_Albatross_1889.xlsx	 > csv/positions_Albatross_1889.csv
-in2csv xlsx/positions_Bear1886.xlsx	 > csv/positions_Bear_1886.csv
-in2csv xlsx/positions_Bear1887.xlsx	 > csv/positions_Bear_1887.csv
-in2csv xlsx/positions_Bear1888.xlsx	 > csv/positions_Bear_1888.csv
-in2csv xlsx/positions_Bear1889.xlsx	 > csv/positions_Bear_1889.csv
-in2csv xlsx/positions_Bear1890.xlsx	 > csv/positions_Bear_1890.csv
-in2csv xlsx/positions_Bear1891.xlsx	 > csv/positions_Bear_1891.csv
-in2csv xlsx/positions_Bear1892.xlsx	 > csv/positions_Bear_1892.csv
-in2csv xlsx/positions_Bear1892b.xlsx	 > csv/positions_Bear_1892b.csv
-in2csv xlsx/positions_Bear1893.xlsx	 > csv/positions_Bear_1893.csv
-in2csv xlsx/positions_Bear1894.xlsx	 > csv/positions_Bear_1894.csv
-in2csv xlsx/positions_Bear1894b.xlsx	 > csv/positions_Bear_1894b.csv
-in2csv xlsx/positions_Bear1895.xlsx	 > csv/positions_Bear_1895.csv
-in2csv xlsx/positions_Bear1896.xlsx	 > csv/positions_Bear_1896.csv
-in2csv xlsx/positions_Bear1897.xlsx	 > csv/positions_Bear_1897.csv
-in2csv xlsx/positions_Bear1898.xlsx	 > csv/positions_Bear_1898.csv
-in2csv xlsx/positions_Bear1901.xlsx	 > csv/positions_Bear_1901.csv
-in2csv xlsx/positions_Bear1902.xlsx	 > csv/positions_Bear_1902.csv
-in2csv xlsx/positions_Bear1903.xlsx	 > csv/positions_Bear_1903.csv
-in2csv xlsx/positions_Bear1904.xlsx	 > csv/positions_Bear_1904.csv
-in2csv xlsx/positions_Bear1905.xlsx	 > csv/positions_Bear_1905.csv
-in2csv xlsx/positions_Bear1906.xlsx	 > csv/positions_Bear_1906.csv
-in2csv xlsx/positions_Bear1908.xlsx	 > csv/positions_Bear_1908.csv
-in2csv xlsx/positions_Bear1909.xlsx	 > csv/positions_Bear_1909.csv
-in2csv xlsx/positions_Bear1910.xlsx	 > csv/positions_Bear_1910.csv
-in2csv xlsx/positions_Bear1911.xlsx	 > csv/positions_Bear_1911.csv
-in2csv xlsx/positions_Bear1912.xlsx	 > csv/positions_Bear_1912.csv
-in2csv xlsx/positions_Bear1918.xlsx	 > csv/positions_Bear_1918.csv
-in2csv xlsx/positions_Bear_1884.xlsx	 > csv/positions_Bear_1884.csv
-in2csv xlsx/positions_Concord1891.xlsx	 > csv/positions_Concord_1891.csv
-in2csv xlsx/positions_Concord1892.xlsx	 > csv/positions_Concord_1892.csv
-in2csv xlsx/positions_Concord1893.xlsx	 > csv/positions_Concord_1893.csv
-in2csv xlsx/positions_Concord1894.xlsx	 > csv/positions_Concord_1894.csv
-in2csv xlsx/positions_Concord1895.xlsx	 > csv/positions_Concord_1895.csv
-in2csv xlsx/positions_Concord1896.xlsx	 > csv/positions_Concord_1896.csv
-in2csv xlsx/positions_Concord1897.xlsx	 > csv/positions_Concord_1897.csv
-in2csv xlsx/positions_Concord1898.xlsx	 > csv/positions_Concord_1898.csv
-in2csv xlsx/positions_Concord1899.xlsx	 > csv/positions_Concord_1899.csv
-in2csv xlsx/positions_Concord1900.xlsx	 > csv/positions_Concord_1900.csv
-in2csv xlsx/positions_Concord1901.xlsx	 > csv/positions_Concord_1901.csv
-in2csv xlsx/positions_Concord1902.xlsx	 > csv/positions_Concord_1902.csv
-in2csv xlsx/positions_Concord1904.xlsx	 > csv/positions_Concord_1904.csv
-in2csv xlsx/positions_Concord1906.xlsx	 > csv/positions_Concord_1906.csv
-in2csv xlsx/positions_Concord1908.xlsx	 > csv/positions_Concord_1908.csv
-in2csv xlsx/positions_Concord1909.xlsx	 > csv/positions_Concord_1909.csv
-in2csv xlsx/positions_Jamestown_1866.xlsx	 > csv/positions_Jamestown_1866.csv
-in2csv xlsx/positions_Jamestown_1867.xlsx	 > csv/positions_Jamestown_1867.csv
-in2csv xlsx/positions_Jamestown_1868.xlsx	 > csv/positions_Jamestown_1868.csv
-in2csv xlsx/positions_Jamestown_1869.xlsx	 > csv/positions_Jamestown_1869.csv
-in2csv xlsx/positions_Jamestown_1870.xlsx	 > csv/positions_Jamestown_1870.csv
-in2csv xlsx/positions_Jamestown_1871.xlsx	 > csv/positions_Jamestown_1871.csv
-in2csv xlsx/positions_Jamestown_1876.xlsx	 > csv/positions_Jamestown_1876.csv
-in2csv xlsx/positions_Jamestown_1877.xlsx	 > csv/positions_Jamestown_1877.csv
-in2csv xlsx/positions_Jamestown_1886.xlsx	 > csv/positions_Jamestown_1886.csv
-in2csv xlsx/positions_Jamestown_1888.xlsx	 > csv/positions_Jamestown_1888.csv
-in2csv xlsx/positions_Jamestown_1890.xlsx	 > csv/positions_Jamestown_1890.csv
-in2csv xlsx/positions_Jamestown_1892.xlsx	 > csv/positions_Jamestown_1892.csv
-in2csv xlsx/positions_Perry.xlsx	 > csv/positions_Perry.csv
-in2csv xlsx/positions_Thetis.1884.xlsx	 > csv/positions_Thetis_1884.csv
-in2csv xlsx/positions_UnalgaII.xlsx	 > csv/positions_UnalgaII.csv
-in2csv xlsx/positions_Vicksburg1897.xlsx	 > csv/positions_Vicksburg_1897.csv
-in2csv xlsx/positions_Vicksburg1899.xlsx	 > csv/positions_Vicksburg_1899.csv
-in2csv xlsx/positions_Vicksburg1902.xlsx	 > csv/positions_Vicksburg_1902.csv
-in2csv xlsx/positions_Vicksburg1904.xlsx	 > csv/positions_Vicksburg_1904.csv
-in2csv xlsx/positions_Vicksburg1909.xlsx	 > csv/positions_Vicksburg_1909.csv
-in2csv xlsx/positions_Vicksburg1911.xlsx	 > csv/positions_Vicksburg_1911.csv
-in2csv xlsx/positions_Vicksburg1913.xlsx	 > csv/positions_Vicksburg_1913.csv
-in2csv xlsx/positions_Vicksburg1914.xlsx	 > csv/positions_Vicksburg_1914.csv
-in2csv xlsx/positions_Vicksburg1919.xlsx	 > csv/positions_Vicksburg_1919.csv
-in2csv xlsx/positions_unalga1913.xlsx	 > csv/positions_unalga_1913.csv
-in2csv xlsx/positions_unalga1917.xlsx	 > csv/positions_unalga_1917.csv
-in2csv xlsx/positions_unalga1919.xlsx	 > csv/positions_unalga_1919.csv
-in2csv xlsx/positions_unalga1921.xlsx	 > csv/positions_unalga_1921.csv
-in2csv xlsx/positions_unalga1923.xlsx	 > csv/positions_unalga_1923.csv
-in2csv xlsx/positions_unalga1928.xlsx	 > csv/positions_unalga_1928.csv
-in2csv xlsx/positions_unalga1929.xlsx	 > csv/positions_unalga_1929.csv
-in2csv xlsx/positions_unalga1930.xlsx	 > csv/positions_unalga_1930.csv
-in2csv xlsx/positions_unalga1932.xlsx	 > csv/positions_unalga_1932.csv
+in2csv -H --no-inference  xlsx/positions_Albatross_1884.xlsx	 > csv/positions_Albatross_1884.csv
+in2csv -H --no-inference  xlsx/positions_Albatross_1885.xlsx	 > csv/positions_Albatross_1885.csv
+in2csv -H --no-inference  xlsx/positions_Albatross_1886.xlsx	 > csv/positions_Albatross_1886.csv
+in2csv -H --no-inference  xlsx/positions_Albatross_1887.xlsx	 > csv/positions_Albatross_1887.csv
+in2csv -H --no-inference  xlsx/positions_Albatross_1888.xlsx	 > csv/positions_Albatross_1888.csv
+in2csv -H --no-inference  xlsx/positions_Albatross_1889.xlsx	 > csv/positions_Albatross_1889.csv
+in2csv -H --no-inference  xlsx/positions_Bear1886.xlsx	 > csv/positions_Bear_1886.csv
+in2csv -H --no-inference  xlsx/positions_Bear1887.xlsx	 > csv/positions_Bear_1887.csv
+in2csv -H --no-inference  xlsx/positions_Bear1888.xlsx	 > csv/positions_Bear_1888.csv
+in2csv -H --no-inference  xlsx/positions_Bear1889.xlsx	 > csv/positions_Bear_1889.csv
+in2csv -H --no-inference  xlsx/positions_Bear1890.xlsx	 > csv/positions_Bear_1890.csv
+in2csv -H --no-inference  xlsx/positions_Bear1891.xlsx	 > csv/positions_Bear_1891.csv
+in2csv -H --no-inference  xlsx/positions_Bear1892.xlsx	 > csv/positions_Bear_1892.csv
+in2csv -H --no-inference  xlsx/positions_Bear1892b.xlsx	 > csv/positions_Bear_1892b.csv
+in2csv -H --no-inference  xlsx/positions_Bear1893.xlsx	 > csv/positions_Bear_1893.csv
+in2csv -H --no-inference  xlsx/positions_Bear1894.xlsx	 > csv/positions_Bear_1894.csv
+in2csv -H --no-inference  xlsx/positions_Bear1894b.xlsx	 > csv/positions_Bear_1894b.csv
+in2csv -H --no-inference  xlsx/positions_Bear1895.xlsx	 > csv/positions_Bear_1895.csv
+in2csv -H --no-inference  xlsx/positions_Bear1896.xlsx	 > csv/positions_Bear_1896.csv
+in2csv -H --no-inference  xlsx/positions_Bear1897.xlsx	 > csv/positions_Bear_1897.csv
+in2csv -H --no-inference  xlsx/positions_Bear1898.xlsx	 > csv/positions_Bear_1898.csv
+in2csv -H --no-inference  xlsx/positions_Bear1901.xlsx	 > csv/positions_Bear_1901.csv
+in2csv -H --no-inference  xlsx/positions_Bear1902.xlsx	 > csv/positions_Bear_1902.csv
+in2csv -H --no-inference  xlsx/positions_Bear1903.xlsx	 > csv/positions_Bear_1903.csv
+in2csv -H --no-inference  xlsx/positions_Bear1904.xlsx	 > csv/positions_Bear_1904.csv
+in2csv -H --no-inference  xlsx/positions_Bear1905.xlsx	 > csv/positions_Bear_1905.csv
+in2csv -H --no-inference  xlsx/positions_Bear1906.xlsx	 > csv/positions_Bear_1906.csv
+in2csv -H --no-inference  xlsx/positions_Bear1908.xlsx	 > csv/positions_Bear_1908.csv
+in2csv -H --no-inference  xlsx/positions_Bear1909.xlsx	 > csv/positions_Bear_1909.csv
+in2csv -H --no-inference  xlsx/positions_Bear1910.xlsx	 > csv/positions_Bear_1910.csv
+in2csv -H --no-inference  xlsx/positions_Bear1911.xlsx	 > csv/positions_Bear_1911.csv
+in2csv -H --no-inference  xlsx/positions_Bear1912.xlsx	 > csv/positions_Bear_1912.csv
+in2csv -H --no-inference  xlsx/positions_Bear1918.xlsx	 > csv/positions_Bear_1918.csv
+in2csv -H --no-inference  xlsx/positions_Bear_1884.xlsx	 > csv/positions_Bear_1884.csv
+in2csv -H --no-inference  xlsx/positions_Concord1891.xlsx	 > csv/positions_Concord_1891.csv
+in2csv -H --no-inference  xlsx/positions_Concord1892.xlsx	 > csv/positions_Concord_1892.csv
+in2csv -H --no-inference  xlsx/positions_Concord1893.xlsx	 > csv/positions_Concord_1893.csv
+in2csv -H --no-inference  xlsx/positions_Concord1894.xlsx	 > csv/positions_Concord_1894.csv
+in2csv -H --no-inference  xlsx/positions_Concord1895.xlsx	 > csv/positions_Concord_1895.csv
+in2csv -H --no-inference  xlsx/positions_Concord1896.xlsx	 > csv/positions_Concord_1896.csv
+in2csv -H --no-inference  xlsx/positions_Concord1897.xlsx	 > csv/positions_Concord_1897.csv
+in2csv -H --no-inference  xlsx/positions_Concord1898.xlsx	 > csv/positions_Concord_1898.csv
+in2csv -H --no-inference  xlsx/positions_Concord1899.xlsx	 > csv/positions_Concord_1899.csv
+in2csv -H --no-inference  xlsx/positions_Concord1900.xlsx	 > csv/positions_Concord_1900.csv
+in2csv -H --no-inference  xlsx/positions_Concord1901.xlsx	 > csv/positions_Concord_1901.csv
+in2csv -H --no-inference  xlsx/positions_Concord1902.xlsx	 > csv/positions_Concord_1902.csv
+in2csv -H --no-inference  xlsx/positions_Concord1904.xlsx	 > csv/positions_Concord_1904.csv
+in2csv -H --no-inference  xlsx/positions_Concord1906.xlsx	 > csv/positions_Concord_1906.csv
+in2csv -H --no-inference  xlsx/positions_Concord1908.xlsx	 > csv/positions_Concord_1908.csv
+in2csv -H --no-inference  xlsx/positions_Concord1909.xlsx	 > csv/positions_Concord_1909.csv
+in2csv -H --no-inference  xlsx/positions_Jamestown_1866.xlsx	 > csv/positions_Jamestown_1866.csv
+in2csv -H --no-inference  xlsx/positions_Jamestown_1867.xlsx	 > csv/positions_Jamestown_1867.csv
+in2csv -H --no-inference  xlsx/positions_Jamestown_1868.xlsx	 > csv/positions_Jamestown_1868.csv
+in2csv -H --no-inference  xlsx/positions_Jamestown_1869.xlsx	 > csv/positions_Jamestown_1869.csv
+in2csv -H --no-inference  xlsx/positions_Jamestown_1870.xlsx	 > csv/positions_Jamestown_1870.csv
+in2csv -H --no-inference  xlsx/positions_Jamestown_1871.xlsx	 > csv/positions_Jamestown_1871.csv
+in2csv -H --no-inference  xlsx/positions_Jamestown_1876.xlsx	 > csv/positions_Jamestown_1876.csv
+in2csv -H --no-inference  xlsx/positions_Jamestown_1877.xlsx	 > csv/positions_Jamestown_1877.csv
+in2csv -H --no-inference  xlsx/positions_Jamestown_1886.xlsx	 > csv/positions_Jamestown_1886.csv
+in2csv -H --no-inference  xlsx/positions_Jamestown_1888.xlsx	 > csv/positions_Jamestown_1888.csv
+in2csv -H --no-inference  xlsx/positions_Jamestown_1890.xlsx	 > csv/positions_Jamestown_1890.csv
+in2csv -H --no-inference  xlsx/positions_Jamestown_1892.xlsx	 > csv/positions_Jamestown_1892.csv
+in2csv -H --no-inference  xlsx/positions_Perry.xlsx	 > csv/positions_Perry.csv
+in2csv -H --no-inference  xlsx/positions_Thetis.1884.xlsx	 > csv/positions_Thetis_1884.csv
+in2csv -H --no-inference  xlsx/positions_UnalgaII.xlsx	 > csv/positions_UnalgaII.csv
+in2csv -H --no-inference  xlsx/positions_Vicksburg1897.xlsx	 > csv/positions_Vicksburg_1897.csv
+in2csv -H --no-inference  xlsx/positions_Vicksburg1899.xlsx	 > csv/positions_Vicksburg_1899.csv
+in2csv -H --no-inference  xlsx/positions_Vicksburg1902.xlsx	 > csv/positions_Vicksburg_1902.csv
+in2csv -H --no-inference  xlsx/positions_Vicksburg1904.xlsx	 > csv/positions_Vicksburg_1904.csv
+in2csv -H --no-inference  xlsx/positions_Vicksburg1909.xlsx	 > csv/positions_Vicksburg_1909.csv
+in2csv -H --no-inference  xlsx/positions_Vicksburg1911.xlsx	 > csv/positions_Vicksburg_1911.csv
+in2csv -H --no-inference  xlsx/positions_Vicksburg1913.xlsx	 > csv/positions_Vicksburg_1913.csv
+in2csv -H --no-inference  xlsx/positions_Vicksburg1914.xlsx	 > csv/positions_Vicksburg_1914.csv
+in2csv -H --no-inference  xlsx/positions_Vicksburg1919.xlsx	 > csv/positions_Vicksburg_1919.csv
+in2csv -H --no-inference  xlsx/positions_unalga1913.xlsx	 > csv/positions_unalga_1913.csv
+in2csv -H --no-inference  xlsx/positions_unalga1917.xlsx	 > csv/positions_unalga_1917.csv
+in2csv -H --no-inference  xlsx/positions_unalga1919.xlsx	 > csv/positions_unalga_1919.csv
+in2csv -H --no-inference  xlsx/positions_unalga1921.xlsx	 > csv/positions_unalga_1921.csv
+in2csv -H --no-inference  xlsx/positions_unalga1923.xlsx	 > csv/positions_unalga_1923.csv
+in2csv -H --no-inference  xlsx/positions_unalga1928.xlsx	 > csv/positions_unalga_1928.csv
+in2csv -H --no-inference  xlsx/positions_unalga1929.xlsx	 > csv/positions_unalga_1929.csv
+in2csv -H --no-inference  xlsx/positions_unalga1930.xlsx	 > csv/positions_unalga_1930.csv
+in2csv -H --no-inference  xlsx/positions_unalga1932.xlsx	 > csv/positions_unalga_1932.csv
 

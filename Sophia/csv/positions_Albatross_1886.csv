@@ -103,10 +103,10 @@
   15/02/1886,,,38.9,-77,  navy yard washington dc,            washington dc,,,
   16/02/1886,,,,,,,,,
   16/02/1886,,,37,-76,navy yard washington dc  chesapeake bay,           chesapeake bay,,,
-  17/02/1886,,,55,-1.5,       rappahannock light,                     poti,windmill point light virginia,37.5968N,0002-06-18
+  17/02/1886,,,55,-1.5,       rappahannock light,                     poti,windmill point light virginia,37.5968N,76.2359W
   17/02/1886,,,37,-76.3,hampton roads  navy yard norfolk va,            hampton roads,,,
-  18/02/1886,,,37,-76.3,            hampton roads,              norfolk bay,hampton roads,36 58N,0001-06-04
-  18/02/1886,,,-43,147.8,     navy yard norfolk va,              norfolk bay,norfolk navy yard,36 56.7N,0001-05-12
+  18/02/1886,,,37,-76.3,            hampton roads,              norfolk bay,hampton roads,36 58N,76 22W
+  18/02/1886,,,-43,147.8,     navy yard norfolk va,              norfolk bay,norfolk navy yard,36 56.7N,76 18.8W
   19/02/1886,,,,,,,,,
   19/02/1886,,,-43,147.8,     navy yard norfolk va,              norfolk bay,norfolk navy yard,,
    20/2/1886,,,,,,,,,
@@ -122,9 +122,9 @@
   25/02/1886,,,,,,,,,
   25/02/1886,   24 50 N,   74 36 W,,,   at sea to san salvador,,,,
    26/2/1886,,,,,,,,,
-   26/2/1886,,,32.2,119.3,  san salvador to rum cay,              deer island,san salvador island,24 06N,0001-07-23
+   26/2/1886,,,32.2,119.3,  san salvador to rum cay,              deer island,san salvador island,24 06N,74 29W
   27/02/1886,,,,,,,,,
-  27/02/1886,,,-13,-38.5,          rum cay bahamas,                    bahia,rum cay bahamas,23 41N,0001-12-31
+  27/02/1886,,,-13,-38.5,          rum cay bahamas,                    bahia,rum cay bahamas,23 41N,74 52W
    28/2/1886,,,,,,,,,
    28/2/1886,,,-13,-38.5,          rum bay bahamas,                    bahia,rum cay bahamas,,
   01/03/1886,,,,,,,,,
@@ -146,9 +146,9 @@
   09/03/1886,,,,,,,,,
   09/03/1886,   23 43 N,   75 20 W,52.1,-128.1,      rum bay  cat island,              camp island,rum cay bahamas,,
   10/03/1886,,,,,,,,,
-  10/03/1886,   24 01 N,   75 38 W,52.1,-128.1,  cat island  exuma sound,              camp island,cat island bahamas,24 25N,0001-08-06
+  10/03/1886,   24 01 N,   75 38 W,52.1,-128.1,  cat island  exuma sound,              camp island,cat island bahamas,24 25N,75 31W
   11/03/1886,,,,,,,,,
-  11/03/1886,   24 40 N,   76 11 W,56,-3.2,exuma sound  eleuthera pt,                    leith,eleuthera,25 06N,0001-02-26
+  11/03/1886,   24 40 N,   76 11 W,56,-3.2,exuma sound  eleuthera pt,                    leith,eleuthera,25 06N,76 08W
   12/03/1886,,,,,,,,,
   12/03/1886,   24 52 N,   76 31 W,35.7,-5.3,          eleuthera point,              negra point,eleuthera,,
   13/03/1886,,,,,,,,,
@@ -193,9 +193,9 @@
   01/04/1886,,,,,             key west fla,,,,
     2/4/1886,,,,,,,,,
     2/4/1886,,,,,     key west fla  at sea,,,,
-  03/04/1886,,,30,112.4,     american shoal light,                     hoia,rebecca shoal light,24 34 42N,0001-02-12
+  03/04/1886,,,30,112.4,     american shoal light,                     hoia,rebecca shoal light,24 34 42N,82 35 06W
   03/04/1886,   23 13 N,   81 34 W,23.1,-82.4,at sea and at havana cuba,                   havana,,,
-  04/04/1886,,,35.9,-82.4,          point sabanilla,                    malta,straits of florida,23 56 03N,0001-08-20
+  04/04/1886,,,35.9,-82.4,          point sabanilla,                    malta,straits of florida,23 56 03N,80 55 33W
   04/04/1886,,,23.1,-82.4,              havana cuba,                   havana,,,
   05/04/1886,,,,,,,,,
   05/04/1886,,,23.1,-82.4,              havana cuba,                   havana,,,
@@ -205,20 +205,20 @@
     7/4/1886,,,,,at sea and at key west fla,,,,
   08/04/1886,,,,,,,,,
   08/04/1886,   25 26 N,   79 59 W,30,48.5,   at sea florida straits,                      fao,straits of florida,,
-  09/04/1886,,,30,48.5,     carysfort lighthouse,                      fao,carysfort reef light,25 13 18.74N,0001-10-15
+  09/04/1886,,,30,48.5,     carysfort lighthouse,                      fao,carysfort reef light,25 13 18.74N,80 12 41.11W
   09/04/1886,,,,,,,,,
   09/04/1886,,,,,,,,,
-  09/04/1886,   26 33 N,   78 21 W,12.8,45,at sea florida straits  nw providence channel,                     aden,freeport bahamas,26 31 42.5N,0001-11-30
+  09/04/1886,   26 33 N,   78 21 W,12.8,45,at sea florida straits  nw providence channel,                     aden,freeport bahamas,26 31 42.5N,78 41 47.7W
   10/04/1886,,,,,,,,,
   10/04/1886,   25 23 N,   77 26 W,,,         abaco id  at sea,,,,
   11/04/1886,,,,,,,,,
   11/04/1886,,,,,        green bay  at sea,,,,
   12/04/1886,,,,,,,,,
-  12/04/1886,,,22.4,113.9,at sea tongue of the ocean,                   tongku,tongue of the ocean,24 5 25N,0001-02-12
+  12/04/1886,,,22.4,113.9,at sea tongue of the ocean,                   tongku,tongue of the ocean,24 5 25N,77 14 6W
   13/04/1886,,,,,,,,,
   13/04/1886,   24 50 N,   77 39 W,22.4,113.9,at sea  tongue of the ocean,                   tongku,tongue of the ocean,,
   14/04/1886,,,,,,,,,
-  14/04/1886,,,12.8,45,at sea  at anchor sw bay new providence id,                     aden,new providence,25 02N,0001-06-18
+  14/04/1886,,,12.8,45,at sea  at anchor sw bay new providence id,                     aden,new providence,25 02N,77 24W
    15/4/1886,,,,,,,,,
    15/4/1886,,,12.8,45,at anchor sw bay new providence id,                     aden,new providence,,
   16/04/1886,,,,,,,,,
@@ -249,7 +249,7 @@
   28/04/1886,,,25.1,-77.3,at anchor nassau new providence,                   nassau,,,
   29/04/1886,,,,,,,,,
   29/04/1886,   25 33 N,   76 57 W,25.1,-77.3,        nassau np  at sea,                   nassau,,,
-  30/04/1886,,,56,-3.2,       little guana light,               fog island,elbow cay,26 31 37N,0001-02-05
+  30/04/1886,,,56,-3.2,       little guana light,               fog island,elbow cay,26 31 37N,76 58 05W
   30/04/1886,   26 51 N,   76 05 W,,,,,,,
   01/05/1886,,,13.4,144.7,       little guana light,                     guam,elbow cay,,
   01/05/1886,   27 48 N,   77 37 W,,,,,,,
@@ -267,9 +267,9 @@
   07/05/1886,,,37,-76.3,    at sea  hampton roads,            hampton roads,,,
   08/05/1886,,,,,,,,,
   08/05/1886,,,37,-76.3,hampton roads and potomac river,            hampton roads,,,
-  09/05/1886,,,37,-76,           chesapeake bay,                     poti,chesapeake bay,36 59 45N,0001-08-27
+  09/05/1886,,,37,-76,           chesapeake bay,                     poti,chesapeake bay,36 59 45N,75 57 34W
   09/05/1886,,,38.9,-77,potomac river and navy yard washington dc,            washington dc,,,
-   10/5/1886,,,30.6,41.7,     navy yard washington,                     poti,washington navy yard,38 52 24N,0001-12-10
+   10/5/1886,,,30.6,41.7,     navy yard washington,                     poti,washington navy yard,38 52 24N,76 59 49W
    10/5/1886,,,38.9,-77,  navy yard washington dc,            washington dc,washington navy yard,,
   11/05/1886,,,,,,,,,
   11/05/1886,,,38.9,-77,  navy yard washington dc,            washington dc,washington navy yard,,
@@ -425,7 +425,7 @@
   17/07/1886,   39 42 N,   71 16 W,,,                   at sea,,,,
   18/07/1886,,,,,,,,,
   18/07/1886,,,,,  at sea  woods holl mass,,,,
-  19/07/1886,,,56.4,-5.5,               woods holl,                     oban,woods hole massachusetts,41 31 36N,0001-11-26
+  19/07/1886,,,56.4,-5.5,               woods holl,                     oban,woods hole massachusetts,41 31 36N,70 39 47W
   19/07/1886,,,,,          woods holl mass,,,,
   20/07/1886,,,,,,,,,
   20/07/1886,,,,,          woods holl mass,,,,
@@ -540,7 +540,7 @@
   13/09/1886,,,,,,,,,
   13/09/1886,,,29.9,32.6,woods holl mass  newport ri,                   port t,woods hole massachusetts,,
   14/09/1886,,,,,,,,,
-  14/09/1886,,,29.9,32.6,       newport ri  at sea,                   port t,newport rhode island,41.488002N,0002-05-15
+  14/09/1886,,,29.9,32.6,       newport ri  at sea,                   port t,newport rhode island,41.488002N,71.312622W
    15/9/1886,,,,,,,,,
    15/9/1886,   39 19 N,   70 23 W,,,                   at sea,,,,
    16/9/1886,,,,,,,,,
@@ -626,7 +626,7 @@
   25/10/1886,,,,,,,,,
   25/10/1886,   37 30 N,   73 50 W,,,                   at sea,,,,
   26/10/1886,,,,,,,,,
-  26/10/1886,,,42.2,41.7, at sea and potomac river,                     poti,potomac river,37 59 57N,0002-02-18
+  26/10/1886,,,42.2,41.7, at sea and potomac river,                     poti,potomac river,37 59 57N,76 14 59W
   27/10/1886,,,,,,,,,
   27/10/1886,,,38.9,-77,potomac river  navy yard washington dc,            washington dc,washington navy yard,,
   28/10/1886,,,,,,,,,

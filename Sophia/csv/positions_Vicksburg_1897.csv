@@ -1,7 +1,7 @@
           NA,        NA,        NA_2,        NA_3,        NA_4,                       NA,                       NA_2,h,i,j
 ,,,,,,,,,
 ,,,,,,,,,
-  10/23/1897,,,36.8,-76.3,            portsmouth nh,            portsmouth va,portsmouth new hampshire,43 4 32N,0001-09-24
+  10/23/1897,,,36.8,-76.3,            portsmouth nh,            portsmouth va,portsmouth new hampshire,43 4 32N,70 45 38W
   10/23/1897,,,,,,,,,
   23/10/1897,,,34.7,135.1,            uss vicksberg,                     kobe,portsmouth new hampshire,,
   23/10/1897,,,,,,,,,
@@ -14,7 +14,7 @@
   23/10/1897,,,,,,,,,
   23/10/1897,,,36.8,-76.3,            portsmouth nh,            portsmouth va,portsmouth new hampshire,,
   23/10/1897,,,,,,,,,
-  23/10/1897,,,36.8,-76.3,moored alongside seawall us navy yard portsmouth nh,            portsmouth va,portsmouth navy yard,43 4 44N,0001-01-22
+  23/10/1897,,,36.8,-76.3,moored alongside seawall us navy yard portsmouth nh,            portsmouth va,portsmouth navy yard,43 4 44N,70 44 3W
   24/10/1897,,,,,,,,,
   24/10/1897,,,36.8,-76.3,moored alongside seawall us navy yard portsmouth nh,            portsmouth va,portsmouth navy yard,,
   25/11/1897,,,,,,,,,
@@ -38,10 +38,10 @@
   03/11/1897,,,,,,,,,
   03/11/1897,     42 37,     70 25,36.8,-76.3,moored alongside seawall navy yard portsmouth nh and at sea on trial trip,            portsmouth va,north atlantic,,
   04/11/1897,,,,,,,,,
-  04/11/1897,   42 57 N,   70 23 W,30.5,117.1,standing off and on near isle of shoals light,                   anking,isles of shoals light,42 58 2.04N,0001-06-16
+  04/11/1897,   42 57 N,   70 23 W,30.5,117.1,standing off and on near isle of shoals light,                   anking,isles of shoals light,42 58 2.04N,70 37 23.77W
   05/11/1897,,,,,,,,,
   05/11/1897,     42 56,     70 41,,,,,,,
-  06/11/1897,,,30.6,117.2,lying to off whietling buoy,                    mashi,isles of shoals,42 58 53N,0001-10-15
+  06/11/1897,,,30.6,117.2,lying to off whietling buoy,                    mashi,isles of shoals,42 58 53N,70 36 41W
   06/11/1897,,,36.8,-76.3,moored alongside seawall navy yard portsmouth nh,            portsmouth va,portsmouth navy yard,,
   07/11/1897,,,,,,,,,
   07/11/1897,,,36.8,-76.3,moored alongside seawall navy yard portsmouth nh,            portsmouth va,portsmouth navy yard,,
@@ -161,10 +161,10 @@
   03/01/1897,,,36.8,-76.3,moored alongside seawall navy yard portsmouth nh,            portsmouth va,portsmouth navy yard,,
   04/01/1898,,,,,,,,,
   04/01/1898,   41 52 N,   69 47 W,36.8,-76.3,moored alongside seawall navy yard portsmouth nh,            portsmouth va,north atlantic,,
-  05/01/1898,,,29.9,32.6,making passage to newport ri,                   port t,cape cod,41 41N,0001-03-26
+  05/01/1898,,,29.9,32.6,making passage to newport ri,                   port t,cape cod,41 41N,70 12W
   05/01/1898,   41 12 N,   70 56 W,36.8,32.6,making passage from portsmouth nh to newport ri,                   port t,north atlantic,,
   06/01/1898,,,,,,,,,
-  06/01/1898,,,29.9,32.6,moored to buoy off training station newport ri,                   port t,newport navy yard,41 31 20N,0001-08-13
+  06/01/1898,,,29.9,32.6,moored to buoy off training station newport ri,                   port t,newport navy yard,41 31 20N,71 18 32W
   07/01/1898,,,,,,,,,
   07/01/1898,,,29.9,32.6,moored to buoy off training station newport ri,                   port t,newport navy yard,,
   08/01/1898,,,,,,,,,
@@ -185,9 +185,9 @@
   14/01/1898,,,29.9,32.6,moored to buoy off training station newport ri,                   port t,newport navy yard,,
   15/01/1898,,,,,,,,,
   15/01/1898,,,29.9,32.6,moored to buoy off training station newport ri and making pass,                   port t,newport navy yard,,
-  16/01/1898,,,29.9,32.6,               newport ri,                   port t,newport rhode island,41.488002N,0002-05-15
+  16/01/1898,,,29.9,32.6,               newport ri,                   port t,newport rhode island,41.488002N,71.312622W
   17/01/1898,   38 39 N,   68 43 W,13.2,-59.6,at sea making passage from newport ri to st thomas west indies,                st thomas,north atlantic,,
-  17/01/1898,,,13.2,-59.6,at sea enroute to st thomas wi,                st thomas,bermuda,32 20N,0001-11-12
+  17/01/1898,,,13.2,-59.6,at sea enroute to st thomas wi,                st thomas,bermuda,32 20N,64 45W
   18/01/1898,   35 47 N,   65 50 W,13.2,-59.6,at sea making passage from newport ri to st thomas west indies,                st thomas,north atlantic,,
   18/01/1898,,,,,,,,,
   18/01/1898,   33 32 N,   63 05 W,,,                   at sea,,,,
@@ -220,14 +220,14 @@
   01/02/1898,,,,,,,,,
   01/02/1898,   18 50 N,   62 53 W,13.2,-59.6,                     noon,                st thomas,north atlantic,,
   02/02/1898,,,,,,,,,
-  02/02/1898,   17 59 N,   63 35 W,13.2,-59.6,                     noon,                st thomas,caribbean sea,15N,0002-06-10
-  03/02/1898,,,52.8,-128.5,         saba island sexe,             sarah island,saba,17 38N,0001-04-09
+  02/02/1898,   17 59 N,   63 35 W,13.2,-59.6,                     noon,                st thomas,caribbean sea,15N,75W
+  03/02/1898,,,52.8,-128.5,         saba island sexe,             sarah island,saba,17 38N,63 14W
   03/02/1898,   17 25 N,   63 57 W,13.2,-59.6,                     noon,                st thomas,caribbean sea,,
   04/02/1898,,,,,,,,,
   04/02/1898,   18 12 N,   64 12 W,13.2,-59.6,                     noon,                st thomas,caribbean sea,,
   05/02/1898,,,,,,,,,
-  05/02/1898,   18 19 N,   64 38 W,13.2,-59.6,at anchor charlotte amelia st thomas danish west indies,                st thomas,charlotte amelie usvi,18 21N,0002-02-04
-  06/02/1898,,,13.2,-59.6,                st thomas,                st thomas,saint thomas usvi,18 20N,0002-01-21
+  05/02/1898,   18 19 N,   64 38 W,13.2,-59.6,at anchor charlotte amelia st thomas danish west indies,                st thomas,charlotte amelie usvi,18 21N,64 57W
+  06/02/1898,,,13.2,-59.6,                st thomas,                st thomas,saint thomas usvi,18 20N,64 55W
   06/02/1898,,,18.3,-64.9,at anchor charlotte amelia st thomas danish west indies,         charlotte amalie,,,
   07/02/1898,,,,,,,,,
   07/02/1898,,,18.3,-64.9,at anchor charlotte amelia st thomas,         charlotte amalie,,,
@@ -309,7 +309,7 @@
   13/03/1898,   14 23 N,   62 08 W,14.7,-61,                     noon,               martinique,caribbean sea,,
   14/03/1898,,,14.7,-61,martinique in sight on starboard bow,               martinique,,,
   14/03/1898,   14 40 N,   61 20 W,14.7,-61,at sea making passage from st kitts to st pierre martinique,               martinique,caribbean sea,,
-  15/03/1898,,,-10,39.7,st pierre french west indies,                    lindi,saint pierre martinique,14 44 30N,0001-08-20
+  15/03/1898,,,-10,39.7,st pierre french west indies,                    lindi,saint pierre martinique,14 44 30N,61 10 33W
   15/03/1898,,,14.7,-61,at anchor st pierre martinique french west indies,               martinique,,,
   16/03/1898,,,,,,,,,
   16/03/1898,   15 11 N,   61 44 W,-10,39.7,                     noon,                    lindi,caribbean sea,,
@@ -359,7 +359,7 @@
   07/04/1898,,,36.8,-76.3,moored alongside seawall navy yard portsmouth va,            portsmouth va,,,
   08/04/1898,,,,,,,,,
   08/04/1898,,,36.8,-76.3,moored alongside seawall navy yard portsmouth va,            portsmouth va,,,
-  09/04/1898,,,50.8,-1.1,           portsmouth  va,           portsmouth d 4,portsmouth virginia,36.832994N,0002-06-19
+  09/04/1898,,,50.8,-1.1,           portsmouth  va,           portsmouth d 4,portsmouth virginia,36.832994N,76.297230W
   09/04/1898,,,36.8,-76.3,moored alongside seawall navy yard portsmouth va,            portsmouth va,,,
   10/04/1898,,,,,,,,,
   10/04/1898,,,36.8,-76.3,moored alongside seawall navy yard portsmouth va,            portsmouth va,,,
@@ -378,7 +378,7 @@
   17/04/1898,,,,,,,,,
   17/04/1898,,,36.8,-76.3,moored alongside ordnance dock navy yard portsmouth va,            portsmouth va,,,
   18/04/1898,,,,,,,,,
-  18/04/1898,,,-43,147.8,anchored off naval hospital norfolk va,              norfolk bay,norfolk virginia,36 55N,0001-03-26
+  18/04/1898,,,-43,147.8,anchored off naval hospital norfolk va,              norfolk bay,norfolk virginia,36 55N,76 12W
   19/04/1898,,,,,,,,,
   19/04/1898,,,-43,147.8,anchored off naval hospital norfolk va,              norfolk bay,norfolk virginia,,
   20/04/1898,,,,,,,,,
@@ -414,15 +414,15 @@
   29/04/1898,,,,,,,,,
   29/04/1898,   27 43 N,   80 02 W,,,                     noon,,,,
   30/04/1898,,,,,,,,,
-  30/04/1898,   24 40 N,,-43,147.8,at sea making passage from norfolk va toward key west,              norfolk bay,florida keys,24 40 01N,0001-10-01
+  30/04/1898,   24 40 N,,-43,147.8,at sea making passage from norfolk va toward key west,              norfolk bay,florida keys,24 40 01N,81 32 39W
   01/05/1898,,,,,,,,,
   01/05/1898,   24 40 N,,-43,147.8,at sea making passage fro norfolk va toward key west fla,              norfolk bay,florida keys,,
   01/05/1898,,,,,,,,,
-  01/05/1898,,,30,48.5,at anchor off key west florida,                      fao,key west florida,24 33 33N,0001-01-18
+  01/05/1898,,,30,48.5,at anchor off key west florida,                      fao,key west florida,24 33 33N,81 47 2.51W
   02/05/1898,,,,,,,,,
   02/05/1898,,,30,48.5,at anchor off key west florida,                      fao,key west florida,,
   03/05/1898,,,,,,,,,
-  03/05/1898,,,23.1,-82.4,at anchor off key west fla making passage to havana cuba,                   havana,straits of florida,23 56 03N,0001-08-20
+  03/05/1898,,,23.1,-82.4,at anchor off key west fla making passage to havana cuba,                   havana,straits of florida,23 56 03N,80 55 33W
   04/05/1898,,,,,,,,,
   04/05/1898,,,23.1,-82.4,at sea making passage from key west to havana and on blockade duty off havana,                   havana,straits of florida,,
   05/05/1898,,,,,,,,,
@@ -492,7 +492,7 @@
   03/06/1898,,,,,,,,,
   03/06/1898,   23 15 N,   80 12 W,55,-1.5,at sea and at cay piedras,                      tic,straits of florida,,
   04/06/1898,,,,,,,,,
-  04/06/1898,   23 22 N,   81 12 W,55,-1.5,at sea and at cay piedras,                      tic,varadero,23 08 22N,0001-03-12
+  04/06/1898,   23 22 N,   81 12 W,55,-1.5,at sea and at cay piedras,                      tic,varadero,23 08 22N,81 17 10W
   05/06/1898,,,,,,,,,
   05/06/1898,   23 19 N,   81 15 W,55,-1.5,at sea and at cay piedras,                      tic,varadero,,
   06/06/1898,,,,,,,,,
@@ -658,7 +658,7 @@
   21/08/1898,,,,,,,,,
   21/08/1898,   39 30 N,   72 13 W,,,                     noon,,,,
   22/08/1898,,,,,,,,,
-  22/08/1898,,,29.9,32.6,making passage toward newport ri and at anchor off block id and moored to buoy at neweport ri,                   port t,block island,41 10 11N,0001-12-03
+  22/08/1898,,,29.9,32.6,making passage toward newport ri and at anchor off block id and moored to buoy at neweport ri,                   port t,block island,41 10 11N,71 34 48W
   23/08/1898,,,,,,,,,
   23/08/1898,,,29.9,32.6,moored to buoy off newport ri,                   port t,newport rhode island,,
   24/08/1898,,,,,,,,,
@@ -668,7 +668,7 @@
   26/08/1898,,,,,,,,,
   26/08/1898,,,29.9,32.6,making passage towards newport ri at anchor off block id and moored to buoy at newport ri,                   port t,newport rhode island,,
   27/08/1898,,,,,,,,,
-  27/08/1898,,,29.9,32.6,at anchor off newport riand making passage to fort pond bay and return,                   port t,fort pond bay,41 03 03N,0001-03-12
+  27/08/1898,,,29.9,32.6,at anchor off newport riand making passage to fort pond bay and return,                   port t,fort pond bay,41 03 03N,71 58 10W
   28/08/1898,,,,,,,,,
   28/08/1898,,,36.8,-76.3,at anchor off newport ri and making passage toward portsmouth nh,            portsmouth va,newport rhode island,,
   29/08/1898,,,,,,,,,
@@ -676,7 +676,7 @@
   30/08/1898,,,,,,,,,
   30/08/1898,,,36.8,-76.3,mooored to dock at navy yard portsmouth nh,            portsmouth va,portsmouth navy yard,,
   31/08/1898,,,,,,,,,
-  31/08/1898,,,-17.5,-149.8,moored to dock at navy yard kitery me,                   moorea,kittery maine,43 05 17N,0001-03-12
+  31/08/1898,,,-17.5,-149.8,moored to dock at navy yard kitery me,                   moorea,kittery maine,43 05 17N,70 44 10W
   01/09/1898,,,,,,,,,
   01/09/1898,,,-17.5,-149.8,moored alongside navy yard kittery me,                   moorea,kittery maine,,
   02/09/1898,,,,,,,,,
@@ -704,7 +704,7 @@
   13/09/1898,,,,,,,,,
   13/09/1898,,,29.9,32.6,moored alongside navy yard kittery me and making passage to newport rd,                   port t,kittery maine,,
   14/09/1898,,,,,,,,,
-  14/09/1898,,,29.9,32.6,making passage to newport ri through vineyard sound and moored to buoy at newport ri,                   port t,vineyard sound,41 26 30N,0001-07-16
+  14/09/1898,,,29.9,32.6,making passage to newport ri through vineyard sound and moored to buoy at newport ri,                   port t,vineyard sound,41 26 30N,70 46 28W
   15/09/1898,,,,,,,,,
   15/09/1898,,,29.9,32.6,moored to buoy off training station newport ri,                   port t,newport rhode island,,
   16/09/1898,,,,,,,,,
@@ -722,7 +722,7 @@
   22/09/1898,,,,,,,,,
   22/09/1898,,,-43,147.8,making passage to and anchored at norfolk va,              norfolk bay,norfolk virginia,,
   23/09/1898,,,,,,,,,
-  23/09/1898,,,-43,147.8,anchored off norfolk navy yard,              norfolk bay,navy yard norfolk,36 56.7N,0001-05-12
+  23/09/1898,,,-43,147.8,anchored off norfolk navy yard,              norfolk bay,navy yard norfolk,36 56.7N,76 18.8W
   24/09/1898,,,,,,,,,
   24/09/1898,,,-43,147.8,anchored off norfolk navy yard,              norfolk bay,navy yard norfolk,,
   25/09/1898,,,,,,,,,
@@ -840,7 +840,7 @@
   10/11/1898,,,,,,,,,
   10/11/1898,   24 52 N,   55 37 W,,,                     noon,,,,
   11/11/1898,,,,,,,,,
-  11/11/1898,   22 38 N,   24 43 W,,,                     noon,,north atlantic,,0002-01-14
+  11/11/1898,   22 38 N,   24 43 W,,,                     noon,,north atlantic,,54W
   12/11/1898,,,,,,,,,
   12/11/1898,   20 56 N,   54 40 W,,,                     noon,,,,
   13/11/1898,,,,,,,,,
@@ -887,7 +887,7 @@
   29/11/1898,,,,,,,,,
   29/11/1898,,,,,,,,,
   29/11/1898,,,10.7,-61.5,standing into the gulf of paria and at anchor off port of spain trinidad bvi,     port of spain trinid,,,
-  30/11/1898,,,29.9,32.6,boca grande channel and up to port spain,                   port t,bocas del dragon,10 45N,0001-11-19
+  30/11/1898,,,29.9,32.6,boca grande channel and up to port spain,                   port t,bocas del dragon,10 45N,61 46W
   30/11/1898,,,10.7,-61.5,standing into the gulf of paria and at anchor off port of spain trinidad,     port of spain trinid,,,
   30/11/1898,,,,,,,,,
   30/11/1898,,,,,,,,,
@@ -906,11 +906,11 @@
   06/12/1898,,,,,,,,,
   06/12/1898,,,,,,,,,
   06/12/1898,,,,,,,,,
-  06/12/1898,,,10.7,-61.5,at anchor off port of spain trinidad underway in the gulf of paria and at anchor off port bres trinidad bwi,     port of spain trinid,gulf of paria,10 23N,0001-05-28
+  06/12/1898,,,10.7,-61.5,at anchor off port of spain trinidad underway in the gulf of paria and at anchor off port bres trinidad bwi,     port of spain trinid,gulf of paria,10 23N,62 21W
   07/12/1898,,,,,,,,,
   07/12/1898,     11 01,     61 45,10.7,-61.5,at anchor off point bren trinidad and making passage thence to st lucia,                 trinidad,caribbean sea,,
   08/12/1898,,,,,,,,,
-  08/12/1898,,,10.7,-61.5,at sea making passage from point bren trinidad towards st lucia,                 trinidad,grenada,12 07N,0001-10-08
+  08/12/1898,,,10.7,-61.5,at sea making passage from point bren trinidad towards st lucia,                 trinidad,grenada,12 07N,61 40W
   08/12/1898,,,,,,,,,
   08/12/1898,   12 19 N,   61 50 W,10.7,-61.5,at sea making passage from point brea trinidad towards st lucia,                 trinidad,grenada,,
   09/12/1898,,,16.8,-61.7,at day break grenada at about 90 miles on starboard,                  grenada,grenada,,
