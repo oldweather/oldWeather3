@@ -12,16 +12,24 @@ my @SFiles=glob("$FindBin::Bin/csv/*.csv");
 # Convert '12 34 56 N' latitudes to the decimal equivalent
 sub ll_to_dec {
     my $orig = shift;
-    if($orig =~ /(\d\d)\s+(\d\d)+\s+(\d\d+)(\w)/) {
-        my $result=$1;
-	if(defined($2)) { $result += $2/60; }
-        if(defined($3)) { $result += $3/(60*60);}
-        if(defined($4) && (lc($4) eq 's' || lc($4) eq 'w')) {
-	    $result *= -1;
-	}
-        return($result);
+    $orig=lc($orig);
+    my $Hemisphere=1;
+    if($orig =~/w/ || $orig =~ /s/) {
+	$Hemisphere=-1;
     }
-    return($orig);
+    my @of = split /\s+/,$orig;
+    my $result='';
+    if(defined($of[0]) && $of[0] =~ /([\d\+\.]+)/) {
+	$result=$1;
+	if(defined($of[1]) && $of[1] =~ /([\d\+\.]+)/) {
+	    $result += $1/60;
+	}
+	if(defined($of[2]) && $of[2] =~ /([\d\+\.]+)/) {
+	    $result += $1/(60*60);
+	}
+	$result *= $Hemisphere;
+    }
+    return($result);
 }
 
 # Get the corrected positions for each ship.
