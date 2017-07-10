@@ -26,7 +26,7 @@ open(DIN,"$FindBin::Bin/dates.qc") or die;
 while (my $Line = <DIN>) {
     chomp $Line;
     my @fields = split /\t/,$Line;
-    $Date{$fields[0]}=$fields[2];
+    $Dates{$fields[0]}=$fields[2];
 }
 close(DIN);
 
@@ -51,7 +51,7 @@ while (my $Line = <DIN>) {
     my $Hour =$fields[1];
     
     # Is there any data for this line? A Date, position, or obs?
-    if(defined($Date{$Asset})                      ||
+    if(defined($Dates{$Asset})                      ||
        (defined($Latitudes{$Asset}) && $Hour==12)  ||
        (defined($Longitudes{$Asset}) && $Hour==12) ||
        defined($fields[2])                         ||  #AT
@@ -63,9 +63,9 @@ while (my $Line = <DIN>) {
 	$Ob->{ID}=$Name;
 
         # Date - In ship's time at this point
-        if(defined($Date{$Asset})) {
-	    unless($Date{$Asset} =~ /(\d\d)\D(\d\d)\D(\d\d\d\d))/) {
-		die("Bad date $Date{$Asset}");
+        if(defined($Dates{$Asset})) {
+	    unless($Dates{$Asset} =~ /(\d\d)\D(\d\d)\D(\d\d\d\d))/) {
+		die("Bad date $Dates{$Asset}");
 	    }
             $Ob->{YR} = $3;
             $Ob->{MO} = $2;
