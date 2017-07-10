@@ -50,85 +50,52 @@ while (my $Line = <DIN>) {
     my $Asset=$fields[0];
     my $Hour =$fields[1];
     
-    # Is there any data for this line? A Date or obs?
-    if((defined($Latitudes{$Asset} && $Hour==12) ||
+    # Is there any data for this line? A Date, position, or obs?
+    if(defined($Date{$Asset})                      ||
+       (defined($Latitudes{$Asset}) && $Hour==12)  ||
+       (defined($Longitudes{$Asset}) && $Hour==12) ||
+       defined($fields[2])                         ||  #AT
+       defined($fields[5])) {                          #SLP
 	
 	my $Ob = new MarineOb::IMMA;
 	$Ob->clear();    # Why is this necessary?
 	push @{ $Ob->{attachments} }, 0;
 	$Ob->{ID}=$Name;
 
+        # Date - In ship's time at this point
+        if(defined($Date{$Asset})) {
+	    unless($Date{$Asset} =~ /(\d\d)\D(\d\d)\D(\d\d\d\d))/) {
+		die("Bad date $Date{$Asset}");
+	    }
+            $Ob->{YR} = $3;
+            $Ob->{MO} = $2;
+            $Ob->{DY} = $1;
+            $Ob->{HR} = $Hour;
+	}
 
-foreach my $Year (1922..1935) {
+        # Positions
+        if($Hour==12) {
+            if(defined($Latitudes{$Asset})) {
+		$Ob->{LAT} = $Latitudes{$Asset};
+                $Last_lat = $Ob->{LAT};
+	    }
+            if(defined($Longitudes{$Asset})) {
+		$Ob->{LON} = $Longitudes{$Asset};
+                $Last_lon = $Ob->{LON};
+	    }
+	}
 
-    printf "Year=%04d\n",$Year;
-
-    # Get the positions
-    %Positions=();
-    open(DIN,sprintf "<positions.qc.annual/%04d.out",$Year) or die;
-    while(my $Line = <DIN>) {
-	chomp($Line);
-	my @Fields = split /\t/,$Line;
-	if(!defined($Fields[0]) || $Fields[0] =~ /NA/) { next; }
-	unless($Fields[0] =~ /(\d+)\/(\d+)\/(\d\d\d\d)/) { die "Bad date $Fields[0]"; }
-	$Fields[0] = sprintf "%04d-%02d-%02d",$3,$2,$1;
-	for(my $i=0;$i<=4;$i++) {
-	    if($Fields[$i] eq 'NA') { $Fields[$i]=undef; }
-	}
-	if(defined($Fields[1]) && $Fields[1] =~ /(\d+)\D+(\d+)/) {
-	    $Positions{$Fields[0]}[0]=$1+$2/60;
-	}
-	elsif(defined($Fields[3]) && $Fields[3] =~ /\d+/) {
-	   $Positions{$Fields[0]}[0]=$Fields[3];
-	}
-	if(defined($Fields[2]) && $Fields[2] =~ /(\d+)\D+(\d+)/) {
-	    $Positions{$Fields[0]}[1]=($1+$2/60)*-1;
-	}
-	elsif(defined($Fields[4]) && $Fields[4] =~ /\d+/) {
-	   $Positions{$Fields[0]}[1]=$Fields[4];
-	}
-    }
-    close(DIN);
-
-    @Imma=();
-    open(DIN,sprintf "<obs.qc.annual/%04d.out",$Year) or die;
-    while(my $Line = <DIN>) {
-	chomp($Line);
-	$Line =~ s/\"//g;
-	if($Line =~ /NA\s+NA\s+NA\s+NA/) { next; } # No obs.
-	my @Fields = split /\t/,$Line;
-	if(!defined($Fields[0]) || $Fields[0] =~ /NA/) { next; }
-
-	my $Ob = new MarineOb::IMMA;
-	$Ob->clear();    # Why is this necessary?
-	push @{ $Ob->{attachments} }, 0;
-	$Ob->{ID}=$Name;
-	if($Fields[0] =~ /NA/) {
-	    $Fields[0]=$Last_date;
-	} else {
-	    $Last_date=$Fields[0];
-	}
-	$Ob->{YR} = substr($Fields[0],0,4);
-	$Ob->{MO} = substr($Fields[0],5,2);
-	$Ob->{DY} = substr($Fields[0],8,2);
-	$Ob->{HR} = $Fields[1];
-	if(!check_date($Ob->{YR},$Ob->{MO},$Ob->{DY})) {
-	    warn $Line;
-	    die;
-	}
-	if($Ob->{HR}==24) { $Ob->{HR}=23.99; }
-	# Still in local time - don't yet have longitude
-	if(defined($Positions{$Fields[0]}) && $Ob->{HR}==12) {
-	  $Ob->{LAT} = $Positions{$Fields[0]}[0];
-	  $Ob->{LON} = $Positions{$Fields[0]}[1];
-	  delete($Positions{$Fields[0]});
-	}
+        # Air temperature
 	if($Fields[2] ne 'NA') {
 	   $Ob->{AT} = fxtftc($Fields[2]);
 	}
+
+        # SST
 	if($Fields[3] ne 'NA') {
 	   $Ob->{SST} = fxtftc($Fields[3]);
 	}
+
+        # Pressure
 	if($Fields[5] ne 'NA' ) {
 	    if($Fields[5]>2800) { $Fields[5]/=100; } # Omitted decimal point
             if($Fields[5] =~ /(\d\d)\D(\d+)/) {
@@ -144,74 +111,50 @@ foreach my $Year (1922..1935) {
 		$Fields[5] += fwbptf($Fields[5],$Fields[4]);
 	    }
 	    $Ob->{SLP}=fxeimb($Fields[5]);
+
 	    # No gravity correction yet, don't have latitude
-	}
+
+        }
 	push @Imma,$Ob;
-    }
-    close(DIN);
+    } # End of ob line
+} # End of obs.
 
-    # Add position only obs if we have any locations without obs
-    foreach my $Date (keys(%Positions)) {
-	my $Ob = new MarineOb::IMMA;
-	$Ob->clear();
-	push @{ $Ob->{attachments} }, 0;
-	$Ob->{ID}=$Name;
-	$Ob->{YR} = substr($Date,0,4);
-	$Ob->{MO} = substr($Date,5,2);
-	$Ob->{DY} = substr($Date,8,2);
-	$Ob->{HR} = 12;
-	$Ob->{LAT} = $Positions{$Date}[0];
-	$Ob->{LON} = $Positions{$Date}[1];
-	push @Imma,$Ob;
-    }
+# Sort into date order
+@Imma= sort imma_by_date @Imma;
 
-    @Imma= sort imma_by_date @Imma;
+# Interpolate positions
+fill_gaps('LAT');
+fill_gaps('LON');
 
-    # Interpolate latitudes
-    fill_gaps('LAT');
-    fill_gaps('LON');
-    #for(my $i=0;$i<100;$i++) {
-    #   if($Imma[$i]->{YR}==1879 && $Imma[$i]->{MO}==6 &&
-    #      !defined($Imma[$i]->{LAT})) {
-    #       $Imma[$i]->{LAT} = 38.1;
-    #       $Imma[$i]->{LON} = -122.3;
-    #   }
-    #}
-
-    # Now we've got positions - convert the dates to UTC
-    my $elon;
-    for(my $i=0;$i<scalar(@Imma);$i++) {
-	# They did not change day until July 19
-	if($Imma[$i]->{YR}==1881 && $Imma[$i]->{MO}==7 &&
-	   $Imma[$i]->{DY} && $Imma[$i]->{DY}<19) {
-	    $Imma[$i]->{DY}++;
-	}
-	if(defined($Imma[$i]->{LON})) { $Last_lon=$Imma[$i]->{LON};}
-	$elon=$Last_lon;
-	if ( $elon < 0 ) { $elon += 360; }
-	my ( $uhr, $udy ) = rxltut(
-	    $Imma[$i]->{HR} * 100,
-	    ixdtnd( $Imma[$i]->{DY}, $Imma[$i]->{MO}, $Imma[$i]->{YR} ),
-	    $elon * 100
-	);
-	$Imma[$i]->{HR} = $uhr / 100;
-	( $Imma[$i]->{DY}, $Imma[$i]->{MO}, $Imma[$i]->{YR} ) = rxnddt($udy);
-    }
-    # and gravity-correct the pressures
-    for(my $i=0;$i<scalar(@Imma);$i++) {
-	if(defined($Imma[$i]->{LAT}) && defined($Imma[$i]->{SLP})) {
-	   $Imma[$i]->{SLP} += fwbpgv( $Imma[$i]->{SLP}, $Imma[$i]->{LAT}, 2 );
-	}
-    }
-
-    # Done - output the new obs
-    open(DOUT,sprintf ">imma.annual/Pioneer.%04d.imma",$Year) or die;
-    for(my $i=0;$i<scalar(@Imma);$i++) {
-	$Imma[$i]->write(\*DOUT);
-    }
-    close(DOUT);
-
+# Now we've got positions - convert the dates to UTC
+my $elon;
+for(my $i=0;$i<scalar(@Imma);$i++) {
+    if(defined($Imma[$i]->{LON})) { $Last_lon=$Imma[$i]->{LON};}
+    $elon=$Last_lon;
+    if ( $elon < 0 ) { $elon += 360; }
+    my ( $uhr, $udy ) = rxltut(
+	$Imma[$i]->{HR} * 100,
+	ixdtnd( $Imma[$i]->{DY}, $Imma[$i]->{MO}, $Imma[$i]->{YR} ),
+	$elon * 100
+    );
+    $Imma[$i]->{HR} = $uhr / 100;
+    ( $Imma[$i]->{DY}, $Imma[$i]->{MO}, $Imma[$i]->{YR} ) = rxnddt($udy);
 }
+
+# Now every ob has a latitude, gravity correct the pressures
+for(my $i=0;$i<scalar(@Imma);$i++) {
+    if(defined($Imma[$i]->{LAT}) && defined($Imma[$i]->{SLP})) {
+       $Imma[$i]->{SLP} += fwbpgv( $Imma[$i]->{SLP}, $Imma[$i]->{LAT}, 2 );
+    }
+}
+
+# Done - output the new obs
+open(DOUT,sprintf ">%s.imma",$Name) or die;
+for(my $i=0;$i<scalar(@Imma);$i++) {
+    $Imma[$i]->write(\*DOUT);
+}
+close(DOUT);
+
 
 sub imma_by_date {
     return($a->{YR} <=> $b->{YR} ||
