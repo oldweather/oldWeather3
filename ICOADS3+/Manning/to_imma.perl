@@ -118,8 +118,7 @@ while (my $Line = <DIN>) {
     my $ALon=longitude_from_asset($Asset);
     if($fields[2] ne 'NA'                           ||  #AT
        $fields[3] ne 'NA'                           ||  #SST
-       $fields[5] ne 'NA'                           ||  # SLP
-       ($Hour==12 && position_only($Asset)) ) {
+       $fields[5] ne 'NA') {
 	
 	my $Ob = new MarineOb::IMMA;
 	$Ob->clear();    # Why is this necessary?
