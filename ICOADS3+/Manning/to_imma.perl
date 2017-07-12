@@ -193,13 +193,6 @@ while (my $Line = <DIN>) {
     } # End of ob line
 } # End of obs.
 # Sort into date order
-# Done - output the new obs
-open(DOUT,sprintf ">../../imma_3+/%s.imma",$Name) or die;
-for(my $i=0;$i<scalar(@Imma);$i++) {
-    $Imma[$i]->write(\*DOUT);
-}
-close(DOUT);
-die;
 
 @Imma= sort imma_by_date @Imma;
 
