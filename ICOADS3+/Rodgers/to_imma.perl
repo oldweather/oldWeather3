@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# Process digitised logbook data from Concord into
+# Process digitised logbook data from Rodgers into
 #  IMMA records.
 
 use strict;
@@ -12,36 +12,68 @@ use MarineOb::lmrlib
      fwbptf fwbptc);
 use Date::Calc qw(check_date check_time Delta_DHMS);
 use FindBin;
+use Data::Dumper;
+use Clone qw(clone);
 
-my $Name='Concord';
-my $Last_lat=40.7;
-my $Last_lon=-73.9;
+my $Name='Rodgers';
+my $Last_lat=38.09;
+my $Last_lon=-122.27;
 my $Last_pre_inches=29;
 my $Last_date;
 my @Imma;
 
 # Read in the dates
 my %Dates;
+my %ODates;
 open(DIN,"$FindBin::Bin/dates.qc") or die;
 while (my $Line = <DIN>) {
     chomp $Line;
     my @fields = split /\t/,$Line;
-    $Dates{$fields[0]}=$fields[2];
+    if($fields[2] =~ /\d\d\D\d\d\D\d\d\d\d/) { $Dates{$fields[0]}=$fields[2];  }
+    if($fields[1] =~ /\d\d\D\d\d\D\d\d\d\d/) { $ODates{$fields[0]}=$fields[1]; }
 }
 close(DIN);
+#print Dumper %Dates;
+#die;
 
 # Read in the positions
 my %Latitudes;
 my %Longitudes;
-open(DIN,"$FindBin::Bin/positions.qc") or die;
+open(DIN,"$FindBin::Bin/positions.out.olddates") or die;
 while (my $Line = <DIN>) {
     chomp $Line;
-    my @fields = split /\t/,$Line;
-    $Latitudes{$fields[0]}=$fields[2];
-    $Longitudes{$fields[0]}=$fields[3];
+    my @fields = split /,/,$Line;
+    if($fields[1] ne 'NA') { $Latitudes{$fields[0]}=$fields[1]; }
+    if($fields[2] ne 'NA') { $Longitudes{$fields[0]}=$fields[2]; }
 }
 close(DIN);
 
+sub latitude_from_asset {
+    my $AssetID = shift;
+    unless(defined($ODates{$AssetID})) { return; }
+    $ODates{$AssetID} =~ /(\d\d)\D(\d\d)\D(\d\d\d\d)/;
+    my $Key = sprintf "%04d-%02d-%02d",$3,$2,$1;
+    unless(defined($Latitudes{$Key})) { return; }
+    return $Latitudes{$Key};
+}
+sub longitude_from_asset {
+    my $AssetID = shift;
+    unless(defined($ODates{$AssetID})) { return; }
+    $ODates{$AssetID} =~ /(\d\d)\D(\d\d)\D(\d\d\d\d)/;
+    my $Key = sprintf "%04d-%02d-%02d",$3,$2,$1;
+    unless(defined($Longitudes{$Key})) { return; }
+    return $Longitudes{$Key};
+}
+
+my %Seen;
+sub position_only {
+    my $Asset = shift;
+    unless(defined($Dates{$Asset})) { return 0; }
+    $Dates{$Asset} =~ /(\d\d)\D(\d\d)\D(\d\d\d\d)/;  
+    if($Seen{sprintf "%04d%02d%02d12",$3,$2,$1}) { return 0; }
+    return 1;
+}
+       
 # Process the obs
 open(DIN,"$FindBin::Bin/obs.raw") or die;
 while (my $Line = <DIN>) {
@@ -51,11 +83,12 @@ while (my $Line = <DIN>) {
     my $Hour =$fields[1];
     
     # Is there any data for this line? A position, or obs?
-    if((defined($Latitudes{$Asset}) && $Hour==12)   ||
-       (defined($Longitudes{$Asset}) && $Hour==12)  ||
-       $fields[2] ne 'NA'                           ||  #AT
+    my $ALat=latitude_from_asset($Asset);
+    my $ALon=longitude_from_asset($Asset);
+    if($fields[2] ne 'NA'                           ||  #AT
        $fields[3] ne 'NA'                           ||  #SST
-       $fields[5] ne 'NA') {                            #SLP
+       $fields[5] ne 'NA'                           ||  # SLP
+       ($Hour==12 && position_only($Asset)) ) {
 	
 	my $Ob = new MarineOb::IMMA;
 	$Ob->clear();    # Why is this necessary?
@@ -79,13 +112,11 @@ while (my $Line = <DIN>) {
 
         # Positions
         if($Hour==12) {
-            if(defined($Latitudes{$Asset})) {
-		$Ob->{LAT} = $Latitudes{$Asset};
-                $Last_lat = $Ob->{LAT};
+            if(defined($ALat)) {
+		$Ob->{LAT} = $ALat;
 	    }
-            if(defined($Longitudes{$Asset})) {
-		$Ob->{LON} = $Longitudes{$Asset};
-                $Last_lon = $Ob->{LON};
+            if(defined($ALon)) {
+		$Ob->{LON} = $ALon;
 	    }
 	}
 
@@ -125,7 +156,8 @@ while (my $Line = <DIN>) {
         push @{ $Ob->{attachments} }, 99;
         $Ob->{ATTE} = undef;
         $Ob->{SUPD} = $Asset;
-	
+
+	$Seen{sprintf "%04d%02d%02d%02d",$Ob->{YR},$Ob->{MO},$Ob->{DY},$Ob->{HR}}=1;
 	push @Imma,$Ob;
     } # End of ob line
 } # End of obs.
@@ -133,15 +165,9 @@ while (my $Line = <DIN>) {
 @Imma= sort imma_by_date @Imma;
 
 # Interpolate positions
+my @Imma_old=@{clone(\@Imma)};
 fill_gaps('LAT');
 fill_gaps('LON');
-# Done - output the new obs
-open(DOUT,sprintf ">../../imma_3+/%s.imma",$Name) or die;
-for(my $i=0;$i<scalar(@Imma);$i++) {
-    $Imma[$i]->write(\*DOUT);
-}
-close(DOUT);
-die;
 
 # Now we've got positions - convert the dates to UTC
 my $elon;
@@ -224,8 +250,8 @@ sub find_previous {
     my $Var = shift;
     my $Point = shift;
     for ( my $j = $Point - 1 ; $j >= 0 ; $j-- ) {
-        if ( defined( $Imma[$j]->{$Var}) &&
-             IMMA_check_date($Imma[$j])) { return($j); }
+        if ( defined( $Imma_old[$j]->{$Var}) &&
+             IMMA_check_date($Imma_old[$j])) { return($j); }
     }
     return;
 }
@@ -234,17 +260,17 @@ sub find_previous {
 sub find_next {
     my $Var = shift;
     my $Point = shift;
-    for ( my $j = $Point + 1 ; $j < scalar(@Imma) ; $j++ ) {
-        if ( defined( $Imma[$j]->{$Var}) &&
-             IMMA_check_date($Imma[$j])) { return($j); }
+    for ( my $j = $Point + 1 ; $j < scalar(@Imma_old) ; $j++ ) {
+        if ( defined( $Imma_old[$j]->{$Var}) &&
+             IMMA_check_date($Imma_old[$j])) { return($j); }
     }
    return;
 }
 
 sub fill_gaps {
     my $Var = shift;
-    for ( my $i = 0 ; $i < scalar(@Imma) ; $i++ ) {
-	if ( defined( $Imma[$i]->{$Var} ) ) {
+    for ( my $i = 0 ; $i < scalar(@Imma_old) ; $i++ ) {
+	if ( defined( $Imma_old[$i]->{$Var} ) ) {
 	    next;
 	}
 	my $Previous = find_previous($Var,$i);
@@ -270,11 +296,8 @@ sub interpolate {
 
     # Give up if the gap is too long
     if ( !defined($Previous) || !defined($Next) ||
-	 !defined($Previous->{LAT}) || !defined($Next->{LAT}) ||
-	 !defined($Previous->{LON}) || !defined($Next->{LON}) ||
-        IMMA_Delta_Seconds( $Previous, $Next ) > $Max_days*86400
-        && (   abs( $Previous->{LON} - $Next->{LON} ) > 5
-            || abs( $Previous->{LAT} - $Next->{LAT} ) > 5 )
+	 !defined($Previous->{$Var}) || !defined($Next->{$Var}) ||
+         (IMMA_Delta_Seconds( $Previous, $Next ) > $Max_days*86400)
       )
     {
         return;
