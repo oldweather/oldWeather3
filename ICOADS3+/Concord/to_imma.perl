@@ -12,6 +12,7 @@ use MarineOb::lmrlib
      fwbptf fwbptc);
 use Date::Calc qw(check_date check_time Delta_DHMS);
 use FindBin;
+use Clone qw(clone);
 
 my $Name='Concord';
 my $Last_lat=40.7;
@@ -133,6 +134,7 @@ while (my $Line = <DIN>) {
 @Imma= sort imma_by_date @Imma;
 
 # Interpolate positions
+my @Imma_old=@{clone(\@Imma)};
 fill_gaps('LAT');
 fill_gaps('LON');
 # Done - output the new obs
@@ -146,6 +148,16 @@ die;
 # Now we've got positions - convert the dates to UTC
 my $elon;
 for(my $i=0;$i<scalar(@Imma);$i++) {
+    if(!defined($Imma[$i]->{YR}) ||
+       !defined($Imma[$i]->{MO}) ||
+       !defined($Imma[$i]->{DY}) ||
+       !defined($Imma[$i]->{HR})) {
+	    $Imma[$i]->{YR} = undef;
+	    $Imma[$i]->{MO} = undef;
+	    $Imma[$i]->{DY} = undef;
+	    $Imma[$i]->{HR} = undef;
+            next;
+    }      	
     if(defined($Imma[$i]->{LON})) { $Last_lon=$Imma[$i]->{LON};}
     $elon=$Last_lon;
     if ( $elon < 0 ) { $elon += 360; }
@@ -224,8 +236,8 @@ sub find_previous {
     my $Var = shift;
     my $Point = shift;
     for ( my $j = $Point - 1 ; $j >= 0 ; $j-- ) {
-        if ( defined( $Imma[$j]->{$Var}) &&
-             IMMA_check_date($Imma[$j])) { return($j); }
+        if ( defined( $Imma_old[$j]->{$Var}) &&
+             IMMA_check_date($Imma_old[$j])) { return($j); }
     }
     return;
 }
@@ -234,17 +246,17 @@ sub find_previous {
 sub find_next {
     my $Var = shift;
     my $Point = shift;
-    for ( my $j = $Point + 1 ; $j < scalar(@Imma) ; $j++ ) {
-        if ( defined( $Imma[$j]->{$Var}) &&
-             IMMA_check_date($Imma[$j])) { return($j); }
+    for ( my $j = $Point + 1 ; $j < scalar(@Imma_old) ; $j++ ) {
+        if ( defined( $Imma_old[$j]->{$Var}) &&
+             IMMA_check_date($Imma_old[$j])) { return($j); }
     }
    return;
 }
 
 sub fill_gaps {
     my $Var = shift;
-    for ( my $i = 0 ; $i < scalar(@Imma) ; $i++ ) {
-	if ( defined( $Imma[$i]->{$Var} ) ) {
+    for ( my $i = 0 ; $i < scalar(@Imma_old) ; $i++ ) {
+	if ( defined( $Imma_old[$i]->{$Var} ) ) {
 	    next;
 	}
 	my $Previous = find_previous($Var,$i);
@@ -270,11 +282,8 @@ sub interpolate {
 
     # Give up if the gap is too long
     if ( !defined($Previous) || !defined($Next) ||
-	 !defined($Previous->{LAT}) || !defined($Next->{LAT}) ||
-	 !defined($Previous->{LON}) || !defined($Next->{LON}) ||
-        IMMA_Delta_Seconds( $Previous, $Next ) > $Max_days*86400
-        && (   abs( $Previous->{LON} - $Next->{LON} ) > 5
-            || abs( $Previous->{LAT} - $Next->{LAT} ) > 5 )
+	 !defined($Previous->{$Var}) || !defined($Next->{$Var}) ||
+         (IMMA_Delta_Seconds( $Previous, $Next ) > $Max_days*86400)
       )
     {
         return;

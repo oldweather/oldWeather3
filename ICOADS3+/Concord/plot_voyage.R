@@ -26,7 +26,7 @@ Options<-WeatherMap.set.option(Options,'pole.lon',180)
 Options<-WeatherMap.set.option(Options,'pole.lat',90)
 
 
-    image.name<-sprintf("Route.png",year)
+    image.name<-"Route.png"
 
     ifile.name<-sprintf("%s",image.name)
 
@@ -38,12 +38,12 @@ Options<-WeatherMap.set.option(Options,'pole.lat',90)
              type='cairo')
 
     # Get the observations
-    o<-read.fwf(file=sprintf('..//Concord.imma',year),
+    o<-read.fwf(file='../../imma_3+/Concord.imma',
                 widths=c(4,2,2,4,5,6,84))
     o$Longitude<-o$V6/100
     o$Latitude<-o$V5/100
 
-    Options$label<-sprintf("Pioneer %d",year)
+    Options$label<-"Concord"
        WeatherMap.draw(Options=Options,uwnd=NULL,icec=NULL,
                           vwnd=NULL,precip=NULL,mslp=NULL,
                           t.actual=NULL,t.normal=NULL,land=NULL,
