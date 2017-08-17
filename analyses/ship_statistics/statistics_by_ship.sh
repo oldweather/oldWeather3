@@ -14,7 +14,7 @@
 ./statistics_for_ship.perl --ship=Yorktown > Yorktown.out
 #./statistics_for_ship.perl --ship=Patterson > Patterson.out
 #./statistics_for_ship.perl --ship='Unalga (I)' > Unalga_I.out
-./statistics_for_ship.perl --ship='Jamestown (1844)' > Jamestown_1844.out
+#./statistics_for_ship.perl --ship='Jamestown (1844)' > Jamestown_1844.out
 #./statistics_for_ship.perl --ship='Jamestown (1866)' > Jamestown_1866.out
 #./statistics_for_ship.perl --ship='Jamestown (1879)' > Jamestown_1879.out
 #./statistics_for_ship.perl --ship='Jamestown (1886)' > Jamestown_1886.out
