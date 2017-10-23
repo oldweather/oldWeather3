@@ -1,7 +1,7 @@
 # Transfer logbook images from Clive's disc to MO MASS system
 
-ArchiveDir <- 'moose:/adhoc/users/philip.brohan/logbook_images/Chilean_logbooks'
-SourceDir <- '/scratch/hadpb/logbook_images/2017_06_Met_Office_Image_Delivery/Chilean_logbooks'
+ArchiveDir <- 'moose:/adhoc/users/philip.brohan/logbook_images/Kon-Tiki'
+SourceDir <- '/scratch/hadpb/logbook_images/2017_08_Met_Office_Image_Delivery/Kon-Tiki'
 
 process.dir<-function(dir.name) {
   #cat(dir.name,"\n")

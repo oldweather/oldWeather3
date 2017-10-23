@@ -81,4 +81,8 @@ in2csv -H --no-inference  xlsx/positions_unalga1928.xlsx	 > csv/positions_unalga
 in2csv -H --no-inference  xlsx/positions_unalga1929.xlsx	 > csv/positions_unalga_1929.csv
 in2csv -H --no-inference  xlsx/positions_unalga1930.xlsx	 > csv/positions_unalga_1930.csv
 in2csv -H --no-inference  xlsx/positions_unalga1932.xlsx	 > csv/positions_unalga_1932.csv
-
+in2csv -H --no-inference  xlsx/positions_unalga1942.xlsx	 > csv/positions_unalga_1942.csv
+in2csv -H --no-inference  xlsx/positions_unalga1943.xlsx	 > csv/positions_unalga_1943.csv
+in2csv -H --no-inference  xlsx/positions_unalga1944.xlsx	 > csv/positions_unalga_1944.csv
+in2csv -H --no-inference  xlsx/positions_unalga1945.xlsx	 > csv/positions_unalga_1945.csv
+in2csv -H --no-inference  xlsx/positions_unalga1947.xlsx	 > csv/positions_unalga_1947.csv
