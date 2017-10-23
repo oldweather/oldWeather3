@@ -71,6 +71,8 @@ my $DateOS; # Old-style data - for comparison with last time
 for(my $i=0;$i<scalar(@AssetIds);$i++) {
     my $AssetId = $AssetIds[$i];
 
+    printf "%s\t", $AssetId;
+
     my $Asset = asset_read( $AssetId, $db );
     if ( defined( $Asset->{CDate}->{data}->{date} )
         && $Asset->{CDate}->{data}->{date} =~ /\w/ )
