@@ -1,0 +1,24 @@
+./dump_events_voyage.perl --ship=Corwin > Corwin.out
+./dump_events_voyage.perl --ship=Jeannette > Jeannette.out
+./dump_events_voyage.perl --ship=Manning > Manning.out
+./dump_events_voyage.perl --ship=Rodgers > Rodgers.out
+./dump_events_voyage.perl --ship='Unalga (II)' > Unalga_II.out
+./dump_events_voyage.perl --ship=Yukon > Yukon.out
+./dump_events_voyage.perl --ship=Bear > Bear.out
+./dump_events_voyage.perl --ship=Thetis > Thetis.out
+./dump_events_voyage.perl --ship=Rush > Rush.out
+./dump_events_voyage.perl --ship=Concord > Concord.out
+./dump_events_voyage.perl --ship=Pioneer > Pioneer.out
+./dump_events_voyage.perl --ship=Perry > Perry.out
+./dump_events_voyage.perl --ship=Vicksburg > Vicksburg.out
+./dump_events_voyage.perl --ship=Yorktown > Yorktown.out
+./dump_events_voyage.perl --ship=Patterson > Patterson.out
+./dump_events_voyage.perl --ship='Unalga (I)' > Unalga_I.out
+./dump_events_voyage.perl --ship='Jamestown (1844)' > Jamestown_1844.out
+./dump_events_voyage.perl --ship='Jamestown (1866)' > Jamestown_1866.out
+./dump_events_voyage.perl --ship='Jamestown (1879)' > Jamestown_1879.out
+./dump_events_voyage.perl --ship='Jamestown (1886)' > Jamestown_1886.out
+./dump_events_voyage.perl --ship='Albatross (1884)' > Albatross_1884.out
+./dump_events_voyage.perl --ship='Albatross (1890)' > Albatross_1890.out
+./dump_events_voyage.perl --ship='Albatross (1900)' > Albatross_1900.out
+

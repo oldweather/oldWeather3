@@ -18,7 +18,7 @@ use Data::Dumper;
 my $nS = 1;    # North
 my $eW = 1;    # East
 
-my $Regexp  = 'kelp';
+my $Regexp  = 'porpoise';
 
 # Open the database connection (default port, default server)
 my $conn = MongoDB::Connection->new( query_timeout => -1 )
