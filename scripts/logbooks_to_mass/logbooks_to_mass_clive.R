@@ -1,7 +1,7 @@
 # Transfer logbook images from Clive's disc to MO MASS system
 
-ArchiveDir <- 'moose:/adhoc/users/philip.brohan/logbook_images/Kon-Tiki'
-SourceDir <- '/scratch/hadpb/logbook_images/2017_08_Met_Office_Image_Delivery/Kon-Tiki'
+ArchiveDir <- 'moose:/adhoc/users/philip.brohan/logbook_images/SMRU_U_of_St_Andrews/SMRU_U_of_St_Andrews_2017_10_A'
+SourceDir <- '/scratch/hadpb/logbook_images/2017_11_Met_Office_Delivery/SMRU_U_of_St_Andrews_2017_10_A'
 
 process.dir<-function(dir.name) {
   #cat(dir.name,"\n")
@@ -29,12 +29,15 @@ pack.contents<-function(dir.name,moose.dir) {
   dir.base<-gsub("\\s+","_",dir.base)
   dir.base<-gsub("\\[","",dir.base)
   dir.base<-gsub("\\]","",dir.base)
+  dir.base<-gsub("\\(","",dir.base)
+  dir.base<-gsub("\\)","",dir.base)
+  dir.base<-gsub("\\'","_",dir.base)
   dir.base<-gsub("\\*","_s",dir.base)
   dir.base<-gsub("\\?","_q",dir.base)
   t.dir<-tempdir()
   tar.file<-sprintf("%s/%s.contents.tgz",tempdir(),dir.base)
   cat("cd \"",dir.name,"\"\n",sep="")
-  command<-sprintf("tar -czf %s --no-recursion *.*",
+  command<-sprintf("tar -czf \"%s\" --no-recursion *.*",
                    tar.file)
   cat("mkdir -p ",t.dir,"\n")
   cat(command,"\n")
