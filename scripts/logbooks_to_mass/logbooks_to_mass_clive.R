@@ -1,7 +1,7 @@
 # Transfer logbook images from Clive's disc to MO MASS system
 
-ArchiveDir <- 'moose:/adhoc/users/philip.brohan/logbook_images/SMRU_U_of_St_Andrews/SMRU_U_of_St_Andrews_2017_10_A'
-SourceDir <- '/scratch/hadpb/logbook_images/2017_11_Met_Office_Delivery/SMRU_U_of_St_Andrews_2017_10_A'
+ArchiveDir <- 'moose:/adhoc/users/philip.brohan/logbook_images/Yangtze_Gunboats_2018'
+SourceDir <- '/scratch/hadpb/logbook_images/Yangtze_Gunboats_2018'
 
 process.dir<-function(dir.name) {
   #cat(dir.name,"\n")
