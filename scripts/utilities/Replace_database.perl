@@ -17,7 +17,7 @@ unless(defined($Backup_dir) && -d $Backup_dir) {
 }
 
 # Drop the existing database
-my $conn = MongoDB::Connection->new( query_timeout => -1 ) or die "No database connection";
+my $conn = MongoDB::MongoClient->new( query_timeout => -1 ) or die "No database connection";
 my $db = $conn->get_database('oldWeather3-production-live')
   or die "OW3 production database not found";
 my $Removed = $db->drop;
@@ -27,7 +27,7 @@ system("mongorestore \"$Backup_dir\"");
 
 # Add indexes linking Annotations to transcriptions
 #  and transcriptions to assets.
-$conn = MongoDB::Connection->new( query_timeout => -1 ) or die "No database connection";
+$conn = MongoDB::MongoClient->new( query_timeout => -1 ) or die "No database connection";
 $db = $conn->get_database('oldWeather3-production-live')
   or die "OW3 production database not found";
 $db->get_collection( 'annotations' )->ensure_index({'transcription_id' => 1});

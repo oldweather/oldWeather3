@@ -6,6 +6,7 @@
 use strict;
 use warnings;
 use MongoDB;
+#use MongoDB::Connection;
 use MongoDB::OID;
 use boolean;
 use FindBin;
@@ -31,7 +32,7 @@ foreach my $Ifile (@Image_files) {
 }
 
 # Open the database connection (default port, default server)
-my $conn = MongoDB::Connection->new( query_timeout => -1 )
+my $conn = MongoDB::MongoClient->new( query_timeout => -1 )
   or die "No database connection";
 
 # Connect to the OldWeather3 database
@@ -117,7 +118,7 @@ foreach my $AssetId (@AssetIds) {
     my $Img = have_image($Asset);
     if($Img eq '') { next; }
     $Asset->{'location'} = $Img;
-    unless(have_weather($Asset)) { next; }
+    #unless(have_weather($Asset)) { next; }
     $Asset = prune_unwanted($Asset);
 
     # Print as JSON
