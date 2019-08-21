@@ -1,0 +1,15 @@
+#!/bin/ksh -l
+#SBATCH --qos=normal
+#SBATCH --mem=200000
+#SBATCH --ntasks=16
+#SBATCH --ntasks-per-core=1
+#SBATCH --time=100
+
+cd $SCRATCH/images
+
+rm Jamestown.mp4
+# Get rid of empty images - they make ffmpeg stop processing
+#  These usually come from disc problems in the creation step.
+find Jamestown/*.png -type f -empty -delete
+
+ffmpeg -r 48 -pattern_type glob -i Jamestown/\*.png -c:v libx264 -threads 16 -preset slow -tune animation -profile:v high -level 4.2 -pix_fmt yuv420p -crf 25 -c:a copy Jamestown.mp4
