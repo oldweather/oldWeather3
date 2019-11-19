@@ -29,7 +29,7 @@ GetOptions(
 unless ( defined($Ship_name) ) { die "Usage: --ship=<ship.name>"; }
 
 # Open the database connection (default port, default server)
-my $conn = MongoDB::Connection->new( query_timeout => -1 )
+my $conn = MongoDB::MongoClient->new( query_timeout => -1 )
   or die "No database connection";
 
 # Connect to the OldWeather3 database
