@@ -10,7 +10,7 @@ import tarfile
 # location of images on disc
 disc_root='/scratch/hadpb/logbook_images/retrieved_SA'
 
-with open('to_retrieve.txt','r') as f:
+with open('extra_retrieve.txt','r') as f:
     archived = [line.rstrip() for line in f.readlines()]
 
 for tf in archived:

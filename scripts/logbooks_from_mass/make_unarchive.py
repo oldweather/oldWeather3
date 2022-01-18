@@ -8,7 +8,7 @@ import warnings
 import os
 
 # Get the Moose directory listings
-with open('ls_images','r') as f:
+with open('ls_images_new','r') as f:
     archived = [line.rstrip() for line in f.readlines()]
 
 moo_f = open('to_retrieve.txt','w')
@@ -24,6 +24,7 @@ with open('SA_logs_Inventory.csv','r') as csv_file:
         if len(ref)==0 : continue
         # convert to a regexp - names don't always match exactly
         ref=ref.replace('/','_')
+        ref=ref.replace('ADM53','ADM.*53')
         ref=ref.replace('_','[/\s\._\-]')
         ref=ref.replace(' ','[/\s\._\-]')
         ref=ref.replace('&','+')
