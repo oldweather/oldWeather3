@@ -1,18 +1,17 @@
-# Transfer logbook images from Clive's disc to MO MASS system
+# Transfer logbook images from Nick's disc to MO MASS system
 
-ArchiveDir <- 'moose:/adhoc/users/philip.brohan/logbook_images/Clive_National_Meteorological_Archive/NMA_Pacific_2022_04/'
-SourceDir <- '/scratch/hadpb/tmp/NMA_Pacific_2022_04/'
+ArchiveDir <- 'moose:/adhoc/users/philip.brohan/logbook_images/Nick/Antarctic_Seas_Ships_logbooks_Images'
+SourceDir <- '/scratch/hadpb/Nick_logbooks/Antarctic_Seas_Ships_logbooks_Images'
 
 process.dir<-function(dir.name) {
   #cat(dir.name,"\n")
   moose.dir<-sub(SourceDir,ArchiveDir,dir.name)
   moose.dir<-gsub("\\s+","_",moose.dir)
-  moose.dir<-gsub("\\(","",moose.dir) # No brackets in mass
-  moose.dir<-gsub("\\)","",moose.dir)
-  moose.dir<-gsub("\\[","",moose.dir) # No brackets in mass
-  moose.dir<-gsub("\\]","",moose.dir)
+  moose.dir<-gsub("\\(","_",moose.dir) # No brackets in mass
+  moose.dir<-gsub("\\)","_",moose.dir)
+  moose.dir<-gsub("\\[","_",moose.dir) # No brackets in mass
+  moose.dir<-gsub("\\]","_",moose.dir)
   moose.dir<-gsub("\\&","+",moose.dir)
-  moose.dir<-gsub("\\'","_",moose.dir) # No apostrophies
   moose.dir<-gsub("\\*","_s",moose.dir)
   moose.dir<-gsub("\\?","_q",moose.dir)
   cat("moo mkdir ",moose.dir,"\n")
@@ -27,17 +26,16 @@ process.dir<-function(dir.name) {
 pack.contents<-function(dir.name,moose.dir) {
   dir.base<-basename(dir.name)
   dir.base<-gsub("\\s+","_",dir.base)
-  dir.base<-gsub("\\[","",dir.base)
-  dir.base<-gsub("\\]","",dir.base)
-  dir.base<-gsub("\\(","",dir.base)
-  dir.base<-gsub("\\)","",dir.base)
-  dir.base<-gsub("\\'","_",dir.base)
+  dir.base<-gsub("\\[","_",dir.base)
+  dir.base<-gsub("\\]","_",dir.base)
+  dir.base<-gsub("\\(","_",dir.base)
+  dir.base<-gsub("\\)","_",dir.base)
   dir.base<-gsub("\\*","_s",dir.base)
   dir.base<-gsub("\\?","_q",dir.base)
   t.dir<-tempdir()
   tar.file<-sprintf("%s/%s.contents.tgz",tempdir(),dir.base)
   cat("cd \"",dir.name,"\"\n",sep="")
-  command<-sprintf("tar -czf \"%s\" --no-recursion *.*",
+  command<-sprintf("tar -czf %s --no-recursion *.*",
                    tar.file)
   cat("mkdir -p ",t.dir,"\n")
   cat(command,"\n")
