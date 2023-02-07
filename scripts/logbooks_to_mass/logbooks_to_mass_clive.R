@@ -1,7 +1,7 @@
 # Transfer logbook images from Clive's disc to MO MASS system
 
-ArchiveDir <- 'moose:/adhoc/users/philip.brohan/logbook_images/Clive_National_Meteorological_Archive/NMA_Pacific_2022_06/'
-SourceDir <- '/scratch/hadpb/tmp/NMA_Pacific_2022_06/'
+ArchiveDir <- 'moose:/adhoc/users/philip.brohan/logbook_images/Clive_National_Meteorological_Archive/NMA_Pacific_2022_10/'
+SourceDir <- '/scratch/hadpb/logbook_images/NMA_Pacific_2022_10/'
 
 process.dir<-function(dir.name) {
   #cat(dir.name,"\n")
